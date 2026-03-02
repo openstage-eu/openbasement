@@ -8,11 +8,13 @@ theme:
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
-  - Templates: templates.md
-  - Template Reference: template-reference.md
+  - Templates:
+    - Guide: templates.md
+    - Built-in Reference: template-reference.md
+  - Reference:
+    - API: api.md
+    - CDM Patterns: cdm-patterns.md
   - Audit Coverage: audit.md
-  - API Reference: api.md
-  - CDM Patterns: cdm-patterns.md
 
 plugins:
   - mkdocstrings:
