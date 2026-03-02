@@ -1,6 +1,6 @@
 # openbasement
 
-A template-based RDF extraction library for EU legislative data published through [EU Cellar](https://op.europa.eu/en/web/cellar). It turns `rdflib.Graph` objects into structured Python dictionaries using declarative YAML templates that encode domain knowledge about the [CDM ontology](https://op.europa.eu/en/web/eu-vocabularies/cdm).
+A Python library for template-based RDF extraction from EU legislative data published through [EU Cellar](https://op.europa.eu/en/web/cellar). It turns `rdflib.Graph` objects into structured Python dictionaries using declarative YAML templates that encode domain knowledge about the [CDM ontology](https://op.europa.eu/en/web/eu-vocabularies/cdm).
 
 ## Why it exists
 
