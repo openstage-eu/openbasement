@@ -1,0 +1,685 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://publications.europa.eu/ontology/cdm#"
+    xmlns:j.1="http://publications.europa.eu/ontology/euvoc#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.2="http://www.w3.org/2004/02/skos/core#"
+    xmlns:j.3="http://publications.europa.eu/ontology/annotation#"
+    xmlns:j.4="http://publications.europa.eu/ontology/cdm/cmr#"
+    xmlns:j.5="http://www.w3.org/ns/org#"
+    xmlns:j.6="http://xmlns.com/foaf/0.1/" > 
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/7a89c5eb-72ad-11eb-9ac9-01aa75ed71a1.0003">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure-event/2020_298.2020-12-08_DEC_BUDACT_byCONSIL"/>
+    <j.4:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-11-16T22:06:14.860+01:00</j.4:creationDate>
+    <j.4:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-17T21:06:18.634+01:00</j.4:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/EP_BUDG">
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290252"/>
+    <j.0:agent_reports_on_report_ep rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290252"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290252"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/2359">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN2"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.3:eli_target rdf:resource="http://data.europa.eu/eli/agree_Interinstitutional/2020/1222/oj"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/procedure-event/2020_298.2020-10-09_ADP_byCOM"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_based_on_resource_legal"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/celex/32020Q1222%2801%29"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_based_on_resource_legal"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#dossier_based_on_resource_legal"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <j.3:eli_target rdf:resource="http://data.europa.eu/eli/reg/2018/1046/oj"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/celex/32018R1046"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional_based_on_resource_legal"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/procedure/2020_298"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure-event/2020_298.2020-10-09_ADP_byCOM">
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/procedure/2020_298"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-10-09</j.0:event_legal_date>
+    <j.0:informs rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/NP"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/immc/COM%282020%29962%20final%2F2"/>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADP_byCOM</j.0:type>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/32020Q1222%2801%29"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2020_298"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <j.0:event_responsibility_of_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/BUDG"/>
+    <j.0:event_legal_informs_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/NP"/>
+    <j.0:event_legal_mandatorily-consults_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/immc/COM%282020%29962%20final%2F2"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADP_byCOM</j.0:event_legal_type>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:event_responsibility_of_person rdf:resource="http://publications.europa.eu/resource/agent/Johannes%20HAHN"/>
+    <j.0:uses rdf:resource="http://publications.europa.eu/resource/authority/fd_606/1010"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/32018R1046"/>
+    <j.0:responsibility_of rdf:resource="http://publications.europa.eu/resource/agent/Johannes%20HAHN"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/COM%282020%29962%20final%2F2"/>
+    <j.0:event_legal_was_historically_about_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/BUD"/>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/procedure/BUD"/>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/32018R1046"/>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/32020Q1222%2801%29"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM/2020/962/FINAL</j.0:document_reference>
+    <j.0:event_legal_uses_concept_mode_decision rdf:resource="http://publications.europa.eu/resource/authority/fd_606/1010"/>
+    <j.0:mandatorily-consults rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_informs_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/NP"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-10-09</j.0:event_date>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.3:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20210609-1685; environment: PROD; CERES: 4.13.3; IMMC2CDM: 3.2.2; rules: preleg/rules-com.xml#56736#2020-06-09T07:23:52; builddate: 2021-06-09T14:09:22.467;</j.3:build_info>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-10-09</j.0:date>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/32018R1046"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/immc/COM%282020%29962%20final"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/immc/COM%282020%29962%20final"/>
+    <j.0:event_legal_mandatorily-consults_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52020BC0962"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM/2020/962/FINAL</j.0:event_legal_document_reference>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/52020BC0962"/>
+    <j.0:event_legal_responsibility_of_person rdf:resource="http://publications.europa.eu/resource/agent/Johannes%20HAHN"/>
+    <j.0:responsibility_of rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/BUDG"/>
+    <j.3:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20210608-3543; environment: PROD; CERES: 4.13.3; IMMC2CDM: 3.2.2; rules: preleg/rules-com.xml#56736#2020-06-09T07:23:52; builddate: 2021-06-08T15:53:15.399;</j.3:build_info>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52020BC0962"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/COM%282020%29962%20final"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/32020Q1222%2801%29"/>
+    <j.0:event_legal_responsibility_of_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/BUDG"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2020_298"/>
+    <j.0:mandatorily-consults rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/32021B0118">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/7a89c5eb-72ad-11eb-9ac9-01aa75ed71a1">
+    <j.4:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-05T01:19:20.127+01:00</j.4:lastModificationDate>
+    <j.4:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-19T13:24:45.816+01:00</j.4:creationDate>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure/2020_298"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN2">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/c_814bb9e4">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN2"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/NP">
+    <j.2:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/5825">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN2"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN2"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290252"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290252"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290347"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290347"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/procedure/BUD">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_procedure_code_interinstitutional"/>
+    <j.2:inScheme rdf:resource="http://publications.europa.eu/resource/authority/procedure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/immc/P9_TA%282020%290347">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/SIGN_BUD_byEP">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.2:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2020_298.2020-12-15_SIGN_BUD_byEP"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282020%290252"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/agent/Monika%20HOHLMEIER"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#agent_reports_on_report_ep"/>
+    <j.3:order rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1</j.3:order>
+    <j.3:in_committee rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP_BUDG"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/3258">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290347"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290347"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/5158">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN2"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN2"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290252"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290252"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290347"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290347"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/2965">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN2"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <j.3:language_list>EN</j.3:language_list>
+    <j.3:type_of_link_target>EA</j.3:type_of_link_target>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal_corrected_by_resource_legal"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/celex/52020DC0962"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/subject-matter/BUDG">
+    <j.0:subject-matter_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290252"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290252"/>
+    <j.0:subject-matter_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290347"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290347"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/7a89c5eb-72ad-11eb-9ac9-01aa75ed71a1.0004">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure-event/2020_298.2020-12-15_SIGN_BUD_byEP"/>
+    <j.4:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-11-16T22:06:14.860+01:00</j.4:creationDate>
+    <j.4:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-17T18:34:30.565+01:00</j.4:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/procedure">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/296">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN2"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN2"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290252"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290252"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290347"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290347"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/32020D2077">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/PUB_OJ">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.2:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2020_298.2021-02-10_PUB_OJ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/DEC_BUDACT_byCONSIL">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.2:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2020_298.2020-12-08_DEC_BUDACT_byCONSIL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/EP">
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290347"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290347"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290252"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#group_parliamentary"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent-conceptual"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/euvoc#Corporate"/>
+    <j.2:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290252"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <j.2:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/52020DC0962">
+    <j.0:corrected_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN2"/>
+    <j.0:resource_legal_corrected_by_resource_legal rdf:resource="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure-event/2020_298.2020-10-09_ADP_ACT_byCOM">
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/COM%282020%29962%20final%2F2"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/immc/COM%282020%29962%20final%2F2"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/immc/COM%282020%29962%20final%2F2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/a7f26af8-72ae-11eb-9ac9-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290252"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282020%290252"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/immc/COM%282020%29962%20final%2F2">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/immc/P9_TA%282020%290347"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282020%290252"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal_related_to_resource_legal"/>
+    <j.3:type_of_link_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EA</j.3:type_of_link_target>
+    <j.3:role2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">{PSP|http://publications.europa.eu/resource/authority/fd_375/PSP}</j.3:role2>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/immc/COM%282020%29962%20final">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/ep/P9_TA%282020%290347">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resolution_legislative_ep"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#text-adopted"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/agent/Johannes%20HAHN">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A5">
+    <j.3:in_committee rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP_BUDG"/>
+    <j.3:order rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1</j.3:order>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#agent_reports_on_report_ep"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/agent/Monika%20HOHLMEIER"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282020%290252"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure/2020_298">
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/32018R1046"/>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/procedure-event/2020_298.2020-12-15_POS_BUDACT_byEP"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/P9_TA%282020%290347"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/32018R1046"/>
+    <j.0:procedure_code_interinstitutional_reference_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020/0298/BUD</j.0:procedure_code_interinstitutional_reference_procedure>
+    <j.0:number_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0298</j.0:number_procedure>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/immc/COM%282020%29962%20final%2F2"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/COM%282020%29962%20final"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#dossier"/>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2020_298.2021-02-10_PUB_OJ"/>
+    <j.3:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20210608-3543; environment: PROD; CERES: 4.13.3; IMMC2CDM: 3.2.2; rules: preleg/rules-com.xml#56736#2020-06-09T07:23:52; builddate: 2021-06-08T15:53:15.399;</j.3:build_info>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/32018R1046"/>
+    <j.0:dossier_withdrawn-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:dossier_withdrawn-proposal>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-19</j.0:date>
+    <j.0:identifier rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">procedure:2020_298</j.0:identifier>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/procedure-event/2020_298.2020-12-15_SIGN_BUD_byEP"/>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52020BP0347"/>
+    <j.0:withdrawn-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:withdrawn-proposal>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/celex/32021B0118"/>
+    <j.3:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20210219-3251; environment: PROD; CERES: 4.13.1; IMMC2CDM: 3.2.1; rules: preleg/rules-ep.xml#56614#2020-05-29T09:45:21; builddate: 2021-02-19T12:24:00.461;</j.3:build_info>
+    <j.0:dossier_initiated_by_act_preparatory rdf:resource="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282020%290252"/>
+    <j.0:produces rdf:resource="http://publications.europa.eu/resource/celex/32021B0118"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_interinstitutional"/>
+    <j.0:procedure_code_interinstitutional_has_type_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/BUD"/>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282020%290252"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/procedure-event/2020_298.2020-12-08_DEC_BUDACT_byCONSIL"/>
+    <j.0:dossier_adopted-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:dossier_adopted-proposal>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/procedure/BUD"/>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52020BC0962"/>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/procedure-event/2020_298.2021-02-10_PUB_OJ"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/procedure-event/2020_298.2021-02-10_PUB_OJ"/>
+    <j.0:reference_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020/0298/BUD</j.0:reference_procedure>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/52020BP0347"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional"/>
+    <j.0:dossier_produces_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/32021B0118"/>
+    <j.0:year_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2020</j.0:year_procedure>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/procedure-event/2020_298.2020-10-09_ADP_byCOM"/>
+    <j.0:date_creation_legacy rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-19</j.0:date_creation_legacy>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/32020Q1222%2801%29"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/32021B0118"/>
+    <j.0:procedure_code_interinstitutional_number_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0298</j.0:procedure_code_interinstitutional_number_procedure>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/immc/P9_TA%282020%290347"/>
+    <j.0:year_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020</j.0:year_reference>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/procedure-event/2020_298.2020-10-09_ADP_byCOM"/>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/procedure-event/2020_298.2020-12-15_SIGN_BUD_byEP"/>
+    <j.0:dossier_identifier rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">procedure:2020_298</j.0:dossier_identifier>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/procedure-event/2020_298.2020-12-15_POS_BUDACT_byEP"/>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/procedure-event/2020_298.2020-12-08_DEC_BUDACT_byCONSIL"/>
+    <j.0:dossier_title xml:lang="en">DRAFT AMENDING BUDGET N°10 TO THE GENERAL BUDGET 2020 Increase of payment appropriations in line with updated forecasts of expenditure and other adjustments to expenditure and revenue</j.0:dossier_title>
+    <j.0:type_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM</j.0:type_reference>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/52020BC0962"/>
+    <j.0:adopted-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:adopted-proposal>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:dossier_date_creation_legacy rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-19</j.0:dossier_date_creation_legacy>
+    <j.0:dossier_type_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM</j.0:dossier_type_reference>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/celex/32020D2077"/>
+    <j.0:number_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">962</j.0:number_reference>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/immc/COM%282020%29962%20final"/>
+    <j.0:procedure_code_interinstitutional_year_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2020</j.0:procedure_code_interinstitutional_year_procedure>
+    <j.3:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20210609-1685; environment: PROD; CERES: 4.13.3; IMMC2CDM: 3.2.2; rules: preleg/rules-com.xml#56736#2020-06-09T07:23:52; builddate: 2021-06-09T14:09:22.467;</j.3:build_info>
+    <j.0:dossier_number_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">962</j.0:dossier_number_reference>
+    <j.0:title xml:lang="en">DRAFT AMENDING BUDGET N°10 TO THE GENERAL BUDGET 2020 Increase of payment appropriations in line with updated forecasts of expenditure and other adjustments to expenditure and revenue</j.0:title>
+    <j.0:dossier_pending-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:dossier_pending-proposal>
+    <j.0:dossier_year_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020</j.0:dossier_year_reference>
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/32020Q1222%2801%29"/>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2020_298.2020-12-15_SIGN_BUD_byEP"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/32020D2077"/>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2020_298.2020-12-15_POS_BUDACT_byEP"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:pending-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:pending-proposal>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/COM%282020%29962%20final%2F2"/>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/32020Q1222%2801%29"/>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2020_298.2020-10-09_ADP_byCOM"/>
+    <j.0:reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020/0298/BUD</j.0:reference>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2020_298.2020-12-08_DEC_BUDACT_byCONSIL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure-event/2020_298.2020-12-08_DEC_BUDACT_byCONSIL">
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/celex/32020D2077"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/celex/32020D2077"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2020_298"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/DEC_BUDACT_byCONSIL"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CSST/2020/13643</j.0:event_legal_document_reference>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/DEC_BUDACT_byCONSIL"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/procedure/2020_298"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/DEC_BUDACT_byCONSIL"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2020_298"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_procedural"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-12-08</j.0:event_date>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-12-08</j.0:date>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CSST/2020/13643</j.0:document_reference>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-12-08</j.0:event_legal_date>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/32020D2077"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.3:eli_target rdf:resource="http://data.europa.eu/eli/reg/2018/1046/oj"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/procedure-event/2020_298.2020-10-09_ADP_byCOM"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_based_on_resource_legal"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/celex/32018R1046"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_based_on_resource_legal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/52020DC0962R%2801%29">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/7a89c5eb-72ad-11eb-9ac9-01aa75ed71a1.0001">
+    <j.4:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-19T13:24:45.816+01:00</j.4:creationDate>
+    <j.4:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-11-16T22:12:20.964+01:00</j.4:lastModificationDate>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure-event/2020_298.2020-12-15_POS_BUDACT_byEP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure-event/2020_298.2020-12-15_POS_BUDACT_byEP">
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P9_TA(2020)0347</j.0:event_legal_document_reference>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/procedure/BUD"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:event_legal_was_historically_about_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/BUD"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P9_A(2020)0252</j.0:document_reference>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/immc/P9_TA%282020%290347"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282020%290252"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/52020BP0347"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52020BP0347"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/POS_BUDACT_byEP"/>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POS_BUDACT_byEP</j.0:type>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/procedure/2020_298"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2020_298"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/immc/P9_TA%282020%290347"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/POS_BUDACT_byEP"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POS_BUDACT_byEP</j.0:event_legal_type>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-12-15</j.0:event_date>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P9_A(2020)0252</j.0:event_legal_document_reference>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52020BP0347"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P9_TA(2020)0347</j.0:document_reference>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2020_298"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/P9_TA%282020%290347"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/POS_BUDACT_byEP"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-12-15</j.0:event_legal_date>
+    <j.3:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20210219-3251; environment: PROD; CERES: 4.13.1; IMMC2CDM: 3.2.1; rules: preleg/rules-ep.xml#56614#2020-05-29T09:45:21; builddate: 2021-02-19T12:24:00.461;</j.3:build_info>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282020%290252"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-12-15</j.0:date>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282020%290252"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.3:eli_target rdf:resource="http://data.europa.eu/eli/reg/2018/1046/oj"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/procedure-event/2020_298.2020-10-09_ADP_byCOM"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_based_on_resource_legal"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/celex/32018R1046"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_based_on_resource_legal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/ep/P9_A%282020%290252">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#report_ep"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resolution_legislative_ep"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#text-adopted"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A8">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.3:eli_target rdf:resource="http://data.europa.eu/eli/agree_Interinstitutional/2020/1222/oj"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/procedure-event/2020_298.2020-10-09_ADP_byCOM"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_based_on_resource_legal"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/celex/32020Q1222%2801%29"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_based_on_resource_legal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/0e79264a-c91c-11eb-84ce-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN2"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/immc/COM%282020%29962%20final%2F2"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/52020DC0962R%2801%29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/4390">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN2"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/29b2dd70-0a19-11eb-bc07-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/52020DC0962"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/immc/COM%282020%29962%20final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/ADP_byCOM">
+    <j.2:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#type_event_interinstitutional"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2020_298.2020-10-09_ADP_byCOM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/5576">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290252"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290252"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290347"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290347"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/POS_BUDACT_byEP">
+    <j.2:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#type_event_interinstitutional"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2020_298.2020-12-15_POS_BUDACT_byEP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/5059">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN2"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN2"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290252"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290252"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290347"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290347"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/52020BP0347">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/763">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN2"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/933">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN2"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN2"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290252"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290252"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290347"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290347"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/CONSIL">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <j.2:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent-conceptual"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#group_parliamentary"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    <j.2:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/euvoc#Corporate"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/7a89c5eb-72ad-11eb-9ac9-01aa75ed71a1.0005">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure-event/2020_298.2021-02-10_PUB_OJ"/>
+    <j.4:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-11-16T22:06:14.860+01:00</j.4:creationDate>
+    <j.4:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-17T19:19:19.906+01:00</j.4:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A9">
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#dossier_based_on_resource_legal"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <j.3:eli_target rdf:resource="http://data.europa.eu/eli/agree_Interinstitutional/2020/1222/oj"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/celex/32020Q1222%2801%29"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional_based_on_resource_legal"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/procedure/2020_298"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/COM">
+    <j.2:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN2"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/immc/P9_A%282020%290252">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+    <j.0:related_to rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290347"/>
+    <j.0:resource_legal_related_to_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290347"/>
+    <j.0:work_related_to_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290347"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/7a89c5eb-72ad-11eb-9ac9-01aa75ed71a1.0002">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure-event/2020_298.2020-10-09_ADP_byCOM"/>
+    <j.4:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-08T15:56:12.148+02:00</j.4:creationDate>
+    <j.4:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-11-16T22:12:20.964+01:00</j.4:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/c57cf000-72ad-11eb-9ac9-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290347"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/immc/P9_TA%282020%290347"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/32020Q1222%2801%29">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_606/1010">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_mode_decision"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <j.2:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_606"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/dir-eu-legal-act/016020">
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290252"/>
+    <j.0:concept_directory-code_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290252"/>
+    <j.0:concept_directory-code_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290347"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290347"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure-event/2020_298.2021-02-10_PUB_OJ">
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/PUB_OJ"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/PUB_OJ"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/celex/32021B0118"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/celex/32021B0118"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2020_298"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-10</j.0:event_date>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/PUB_OJ"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-10</j.0:date>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-10</j.0:event_legal_date>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/32021B0118"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_procedural"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2020_298"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/procedure/2020_298"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A10">
+    <j.3:role2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">{PSP|http://publications.europa.eu/resource/authority/fd_375/PSP}</j.3:role2>
+    <j.3:type_of_link_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EA</j.3:type_of_link_target>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal_related_to_resource_legal"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282020%290252"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/immc/P9_TA%282020%290347"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/cb36969f-d2c8-11e1-905c-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/agent/Monika%20HOHLMEIER"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/32018R1046">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/3558">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290252"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290252"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290347"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290347"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/BUDG">
+    <j.2:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN2"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure-event/2020_298.2020-12-15_SIGN_BUD_byEP">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/SIGN_BUD_byEP"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-12-15</j.0:date>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-12-15</j.0:event_legal_date>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/procedure/2020_298"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/SIGN_BUD_byEP"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-12-15</j.0:event_date>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2020_298"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/SIGN_BUD_byEP"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_procedural"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2020_298"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/agent/Monika%20HOHLMEIER">
+    <j.0:agent_reports_on_report_ep rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290252"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/52020BC0962">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/language/ENG">
+    <j.0:language_used_originally_by_resource_legal rdf:resource="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN2"/>
+    <j.0:used_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN2"/>
+    <j.0:used_originally_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2020_0962_FIN2"/>
+  </rdf:Description>
+</rdf:RDF>

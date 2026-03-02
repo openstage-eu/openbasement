@@ -1,0 +1,600 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://publications.europa.eu/ontology/cdm#"
+    xmlns:j.1="http://publications.europa.eu/ontology/euvoc#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.2="http://www.w3.org/2004/02/skos/core#"
+    xmlns:j.3="http://publications.europa.eu/ontology/annotation#"
+    xmlns:j.4="http://publications.europa.eu/ontology/cdm/cmr#"
+    xmlns:j.5="http://www.w3.org/ns/org#"
+    xmlns:j.6="http://xmlns.com/foaf/0.1/" > 
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/32023D0405">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure-event/2023_3.2023-01-05_ADP_byCOM">
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/authority/treaty/TFEU_2010"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2023_3"/>
+    <j.0:event_legal_uses_concept_mode_decision rdf:resource="http://publications.europa.eu/resource/authority/fd_606/1010"/>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:informs rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <j.0:event_legal_informs_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/NP"/>
+    <j.3:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20230105-3592; environment: PROD; CERES: 4.17.2; IMMC2CDM: 3.2.2; rules: preleg/rules-com.xml#56736#2020-06-09T07:23:52; builddate: 2023-01-05T14:19:25.551;</j.3:build_info>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/authority/treaty/TFEU_2010"/>
+    <j.0:responsibility_of rdf:resource="http://publications.europa.eu/resource/agent/Virginijus%20SINKEVI%C4%8CIUS"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <j.0:event_legal_responsibility_of_person rdf:resource="http://publications.europa.eu/resource/agent/Virginijus%20SINKEVI%C4%8CIUS"/>
+    <j.0:event_informs_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:formally-addresses rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/immc/COM%282023%294%20final"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADP_byCOM</j.0:event_legal_type>
+    <j.0:event_responsibility_of_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/MARE"/>
+    <j.0:event_legal_informs_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM/2023/4/FINAL</j.0:document_reference>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:event_informs_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/NP"/>
+    <j.0:uses rdf:resource="http://publications.europa.eu/resource/authority/fd_606/1010"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/immc/COM%282023%294%20final"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/COM%282023%294%20final"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/procedure/2023_3"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-01-05</j.0:event_legal_date>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:event_formally-addresses_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_legal_responsibility_of_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/MARE"/>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/32008R1005"/>
+    <j.0:initiating rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:initiating>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADP_byCOM</j.0:type>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/32008R1005"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/32008R1005"/>
+    <j.0:informs rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/NP"/>
+    <j.0:event_responsibility_of_person rdf:resource="http://publications.europa.eu/resource/agent/Virginijus%20SINKEVI%C4%8CIUS"/>
+    <j.0:responsibility_of rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/MARE"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2023_3"/>
+    <j.0:event_legal_was_historically_about_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-01-05</j.0:date>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM/2023/4/FINAL</j.0:event_legal_document_reference>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/authority/treaty/TFEU_2010"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-01-05</j.0:event_date>
+    <j.0:event_legal_initiating rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:event_legal_initiating>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_formally-addresses_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/4829">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/NP">
+    <j.2:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/bd8f639d-ac77-11ed-8912-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/consil/ST_5501_2023_INIT"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/immc/ST%205501%202023%20INIT"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/616">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/32008R1005">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+    <j.0:basis_for rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+    <j.0:resource_legal_basis_for_resource_legal rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+    <j.3:type_of_link_target>EA</j.3:type_of_link_target>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal_amendment_proposed_by_resource_legal"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/celex/32014D0170"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/2282">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/216">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/f6184980-8cfb-11ed-999b-01aa75ed71a1.0003">
+    <j.4:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-14T15:56:10.665+01:00</j.4:creationDate>
+    <j.4:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-14T15:56:10.665+01:00</j.4:lastModificationDate>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure-event/2023_3.2023-02-13_DIS_byCONSIL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure-event/2023_3.2023-02-23_PUB_OJ">
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/PUB_OJ"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-02-23</j.0:event_date>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/celex/32023D0405"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/procedure/2023_3"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/PUB_OJ"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-02-23</j.0:event_legal_date>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2023_3"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/32023D0405"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2023_3"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_procedural"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-02-23</j.0:date>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/PUB_OJ"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/celex/32023D0405"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/32014D0170">
+    <j.0:amendment_proposed_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+    <j.0:resource_legal_amendment_proposed_by_resource_legal rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/procedure">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/2455">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure-event/2023_3.2023-02-20_ADP_FRM_byCONSIL">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-02-20</j.0:event_date>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_FRM_byCONSIL"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_FRM_byCONSIL"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-02-20</j.0:event_legal_date>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_FRM_byCONSIL"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2023_3"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_procedural"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2023_3"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/procedure/2023_3"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-02-20</j.0:date>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/PUB_OJ">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.2:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2023_3.2023-02-23_PUB_OJ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure/2023_3">
+    <j.0:date_creation_legacy rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-01-05</j.0:date_creation_legacy>
+    <j.0:withdrawn-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:withdrawn-proposal>
+    <j.0:dossier_title xml:lang="hr">Prijedlog PROVEDBENE ODLUKE VIJEĆA o izmjeni Provedbene odluke 2014/170/EU o uspostavljanju popisa nekooperativnih trećih zemalja u suzbijanju nezakonitog, neprijavljenog i nereguliranog ribolova u pogledu Kameruna</j.0:dossier_title>
+    <j.0:dossier_title xml:lang="el">Πρόταση ΕΚΤΕΛΕΣΤΙΚΗ ΑΠΟΦΑΣΗ ΤΟΥ ΣΥΜΒΟΥΛΙΟΥ για την τροποποίηση της εκτελεστικής απόφασης 2014/170/ΕΕ για την κατάρτιση καταλόγου μη συνεργαζόμενων τρίτων χωρών στην καταπολέμηση της παράνομης, λαθραίας και άναρχης αλιείας, όσον αφορά το Καμερούν</j.0:dossier_title>
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/32008R1005"/>
+    <j.0:dossier_title xml:lang="pl">Wniosek DECYZJA WYKONAWCZA RADY zmieniająca w odniesieniu do Kamerunu decyzję wykonawczą 2014/170/UE ustanawiającą wykaz niewspółpracujących państw trzecich w zakresie zwalczania nielegalnych, nieraportowanych i nieuregulowanych połowów</j.0:dossier_title>
+    <j.0:title xml:lang="nl">Voorstel voor een UITVOERINGSBESLUIT VAN DE RAAD tot wijziging van Uitvoeringsbesluit 2014/170/EU tot vaststelling van een lijst van derde landen die niet meewerken bij de bestrijding van illegale, ongemelde en ongereglementeerde visserij, wat Kameroen betreft</j.0:title>
+    <j.0:title xml:lang="da">Forslag til RÅDETS GENNEMFØRELSESAFGØRELSE om ændring af gennemførelsesafgørelse 2014/170/EU om en liste over ikkesamarbejdende tredjelande for så vidt angår bekæmpelse af ulovligt, urapporteret og ureguleret fiskeri for så vidt angår Cameroun</j.0:title>
+    <j.0:dossier_title xml:lang="sk">Návrh VYKONÁVACIE ROZHODNUTIE RADY, ktorým sa mení vykonávacie rozhodnutie 2014/170/EÚ, ktorým sa vytvára zoznam nespolupracujúcich tretích krajín v boji proti nezákonnému, nenahlásenému a neregulovanému rybolovu, pokiaľ ide o Kamerun</j.0:dossier_title>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#dossier"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2023_3.2023-01-05_ADP_byCOM"/>
+    <j.0:dossier_title xml:lang="lv">Priekšlikums PADOMES ĪSTENOŠANAS LĒMUMS, ar kuru attiecībā uz Kamerūnu groza Īstenošanas lēmumu 2014/170/ES, ar ko izveido nelegālas, nereģistrētas un neregulētas zvejas apkarošanā nesadarbīgu trešo valstu sarakstu</j.0:dossier_title>
+    <j.0:dossier_title xml:lang="lt">Pasiūlymas TARYBOS ĮGYVENDINIMO SPRENDIMAS kuriuo dėl Kamerūno iš dalies keičiamas Įgyvendinimo sprendimas 2014/170/ES, kuriuo sudaromas trečiųjų šalių, nebendradarbiaujančių kovojant su neteisėta, nedeklaruojama ir nereglamentuojama žvejyba, sąrašas</j.0:dossier_title>
+    <j.0:dossier_title xml:lang="cs">Návrh PROVÁDĚCÍ ROZHODNUTÍ RADY, kterým se v souvislosti s Kamerunem mění prováděcí rozhodnutí 2014/170/EU, kterým se stanoví seznam třetích zemí nespolupracujících v boji proti nezákonnému, nehlášenému a neregulovanému rybolovu</j.0:dossier_title>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.0:title xml:lang="ga">Togra le haghaidh CINNEADH CUR CHUN FEIDHME ÓN gCOMHAIRLE lena leasaítear Cinneadh Cur Chun Feidhme 2014/170/AE, lena mbunaítear liosta tríú tíortha neamh-chomhoibríocha sa chomhrac in aghaidh iascaireacht neamhdhleathach, neamhthuairiscithe agus neamhrialáilte, a mhéid a bhaineann le Camarún</j.0:title>
+    <j.0:title xml:lang="en">Proposal for a COUNCIL IMPLEMENTING DECISION amending Implementing Decision 2014/170/EU, establishing a list of non-cooperating third countries in fighting illegal, unreported and unregulated fishing, as regards Cameroon</j.0:title>
+    <j.0:title xml:lang="pt">Proposta de DECISÃO DE EXECUÇÃO DO CONSELHO que altera a Decisão de Execução 2014/170/UE, que estabelece uma lista dos países terceiros não cooperantes no âmbito da luta contra a pesca INN, no respeitante aos Camarões</j.0:title>
+    <j.0:dossier_title xml:lang="sv">Förslag till RÅDETS GENOMFÖRANDEBESLUT om ändring av genomförandebeslut 2014/170/EU om upprättande av en förteckning över icke-samarbetande tredjeländer när det gäller bekämpning av IUU-fiske, vad gäller Kamerun</j.0:dossier_title>
+    <j.0:reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023/0003/NLE</j.0:reference>
+    <j.0:title xml:lang="hu">Javaslat A TANÁCS VÉGREHAJTÁSI HATÁROZATA a jogellenes, nem bejelentett és szabályozatlan halászat felszámolásában nem együttműködő harmadik országok listájának összeállításáról szóló 2014/170/EU végrehajtási határozatnak Kamerun tekintetében történő módosításáról</j.0:title>
+    <j.0:dossier_date_creation_legacy rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-01-05</j.0:dossier_date_creation_legacy>
+    <j.0:dossier_title xml:lang="sl">Predlog IZVEDBENI SKLEP SVETA o spremembi Izvedbenega sklepa Sveta 2014/170/EU o pripravi seznama nesodelujočih tretjih držav pri boju proti nezakonitemu, neprijavljenemu in nereguliranemu ribolovu v zvezi s Kamerunom</j.0:dossier_title>
+    <j.0:dossier_produces_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/32023D0405"/>
+    <j.0:dossier_title xml:lang="en">Proposal for a COUNCIL IMPLEMENTING DECISION amending Implementing Decision 2014/170/EU, establishing a list of non-cooperating third countries in fighting illegal, unreported and unregulated fishing, as regards Cameroon</j.0:dossier_title>
+    <j.0:dossier_title xml:lang="fr">Proposition de DÉCISION D’EXÉCUTION DU CONSEIL modifiant la décision d’exécution 2014/170/UE établissant une liste des pays tiers non coopérants dans le cadre de la lutte contre la pêche illicite, non déclarée et non réglementée, en ce qui concerne le Cameroun</j.0:dossier_title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/COM%282023%294%20final"/>
+    <j.0:identifier rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">procedure:2023_3</j.0:identifier>
+    <j.0:dossier_withdrawn-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:dossier_withdrawn-proposal>
+    <j.0:dossier_title xml:lang="da">Forslag til RÅDETS GENNEMFØRELSESAFGØRELSE om ændring af gennemførelsesafgørelse 2014/170/EU om en liste over ikkesamarbejdende tredjelande for så vidt angår bekæmpelse af ulovligt, urapporteret og ureguleret fiskeri for så vidt angår Cameroun</j.0:dossier_title>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2023_3.2023-02-13_DIS_byCONSIL"/>
+    <j.0:dossier_title xml:lang="et">Ettepanek: NÕUKOGU RAKENDUSOTSUS, millega muudetakse Kameruni osas rakendusotsust 2014/170/EL, millega kehtestatakse ebaseadusliku, teatamata ja reguleerimata kalapüügi vastases võitluses koostööd mittetegevate kolmandate riikide nimekiri</j.0:dossier_title>
+    <j.0:adopted-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:adopted-proposal>
+    <j.0:dossier_title xml:lang="mt">Proposta għal DEĊIŻJONI TA’ IMPLIMENTAZZJONI TAL-KUNSILL li temenda d-Deċiżjoni ta' Implimentazzjoni 2014/170/UE li tistabbilixxi lista ta' pajjiżi terzi li ma jikkooperawx fil-ġlieda kontra s-sajd illegali, mhux irrappurtat u mhux irregolat, fir-rigward tal-Unjoni tal-Kamerun</j.0:dossier_title>
+    <j.0:dossier_type_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM</j.0:dossier_type_reference>
+    <j.0:title xml:lang="sl">Predlog IZVEDBENI SKLEP SVETA o spremembi Izvedbenega sklepa Sveta 2014/170/EU o pripravi seznama nesodelujočih tretjih držav pri boju proti nezakonitemu, neprijavljenemu in nereguliranemu ribolovu v zvezi s Kamerunom</j.0:title>
+    <j.0:title xml:lang="el">Πρόταση ΕΚΤΕΛΕΣΤΙΚΗ ΑΠΟΦΑΣΗ ΤΟΥ ΣΥΜΒΟΥΛΙΟΥ για την τροποποίηση της εκτελεστικής απόφασης 2014/170/ΕΕ για την κατάρτιση καταλόγου μη συνεργαζόμενων τρίτων χωρών στην καταπολέμηση της παράνομης, λαθραίας και άναρχης αλιείας, όσον αφορά το Καμερούν</j.0:title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/ST%205088%202023%20INIT"/>
+    <j.0:dossier_title xml:lang="bg">Предложение за РЕШЕНИЕ ЗА ИЗПЪЛНЕНИЕ НА СЪВЕТА за изменение на Решение за изпълнение 2014/170/ЕС за съставяне на списък на несътрудничещи трети държави в борбата с незаконния, недеклариран и нерегулиран риболов по отношение на Съюза на Камерун</j.0:dossier_title>
+    <j.0:pending-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:pending-proposal>
+    <j.0:title xml:lang="fr">Proposition de DÉCISION D’EXÉCUTION DU CONSEIL modifiant la décision d’exécution 2014/170/UE établissant une liste des pays tiers non coopérants dans le cadre de la lutte contre la pêche illicite, non déclarée et non réglementée, en ce qui concerne le Cameroun</j.0:title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/procedure-event/2023_3.2023-02-23_PUB_OJ"/>
+    <j.0:title xml:lang="fi">Ehdotus NEUVOSTON TÄYTÄNTÖÖNPANOPÄÄTÖS laittoman, ilmoittamattoman ja sääntelemättömän kalastuksen torjumista koskevaan yhteistyöhön osallistumattomia kolmansia maita koskevan luettelon laatimisesta annetun täytäntöönpanopäätöksen 2014/170/EU muuttamisesta Kamerunin osalta</j.0:title>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/immc/ST%205501%202023%20INIT"/>
+    <j.0:title xml:lang="es">Propuesta de DECISIÓN DE EJECUCIÓN DEL CONSEJO que modifica la Decisión de Ejecución 2014/170/UE, por la que se establece una lista de terceros países no cooperantes en la lucha contra la pesca ilegal, no declarada y no reglamentada, en relación con Camerún</j.0:title>
+    <j.0:title xml:lang="lt">Pasiūlymas TARYBOS ĮGYVENDINIMO SPRENDIMAS kuriuo dėl Kamerūno iš dalies keičiamas Įgyvendinimo sprendimas 2014/170/ES, kuriuo sudaromas trečiųjų šalių, nebendradarbiaujančių kovojant su neteisėta, nedeklaruojama ir nereglamentuojama žvejyba, sąrašas</j.0:title>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/procedure-event/2023_3.2023-02-20_ADP_FRM_byCONSIL"/>
+    <j.3:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20230105-3592; environment: PROD; CERES: 4.17.2; IMMC2CDM: 3.2.2; rules: preleg/rules-com.xml#56736#2020-06-09T07:23:52; builddate: 2023-01-05T14:19:25.551;</j.3:build_info>
+    <j.0:title xml:lang="sk">Návrh VYKONÁVACIE ROZHODNUTIE RADY, ktorým sa mení vykonávacie rozhodnutie 2014/170/EÚ, ktorým sa vytvára zoznam nespolupracujúcich tretích krajín v boji proti nezákonnému, nenahlásenému a neregulovanému rybolovu, pokiaľ ide o Kamerun</j.0:title>
+    <j.0:dossier_adopted-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:dossier_adopted-proposal>
+    <j.0:reference_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023/0003/NLE</j.0:reference_procedure>
+    <j.0:title xml:lang="et">Ettepanek: NÕUKOGU RAKENDUSOTSUS, millega muudetakse Kameruni osas rakendusotsust 2014/170/EL, millega kehtestatakse ebaseadusliku, teatamata ja reguleerimata kalapüügi vastases võitluses koostööd mittetegevate kolmandate riikide nimekiri</j.0:title>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/immc/COM%282023%294%20final"/>
+    <j.0:dossier_pending-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:dossier_pending-proposal>
+    <j.0:dossier_title xml:lang="pt">Proposta de DECISÃO DE EXECUÇÃO DO CONSELHO que altera a Decisão de Execução 2014/170/UE, que estabelece uma lista dos países terceiros não cooperantes no âmbito da luta contra a pesca INN, no respeitante aos Camarões</j.0:dossier_title>
+    <j.0:dossier_title xml:lang="it">Proposta di DECISIONE DI ESECUZIONE DEL CONSIGLIO recante modifica della decisione di esecuzione 2014/170/UE che stabilisce un elenco di paesi terzi non cooperanti nella lotta contro la pesca illegale, non dichiarata e non regolamentata, per quanto riguarda il Camerun</j.0:dossier_title>
+    <j.0:title xml:lang="it">Proposta di DECISIONE DI ESECUZIONE DEL CONSIGLIO recante modifica della decisione di esecuzione 2014/170/UE che stabilisce un elenco di paesi terzi non cooperanti nella lotta contro la pesca illegale, non dichiarata e non regolamentata, per quanto riguarda il Camerun</j.0:title>
+    <j.0:dossier_title xml:lang="de">Vorschlag für einen DURCHFÜHRUNGSBESCHLUSS DES RATES zur Änderung des Durchführungsbeschlusses 2014/170/EU zur Aufstellung einer Liste nichtkooperierender Drittländer bei der Bekämpfung der illegalen, nicht gemeldeten und unregulierten Fischerei in Bezug auf Kamerun</j.0:dossier_title>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/procedure-event/2023_3.2023-02-13_DIS_byCONSIL"/>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2023_3.2023-02-20_ADP_FRM_byCONSIL"/>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/procedure-event/2023_3.2023-01-05_ADP_byCOM"/>
+    <j.0:year_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2023</j.0:year_procedure>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2023_3.2023-01-06_DIS_byCONSIL"/>
+    <j.0:title xml:lang="mt">Proposta għal DEĊIŻJONI TA’ IMPLIMENTAZZJONI TAL-KUNSILL li temenda d-Deċiżjoni ta' Implimentazzjoni 2014/170/UE li tistabbilixxi lista ta' pajjiżi terzi li ma jikkooperawx fil-ġlieda kontra s-sajd illegali, mhux irrappurtat u mhux irregolat, fir-rigward tal-Unjoni tal-Kamerun</j.0:title>
+    <j.0:title xml:lang="sv">Förslag till RÅDETS GENOMFÖRANDEBESLUT om ändring av genomförandebeslut 2014/170/EU om upprättande av en förteckning över icke-samarbetande tredjeländer när det gäller bekämpning av IUU-fiske, vad gäller Kamerun</j.0:title>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/procedure-event/2023_3.2023-02-23_PUB_OJ"/>
+    <j.0:dossier_year_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023</j.0:dossier_year_reference>
+    <j.0:year_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023</j.0:year_reference>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/procedure-event/2023_3.2023-02-13_DIS_byCONSIL"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional"/>
+    <j.0:type_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM</j.0:type_reference>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/ST%205501%202023%20INIT"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/procedure-event/2023_3.2023-01-05_ADP_byCOM"/>
+    <j.0:dossier_identifier rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">procedure:2023_3</j.0:dossier_identifier>
+    <j.0:title xml:lang="lv">Priekšlikums PADOMES ĪSTENOŠANAS LĒMUMS, ar kuru attiecībā uz Kamerūnu groza Īstenošanas lēmumu 2014/170/ES, ar ko izveido nelegālas, nereģistrētas un neregulētas zvejas apkarošanā nesadarbīgu trešo valstu sarakstu</j.0:title>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/immc/ST%205088%202023%20INIT"/>
+    <j.0:number_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0003</j.0:number_procedure>
+    <j.0:procedure_code_interinstitutional_number_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0003</j.0:procedure_code_interinstitutional_number_procedure>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/procedure-event/2023_3.2023-01-06_DIS_byCONSIL"/>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2023_3.2023-02-23_PUB_OJ"/>
+    <j.0:dossier_title xml:lang="ro">Propunere de DECIZIE DE PUNERE ÎN APLICARE A CONSILIULUI de modificare a Deciziei de punere în aplicare 2014/170/UE de stabilire a unei liste a țărilor terțe necooperante în ceea ce privește combaterea activităților de pescuit ilegal, nedeclarat și nereglementat, în ceea ce privește Camerunul</j.0:dossier_title>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/procedure-event/2023_3.2023-01-06_DIS_byCONSIL"/>
+    <j.0:number_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</j.0:number_reference>
+    <j.0:dossier_initiated_by_act_preparatory rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+    <j.0:procedure_code_interinstitutional_reference_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023/0003/NLE</j.0:procedure_code_interinstitutional_reference_procedure>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/32023D0405"/>
+    <j.0:title xml:lang="de">Vorschlag für einen DURCHFÜHRUNGSBESCHLUSS DES RATES zur Änderung des Durchführungsbeschlusses 2014/170/EU zur Aufstellung einer Liste nichtkooperierender Drittländer bei der Bekämpfung der illegalen, nicht gemeldeten und unregulierten Fischerei in Bezug auf Kamerun</j.0:title>
+    <j.0:title xml:lang="bg">Предложение за РЕШЕНИЕ ЗА ИЗПЪЛНЕНИЕ НА СЪВЕТА за изменение на Решение за изпълнение 2014/170/ЕС за съставяне на списък на несътрудничещи трети държави в борбата с незаконния, недеклариран и нерегулиран риболов по отношение на Съюза на Камерун</j.0:title>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/32008R1005"/>
+    <j.0:title xml:lang="cs">Návrh PROVÁDĚCÍ ROZHODNUTÍ RADY, kterým se v souvislosti s Kamerunem mění prováděcí rozhodnutí 2014/170/EU, kterým se stanoví seznam třetích zemí nespolupracujících v boji proti nezákonnému, nehlášenému a neregulovanému rybolovu</j.0:title>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/32008R1005"/>
+    <j.0:produces rdf:resource="http://publications.europa.eu/resource/celex/32023D0405"/>
+    <j.0:dossier_title xml:lang="es">Propuesta de DECISIÓN DE EJECUCIÓN DEL CONSEJO que modifica la Decisión de Ejecución 2014/170/UE, por la que se establece una lista de terceros países no cooperantes en la lucha contra la pesca ilegal, no declarada y no reglamentada, en relación con Camerún</j.0:dossier_title>
+    <j.3:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20230106-2377; environment: PROD; CERES: 4.17.2; IMMC2CDM: 3.2.2; rules: preleg/rules-consil.xml#56614#2020-05-29T09:45:21; builddate: 2023-01-06T15:22:04.117;</j.3:build_info>
+    <j.0:title xml:lang="ro">Propunere de DECIZIE DE PUNERE ÎN APLICARE A CONSILIULUI de modificare a Deciziei de punere în aplicare 2014/170/UE de stabilire a unei liste a țărilor terțe necooperante în ceea ce privește combaterea activităților de pescuit ilegal, nedeclarat și nereglementat, în ceea ce privește Camerunul</j.0:title>
+    <j.0:procedure_code_interinstitutional_year_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2023</j.0:procedure_code_interinstitutional_year_procedure>
+    <j.0:dossier_title xml:lang="nl">Voorstel voor een UITVOERINGSBESLUIT VAN DE RAAD tot wijziging van Uitvoeringsbesluit 2014/170/EU tot vaststelling van een lijst van derde landen die niet meewerken bij de bestrijding van illegale, ongemelde en ongereglementeerde visserij, wat Kameroen betreft</j.0:dossier_title>
+    <j.0:procedure_code_interinstitutional_has_type_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.0:title xml:lang="pl">Wniosek DECYZJA WYKONAWCZA RADY zmieniająca w odniesieniu do Kamerunu decyzję wykonawczą 2014/170/UE ustanawiającą wykaz niewspółpracujących państw trzecich w zakresie zwalczania nielegalnych, nieraportowanych i nieuregulowanych połowów</j.0:title>
+    <j.3:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20230214-4728; environment: PROD; CERES: 4.17.2; IMMC2CDM: 3.2.2; rules: preleg/rules-consil.xml#56614#2020-05-29T09:45:21; builddate: 2023-02-14T15:52:16.933;</j.3:build_info>
+    <j.0:dossier_date_adopted rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-02-23</j.0:dossier_date_adopted>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-01-05</j.0:date>
+    <j.0:date_adopted rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-02-23</j.0:date_adopted>
+    <j.0:dossier_title xml:lang="fi">Ehdotus NEUVOSTON TÄYTÄNTÖÖNPANOPÄÄTÖS laittoman, ilmoittamattoman ja sääntelemättömän kalastuksen torjumista koskevaan yhteistyöhön osallistumattomia kolmansia maita koskevan luettelon laatimisesta annetun täytäntöönpanopäätöksen 2014/170/EU muuttamisesta Kamerunin osalta</j.0:dossier_title>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/celex/32023D0405"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/procedure-event/2023_3.2023-02-20_ADP_FRM_byCONSIL"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_interinstitutional"/>
+    <j.0:dossier_title xml:lang="ga">Togra le haghaidh CINNEADH CUR CHUN FEIDHME ÓN gCOMHAIRLE lena leasaítear Cinneadh Cur Chun Feidhme 2014/170/AE, lena mbunaítear liosta tríú tíortha neamh-chomhoibríocha sa chomhrac in aghaidh iascaireacht neamhdhleathach, neamhthuairiscithe agus neamhrialáilte, a mhéid a bhaineann le Camarún</j.0:dossier_title>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+    <j.0:dossier_number_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</j.0:dossier_number_reference>
+    <j.0:dossier_title xml:lang="hu">Javaslat A TANÁCS VÉGREHAJTÁSI HATÁROZATA a jogellenes, nem bejelentett és szabályozatlan halászat felszámolásában nem együttműködő harmadik országok listájának összeállításáról szóló 2014/170/EU végrehajtási határozatnak Kamerun tekintetében történő módosításáról</j.0:dossier_title>
+    <j.0:title xml:lang="hr">Prijedlog PROVEDBENE ODLUKE VIJEĆA o izmjeni Provedbene odluke 2014/170/EU o uspostavljanju popisa nekooperativnih trećih zemalja u suzbijanju nezakonitog, neprijavljenog i nereguliranog ribolova u pogledu Kameruna</j.0:title>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/consil/ST_5088_2023_INIT">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory_council"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/21998A0623%2801%29">
+    <j.0:cited_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+    <j.0:work_cited_by_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/EP">
+    <j.2:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/treaty/TFEU_2010">
+    <j.2:inScheme rdf:resource="http://publications.europa.eu/resource/authority/treaty/"/>
+    <j.2:inScheme rdf:resource="http://publications.europa.eu/resource/authority/treaty"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_treaty"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/ADP_FRM_byCONSIL">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.2:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2023_3.2023-02-20_ADP_FRM_byCONSIL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/fd24a391-8cfb-11ed-999b-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/immc/COM%282023%294%20final"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/52023PC0004"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/celex/32008R1005"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal_basis_for_resource_legal"/>
+    <j.3:comment_on_legal_basis>A33</j.3:comment_on_legal_basis>
+    <j.3:article>33</j.3:article>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/f6184980-8cfb-11ed-999b-01aa75ed71a1.0004">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure-event/2023_3.2023-02-20_ADP_FRM_byCONSIL"/>
+    <j.4:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-28T19:36:22.044+01:00</j.4:creationDate>
+    <j.4:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-17T18:19:18.981+01:00</j.4:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/dir-eu-legal-act/04103020">
+    <j.0:concept_directory-code_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/5095">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#dossier_based_on_resource_legal"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.3:eli_target rdf:resource="http://data.europa.eu/eli/reg/2008/1005/oj"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/procedure/2023_3"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional_based_on_resource_legal"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/celex/32008R1005"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/f6184980-8cfb-11ed-999b-01aa75ed71a1">
+    <j.4:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-04T19:50:19.456+01:00</j.4:lastModificationDate>
+    <j.4:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-05T14:22:10.652+01:00</j.4:creationDate>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure/2023_3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/f07ab00e-3795-4146-8739-07dc585b97ad">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/oj/JOL_1998_179_R_0003_002"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/21998A0623%2801%29"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/eli/convention/1998/392/oj"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/immc/COM%282023%294%20final">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/consil/ST_5501_2023_INIT">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory_council"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/f6184980-8cfb-11ed-999b-01aa75ed71a1.0005">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure-event/2023_3.2023-02-23_PUB_OJ"/>
+    <j.4:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-28T19:36:22.044+01:00</j.4:creationDate>
+    <j.4:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-17T15:46:19.703+01:00</j.4:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/celex/32014D0170"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal_amendment_proposed_by_resource_legal"/>
+    <j.3:type_of_link_target>EA</j.3:type_of_link_target>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/procedure/NLE">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.2:inScheme rdf:resource="http://publications.europa.eu/resource/authority/procedure"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_procedure_code_interinstitutional"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/ADP_byCOM">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#type_event_interinstitutional"/>
+    <j.2:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2023_3.2023-01-05_ADP_byCOM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure-event/2023_3.2023-01-06_DIS_byCONSIL">
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-01-06</j.0:event_date>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/procedure/2023_3"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/ST%205088%202023%20INIT"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST 5088 2023 INIT</j.0:event_legal_document_reference>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/immc/ST%205088%202023%20INIT"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST 5088 2023 INIT</j.0:document_reference>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/DIS_byCONSIL"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-01-06</j.0:event_legal_date>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_byCONSIL</j.0:event_legal_type>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2023_3"/>
+    <j.0:event_legal_was_historically_about_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/immc/ST%205088%202023%20INIT"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_byCONSIL</j.0:type>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/DIS_byCONSIL"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-01-06</j.0:date>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/DIS_byCONSIL"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2023_3"/>
+    <j.3:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20230106-2377; environment: PROD; CERES: 4.17.2; IMMC2CDM: 3.2.2; rules: preleg/rules-consil.xml#56614#2020-05-29T09:45:21; builddate: 2023-01-06T15:22:04.117;</j.3:build_info>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/f6184980-8cfb-11ed-999b-01aa75ed71a1.0001">
+    <j.4:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-05T14:22:10.652+01:00</j.4:creationDate>
+    <j.4:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-27T07:48:12.086+01:00</j.4:lastModificationDate>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure-event/2023_3.2023-01-05_ADP_byCOM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/9f23939b-b58a-11e3-86f9-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/eli/dec_impl/2014/170/oj"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/oj/JOL_2014_091_R_0043_01"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/32014D0170"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/5229">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/CONSIL">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/consil/ST_5088_2023_INIT"/>
+    <j.2:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/consil/ST_5501_2023_INIT"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/consil/ST_5088_2023_INIT"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent-conceptual"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#group_parliamentary"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/consil/ST_5501_2023_INIT"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    <j.2:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/euvoc#Corporate"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/133">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/COM">
+    <j.2:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/subject-matter/PECH">
+    <j.0:subject-matter_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/2308">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/treaty/TFEU_2012">
+    <j.0:basis_for rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+    <j.0:concept_treaty_basis_for_resource_legal rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/immc/ST%205088%202023%20INIT">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_606/1010">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_mode_decision"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <j.2:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_606"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/subject-matter/IFAQ">
+    <j.0:subject-matter_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/DIS_byCONSIL">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#type_event_interinstitutional"/>
+    <j.2:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2023_3.2023-02-13_DIS_byCONSIL"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2023_3.2023-01-06_DIS_byCONSIL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/immc/ST%205501%202023%20INIT">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/MARE">
+    <j.2:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/32021D0219%2802%29">
+    <j.0:cited_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+    <j.0:work_cited_by_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/1784c5c8-8dce-11ed-999b-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/consil/ST_5088_2023_INIT"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/immc/ST%205088%202023%20INIT"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure-event/2023_3.2023-02-13_DIS_byCONSIL">
+    <j.0:event_legal_was_historically_about_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/DIS_byCONSIL"/>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-02-13</j.0:event_date>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/procedure/2023_3"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2023_3"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/immc/ST%205501%202023%20INIT"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/DIS_byCONSIL"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-02-13</j.0:event_legal_date>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST 5501 2023 INIT</j.0:event_legal_document_reference>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_byCONSIL</j.0:event_legal_type>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_byCONSIL</j.0:type>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/ST%205501%202023%20INIT"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/immc/ST%205501%202023%20INIT"/>
+    <j.3:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20230214-4728; environment: PROD; CERES: 4.17.2; IMMC2CDM: 3.2.2; rules: preleg/rules-consil.xml#56614#2020-05-29T09:45:21; builddate: 2023-02-14T15:52:16.933;</j.3:build_info>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/DIS_byCONSIL"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2023_3"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST 5501 2023 INIT</j.0:document_reference>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-02-13</j.0:date>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/882e67a9-598e-4021-8dfb-2da0240601dc">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/eli/reg/2008/1005/oj"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/oj/JOL_2008_286_R_0001_01"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/32008R1005"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/d5a7b804-7254-11eb-9ac9-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/oj/JOC_2021_059_I_0001"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/32021D0219%2802%29"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <j.3:article>33</j.3:article>
+    <j.3:comment_on_legal_basis>A33</j.3:comment_on_legal_basis>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal_basis_for_resource_legal"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/celex/32008R1005"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/comnat/COM_2023_0004_FIN"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A5">
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/celex/32008R1005"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_based_on_resource_legal"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/procedure-event/2023_3.2023-01-05_ADP_byCOM"/>
+    <j.3:eli_target rdf:resource="http://data.europa.eu/eli/reg/2008/1005/oj"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_based_on_resource_legal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/f6184980-8cfb-11ed-999b-01aa75ed71a1.0002">
+    <j.4:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-06T15:26:10.542+01:00</j.4:creationDate>
+    <j.4:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-06T15:26:10.542+01:00</j.4:lastModificationDate>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure-event/2023_3.2023-01-06_DIS_byCONSIL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/agent/Virginijus%20SINKEVI%C4%8CIUS">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#person"/>
+  </rdf:Description>
+</rdf:RDF>

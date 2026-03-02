@@ -1,0 +1,519 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://publications.europa.eu/ontology/cdm#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.1="http://www.w3.org/2004/02/skos/core#"
+    xmlns:j.2="http://publications.europa.eu/ontology/annotation#"
+    xmlns:j.3="http://publications.europa.eu/ontology/cdm/cmr#" > 
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/67d83774-d2a7-11e1-905c-01aa75ed71a1.0001">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/197563.395891"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-28T10:11:36.680+02:00</j.3:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/oj/JOL_2009_144_R_0024_01">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/comnat/COM_2008_0675_FIN">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/31997D0836">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/procedure/AVC">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/procedure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_procedure_code_interinstitutional"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/197563.399614">
+    <j.0:event_legal_session_council rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">2940</j.0:event_legal_session_council>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-05-05</j.0:event_legal_date>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS/2009/7240</j.0:event_legal_document_reference>
+    <j.0:is_about rdf:resource="http://publications.europa.eu/resource/authority/fd_600/100349"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/celex/32009D0433"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_FRM_byCONSIL"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/celex/32009D0433"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS/2009/9160</j.0:event_legal_document_reference>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/197563"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:on_agenda rdf:resource="http://publications.europa.eu/resource/authority/fd_600/10004"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRES/2009/112</j.0:event_legal_document_reference>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adoption formelle par Conseil</j.0:event_legal_type>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JO L/2009/144/24</j.0:event_legal_document_reference>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOL_2009_144_R_0024_01"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS/2009/9160</j.0:document_reference>
+    <j.0:event_legal_is_about_concept_agenda_council rdf:resource="http://publications.europa.eu/resource/authority/fd_600/100349"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_FRM_byCONSIL"/>
+    <j.2:build_info>cdm:CDM_2.1.7  tdm:1523  xslt:3945 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:1.1.9 builddate:11/02/2014 17:37:12</j.2:build_info>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS/2009/7240</j.0:document_reference>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRES/2009/112</j.0:document_reference>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-05-05</j.0:event_date>
+    <j.0:event_legal_on_agenda_concept_agenda_council rdf:resource="http://publications.europa.eu/resource/authority/fd_600/10004"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/197563"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JO L/2009/144/24</j.0:document_reference>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adoption formelle par Conseil</j.0:type>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1085"/>
+    <j.0:session_council rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">2940</j.0:session_council>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/197563"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/32009D0433"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOL_2009_144_R_0024_01"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-05-05</j.0:date>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_FRM_byCONSIL"/>
+    <j.0:event_legal_was_historically_about_concept_type_dossier rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1085"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/oj/JOL_2009_144_R_0024_01"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_602/1035">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_decision"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_602"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/agent/G%C3%BCnter%20VERHEUGEN">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/ADP_byCOM">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/197563.395891"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_612/1095">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_612"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_dossier"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#atto_fd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_612/1085">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_dossier"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_612"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/197563.395894">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-11-04</j.0:event_legal_date>
+    <j.2:build_info>cdm:CDM_2.1.7  tdm:1523  xslt:3945 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:1.1.9 builddate:11/02/2014 17:37:12</j.2:build_info>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transmission au Parlement européen</j.0:event_legal_type>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-11-04</j.0:date>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transmission au Parlement européen</j.0:type>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-11-04</j.0:event_date>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_EP_byCOM"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/197563"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_EP_byCOM"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/197563"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/197563"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_EP_byCOM"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/67d83774-d2a7-11e1-905c-01aa75ed71a1.0003">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/197563.395894"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-14T15:34:53.267+01:00</j.3:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/67d83774-d2a7-11e1-905c-01aa75ed71a1.0005">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/197563.399614"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-14T15:34:53.267+01:00</j.3:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/TRS_EP_byCOM">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/197563.395894"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/32009D0433">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/agent/Helmuth%20MARKOV">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/CONSIL">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_600/10004">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_agenda_council"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_600"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/COM">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/197563.399140">
+    <j.0:event_legal_reported_by_person rdf:resource="http://publications.europa.eu/resource/agent/Helmuth%20MARKOV"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/ASS_byEP"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-04-22</j.0:event_legal_date>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-04-22</j.0:date>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/197563"/>
+    <j.0:uses rdf:resource="http://publications.europa.eu/resource/authority/fd_602/1035"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/ASS_byEP"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52009AP0219"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TA/2009/219/P6</j.0:event_legal_document_reference>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JO C E/2010/184/139</j.0:document_reference>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JO C E/2010/184/139</j.0:event_legal_document_reference>
+    <j.0:event_reported_by_person rdf:resource="http://publications.europa.eu/resource/agent/Helmuth%20MARKOV"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.2:build_info>cdm:CDM_2.1.7  tdm:1523  xslt:3945 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:1.1.9 builddate:11/02/2014 17:37:12</j.2:build_info>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/52009AP0219"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/197563"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52009AP0219"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/ASS_byEP"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:event_legal_uses_concept_type_decision rdf:resource="http://publications.europa.eu/resource/authority/fd_602/1035"/>
+    <j.0:event_responsibility_of_person rdf:resource="http://publications.europa.eu/resource/agent/G%C3%BCnter%20VERHEUGEN"/>
+    <j.0:reported_by rdf:resource="http://publications.europa.eu/resource/agent/Helmuth%20MARKOV"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A6/2009/243</j.0:document_reference>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TA/2009/219/P6</j.0:document_reference>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-04-22</j.0:event_date>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/197563"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A6/2009/243</j.0:event_legal_document_reference>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avis conforme du Parlement européen</j.0:event_legal_type>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avis conforme du Parlement européen</j.0:type>
+    <j.0:event_legal_responsibility_of_person rdf:resource="http://publications.europa.eu/resource/agent/G%C3%BCnter%20VERHEUGEN"/>
+    <j.0:responsibility_of rdf:resource="http://publications.europa.eu/resource/agent/G%C3%BCnter%20VERHEUGEN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/52008PC0675">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/67d83774-d2a7-11e1-905c-01aa75ed71a1.0002">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/197563.395893"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-14T15:34:53.267+01:00</j.3:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure/2008_205">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#dossier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/TRS_toCONSIL_byCOM">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/197563.395893"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/ASS_byEP">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/197563.399140"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/EP">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/12006E">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_606/1010">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#atto_fd"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_mode_decision"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_606"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/67d83774-d2a7-11e1-905c-01aa75ed71a1">
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-05T01:45:20.734+01:00</j.3:lastModificationDate>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure/2008_205"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/197563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/ADP_FRM_byCONSIL">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/197563.399614"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <j.2:article>04</j.2:article>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/celex/31997D0836"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/197563"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional_based_on_resource_legal"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <j.2:paragraph>2</j.2:paragraph>
+    <j.2:comment_on_legal_basis>A04P2TIRE2</j.2:comment_on_legal_basis>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#dossier_based_on_resource_legal"/>
+    <j.2:indent>2</j.2:indent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_600/100349">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_agenda_council"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_600"/>
+    <j.0:concept_agenda_council_subject_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/197563.399614"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/52009AP0219">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/197563.395893">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-11-04</j.0:event_date>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/197563"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transmission au Conseil</j.0:event_legal_type>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/197563"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_toCONSIL_byCOM"/>
+    <j.2:build_info>cdm:CDM_2.1.7  tdm:1523  xslt:3945 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:1.1.9 builddate:11/02/2014 17:37:12</j.2:build_info>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/197563"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_toCONSIL_byCOM"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-11-04</j.0:event_legal_date>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transmission au Conseil</j.0:type>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-11-04</j.0:date>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_toCONSIL_byCOM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/67d83774-d2a7-11e1-905c-01aa75ed71a1.0004">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/197563.399140"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-14T15:34:53.267+01:00</j.3:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/197563">
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/197563.395893"/>
+    <j.0:dossier_title xml:lang="en">Proposal for a COUNCIL DECISION on the accession of the European Community to United Nations Economic Commission for Europe Regulation No 61 on provisions concerning the approval of commercial vehicles with regard to their external projections forward of the cab's rear panel</j.0:dossier_title>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:dossier_title xml:lang="nl">Voorstel voor een BESLUIT VAN DE RAAD betreffende de aanvaarding door de Europese Gemeenschap van Reglement nr. 61 van de Economische Commissie voor Europa van de Verenigde Naties inzake voorschriften voor de goedkeuring van bedrijfsvoertuigen wat hun naar buiten uitstekende delen vóór de achterwand van de cabine betreft</j.0:dossier_title>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#dossier"/>
+    <j.0:dossier_title xml:lang="bg">Предложение за РЕШЕНИЕ НА СЪВЕТА относно присъединяването на Европейската общност към правило № 61 на Икономическата комисия за Европа на Организацията на обединените нации относно разпоредбите за одобряване на лекотоварни автомобили по отношение на външните изпъкнали части пред задния панел на кабината</j.0:dossier_title>
+    <j.0:dossier_title xml:lang="fr">Proposition de DÉCISION DU CONSEIL relative à l’adhésion de la Communauté européenne au règlement n° 61 de la Commission économique pour l’Europe des Nations unies relatif aux dispositions concernant la réception de véhicules commerciaux en ce qui concerne les saillies extérieures à l’avant de la cloison postérieure de la cabine</j.0:dossier_title>
+    <j.0:title xml:lang="pt">Proposta de DECISÃO DO CONSELHO sobre a adesão da Comunidade Europeia ao Regulamento n.° 61 da Comissão Económica das Nações Unidas para a Europa, relativo a disposições respeitantes à homologação de veículos comerciais no que se refere às suas saliências exteriores à frente da parede posterior da cabina</j.0:title>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_interinstitutional"/>
+    <j.0:procedure_code_interinstitutional_has_type_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/AVC"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/52008PC0675"/>
+    <j.0:dossier_title xml:lang="sl">Predlog SKLEP SVETA o pristopu Evropske skupnosti k Pravilniku št. 61 Gospodarske komisije Združenih narodov za Evropo o določbah glede homologacije gospodarskih vozil v zvezi z njihovimi zunanjimi štrlečimi deli pred zadnjo steno kabine</j.0:dossier_title>
+    <j.0:type_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM</j.0:type_reference>
+    <j.0:dossier_year_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008</j.0:dossier_year_reference>
+    <j.0:is_about rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1095"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/32009D0433"/>
+    <j.0:dossier_title xml:lang="sv">Förslag till RÅDETS BESLUT om Europeiska gemenskapens anslutning till föreskrifter nr 61 från Förenta nationernas ekonomiska kommission för Europa om bestämmelser för godkännande av nyttofordon med avseende på deras utskjutande delar framför förarhyttens bakre vägg</j.0:dossier_title>
+    <j.0:dossier_identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pegase:197563</j.0:dossier_identifier>
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12006E"/>
+    <j.0:number_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">675</j.0:number_reference>
+    <j.0:title xml:lang="ro">Propunere de DECIZIE A CONSILIULUI privind aderarea Comunității Europene la Regulamentul nr. 61 al Comisiei Economice pentru Europa a Organizației Națiunilor Unite cu privire la dispozițiile referitoare la aprobarea vehiculelor comerciale în ceea ce privește proeminențele lor exterioare situate în partea frontală a panoului posterior al cabinei</j.0:title>
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/31997D0836"/>
+    <j.0:title xml:lang="pl">Wniosek DECYZJA RADY dotycząca przystąpienia Wspólnoty Europejskiej do regulaminu nr 61 Europejskiej Komisji Gospodarczej Organizacji Narodów Zjednoczonych zawierającego przepisy dotyczące homologacji pojazdów użytkowych w zakresie ich zewnętrznych elementów wystających znajdujących się przed tylnym oblachowaniem kabiny</j.0:title>
+    <j.0:title xml:lang="sk">Návrh ROZHODNUTIE RADY o pristúpení Európskeho spoločenstva k predpisu Európskej hospodárskej komisie Organizácie spojených národov č. 61 obsahujúcemu ustanovenia na schvaľovanie úžitkových vozidiel, pokiaľ ide o vonkajšie výčnelky zadného dielu kabíny</j.0:title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/197563.399140"/>
+    <j.0:dossier_title xml:lang="lv">Priekšlikums PADOMES LĒMUMS par Kopienas pievienošanos ANO Eiropas Ekonomikas komisijas Noteikumiem nr. 61 par kravas automobiļu apstiprināšanu attiecībā uz to ārējiem izvirzījumiem uz priekšu no kabīnes aizmugurējā paneļa</j.0:dossier_title>
+    <j.0:dossier_withdrawn-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:dossier_withdrawn-proposal>
+    <j.0:dossier_title xml:lang="es">Propuesta de DECISIÓN DEL CONSEJO relativa a la adhesión de la Comunidad Europea al Reglamento nº 61 de la Comisión Económica para Europa de las Naciones Unidas sobre la homologación de los vehículos industriales en lo que respecta a los salientes exteriores situados por delante del panel trasero de la cabina</j.0:dossier_title>
+    <j.0:dossier_pending-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:dossier_pending-proposal>
+    <j.0:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pegase:197563</j.0:identifier>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/oj/JOL_2009_144_R_0024_01"/>
+    <j.0:title xml:lang="es">Propuesta de DECISIÓN DEL CONSEJO relativa a la adhesión de la Comunidad Europea al Reglamento nº 61 de la Comisión Económica para Europa de las Naciones Unidas sobre la homologación de los vehículos industriales en lo que respecta a los salientes exteriores situados por delante del panel trasero de la cabina</j.0:title>
+    <j.0:number_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0205</j.0:number_procedure>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/197563.395894"/>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/197563.395893"/>
+    <j.0:dossier_number_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">675</j.0:dossier_number_reference>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/197563.395891"/>
+    <j.0:dossier_title xml:lang="pl">Wniosek DECYZJA RADY dotycząca przystąpienia Wspólnoty Europejskiej do regulaminu nr 61 Europejskiej Komisji Gospodarczej Organizacji Narodów Zjednoczonych zawierającego przepisy dotyczące homologacji pojazdów użytkowych w zakresie ich zewnętrznych elementów wystających znajdujących się przed tylnym oblachowaniem kabiny</j.0:dossier_title>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2008_0675_FIN"/>
+    <j.0:title xml:lang="lt">Pasiūlymas TARYBOS SPRENDIMAS dėl Europos bendrijos prisijungimo taikant Jungtinių Tautų Europos ekonomikos komisijos taisyklę Nr. 61 dėl komercinių transporto priemonių patvirtinimo, atsižvelgiant į jų išorines iškyšas prieš galinę kabinos plokštę, nuostatų</j.0:title>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/197563.399140"/>
+    <j.0:dossier_is_about_concept_type_dossier rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1095"/>
+    <j.0:dossier_title xml:lang="fi">Ehdotus: NEUVOSTON PÄÄTÖS Euroopan yhteisön sitoutumisesta soveltamaan Yhdistyneiden Kansakuntien Euroopan talouskomission sääntöä N:o 61 hyötyajoneuvojen hyväksynnästä ohjaamon takaseinän etupuolella olevien ulkonevien osien osalta</j.0:dossier_title>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/197563.395891"/>
+    <j.0:title xml:lang="lv">Priekšlikums PADOMES LĒMUMS par Kopienas pievienošanos ANO Eiropas Ekonomikas komisijas Noteikumiem nr. 61 par kravas automobiļu apstiprināšanu attiecībā uz to ārējiem izvirzījumiem uz priekšu no kabīnes aizmugurējā paneļa</j.0:title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/197563.395891"/>
+    <j.2:build_info>cdm:CDM_2.1.7  tdm:1523  xslt:3945 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:1.1.9 builddate:11/02/2014 17:37:12</j.2:build_info>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/52009AP0219"/>
+    <j.0:procedure_code_interinstitutional_reference_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008/0205/AVC</j.0:procedure_code_interinstitutional_reference_procedure>
+    <j.0:dossier_title xml:lang="it">Proposta di DECISIONE DEL CONSIGLIO relativa all'adesione della Comunità europea al regolamento n. 61 della commissione economica per l'Europa delle Nazioni Unite recante disposizioni circa l'omologazione dei veicoli commerciali per quanto riguarda le sporgenze esterne poste anteriormente al pannello posteriore della cabina</j.0:dossier_title>
+    <j.0:title xml:lang="sv">Förslag till RÅDETS BESLUT om Europeiska gemenskapens anslutning till föreskrifter nr 61 från Förenta nationernas ekonomiska kommission för Europa om bestämmelser för godkännande av nyttofordon med avseende på deras utskjutande delar framför förarhyttens bakre vägg</j.0:title>
+    <j.0:title xml:lang="fi">Ehdotus: NEUVOSTON PÄÄTÖS Euroopan yhteisön sitoutumisesta soveltamaan Yhdistyneiden Kansakuntien Euroopan talouskomission sääntöä N:o 61 hyötyajoneuvojen hyväksynnästä ohjaamon takaseinän etupuolella olevien ulkonevien osien osalta</j.0:title>
+    <j.0:dossier_date_creation_legacy rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-10-29</j.0:dossier_date_creation_legacy>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-10-29</j.0:date>
+    <j.0:title xml:lang="de">Vorschlag für einen BESCHLUSS DES RATES über den Beitritt der Europäischen Gemeinschaft zu der Regelung Nr. 61 der Wirtschaftskommission der Vereinten Nationen für Europa über die Genehmigung der Nutzfahrzeuge hinsichtlich der außen vorstehenden Teile vor der Führerhausrückwand</j.0:title>
+    <j.0:dossier_title xml:lang="cs">Návrh ROZHODNUTÍ RADY o přistoupení Evropského společenství k předpisu Evropské hospodářské komise Organizace spojených národů č. 61 obsahujícímu ustanovení pro schvalování typu užitkových vozidel s ohledem na vnější výčnělky před zadní stěnou kabiny</j.0:dossier_title>
+    <j.0:title xml:lang="sl">Predlog SKLEP SVETA o pristopu Evropske skupnosti k Pravilniku št. 61 Gospodarske komisije Združenih narodov za Evropo o določbah glede homologacije gospodarskih vozil v zvezi z njihovimi zunanjimi štrlečimi deli pred zadnjo steno kabine</j.0:title>
+    <j.0:dossier_title xml:lang="hu">Javaslat: A TANÁCS HATÁROZATA az Európai Közösségnek az Egyesült Nemzetek Európai Gazdasági Bizottságának a haszonjárművek a vezetőfülke hátsó falától előre elhelyezkedő külső kinyúlások szempontjából történő jóváhagyásáról szóló 61. számú előírásához való csatlakozásáról</j.0:dossier_title>
+    <j.0:title xml:lang="hu">Javaslat: A TANÁCS HATÁROZATA az Európai Közösségnek az Egyesült Nemzetek Európai Gazdasági Bizottságának a haszonjárművek a vezetőfülke hátsó falától előre elhelyezkedő külső kinyúlások szempontjából történő jóváhagyásáról szóló 61. számú előírásához való csatlakozásáról</j.0:title>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/31997D0836"/>
+    <j.0:reference_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008/0205/AVC</j.0:reference_procedure>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/comnat/COM_2008_0675_FIN"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional"/>
+    <j.0:dossier_title xml:lang="ro">Propunere de DECIZIE A CONSILIULUI privind aderarea Comunității Europene la Regulamentul nr. 61 al Comisiei Economice pentru Europa a Organizației Națiunilor Unite cu privire la dispozițiile referitoare la aprobarea vehiculelor comerciale în ceea ce privește proeminențele lor exterioare situate în partea frontală a panoului posterior al cabinei</j.0:dossier_title>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/procedure/AVC"/>
+    <j.0:dossier_initiated_by_act_preparatory rdf:resource="http://publications.europa.eu/resource/celex/52008PC0675"/>
+    <j.0:year_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008</j.0:year_reference>
+    <j.0:dossier_date_adopted rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-05-05</j.0:dossier_date_adopted>
+    <j.0:dossier_title xml:lang="sk">Návrh ROZHODNUTIE RADY o pristúpení Európskeho spoločenstva k predpisu Európskej hospodárskej komisie Organizácie spojených národov č. 61 obsahujúcemu ustanovenia na schvaľovanie úžitkových vozidiel, pokiaľ ide o vonkajšie výčnelky zadného dielu kabíny</j.0:dossier_title>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12006E"/>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/197563.399140"/>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/197563.395893"/>
+    <j.0:reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008/0205/AVC</j.0:reference>
+    <j.0:title xml:lang="mt">Proposta għal DEĊIŻJONI TAL-KUNSILL dwar l-adeżjoni tal-Komunità Ewropea fil-Kummissjoni Ekonomika tan-Nazzjonijiet Uniti għar-Regolament tal-Ewropa Nru 61 dwar dispożizzjonijiet li jikkonċernaw l-approvazzjoni ta' vetturi kummerċjali fir-rigward ta' oġġetti ħerġin 'il barra 'l quddiem mill-pannell ta' wara tal-kabina</j.0:title>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:adopted-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:adopted-proposal>
+    <j.0:date_adopted rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-05-05</j.0:date_adopted>
+    <j.0:title xml:lang="cs">Návrh ROZHODNUTÍ RADY o přistoupení Evropského společenství k předpisu Evropské hospodářské komise Organizace spojených národů č. 61 obsahujícímu ustanovení pro schvalování typu užitkových vozidel s ohledem na vnější výčnělky před zadní stěnou kabiny</j.0:title>
+    <j.0:year_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2008</j.0:year_procedure>
+    <j.0:title xml:lang="fr">Proposition de DÉCISION DU CONSEIL relative à l’adhésion de la Communauté européenne au règlement n° 61 de la Commission économique pour l’Europe des Nations unies relatif aux dispositions concernant la réception de véhicules commerciaux en ce qui concerne les saillies extérieures à l’avant de la cloison postérieure de la cabine</j.0:title>
+    <j.0:procedure_code_interinstitutional_year_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2008</j.0:procedure_code_interinstitutional_year_procedure>
+    <j.0:pending-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:pending-proposal>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/197563.395894"/>
+    <j.0:procedure_code_interinstitutional_number_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0205</j.0:procedure_code_interinstitutional_number_procedure>
+    <j.0:dossier_title xml:lang="de">Vorschlag für einen BESCHLUSS DES RATES über den Beitritt der Europäischen Gemeinschaft zu der Regelung Nr. 61 der Wirtschaftskommission der Vereinten Nationen für Europa über die Genehmigung der Nutzfahrzeuge hinsichtlich der außen vorstehenden Teile vor der Führerhausrückwand</j.0:dossier_title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/197563.395894"/>
+    <j.0:title xml:lang="nl">Voorstel voor een BESLUIT VAN DE RAAD betreffende de aanvaarding door de Europese Gemeenschap van Reglement nr. 61 van de Economische Commissie voor Europa van de Verenigde Naties inzake voorschriften voor de goedkeuring van bedrijfsvoertuigen wat hun naar buiten uitstekende delen vóór de achterwand van de cabine betreft</j.0:title>
+    <j.0:title xml:lang="bg">Предложение за РЕШЕНИЕ НА СЪВЕТА относно присъединяването на Европейската общност към правило № 61 на Икономическата комисия за Европа на Организацията на обединените нации относно разпоредбите за одобряване на лекотоварни автомобили по отношение на външните изпъкнали части пред задния панел на кабината</j.0:title>
+    <j.0:title xml:lang="et">Ettepanek: NÕUKOGU OTSUS Euroopa Ühenduse ühinemise kohta ÜRO Euroopa Majanduskomisjoni eeskirjaga nr 61 tarbesõidukite tunnustamist käsitlevate sätete kohta seoses kabiini tagapaneelist eespool väljaulatuvate osadega</j.0:title>
+    <j.0:title xml:lang="it">Proposta di DECISIONE DEL CONSIGLIO relativa all'adesione della Comunità europea al regolamento n. 61 della commissione economica per l'Europa delle Nazioni Unite recante disposizioni circa l'omologazione dei veicoli commerciali per quanto riguarda le sporgenze esterne poste anteriormente al pannello posteriore della cabina</j.0:title>
+    <j.0:dossier_title xml:lang="lt">Pasiūlymas TARYBOS SPRENDIMAS dėl Europos bendrijos prisijungimo taikant Jungtinių Tautų Europos ekonomikos komisijos taisyklę Nr. 61 dėl komercinių transporto priemonių patvirtinimo, atsižvelgiant į jų išorines iškyšas prieš galinę kabinos plokštę, nuostatų</j.0:dossier_title>
+    <j.0:title xml:lang="en">Proposal for a COUNCIL DECISION on the accession of the European Community to United Nations Economic Commission for Europe Regulation No 61 on provisions concerning the approval of commercial vehicles with regard to their external projections forward of the cab's rear panel</j.0:title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/197563.399614"/>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/celex/32009D0433"/>
+    <j.0:title xml:lang="el">Πρόταση ΑΠΟΦΑΣΗΣ ΤΟΥ ΣΥΜΒΟΥΛΙΟΥ για την προσχώρηση της Ευρωπαϊκής Κοινότητας στον κανονισμό αριθ. 61 της Οικονομικής Επιτροπής των Ηνωμένων Εθνών για την Ευρώπη σχετικά με τις διατάξεις για την έγκριση εμπορικών οχημάτων όσον αφορά τις εξωτερικές προεξοχές τους προσθίως του οπίσθιου φατνώματος του θαλάμου οδήγησης αυτών</j.0:title>
+    <j.0:dossier_title xml:lang="el">Πρόταση ΑΠΟΦΑΣΗΣ ΤΟΥ ΣΥΜΒΟΥΛΙΟΥ για την προσχώρηση της Ευρωπαϊκής Κοινότητας στον κανονισμό αριθ. 61 της Οικονομικής Επιτροπής των Ηνωμένων Εθνών για την Ευρώπη σχετικά με τις διατάξεις για την έγκριση εμπορικών οχημάτων όσον αφορά τις εξωτερικές προεξοχές τους προσθίως του οπίσθιου φατνώματος του θαλάμου οδήγησης αυτών</j.0:dossier_title>
+    <j.0:dossier_adopted-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:dossier_adopted-proposal>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/31997D0836"/>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOL_2009_144_R_0024_01"/>
+    <j.0:dossier_title xml:lang="pt">Proposta de DECISÃO DO CONSELHO sobre a adesão da Comunidade Europeia ao Regulamento n.° 61 da Comissão Económica das Nações Unidas para a Europa, relativo a disposições respeitantes à homologação de veículos comerciais no que se refere às suas saliências exteriores à frente da parede posterior da cabina</j.0:dossier_title>
+    <j.0:date_creation_legacy rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-10-29</j.0:date_creation_legacy>
+    <j.0:dossier_type_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM</j.0:dossier_type_reference>
+    <j.0:title xml:lang="da">Forslag til RÅDETS AFGØRELSE om Det Europæiske Fællesskabs tiltrædelse af regulativ nr. 61 fra De Forenede Nationers Økonomiske Kommission for Europa vedrørende godkendelse af erhvervskøretøjer for så vidt angår udragende dele foran bagpanelet på førerhuse</j.0:title>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/celex/52008PC0675"/>
+    <j.0:withdrawn-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:withdrawn-proposal>
+    <j.0:dossier_title xml:lang="et">Ettepanek: NÕUKOGU OTSUS Euroopa Ühenduse ühinemise kohta ÜRO Euroopa Majanduskomisjoni eeskirjaga nr 61 tarbesõidukite tunnustamist käsitlevate sätete kohta seoses kabiini tagapaneelist eespool väljaulatuvate osadega</j.0:dossier_title>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52008PC0675"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12006E"/>
+    <j.0:dossier_produces_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/32009D0433"/>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52009AP0219"/>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/197563.399614"/>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/197563.399614"/>
+    <j.0:produces rdf:resource="http://publications.europa.eu/resource/celex/32009D0433"/>
+    <j.0:dossier_title xml:lang="mt">Proposta għal DEĊIŻJONI TAL-KUNSILL dwar l-adeżjoni tal-Komunità Ewropea fil-Kummissjoni Ekonomika tan-Nazzjonijiet Uniti għar-Regolament tal-Ewropa Nru 61 dwar dispożizzjonijiet li jikkonċernaw l-approvazzjoni ta' vetturi kummerċjali fir-rigward ta' oġġetti ħerġin 'il barra 'l quddiem mill-pannell ta' wara tal-kabina</j.0:dossier_title>
+    <j.0:dossier_title xml:lang="da">Forslag til RÅDETS AFGØRELSE om Det Europæiske Fællesskabs tiltrædelse af regulativ nr. 61 fra De Forenede Nationers Økonomiske Kommission for Europa vedrørende godkendelse af erhvervskøretøjer for så vidt angår udragende dele foran bagpanelet på førerhuse</j.0:dossier_title>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <j.2:indent>2</j.2:indent>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#dossier_based_on_resource_legal"/>
+    <j.2:article>03</j.2:article>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <j.2:comment_on_legal_basis>A03P3</j.2:comment_on_legal_basis>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/celex/31997D0836"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional_based_on_resource_legal"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.2:paragraph>3</j.2:paragraph>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/197563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/197563.395891">
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12006E"/>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1095"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-10-29</j.0:date>
+    <j.2:build_info>cdm:CDM_2.1.7  tdm:1523  xslt:3945 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:1.1.9 builddate:11/02/2014 17:37:12</j.2:build_info>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/31997D0836"/>
+    <j.0:event_legal_uses_concept_mode_decision rdf:resource="http://publications.europa.eu/resource/authority/fd_606/1010"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM/2008/675/FINAL</j.0:event_legal_document_reference>
+    <j.0:event_legal_mandatorily-consults_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12006E"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/52008PC0675"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-10-29</j.0:event_date>
+    <j.0:event_responsibility_of_person rdf:resource="http://publications.europa.eu/resource/agent/G%C3%BCnter%20VERHEUGEN"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/comnat/COM_2008_0675_FIN"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2008_0675_FIN"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <j.0:event_legal_responsibility_of_person rdf:resource="http://publications.europa.eu/resource/agent/G%C3%BCnter%20VERHEUGEN"/>
+    <j.0:event_legal_was_historically_about_concept_type_dossier rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1095"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/31997D0836"/>
+    <j.0:uses rdf:resource="http://publications.europa.eu/resource/authority/fd_606/1010"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12006E"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2008_0675_FIN"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52008PC0675"/>
+    <j.0:mandatorily-consults rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adoption par Commission</j.0:event_legal_type>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:event_legal_was_historically_about_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/AVC"/>
+    <j.0:event_legal_initiating rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:event_legal_initiating>
+    <j.0:event_formally-addresses_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS/2008/15707</j.0:document_reference>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52008PC0675"/>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adoption par Commission</j.0:type>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_procedural"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/197563"/>
+    <j.0:event_legal_formally-addresses_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_legal_responsibility_of_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ENTR"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <j.0:event_responsibility_of_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ENTR"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/197563"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM/2008/675/FINAL</j.0:document_reference>
+    <j.0:formally-addresses rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_responsibility_of_agent rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ENTR"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/procedure/AVC"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS/2008/15707</j.0:event_legal_document_reference>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-10-29</j.0:event_legal_date>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/31997D0836"/>
+    <j.0:responsibility_of rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ENTR"/>
+    <j.0:responsibility_of rdf:resource="http://publications.europa.eu/resource/agent/G%C3%BCnter%20VERHEUGEN"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/197563"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:initiating rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:initiating>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/ENTR">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,695 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://publications.europa.eu/ontology/cdm#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.1="http://www.w3.org/2004/02/skos/core#"
+    xmlns:j.2="http://publications.europa.eu/ontology/annotation#"
+    xmlns:j.3="http://publications.europa.eu/ontology/cdm/cmr#" > 
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/12002E127">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/b727662c-d337-11e1-905c-01aa75ed71a1.0004">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/192258.371425"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-07-21T15:26:44.697+02:00</j.3:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/oj/JOL_2005_192_R_0082_01">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_602/1035">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_decision"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_602"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/12002E280">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_612/1095">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_612"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_dossier"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#atto_fd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/RELEX">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/TRS_EP_byCOM">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/192258.368593"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/12002E175">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/192258.368592">
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-12-16</j.0:event_date>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/192258"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_toCONSIL_byCOM"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_toCONSIL_byCOM"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transmission au Conseil</j.0:event_legal_type>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_toCONSIL_byCOM"/>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transmission au Conseil</j.0:type>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/192258"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-12-16</j.0:date>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:20/07/2012 20:05:26</j.2:build_info>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-12-16</j.0:event_legal_date>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/192258"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/12002E151">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/52005AP0157">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/TRS_toCONSIL_byCOM">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/192258.368592"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/EP">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/b727662c-d337-11e1-905c-01aa75ed71a1.0001">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/192258.368581"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-28T07:21:54.527+02:00</j.3:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/192258">
+    <j.0:title xml:lang="fr">Proposition de DÉCISION DU CONSEIL relative à la conclusion d'un accord-cadre entre la Communauté européenne et la République de Croatie établissant les principes généraux de la participation de la République de Croatie aux programmes communautaires </j.0:title>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:20/07/2012 20:05:26</j.2:build_info>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E166"/>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E095"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12002E166"/>
+    <j.0:title xml:lang="es">Propuesta de DECISIÓN DEL CONSEJO relativa a la celebración de un Acuerdo marco entre la Comunidad Europea y la República de Croacia sobre los principios generales de la participación de la República de Croacia en los programas comunitarios </j.0:title>
+    <j.0:date_creation_legacy rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-12-16</j.0:date_creation_legacy>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52005AP0157"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-12-16</j.0:date>
+    <j.0:produces rdf:resource="http://publications.europa.eu/resource/celex/32005D0526"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:dossier_year_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004</j.0:dossier_year_reference>
+    <j.0:dossier_title xml:lang="da">Forslag til RÅDETS AFGØRELSE om indgåelse af en rammeaftale mellem Det Europæiske Fællesskab og Republikken Kroatien om de generelle principper for Republikken Kroatiens deltagelse i fællesskabsprogrammer </j.0:dossier_title>
+    <j.0:dossier_title xml:lang="fr">Proposition de DÉCISION DU CONSEIL relative à la conclusion d'un accord-cadre entre la Communauté européenne et la République de Croatie établissant les principes généraux de la participation de la République de Croatie aux programmes communautaires </j.0:dossier_title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/192258.371425"/>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/192258.368581"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12002E095"/>
+    <j.0:title xml:lang="el">Πρόταση ΑΠΟΦΑΣΗΣ ΤΟΥ ΣΥΜΒΟΥΛΙΟΥ Για την υπογραφή συμφωνίας-πλαισίου μεταξύ της Ευρωπαϊκής Κοινότητας και της Δημοκρατίας της Κροατίας που θεσπίζει τις γενικές αρχές της συμμετοχής της Κροατίας στα κοινοτικά προγράμματα </j.0:title>
+    <j.0:dossier_title xml:lang="sl">Predlog SKLEP SVETA o sklenitvi Okvirnega sporazuma med Evropsko skupnostjo in Republiko Hrvaško o splošnih načelih za sodelovanje Republike Hrvaške v programih Skupnosti </j.0:dossier_title>
+    <j.0:title xml:lang="nl">Voorstel voor een BESLUIT VAN DE RAAD betreffende de sluiting van een kaderovereenkomst tussen de Europese Gemeenschap en de Republiek Kroatië inzake de algemene beginselen voor de deelname van de Republiek Kroatië aan communautaire programma's </j.0:title>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12002E300"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12002E151"/>
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E127"/>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E149"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/procedure/AVC"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/uriserv/COM.2004.0809(03).FIN"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#dossier"/>
+    <j.0:title xml:lang="it">Proposta di DECISIONE DEL CONSIGLIO relativa alla conclusione di un accordo quadro fra la Comunità europea e la Repubblica di Croazia sui principi generali della partecipazione della Repubblica di Croazia ai programmi comunitari </j.0:title>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/192258.371425"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:title xml:lang="de">Vorschlag für einen BESCHLUSS DES RATES über den Abschluss eines Rahmenabkommens zwischen der Europäischen Gemeinschaft und der Republik Kroatien über die allgemeinen Grundsätze der Teilnahme der Republik Kroatien an den Programmen der Gemeinschaft </j.0:title>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12002E137"/>
+    <j.0:date_adopted rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-06-02</j.0:date_adopted>
+    <j.0:dossier_title xml:lang="es">Propuesta de DECISIÓN DEL CONSEJO relativa a la celebración de un Acuerdo marco entre la Comunidad Europea y la República de Croacia sobre los principios generales de la participación de la República de Croacia en los programas comunitarios </j.0:dossier_title>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12002E080"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12002E071"/>
+    <j.0:title xml:lang="sv">Förslag till RÅDETS BESLUT om ingående av ett ramavtal mellan Europeiska gemenskapen och Republiken Kroatien om de allmänna principerna för Republiken Kroatiens deltagande i gemenskapsprogram </j.0:title>
+    <j.0:dossier_date_creation_legacy rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-12-16</j.0:dossier_date_creation_legacy>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/192258.372003"/>
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E280"/>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E152"/>
+    <j.0:dossier_title xml:lang="nl">Voorstel voor een BESLUIT VAN DE RAAD betreffende de sluiting van een kaderovereenkomst tussen de Europese Gemeenschap en de Republiek Kroatië inzake de algemene beginselen voor de deelname van de Republiek Kroatië aan communautaire programma's </j.0:dossier_title>
+    <j.0:dossier_title xml:lang="en">Proposal for a COUNCIL DECISION concerning the conclusion of a Framework Agreement between the European Community and the Republic of Croatia on the general principles for the participation of the Republic of Croatia in Community programmes </j.0:dossier_title>
+    <j.0:dossier_date_adopted rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-06-02</j.0:dossier_date_adopted>
+    <j.0:title xml:lang="hu">Javaslat A TANÁCS HATÁROZATA az Európai Közösség és a Horvát Köztársaság közötti, a Horvát Köztársaságnak a közösségi programokban való részvételére vonatkozó általános elveket meghatározó keretegyezmény megkötéséről </j.0:title>
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E150"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12002E149"/>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E153"/>
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E308"/>
+    <j.0:reference_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004/0278/AVC</j.0:reference_procedure>
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E013"/>
+    <j.0:dossier_is_about_concept_type_dossier rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1095"/>
+    <j.0:title xml:lang="pl">Wniosek dotyczący DECYZJI RADY w sprawie zawarcia Umowy ramowej między Wspólnotą Europejską a Republiką Chorwacji ustanawiającej ogólne zasady udziału Republiki Chorwacji w programach wspólnotowych </j.0:title>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52004PC0809%2803%29"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/32005D0526"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/celex/52004PC0809%2803%29"/>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E280"/>
+    <j.0:is_about rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1095"/>
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E095"/>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/192258.368581"/>
+    <j.0:dossier_title xml:lang="lt">Pasiūlymas TARYBOS SPRENDIMAS dėl Europos bendrijos ir Kroatijos Respublikos pamatinio susitarimo, nustatančio Kroatijos Respublikos dalyvavimo Bendrijos programose bendruosius principus, sudarymo </j.0:dossier_title>
+    <j.0:title xml:lang="lv">Priekšlikums PADOMES LĒMUMAM par pamatnolīguma parakstīšanu starp Eiropas Kopienu un Horvātijas Republiku, ar ko nosaka vispārējos principus Horvātijas Republikas dalībai Kopienas programmās </j.0:title>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional"/>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/192258.368592"/>
+    <j.0:dossier_produces_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/32005D0526"/>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOL_2005_192_R_0082_01"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/192258.368581"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/52005AP0157"/>
+    <j.0:pending-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:pending-proposal>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/oj/JOC_2005_052_R_0049_01"/>
+    <j.0:title xml:lang="sl">Predlog SKLEP SVETA o sklenitvi Okvirnega sporazuma med Evropsko skupnostjo in Republiko Hrvaško o splošnih načelih za sodelovanje Republike Hrvaške v programih Skupnosti </j.0:title>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/192258.368593"/>
+    <j.0:procedure_code_interinstitutional_has_type_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/AVC"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/192258.368593"/>
+    <j.0:withdrawn-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:withdrawn-proposal>
+    <j.0:year_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</j.0:year_procedure>
+    <j.0:dossier_pending-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:dossier_pending-proposal>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12002E175"/>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E150"/>
+    <j.0:procedure_code_interinstitutional_reference_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004/0278/AVC</j.0:procedure_code_interinstitutional_reference_procedure>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E080"/>
+    <j.0:dossier_title xml:lang="pl">Wniosek dotyczący DECYZJI RADY w sprawie zawarcia Umowy ramowej między Wspólnotą Europejską a Republiką Chorwacji ustanawiającej ogólne zasady udziału Republiki Chorwacji w programach wspólnotowych </j.0:dossier_title>
+    <j.0:title xml:lang="lt">Pasiūlymas TARYBOS SPRENDIMAS dėl Europos bendrijos ir Kroatijos Respublikos pamatinio susitarimo, nustatančio Kroatijos Respublikos dalyvavimo Bendrijos programose bendruosius principus, sudarymo </j.0:title>
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E137"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12002E280"/>
+    <j.0:title xml:lang="pt">Proposta de DECISÃO DO CONSELHO relativa à conclusão de um acordo-quadro entre a Comunidade Europeia e a República da Croácia que estabelece os princípios gerais que regem a participação da República da Croácia em programas comunitários </j.0:title>
+    <j.0:year_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004</j.0:year_reference>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12002E152"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/192258.372003"/>
+    <j.0:procedure_code_interinstitutional_number_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0278</j.0:procedure_code_interinstitutional_number_procedure>
+    <j.0:dossier_title xml:lang="lv">Priekšlikums PADOMES LĒMUMAM par pamatnolīguma parakstīšanu starp Eiropas Kopienu un Horvātijas Republiku, ar ko nosaka vispārējos principus Horvātijas Republikas dalībai Kopienas programmās </j.0:dossier_title>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12002E153"/>
+    <j.0:dossier_title xml:lang="sk">Návrh ROZHODNUTIA RADY o uzatvorení rámcovej dohody medzi Európskym spoločenstvom a Chorvátskou republikou stanovujúcej všeobecné princípy účasti Chorvátskej republiky na programoch Spoločenstva  </j.0:dossier_title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/52004PC0809%2803%29"/>
+    <j.0:dossier_identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pegase:192258</j.0:dossier_identifier>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E157"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12002E157"/>
+    <j.0:dossier_withdrawn-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:dossier_withdrawn-proposal>
+    <j.0:dossier_title xml:lang="hu">Javaslat A TANÁCS HATÁROZATA az Európai Közösség és a Horvát Köztársaság közötti, a Horvát Köztársaságnak a közösségi programokban való részvételére vonatkozó általános elveket meghatározó keretegyezmény megkötéséről </j.0:dossier_title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/192258.368592"/>
+    <j.0:number_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0278</j.0:number_procedure>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E071"/>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E308"/>
+    <j.0:adopted-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:adopted-proposal>
+    <j.0:title xml:lang="da">Forslag til RÅDETS AFGØRELSE om indgåelse af en rammeaftale mellem Det Europæiske Fællesskab og Republikken Kroatien om de generelle principper for Republikken Kroatiens deltagelse i fællesskabsprogrammer </j.0:title>
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E157"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12002E150"/>
+    <j.0:title xml:lang="et">Ettepanek: NÕUKOGU OTSUS, mis käsitleb Euroopa Ühenduse ja Horvaatia Vabariigi vahelise raamlepingu sõlmimist, millega sätestatakse üldpõhimõtted Horvaatia Vabariigi osalemiseks ühenduse programmides </j.0:title>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E127"/>
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E080"/>
+    <j.0:dossier_title xml:lang="pt">Proposta de DECISÃO DO CONSELHO relativa à conclusão de um acordo-quadro entre a Comunidade Europeia e a República da Croácia que estabelece os princípios gerais que regem a participação da República da Croácia em programas comunitários </j.0:dossier_title>
+    <j.0:dossier_title xml:lang="sv">Förslag till RÅDETS BESLUT om ingående av ett ramavtal mellan Europeiska gemenskapen och Republiken Kroatien om de allmänna principerna för Republiken Kroatiens deltagande i gemenskapsprogram </j.0:dossier_title>
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E153"/>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E300"/>
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E300"/>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/uriserv/COM.2004.0809(03).FIN"/>
+    <j.0:title xml:lang="en">Proposal for a COUNCIL DECISION concerning the conclusion of a Framework Agreement between the European Community and the Republic of Croatia on the general principles for the participation of the Republic of Croatia in Community programmes </j.0:title>
+    <j.0:title xml:lang="sk">Návrh ROZHODNUTIA RADY o uzatvorení rámcovej dohody medzi Európskym spoločenstvom a Chorvátskou republikou stanovujúcej všeobecné princípy účasti Chorvátskej republiky na programoch Spoločenstva  </j.0:title>
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E152"/>
+    <j.0:dossier_type_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM</j.0:dossier_type_reference>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E151"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_interinstitutional"/>
+    <j.0:dossier_initiated_by_act_preparatory rdf:resource="http://publications.europa.eu/resource/celex/52004PC0809%2803%29"/>
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E151"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12002E308"/>
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E166"/>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/192258.372003"/>
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E149"/>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/celex/32005D0526"/>
+    <j.0:number_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">809 - 3</j.0:number_reference>
+    <j.0:dossier_title xml:lang="el">Πρόταση ΑΠΟΦΑΣΗΣ ΤΟΥ ΣΥΜΒΟΥΛΙΟΥ Για την υπογραφή συμφωνίας-πλαισίου μεταξύ της Ευρωπαϊκής Κοινότητας και της Δημοκρατίας της Κροατίας που θεσπίζει τις γενικές αρχές της συμμετοχής της Κροατίας στα κοινοτικά προγράμματα </j.0:dossier_title>
+    <j.0:dossier_title xml:lang="de">Vorschlag für einen BESCHLUSS DES RATES über den Abschluss eines Rahmenabkommens zwischen der Europäischen Gemeinschaft und der Republik Kroatien über die allgemeinen Grundsätze der Teilnahme der Republik Kroatien an den Programmen der Gemeinschaft </j.0:dossier_title>
+    <j.0:dossier_adopted-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:dossier_adopted-proposal>
+    <j.0:dossier_number_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">809 - 3</j.0:dossier_number_reference>
+    <j.0:dossier_title xml:lang="it">Proposta di DECISIONE DEL CONSIGLIO relativa alla conclusione di un accordo quadro fra la Comunità europea e la Repubblica di Croazia sui principi generali della partecipazione della Repubblica di Croazia ai programmi comunitari </j.0:dossier_title>
+    <j.0:dossier_title xml:lang="et">Ettepanek: NÕUKOGU OTSUS, mis käsitleb Euroopa Ühenduse ja Horvaatia Vabariigi vahelise raamlepingu sõlmimist, millega sätestatakse üldpõhimõtted Horvaatia Vabariigi osalemiseks ühenduse programmides </j.0:dossier_title>
+    <j.0:dossier_title xml:lang="cs">Návrh ROZHODNUTÍ RADY o uzavření rámcové dohody mezi Evropským společenstvím a Chorvatskou republikou, kterou se stanoví obecné zásady účasti Chorvatské republiky na programech Společenství </j.0:dossier_title>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E175"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/oj/JOL_2005_192_R_0082_01"/>
+    <j.0:title xml:lang="cs">Návrh ROZHODNUTÍ RADY o uzavření rámcové dohody mezi Evropským společenstvím a Chorvatskou republikou, kterou se stanoví obecné zásady účasti Chorvatské republiky na programech Společenství </j.0:title>
+    <j.0:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pegase:192258</j.0:identifier>
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E175"/>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E137"/>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/192258.368593"/>
+    <j.0:type_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM</j.0:type_reference>
+    <j.0:procedure_code_interinstitutional_year_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</j.0:procedure_code_interinstitutional_year_procedure>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12002E013"/>
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E071"/>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/192258.371425"/>
+    <j.0:reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004/0278/AVC</j.0:reference>
+    <j.0:dossier_title xml:lang="fi">Ehdotus NEUVOSTON PÄÄTÖS, Euroopan yhteisön ja Kroatian tasavallan välisen Kroatian tasavallan yhteisön ohjelmiin osallistumisen yleisperiaatteita koskevan puitesopimuksen tekemisestä </j.0:dossier_title>
+    <j.0:title xml:lang="fi">Ehdotus NEUVOSTON PÄÄTÖS, Euroopan yhteisön ja Kroatian tasavallan välisen Kroatian tasavallan yhteisön ohjelmiin osallistumisen yleisperiaatteita koskevan puitesopimuksen tekemisestä </j.0:title>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E013"/>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/192258.368592"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12002E127"/>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOC_2005_052_R_0049_01"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional_based_on_resource_legal"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <j.2:paragraph>4</j.2:paragraph>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/celex/12002E300"/>
+    <j.2:subparagraph>1</j.2:subparagraph>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#dossier_based_on_resource_legal"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.2:sentence>2</j.2:sentence>
+    <j.2:comment_on_legal_basis>P4</j.2:comment_on_legal_basis>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/192258"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/uriserv/COM.2004.0809(03).FIN">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/b727662c-d337-11e1-905c-01aa75ed71a1.0005">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/192258.372003"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-07-21T15:26:44.697+02:00</j.3:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/ADP_FRM_byCONSIL">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/192258.372003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/12002E071">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/192258.371425">
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/ASS_byEP"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TA/2005/157/P6</j.0:event_legal_document_reference>
+    <j.0:responsibility_of rdf:resource="http://publications.europa.eu/resource/agent/Olli%20REHN"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:event_reported_by_person rdf:resource="http://publications.europa.eu/resource/agent/Elmar%20BROK"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52005AP0157"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BULLETIN/2005/5/1.5.2</j.0:event_legal_document_reference>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-05-10</j.0:event_date>
+    <j.0:event_legal_reported_by_person rdf:resource="http://publications.europa.eu/resource/agent/Elmar%20BROK"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-05-10</j.0:event_legal_date>
+    <j.0:event_legal_uses_concept_type_decision rdf:resource="http://publications.europa.eu/resource/authority/fd_602/1035"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/ASS_byEP"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JO C E/2006/92/58</j.0:document_reference>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TA/2005/157/P6</j.0:document_reference>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BULLETIN/2005/5/1.5.2</j.0:document_reference>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/192258"/>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avis conforme du Parlement européen</j.0:type>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/52005AP0157"/>
+    <j.0:event_responsibility_of_person rdf:resource="http://publications.europa.eu/resource/agent/Olli%20REHN"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A6/2005/122</j.0:document_reference>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avis conforme du Parlement européen</j.0:event_legal_type>
+    <j.0:uses rdf:resource="http://publications.europa.eu/resource/authority/fd_602/1035"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A6/2005/122</j.0:event_legal_document_reference>
+    <j.0:reported_by rdf:resource="http://publications.europa.eu/resource/agent/Elmar%20BROK"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JO C E/2006/92/58</j.0:event_legal_document_reference>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/ASS_byEP"/>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:20/07/2012 20:05:26</j.2:build_info>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/192258"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/192258"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52005AP0157"/>
+    <j.0:event_legal_responsibility_of_person rdf:resource="http://publications.europa.eu/resource/agent/Olli%20REHN"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-05-10</j.0:date>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/12002E152">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/192258.368581">
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM/2004/809/FINAL/3</j.0:event_legal_document_reference>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E150"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12002E095"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:formally-addresses rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E095"/>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E150"/>
+    <j.0:event_legal_initiating rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:event_legal_initiating>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adoption par Commission</j.0:type>
+    <j.0:responsibility_of rdf:resource="http://publications.europa.eu/resource/agent/Olli%20REHN"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BULLETIN/2004/12/1.6.93</j.0:event_legal_document_reference>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/procedure/AVC"/>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E153"/>
+    <j.0:event_formally-addresses_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E080"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-12-16</j.0:event_legal_date>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E137"/>
+    <j.0:event_responsibility_of_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/RELEX"/>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E157"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12002E166"/>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E080"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12002E308"/>
+    <j.0:event_responsibility_of_agent rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/RELEX"/>
+    <j.0:event_legal_mandatorily-consults_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E149"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JO C/2005/52/49</j.0:event_legal_document_reference>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12002E127"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12002E152"/>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E166"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/192258"/>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E127"/>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E137"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52004PC0809%2803%29"/>
+    <j.0:event_legal_uses_concept_mode_decision rdf:resource="http://publications.europa.eu/resource/authority/fd_606/1010"/>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E151"/>
+    <j.0:event_legal_was_historically_about_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/AVC"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/192258"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12002E175"/>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E071"/>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E152"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12002E157"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS/2005/5511</j.0:event_legal_document_reference>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12002E300"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12002E280"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/uriserv/COM.2004.0809(03).FIN"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_procedural"/>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E166"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12002E080"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/uriserv/COM.2004.0809(03).FIN"/>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E280"/>
+    <j.0:event_responsibility_of_person rdf:resource="http://publications.europa.eu/resource/agent/Olli%20REHN"/>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E175"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/uriserv/COM.2004.0809(03).FIN"/>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E300"/>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E071"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS/2005/5511</j.0:document_reference>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E127"/>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E308"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E175"/>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E280"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/52004PC0809%2803%29"/>
+    <j.0:mandatorily-consults rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C6/2005/41</j.0:event_legal_document_reference>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12002E151"/>
+    <j.0:event_legal_responsibility_of_person rdf:resource="http://publications.europa.eu/resource/agent/Olli%20REHN"/>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E013"/>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E152"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12002E071"/>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E151"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adoption par Commission</j.0:event_legal_type>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/192258"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:uses rdf:resource="http://publications.europa.eu/resource/authority/fd_606/1010"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-12-16</j.0:date>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52004PC0809%2803%29"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM/2004/809/FINAL/3</j.0:document_reference>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/oj/JOC_2005_052_R_0049_01"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOC_2005_052_R_0049_01"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C6/2005/41</j.0:document_reference>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12002E013"/>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E095"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12002E137"/>
+    <j.0:initiating rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:initiating>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <j.0:event_legal_formally-addresses_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-12-16</j.0:event_date>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:20/07/2012 20:05:26</j.2:build_info>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1095"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12002E149"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12002E150"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JO C/2005/52/49</j.0:document_reference>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BULLETIN/2004/12/1.6.93</j.0:document_reference>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E149"/>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E013"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOC_2005_052_R_0049_01"/>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E157"/>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E308"/>
+    <j.0:responsibility_of rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/RELEX"/>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E300"/>
+    <j.0:event_legal_responsibility_of_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/RELEX"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12002E153"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12002E153"/>
+    <j.0:event_legal_was_historically_about_concept_type_dossier rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1095"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/12002E095">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/192258.368593">
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/192258"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:20/07/2012 20:05:26</j.2:build_info>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/192258"/>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transmission au Parlement européen</j.0:type>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_EP_byCOM"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/192258"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-12-16</j.0:event_legal_date>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-12-16</j.0:date>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_EP_byCOM"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transmission au Parlement européen</j.0:event_legal_type>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_EP_byCOM"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-12-16</j.0:event_date>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure/2004_278">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#dossier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/192258.372003">
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/oj/JOL_2005_192_R_0082_01"/>
+    <j.0:event_legal_was_historically_about_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/AVC"/>
+    <j.0:event_legal_on_agenda_concept_agenda_council rdf:resource="http://publications.europa.eu/resource/authority/fd_600/10004"/>
+    <j.0:event_legal_was_historically_about_concept_type_dossier rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1085"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/192258"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_FRM_byCONSIL"/>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adoption formelle par Conseil</j.0:type>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS/2005/5532</j.0:event_legal_document_reference>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOL_2005_192_R_0082_01"/>
+    <j.0:on_agenda rdf:resource="http://publications.europa.eu/resource/authority/fd_600/10004"/>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1085"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/celex/32005D0526"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adoption formelle par Conseil</j.0:event_legal_type>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:is_about rdf:resource="http://publications.europa.eu/resource/authority/fd_600/100470"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JO L/2005/192/82</j.0:event_legal_document_reference>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS/2005/5532</j.0:document_reference>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRES/2005/114</j.0:document_reference>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/32005D0526"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-06-02</j.0:event_date>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:20/07/2012 20:05:26</j.2:build_info>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BULLETIN/2005/6/1.5.4</j.0:event_legal_document_reference>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_FRM_byCONSIL"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS/2005/9568</j.0:document_reference>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BULLETIN/2005/6/1.5.4</j.0:document_reference>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRES/2005/114</j.0:event_legal_document_reference>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:session_council rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">2664</j.0:session_council>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOL_2005_192_R_0082_01"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JO L/2005/192/82</j.0:document_reference>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS/2005/9568</j.0:event_legal_document_reference>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-06-02</j.0:date>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-06-02</j.0:event_legal_date>
+    <j.0:event_legal_session_council rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">2664</j.0:event_legal_session_council>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/procedure/AVC"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/celex/32005D0526"/>
+    <j.0:event_legal_is_about_concept_agenda_council rdf:resource="http://publications.europa.eu/resource/authority/fd_600/100470"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_FRM_byCONSIL"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/192258"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/192258"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/agent/Elmar%20BROK">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/agent/Olli%20REHN">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#person"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/12002E149">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/12002E137">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/b727662c-d337-11e1-905c-01aa75ed71a1.0002">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/192258.368592"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-07-21T15:26:44.697+02:00</j.3:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/52004PC0809%2803%29">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <j.2:paragraph>3</j.2:paragraph>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/192258"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#dossier_based_on_resource_legal"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional_based_on_resource_legal"/>
+    <j.2:subparagraph>2</j.2:subparagraph>
+    <j.2:comment_on_legal_basis>P3L2</j.2:comment_on_legal_basis>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/celex/12002E300"/>
+    <j.2:sentence>2</j.2:sentence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/b727662c-d337-11e1-905c-01aa75ed71a1">
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-04T21:51:23.309+01:00</j.3:lastModificationDate>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure/2004_278"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/192258"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/procedure/AVC">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/procedure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_procedure_code_interinstitutional"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/12002E080">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/ADP_byCOM">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/192258.368581"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_612/1085">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_dossier"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_612"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#dossier_based_on_resource_legal"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/192258"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/celex/12002E300"/>
+    <j.2:paragraph>2</j.2:paragraph>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <j.2:sentence>2</j.2:sentence>
+    <j.2:comment_on_legal_basis>P2L1FR2</j.2:comment_on_legal_basis>
+    <j.2:subparagraph>1</j.2:subparagraph>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional_based_on_resource_legal"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/12002E157">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/12002E153">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/CONSIL">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_600/10004">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_agenda_council"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_600"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/COM">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/12002E308">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/oj/JOC_2005_052_R_0049_01">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/b727662c-d337-11e1-905c-01aa75ed71a1.0003">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/192258.368593"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-07-21T15:26:44.697+02:00</j.3:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/ASS_byEP">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/192258.371425"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_600/100470">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_agenda_council"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_600"/>
+    <j.0:concept_agenda_council_subject_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/192258.372003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_606/1010">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#atto_fd"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_mode_decision"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_606"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/12002E013">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/12002E300">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/32005D0526">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/12002E166">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/12002E150">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+</rdf:RDF>

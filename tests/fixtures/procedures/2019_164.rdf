@@ -1,0 +1,1379 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://publications.europa.eu/ontology/cdm#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.1="http://www.w3.org/2004/02/skos/core#"
+    xmlns:j.2="http://publications.europa.eu/ontology/annotation#"
+    xmlns:j.3="http://publications.europa.eu/ontology/cdm/cmr#" > 
+  <rdf:Description rdf:nodeID="A0">
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20231120-3226; environment: PROD; CERES: 4.21.0; IMMC2CDM: 3.2.3; rules: preleg/rules-ep.xml#56614#2020-05-29T09:45:21; builddate: 2023-11-20T12:37:09.386;</j.2:build_info>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/treaty/TFEU"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_based_on_resource_legal"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2022-11-22_DEC_byEP"/>
+    <j.2:article rdf:datatype="http://www.w3.org/2001/XMLSchema#string">218</j.2:article>
+    <j.2:comment_on_legal_basis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A218</j.2:comment_on_legal_basis>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_based_on_resource_legal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/6003166e-b75c-11e9-9d01-01aa75ed71a1.0003">
+    <j.3:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-22T17:18:31.687+02:00</j.3:creationDate>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-23T00:25:22.228+02:00</j.3:lastModificationDate>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2019-10-03_DIS_byCONSIL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/agent/Manu%20PINEDA">
+    <j.0:agent_reports_on_report_ep rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290253"/>
+    <j.0:reports_on rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290253"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/62185913-7479-4745-b9b5-2cfa7162d739">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/eli/dec/2011/283/oj"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/oj/JOL_2011_131_R_0001_01"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/32011D0283"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/2137">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290253"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290253"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290392"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290392"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/f8d4eee0-9828-11eb-b85c-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/oj/JOL_2021_121_R_0001"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/32021D0570"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/eli/dec/2021/570/oj"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure-event/2019_164.2019-08-09_DIS_byCONSIL">
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/ST%2011630%202019%20ADD%201"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_byCONSIL</j.0:type>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-08-09</j.0:event_date>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2019_164"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/immc/ST%2011630%202019%20INIT"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST 11630 2019 INIT</j.0:event_legal_document_reference>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/DIS_byCONSIL"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-08-09</j.0:event_legal_date>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/consil/ST_11630_2019_ADD_1"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/DIS_byCONSIL"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/DIS_byCONSIL"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_procedural"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2019_164"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/consil/ST_11630_2019_INIT"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/immc/ST%2011630%202019%20ADD%201"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST 11630 2019 INIT</j.0:document_reference>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/consil/ST_11630_2019_ADD_1"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/consil/ST_11630_2019_INIT"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST 11630 2019 ADD 1</j.0:event_legal_document_reference>
+    <j.2:build_info>reception-ID: PO-20190809-2526; environment: PROD; newCERES: 3.26.6; IMMC2CDM: 2.9.1; rules: preleg/rules-consil.xml#48123#2019-05-07; builddate: 2019-08-09T13:38:46.181;</j.2:build_info>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/consil/ST_11630_2019_ADD_1"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST 11630 2019 ADD 1</j.0:document_reference>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/ST%2011630%202019%20INIT"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/immc/ST%2011630%202019%20ADD%201"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_byCONSIL</j.0:event_legal_type>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-08-09</j.0:date>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/procedure/2019_164"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/immc/ST%2011630%202019%20INIT"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.2:build_info>reception-ID: PO-20190809-1840; environment: PROD; newCERES: 3.26.6; IMMC2CDM: 2.9.1; rules: preleg/rules-consil.xml#48123#2019-05-07; builddate: 2019-08-09T13:26:57.281;</j.2:build_info>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/consil/ST_11630_2019_INIT"/>
+    <j.0:event_legal_was_historically_about_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/consil/ST_11630_2019_ADD_1">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory_council"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/EEAS">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/immc/COM%282019%29361%20final"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/immc/COM%282019%29361%20final"/>
+    <j.0:agent_responsible_for_resource_legal rdf:resource="http://publications.europa.eu/resource/oj/L_202400375"/>
+    <j.0:responsible_for rdf:resource="http://publications.europa.eu/resource/oj/L_202400375"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal_basis_for_resource_legal"/>
+    <j.2:subparagraph>2</j.2:subparagraph>
+    <j.2:paragraph>6</j.2:paragraph>
+    <j.2:comment_on_legal_basis>P6L2PTA)</j.2:comment_on_legal_basis>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/oj/L_202400375"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#dossier_based_on_resource_legal"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/celex/12016E209"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional_based_on_resource_legal"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/procedure/2019_164"/>
+    <j.2:eli_target rdf:resource="http://data.europa.eu/eli/treaty/tfeu_2016/art_209/oj"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/immc/ST%2011630%202019%20ADD%201">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/immc/ST%2012668%202019%20INIT">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.2:eli_target rdf:resource="http://publications.europa.eu/resource/eli/treaty/tfeu_2016/art_218/par_7/oj"/>
+    <j.2:comment_on_legal_basis>P7</j.2:comment_on_legal_basis>
+    <j.2:paragraph>7</j.2:paragraph>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2019-08-05_ADP_byCOM"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_based_on_resource_legal"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_based_on_resource_legal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/NP">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/celex/52019PC0361"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal_adopted_by_resource_legal"/>
+    <j.2:type_of_link_target>MS</j.2:type_of_link_target>
+    <j.2:start_of_validity>2024-01-16</j.2:start_of_validity>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/oj/L_202400375"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/6373">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290253"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290253"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290392"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290392"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/fb5fbf14-b8c8-11ee-b164-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/eli/dec/2024/375/oj"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/oj/L_202400375"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/32024D0375"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/document-collection/OJ-L">
+    <j.0:collection_document_contains_official-journal-act rdf:resource="http://publications.europa.eu/resource/oj/L_202400375"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/oj/L_202400375"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/2901">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290253"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290253"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290392"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290392"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/22021A0408%2801%29">
+    <j.0:agreement_international_associated_to_resource_legal rdf:resource="http://publications.europa.eu/resource/oj/L_202400375"/>
+    <j.0:associated_to rdf:resource="http://publications.europa.eu/resource/oj/L_202400375"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.2:eli_target rdf:resource="http://publications.europa.eu/resource/eli/treaty/tfeu_2016/art_218/par_6/oj"/>
+    <j.2:comment_on_legal_basis>P6</j.2:comment_on_legal_basis>
+    <j.2:paragraph>6</j.2:paragraph>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2019-08-05_ADP_byCOM"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_based_on_resource_legal"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_based_on_resource_legal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/7f071a2a-f5d1-4aed-b36a-34aeb32d6e41">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/eli/treaty/tfeu_2016/art_218/oj"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/4abed7e6-dd4d-11e6-ad7c-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/oj/JOL_2017_014_R_0002"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/32017D0085"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/eli/dec/2017/85/oj"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/procedure">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/subject-matter/EXT">
+    <j.0:subject-matter_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/52019PC0361"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/celex/52019PC0361"/>
+    <j.0:subject-matter_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290253"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290253"/>
+    <j.0:subject-matter_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290392"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290392"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/PUB_OJ">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2024-01-22_PUB_OJ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/6003166e-b75c-11e9-9d01-01aa75ed71a1.0004">
+    <j.3:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-23T12:44:24.046+02:00</j.3:creationDate>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-23T12:44:24.046+02:00</j.3:lastModificationDate>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2019-10-22_DIS_byCONSIL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/32011D0283">
+    <j.0:cited_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:work_cited_by_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/EP">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290253"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290253"/>
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290392"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290392"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/celex/22021A0408%2801%29"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#agreement_international_associated_to_resource_legal"/>
+    <j.2:type_of_link_target>MS</j.2:type_of_link_target>
+    <j.2:start_of_validity>2024-01-16</j.2:start_of_validity>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/oj/L_202400375"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/treaty/TFEU_2010">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/treaty/"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/treaty"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_treaty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/ADP_FRM_byCONSIL">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#type_event_interinstitutional"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event/"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2024-01-16_ADP_FRM_byCONSIL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/e6a67934-0186-44c3-a4b5-ff02c0301533">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/32012D0176"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/eli/dec/2012/176(1)/oj"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/consil/ST_11630_2019_INIT">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory_council"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/32014D0163">
+    <j.0:cited_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:work_cited_by_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/45ec8dce-2c0b-4963-805c-48586cbf538a">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/com/COM_2006_822"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/52006DC0724"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/comnat/COM_2006_0724_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.2:comment_on_legal_basis>A209</j.2:comment_on_legal_basis>
+    <j.2:article>209</j.2:article>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2019-08-05_ADP_byCOM"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_based_on_resource_legal"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/treaty/TFEU_2010"/>
+    <j.2:build_info>reception-ID: PO-20190805-818; environment: PROD; newCERES: 3.26.6; IMMC2CDM: 2.9.1; rules: preleg/rules-com.xml#49100#2019-06-13; builddate: 2019-08-05T10:35:16.27;</j.2:build_info>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_based_on_resource_legal"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A8">
+    <j.2:in_committee rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP_AFET"/>
+    <j.2:order rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1</j.2:order>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#agent_reports_on_report_ep"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/agent/Manu%20PINEDA"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282022%290253"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/52019PC0361">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+    <j.0:adopted_by rdf:resource="http://publications.europa.eu/resource/oj/L_202400375"/>
+    <j.0:resource_legal_adopted_by_resource_legal rdf:resource="http://publications.europa.eu/resource/oj/L_202400375"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/2902aee4-b403-11e3-86f9-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/eli/dec/2014/163/oj"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/oj/JOL_2014_089_R_0006_01"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/32014D0163"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/DEC_byEP">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#type_event_interinstitutional"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2022-11-22_DEC_byEP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/immc/ST%2012669%202019%20INIT">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/immc/COM%282019%29361%20final">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/12016E218">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+    <j.0:basis_for rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:resource_legal_basis_for_resource_legal rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:basis_for rdf:resource="http://publications.europa.eu/resource/oj/L_202400375"/>
+    <j.0:resource_legal_basis_for_resource_legal rdf:resource="http://publications.europa.eu/resource/oj/L_202400375"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory"/>
+    <j.0:related_to rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290392"/>
+    <j.0:resource_legal_related_to_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290392"/>
+    <j.0:work_related_to_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290392"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/32024D0375">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/6003166e-b75c-11e9-9d01-01aa75ed71a1.0005">
+    <j.3:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-23T20:40:20.305+02:00</j.3:creationDate>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-23T20:40:20.305+02:00</j.3:lastModificationDate>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2019-10-23_DIS_byCONSIL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/992b5685-f5c4-11e9-8c1f-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/consil/ST_12669_2019_COR_2"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/immc/ST%2012669%202019%20COR%202"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/oj/L_202400375">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#legislation_secondary"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#official-journal-act"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/32016D1225">
+    <j.0:cited_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:work_cited_by_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure/2019_164">
+    <j.0:number_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0164</j.0:number_procedure>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/consil/ST_12669_2019_INIT"/>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/immc/ST%2011630%202019%20ADD%201"/>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/immc/ST%2012669%202019%20COR%202"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2019-08-09_DIS_byCONSIL"/>
+    <j.0:dossier_title xml:lang="pt">Proposta de DECISÃO DO CONSELHO respeitante à celebração, em nome da União Europeia, de um Protocolo do Acordo Provisório de Associação Euro-Mediterrânico sobre Comércio e Cooperação entre a Comunidade Europeia, por um lado, e a Organização de Libertação da Palestina (OLP), em benefício da Autoridade Palestiniana da Cisjordânia e da Faixa de Gaza, por outro, relativo a um Acordo-Quadro entre a União Europeia e a Autoridade Palestiniana da Cisjordânia e da Faixa de Gaza sobre os princípios gerais que regem a sua participação em programas da União</j.0:dossier_title>
+    <j.0:dossier_produces_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/32024D0375"/>
+    <j.0:dossier_title xml:lang="lv">Priekšlikums PADOMES LĒMUMS par to, lai Eiropas Savienības vārdā noslēgtu Protokolu Eiropas un Vidusjūras reģiona valstu pagaidu asociācijas nolīgumam par tirdzniecību un sadarbību starp Eiropas Kopienu, no vienas puses, un Palestīnas atbrīvošanas organizāciju (PAO) Jordānas Rietumkrasta un Gazas sektora Palestīniešu pašpārvaldes vajadzībām, no otras puses, attiecībā uz Pamatnolīgumu starp Eiropas Savienību un Jordānas Rietumkrasta un Gazas sektora Palestīniešu pašpārvaldi par vispārējiem principiem tās līdzdalībai Savienības programmās</j.0:dossier_title>
+    <j.0:procedure_code_interinstitutional_year_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2019</j.0:procedure_code_interinstitutional_year_procedure>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/32024D0375"/>
+    <j.0:dossier_title xml:lang="et">Ettepanek: NÕUKOGU OTSUS ühelt poolt Euroopa Ühenduse ja teiselt poolt Jordani Läänekalda ja Gaza sektori Palestiina omavalitsuse nimel toimiva Palestiina Vabastusorganisatsiooni (PVO) vahelise kaubandust ja koostööd käsitleva Euroopa – Vahemere piirkonna ajutise assotsiatsioonilepingu protokolli (milles käsitletakse Euroopa Liidu ning Jordani Läänekalda ja Gaza sektori Palestiina omavalitsuse raamlepingut, milles sätestatakse üldpõhimõtted Palestiina omavalitsuse osalemiseks liidu programmides) Euroopa Liidu nimel sõlmimise kohta</j.0:dossier_title>
+    <j.0:produces rdf:resource="http://publications.europa.eu/resource/celex/32024D0375"/>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/consil/ST_12669_2019_COR_2"/>
+    <j.0:dossier_title xml:lang="hu">Javaslat A TANÁCS HATÁROZATA az egyrészről az Európai Közösség, másrészről Ciszjordánia és a Gázai-övezet Palesztin Nemzeti Hatósága képviseletében a Palesztin Felszabadítási Szervezet (PFSZ) közötti kereskedelemről és együttműködésről szóló euromediterrán ideiglenes társulási megállapodáshoz csatolt, az Európai Unió és a Ciszjordánia és a Gázai-övezet Palesztin Nemzeti Hatósága közötti, az uniós programokban való részvétel alapelveiről szóló keretmegállapodásról szóló jegyzőkönyvének az Európai Unió nevében történő megkötéséről</j.0:dossier_title>
+    <j.0:dossier_title xml:lang="mt">Proposta għal DEĊIŻJONI TAL-KUNSILL dwar il-konklużjoni, f’isem l-Unjoni Ewropea, ta’ Protokoll għall-Ftehim ta’ Assoċjazzjoni Interim Ewro-Mediterranju dwar il-kummerċ u l-kooperazzjoni bejn il-Komunità Ewropea, minn naħa waħda, u l-Organizzazzjoni għal-Liberazzjoni tal-Palestina (PLO) għall-benefiċċju tal-Awtorità Palestinjana tax-Xatt tal-Punent u l-Medda ta’ Gaża, min-naħa l-oħra, dwar Ftehim Qafas bejn l-Unjoni Ewropea u l-Awtorità Palestinjana tax-Xatt tal-Punent u l-Medda ta’ Gaża dwar il-prinċipji ġenerali għall-parteċipazzjoni tagħha fil-programmi tal-Unjoni</j.0:dossier_title>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2019-08-05_ADP_byCOM"/>
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12016E209"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/ST%2011630%202019%20ADD%201"/>
+    <j.0:dossier_title xml:lang="el">Πρόταση ΑΠΟΦΑΣΗ ΤΟΥ ΣΥΜΒΟΥΛΙΟΥ για τη σύναψη, εξ ονόματος της Ευρωπαϊκής Ένωσης, πρωτοκόλλου της ευρωμεσογειακής ενδιάμεσης συμφωνίας σύνδεσης για το εμπόριο και τη συνεργασία μεταξύ της Ευρωπαϊκής Κοινότητας, αφενός, και της Οργάνωσης για την Απελευθέρωση της Παλαιστίνης (ΟΑΠ) εξ ονόματος της Παλαιστινιακής Αρχής της Δυτικής Όχθης και της Λωρίδας της Γάζας, αφετέρου, για συμφωνία-πλαίσιο μεταξύ της Ευρωπαϊκής Ένωσης και της Παλαιστινιακής Αρχής της Δυτικής Όχθης και της Λωρίδας της Γάζας σχετικά με τις γενικές αρχές που διέπουν τη συμμετοχή της σε προγράμματα της Ένωσης</j.0:dossier_title>
+    <j.0:dossier_title xml:lang="it">Proposta di DECISIONE DEL CONSIGLIO relativa alla conclusione, a nome dell'Unione europea, di un protocollo dell'accordo euromediterraneo interinale di associazione sugli scambi e la cooperazione tra la Comunità europea, da una parte, e l'Organizzazione per la liberazione della Palestina (OLP) a beneficio dell'Autorità palestinese della Cisgiordania e della Striscia di Gaza, dall'altra, riguardante un accordo quadro tra l'Unione europea e l'Autorità palestinese della Cisgiordania e della Striscia di Gaza sui principi generali della partecipazione dell'Autorità palestinese ai programmi dell'Unione</j.0:dossier_title>
+    <j.0:dossier_title xml:lang="fr">Proposition de DÉCISION DU CONSEIL relative à la conclusion, au nom de l’Union européenne, d’un protocole à l’accord d'association euro-méditerranéen intérimaire relatif aux échanges et à la coopération entre la Communauté européenne, d'une part, et l'Organisation de libération de la Palestine (OLP), agissant pour le compte de l'Autorité palestinienne de la Cisjordanie et de la bande de Gaza, d'autre part, concernant un accord-cadre entre l’Union européenne et l’Autorité palestinienne de la Cisjordanie et de la bande de Gaza relatif aux principes généraux de sa participation aux programmes de l'Union</j.0:dossier_title>
+    <j.0:procedure_code_interinstitutional_number_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0164</j.0:procedure_code_interinstitutional_number_procedure>
+    <j.0:dossier_title xml:lang="lt">Pasiūlymas TARYBOS SPRENDIMAS dėl Europos ir Viduržemio jūros regiono laikinosios asociacijos susitarimo dėl prekybos ir bendradarbiavimo tarp Europos bendrijos ir Palestinos išsivadavimo organizacijos (PIO), atstovaujančios Vakarų Kranto ir Gazos Ruožo Palestinos valdžios interesams, protokolo dėl Europos Sąjungos ir Vakarų Kranto ir Gazos Ruožo Palestinos Administracijos bendrojo susitarimo, kuriuo nustatomi dalyvavimo Sąjungos programose bendrieji principai, sudarymo Europos Sąjungos vardu</j.0:dossier_title>
+    <j.0:dossier_number_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">361</j.0:dossier_number_reference>
+    <j.0:title xml:lang="hu">Javaslat A TANÁCS HATÁROZATA az egyrészről az Európai Közösség, másrészről Ciszjordánia és a Gázai-övezet Palesztin Nemzeti Hatósága képviseletében a Palesztin Felszabadítási Szervezet (PFSZ) közötti kereskedelemről és együttműködésről szóló euromediterrán ideiglenes társulási megállapodáshoz csatolt, az Európai Unió és a Ciszjordánia és a Gázai-övezet Palesztin Nemzeti Hatósága közötti, az uniós programokban való részvétel alapelveiről szóló keretmegállapodásról szóló jegyzőkönyvének az Európai Unió nevében történő megkötéséről</j.0:title>
+    <j.0:pending-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:pending-proposal>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/oj/L_202400375"/>
+    <j.0:title xml:lang="pt">Proposta de DECISÃO DO CONSELHO respeitante à celebração, em nome da União Europeia, de um Protocolo do Acordo Provisório de Associação Euro-Mediterrânico sobre Comércio e Cooperação entre a Comunidade Europeia, por um lado, e a Organização de Libertação da Palestina (OLP), em benefício da Autoridade Palestiniana da Cisjordânia e da Faixa de Gaza, por outro, relativo a um Acordo-Quadro entre a União Europeia e a Autoridade Palestiniana da Cisjordânia e da Faixa de Gaza sobre os princípios gerais que regem a sua participação em programas da União</j.0:title>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2019-08-09_DIS_byCONSIL"/>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/consil/ST_11630_2019_INIT"/>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2024-01-22_PUB_OJ"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2019-10-23_DIS_byCONSIL"/>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2019-08-05_ADP_byCOM"/>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/consil/ST_12669_2019_COR_1"/>
+    <j.0:year_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</j.0:year_reference>
+    <j.0:date_creation_legacy rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-08-05</j.0:date_creation_legacy>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/consil/ST_12668_2019_INIT"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20221130-4483; environment: PROD; CERES: 4.17.2; IMMC2CDM: 3.2.2; rules: preleg/rules-ep.xml#56614#2020-05-29T09:45:21; builddate: 2022-11-30T12:03:15.591;</j.2:build_info>
+    <j.0:dossier_pending-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:dossier_pending-proposal>
+    <j.2:build_info>reception-ID: PO-20190805-818; environment: PROD; newCERES: 3.26.6; IMMC2CDM: 2.9.1; rules: preleg/rules-com.xml#49100#2019-06-13; builddate: 2019-08-05T10:35:16.27;</j.2:build_info>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2019-10-03_DIS_byCONSIL"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/ST%2012668%202019%20INIT"/>
+    <j.0:type_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM</j.0:type_reference>
+    <j.0:title xml:lang="nl">Voorstel voor een BESLUIT VAN DE RAAD betreffende de sluiting, namens de Europese Unie, van een protocol bij de Euromediterrane Interim-associatieovereenkomst voor handel en samenwerking tussen de Europese Gemeenschap, enerzijds, en de Palestijnse Bevrijdingsorganisatie (PLO) ten behoeve van de Palestijnse Autoriteit van de Westelijke Jordaanoever en de Gazastrook, anderzijds, betreffende een kaderovereenkomst tussen de Europese Unie en de Palestijnse Autoriteit van de Westelijke Jordaanoever en de Gazastrook inzake de algemene beginselen voor de deelname van de Palestijnse Autoriteit aan programma’s van de Unie</j.0:title>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2019-10-22_DIS_byCONSIL"/>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2019-10-03_DIS_byCONSIL"/>
+    <j.0:dossier_title xml:lang="es">Propuesta de DECISIÓN DEL CONSEJO relativa a la celebración, en nombre de la Unión Europea, de un Protocolo del Acuerdo euromediterráneo interino de asociación en materia de comercio y cooperación entre la Comunidad Europea, por una parte, y la Organización para la Liberación de Palestina (OLP), actuando por cuenta de la Autoridad Palestina de Cisjordania y la Franja de Gaza, por otra, relativo a un Acuerdo marco entre la Unión Europea y la Autoridad Palestina de Cisjordania y la Franja de Gaza sobre los principios generales para su participación en programas de la Unión</j.0:dossier_title>
+    <j.0:dossier_year_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</j.0:dossier_year_reference>
+    <j.0:dossier_title xml:lang="de">Vorschlag für einen BESCHLUSS DES RATES über den Abschluss – im Namen der Europäischen Union – und vorläufige Anwendung eines Protokolls zum Europa-Mittelmeer-Interimsassoziationsabkommen über Handel und Zusammenarbeit zwischen der Europäischen Gemeinschaft einerseits und der Palästinensischen Befreiungsorganisation (PLO) zugunsten der Palästinensischen Behörde für das Westjordanland und den Gaza-Streifen andererseits betreffend ein Rahmenabkommen zwischen der Europäischen Union und der Palästinensischen Behörde für das Westjordanland und den Gaza-Streifen über die allgemeinen Grundsätze für die Teilnahme der Palästinensischen Behörde an Programmen der Union</j.0:dossier_title>
+    <j.0:title xml:lang="bg">Предложение за РЕШЕНИЕ НА СЪВЕТА относно сключването, от името на Европейския съюз, на Протокол към Евро-средиземноморското временно споразумение за асоцииране в областта на търговията и сътрудничеството между Европейската общност, от една страна, и Организацията за освобождение на Палестина (ООП), действаща в полза на палестинската администрация на Западния бряг и Ивицата Газа, от друга, относно Рамково споразумение между Европейския съюз и Палестинската администрация на Западния бряг и Ивицата Газа за общите принципи на участие в програми на Съюза</j.0:title>
+    <j.0:reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019/0164/NLE</j.0:reference>
+    <j.0:title xml:lang="el">Πρόταση ΑΠΟΦΑΣΗ ΤΟΥ ΣΥΜΒΟΥΛΙΟΥ για τη σύναψη, εξ ονόματος της Ευρωπαϊκής Ένωσης, πρωτοκόλλου της ευρωμεσογειακής ενδιάμεσης συμφωνίας σύνδεσης για το εμπόριο και τη συνεργασία μεταξύ της Ευρωπαϊκής Κοινότητας, αφενός, και της Οργάνωσης για την Απελευθέρωση της Παλαιστίνης (ΟΑΠ) εξ ονόματος της Παλαιστινιακής Αρχής της Δυτικής Όχθης και της Λωρίδας της Γάζας, αφετέρου, για συμφωνία-πλαίσιο μεταξύ της Ευρωπαϊκής Ένωσης και της Παλαιστινιακής Αρχής της Δυτικής Όχθης και της Λωρίδας της Γάζας σχετικά με τις γενικές αρχές που διέπουν τη συμμετοχή της σε προγράμματα της Ένωσης</j.0:title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/consil/ST_11630_2019_INIT"/>
+    <j.0:dossier_title xml:lang="ro">Propunere de DECIZIE A CONSILIULUI privind încheierea, în numele Uniunii Europene, a Protocolului la Acordul de asociere euro-mediteraneean interimar privind schimburile comerciale și cooperarea dintre Comunitatea Europeană, pe de o parte, și Organizația pentru Eliberarea Palestinei (OEP), care acționează în numele Autorității Palestiniene din Cisiordania și Fâșia Gaza, pe de altă parte, referitor la un acord-cadru între Uniunea Europeană și Autoritatea Palestiniană din Cisiordania și Fâșia Gaza privind principiile generale ale participării sale la programele Uniunii</j.0:dossier_title>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+    <j.0:dossier_title xml:lang="bg">Предложение за РЕШЕНИЕ НА СЪВЕТА относно сключването, от името на Европейския съюз, на Протокол към Евро-средиземноморското временно споразумение за асоцииране в областта на търговията и сътрудничеството между Европейската общност, от една страна, и Организацията за освобождение на Палестина (ООП), действаща в полза на палестинската администрация на Западния бряг и Ивицата Газа, от друга, относно Рамково споразумение между Европейския съюз и Палестинската администрация на Западния бряг и Ивицата Газа за общите принципи на участие в програми на Съюза</j.0:dossier_title>
+    <j.0:title xml:lang="sl">Predlog SKLEP SVETA o sklenitvi v imenu Evropske unije in začasni uporabi Protokola k Začasnemu evro-mediteranskemu pridružitvenemu sporazumu o trgovini in sodelovanju med Evropsko skupnostjo na eni strani ter Palestinsko osvobodilno organizacijo (PLO) za Palestinsko upravo Zahodnega brega in Gaze na drugi strani o Okvirnem sporazumu med Evropsko unijo in Palestinsko upravo Zahodnega brega in Gaze o splošnih načelih za sodelovanje v programih Unije</j.0:title>
+    <j.0:dossier_title xml:lang="da">Forslag til RÅDETS AFGØRELSE om indgåelse på Den Europæiske Unions vegne af en protokol til Euro-Middelhavs-interimsassocieringsaftalen om handel og samarbejde mellem Det Europæiske Fællesskab på den ene side og Den Palæstinensiske Befrielsesorganisation (PLO) til fordel for Vestbredden og Gazastribens Palæstinensiske Myndighed på den anden side om en rammeaftale mellem Den Europæiske Union og Vestbredden og Gazastribens Palæstinensiske Myndighed om de generelle principper for dens deltagelse i EU-programmer</j.0:dossier_title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/consil/ST_12669_2019_COR_2"/>
+    <j.0:title xml:lang="it">Proposta di DECISIONE DEL CONSIGLIO relativa alla conclusione, a nome dell'Unione europea, di un protocollo dell'accordo euromediterraneo interinale di associazione sugli scambi e la cooperazione tra la Comunità europea, da una parte, e l'Organizzazione per la liberazione della Palestina (OLP) a beneficio dell'Autorità palestinese della Cisgiordania e della Striscia di Gaza, dall'altra, riguardante un accordo quadro tra l'Unione europea e l'Autorità palestinese della Cisgiordania e della Striscia di Gaza sui principi generali della partecipazione dell'Autorità palestinese ai programmi dell'Unione</j.0:title>
+    <j.0:title xml:lang="fi">Ehdotus NEUVOSTON PÄÄTÖS Euroopan unionin sekä Länsirannan ja Gazan alueen palestiinalaishallinnon puolesta toimivan Palestiinan vapautusjärjestön (PLO) kaupasta ja yhteistyöstä tehtyyn väliaikaiseen Euro–Välimeri-assosiaatiosopimukseen liitettävän pöytäkirjan, joka koskee Euroopan unionin sekä Länsirannan ja Gazan alueen palestiinalaishallinnon puitesopimusta palestiinalaishallinnon osallistumista unionin ohjelmiin säätelevistä yleisistä periaatteista, tekemisestä Euroopan unionin puolesta</j.0:title>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/immc/ST%2012669%202019%20INIT"/>
+    <j.0:title xml:lang="hr">Prijedlog ODLUKE VIJEĆA o sklapanju, u ime Europske unije, Protokola uz Euromediteranski privremeni sporazum o pridruživanju u području trgovine i suradnje između Europske zajednice, s jedne strane, i Palestinske oslobodilačke organizacije (PLO) za dobrobit Palestinske samouprave na Zapadnoj obali i u pojasu Gaze, s druge strane, o Okvirnom sporazumu između Europske unije i Palestinske samouprave na Zapadnoj obali i u pojasu Gaze o općim načelima njezina sudjelovanja u programima Unije</j.0:title>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2019-10-23_DIS_byCONSIL"/>
+    <j.0:dossier_title xml:lang="pl">Wniosek DECYZJA RADY w sprawie zawarcia, w imieniu Unii Europejskiej, Protokołu do Eurośródziemnomorskiego przejściowego układu stowarzyszeniowego w sprawie handlu i współpracy między Wspólnotą Europejską, z jednej strony, a Organizacją Wyzwolenia Palestyny (OWP) na rzecz Autonomii Palestyńskiej Zachodniego Brzegu i Strefy Gazy, z drugiej strony, w sprawie umowy ramowej między Unią Europejską a Autonomią Palestyńską Zachodniego Brzegu i Strefy Gazy dotyczącej ogólnych zasad jej uczestnictwa w programach unijnych</j.0:dossier_title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2019-08-05_ADP_byCOM"/>
+    <j.0:dossier_title xml:lang="en">Proposal for a COUNCIL DECISION on the conclusion, on behalf of the European Union, of a Protocol to the Euro-Mediterranean Interim Association Agreement on trade and cooperation between the European Community, of the one part, and the Palestine Liberation Organization (PLO) for the benefit of the Palestinian Authority of the West Bank and the Gaza Strip, of the other part, on a Framework Agreement between the European Union and the Palestinian Authority of the West Bank and the Gaza Strip on the general principles for its participation in Union programmes</j.0:dossier_title>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.0:title xml:lang="es">Propuesta de DECISIÓN DEL CONSEJO relativa a la celebración, en nombre de la Unión Europea, de un Protocolo del Acuerdo euromediterráneo interino de asociación en materia de comercio y cooperación entre la Comunidad Europea, por una parte, y la Organización para la Liberación de Palestina (OLP), actuando por cuenta de la Autoridad Palestina de Cisjordania y la Franja de Gaza, por otra, relativo a un Acuerdo marco entre la Unión Europea y la Autoridad Palestina de Cisjordania y la Franja de Gaza sobre los principios generales para su participación en programas de la Unión</j.0:title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/ST%2012669%202019%20COR%201"/>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/immc/ST%2012669%202019%20COR%201"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/consil/ST_12669_2019_COR_1"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2024-01-16_ADP_FRM_byCONSIL"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/52022AP0392"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-08-05</j.0:date>
+    <j.0:adopted-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:adopted-proposal>
+    <j.0:title xml:lang="lv">Priekšlikums PADOMES LĒMUMS par to, lai Eiropas Savienības vārdā noslēgtu Protokolu Eiropas un Vidusjūras reģiona valstu pagaidu asociācijas nolīgumam par tirdzniecību un sadarbību starp Eiropas Kopienu, no vienas puses, un Palestīnas atbrīvošanas organizāciju (PAO) Jordānas Rietumkrasta un Gazas sektora Palestīniešu pašpārvaldes vajadzībām, no otras puses, attiecībā uz Pamatnolīgumu starp Eiropas Savienību un Jordānas Rietumkrasta un Gazas sektora Palestīniešu pašpārvaldi par vispārējiem principiem tās līdzdalībai Savienības programmās</j.0:title>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20191023-1990; environment: PROD; newCERES: 3.26.6; IMMC2CDM: 2.9.1; rules: preleg/rules-consil.xml#51427#2019-10-03; builddate: 2019-10-23T12:41:52.091;</j.2:build_info>
+    <j.0:dossier_title xml:lang="hr">Prijedlog ODLUKE VIJEĆA o sklapanju, u ime Europske unije, Protokola uz Euromediteranski privremeni sporazum o pridruživanju u području trgovine i suradnje između Europske zajednice, s jedne strane, i Palestinske oslobodilačke organizacije (PLO) za dobrobit Palestinske samouprave na Zapadnoj obali i u pojasu Gaze, s druge strane, o Okvirnom sporazumu između Europske unije i Palestinske samouprave na Zapadnoj obali i u pojasu Gaze o općim načelima njezina sudjelovanja u programima Unije</j.0:dossier_title>
+    <j.0:title xml:lang="cs">Návrh ROZHODNUTÍ RADY o uzavření Protokolu k Evropsko-středomořské prozatímní dohodě o přidružení týkající se obchodu a spolupráce mezi Evropským společenstvím na jedné straně a Organizací pro osvobození Palestiny (OOP) ve prospěch palestinské samosprávy na Západním břehu Jordánu a v pásmu Gazy na straně druhé o rámcové dohodě mezi Evropskou unií a palestinskou samosprávou na Západním břehu Jordánu a v Pásmu Gazy o obecných zásadách účasti palestinské samosprávy na programech Unie jménem Evropské unie</j.0:title>
+    <j.0:reference_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019/0164/NLE</j.0:reference_procedure>
+    <j.0:dossier_date_creation_legacy rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-08-05</j.0:dossier_date_creation_legacy>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/ST%2012669%202019%20INIT"/>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/consil/ST_11630_2019_ADD_1"/>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12016E209"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional"/>
+    <j.0:title xml:lang="ro">Propunere de DECIZIE A CONSILIULUI privind încheierea, în numele Uniunii Europene, a Protocolului la Acordul de asociere euro-mediteraneean interimar privind schimburile comerciale și cooperarea dintre Comunitatea Europeană, pe de o parte, și Organizația pentru Eliberarea Palestinei (OEP), care acționează în numele Autorității Palestiniene din Cisiordania și Fâșia Gaza, pe de altă parte, referitor la un acord-cadru între Uniunea Europeană și Autoritatea Palestiniană din Cisiordania și Fâșia Gaza privind principiile generale ale participării sale la programele Uniunii</j.0:title>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/immc/COM%282019%29361%20final"/>
+    <j.0:dossier_withdrawn-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:dossier_withdrawn-proposal>
+    <j.0:date_adopted rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-22</j.0:date_adopted>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2024-01-22_PUB_OJ"/>
+    <j.0:withdrawn-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:withdrawn-proposal>
+    <j.0:dossier_title xml:lang="fi">Ehdotus NEUVOSTON PÄÄTÖS Euroopan unionin sekä Länsirannan ja Gazan alueen palestiinalaishallinnon puolesta toimivan Palestiinan vapautusjärjestön (PLO) kaupasta ja yhteistyöstä tehtyyn väliaikaiseen Euro–Välimeri-assosiaatiosopimukseen liitettävän pöytäkirjan, joka koskee Euroopan unionin sekä Länsirannan ja Gazan alueen palestiinalaishallinnon puitesopimusta palestiinalaishallinnon osallistumista unionin ohjelmiin säätelevistä yleisistä periaatteista, tekemisestä Euroopan unionin puolesta</j.0:dossier_title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2024-01-16_ADP_FRM_byCONSIL"/>
+    <j.0:title xml:lang="en">Proposal for a COUNCIL DECISION on the conclusion, on behalf of the European Union, of a Protocol to the Euro-Mediterranean Interim Association Agreement on trade and cooperation between the European Community, of the one part, and the Palestine Liberation Organization (PLO) for the benefit of the Palestinian Authority of the West Bank and the Gaza Strip, of the other part, on a Framework Agreement between the European Union and the Palestinian Authority of the West Bank and the Gaza Strip on the general principles for its participation in Union programmes</j.0:title>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/oj/L_202400375"/>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/immc/P9_TA%282022%290392"/>
+    <j.2:build_info>reception-ID: PO-20190809-1840; environment: PROD; newCERES: 3.26.6; IMMC2CDM: 2.9.1; rules: preleg/rules-consil.xml#48123#2019-05-07; builddate: 2019-08-09T13:26:57.281;</j.2:build_info>
+    <j.0:title xml:lang="et">Ettepanek: NÕUKOGU OTSUS ühelt poolt Euroopa Ühenduse ja teiselt poolt Jordani Läänekalda ja Gaza sektori Palestiina omavalitsuse nimel toimiva Palestiina Vabastusorganisatsiooni (PVO) vahelise kaubandust ja koostööd käsitleva Euroopa – Vahemere piirkonna ajutise assotsiatsioonilepingu protokolli (milles käsitletakse Euroopa Liidu ning Jordani Läänekalda ja Gaza sektori Palestiina omavalitsuse raamlepingut, milles sätestatakse üldpõhimõtted Palestiina omavalitsuse osalemiseks liidu programmides) Euroopa Liidu nimel sõlmimise kohta</j.0:title>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12016E209"/>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/celex/32024D0375"/>
+    <j.0:title xml:lang="sk">Návrh ROZHODNUTIE RADY o uzavretí, v mene Európskej únie, Protokolu k Európsko-stredomorskej dočasnej dohode o pridružení o obchode a spolupráci medzi Európskym spoločenstvom, na jednej strane, a Organizáciou pre oslobodenie Palestíny v prospech palestínskych orgánov Západného brehu a Pásma Gazy, na druhej strane, o rámcovej dohode medzi Európskou úniou a palestínskymi orgánmi Západného brehu a Pásma Gazy o všeobecných zásadách ich účasti na programoch Únie</j.0:title>
+    <j.0:dossier_title xml:lang="nl">Voorstel voor een BESLUIT VAN DE RAAD betreffende de sluiting, namens de Europese Unie, van een protocol bij de Euromediterrane Interim-associatieovereenkomst voor handel en samenwerking tussen de Europese Gemeenschap, enerzijds, en de Palestijnse Bevrijdingsorganisatie (PLO) ten behoeve van de Palestijnse Autoriteit van de Westelijke Jordaanoever en de Gazastrook, anderzijds, betreffende een kaderovereenkomst tussen de Europese Unie en de Palestijnse Autoriteit van de Westelijke Jordaanoever en de Gazastrook inzake de algemene beginselen voor de deelname van de Palestijnse Autoriteit aan programma’s van de Unie</j.0:dossier_title>
+    <j.0:title xml:lang="sv">Förslag till RÅDETS BESLUT om ingående på Europeiska unionens vägnar av ett protokoll till Europa-Medelhavsinterimsavtalet om associering av handel och samarbete mellan Europeiska gemenskapen, å ena sidan, och Palestinska befrielseorganisationen (PLO) för den palestinska myndigheten på Västbanken och i Gaza, å andra sidan, om ett ramavtal mellan Europeiska unionen och den palestinska myndigheten på Västbanken och i Gaza om de allmänna principerna för den palestinska myndighetens deltagande i unionsprogram</j.0:title>
+    <j.0:title xml:lang="fr">Proposition de DÉCISION DU CONSEIL relative à la conclusion, au nom de l’Union européenne, d’un protocole à l’accord d'association euro-méditerranéen intérimaire relatif aux échanges et à la coopération entre la Communauté européenne, d'une part, et l'Organisation de libération de la Palestine (OLP), agissant pour le compte de l'Autorité palestinienne de la Cisjordanie et de la bande de Gaza, d'autre part, concernant un accord-cadre entre l’Union européenne et l’Autorité palestinienne de la Cisjordanie et de la bande de Gaza relatif aux principes généraux de sa participation aux programmes de l'Union</j.0:title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2024-01-22_PUB_OJ"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2019-10-22_DIS_byCONSIL"/>
+    <j.0:procedure_code_interinstitutional_reference_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019/0164/NLE</j.0:procedure_code_interinstitutional_reference_procedure>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/ST%2012669%202019%20COR%202"/>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2022-11-22_DEC_byEP"/>
+    <j.0:dossier_date_adopted rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-22</j.0:dossier_date_adopted>
+    <j.0:title xml:lang="mt">Proposta għal DEĊIŻJONI TAL-KUNSILL dwar il-konklużjoni, f’isem l-Unjoni Ewropea, ta’ Protokoll għall-Ftehim ta’ Assoċjazzjoni Interim Ewro-Mediterranju dwar il-kummerċ u l-kooperazzjoni bejn il-Komunità Ewropea, minn naħa waħda, u l-Organizzazzjoni għal-Liberazzjoni tal-Palestina (PLO) għall-benefiċċju tal-Awtorità Palestinjana tax-Xatt tal-Punent u l-Medda ta’ Gaża, min-naħa l-oħra, dwar Ftehim Qafas bejn l-Unjoni Ewropea u l-Awtorità Palestinjana tax-Xatt tal-Punent u l-Medda ta’ Gaża dwar il-prinċipji ġenerali għall-parteċipazzjoni tagħha fil-programmi tal-Unjoni</j.0:title>
+    <j.0:dossier_title xml:lang="sv">Förslag till RÅDETS BESLUT om ingående på Europeiska unionens vägnar av ett protokoll till Europa-Medelhavsinterimsavtalet om associering av handel och samarbete mellan Europeiska gemenskapen, å ena sidan, och Palestinska befrielseorganisationen (PLO) för den palestinska myndigheten på Västbanken och i Gaza, å andra sidan, om ett ramavtal mellan Europeiska unionen och den palestinska myndigheten på Västbanken och i Gaza om de allmänna principerna för den palestinska myndighetens deltagande i unionsprogram</j.0:dossier_title>
+    <j.2:build_info>reception-ID: PO-20190809-2526; environment: PROD; newCERES: 3.26.6; IMMC2CDM: 2.9.1; rules: preleg/rules-consil.xml#48123#2019-05-07; builddate: 2019-08-09T13:38:46.181;</j.2:build_info>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282022%290253"/>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2024-01-16_ADP_FRM_byCONSIL"/>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20191022-4696; environment: PROD; newCERES: 3.26.6; IMMC2CDM: 2.9.1; rules: preleg/rules-consil.xml#51427#2019-10-03; builddate: 2019-10-22T17:16:30.36;</j.2:build_info>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/immc/ST%2012668%202019%20INIT"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#dossier"/>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2019-08-09_DIS_byCONSIL"/>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/immc/ST%2011630%202019%20INIT"/>
+    <j.0:identifier>procedure:2019_164</j.0:identifier>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20191022-4525; environment: PROD; newCERES: 3.26.6; IMMC2CDM: 2.9.1; rules: preleg/rules-consil.xml#51427#2019-10-03; builddate: 2019-10-23T00:22:54.139;</j.2:build_info>
+    <j.0:dossier_adopted-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:dossier_adopted-proposal>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/consil/ST_12669_2019_INIT"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2022-11-22_DEC_byEP"/>
+    <j.0:dossier_title xml:lang="sl">Predlog SKLEP SVETA o sklenitvi v imenu Evropske unije in začasni uporabi Protokola k Začasnemu evro-mediteranskemu pridružitvenemu sporazumu o trgovini in sodelovanju med Evropsko skupnostjo na eni strani ter Palestinsko osvobodilno organizacijo (PLO) za Palestinsko upravo Zahodnega brega in Gaze na drugi strani o Okvirnem sporazumu med Evropsko unijo in Palestinsko upravo Zahodnega brega in Gaze o splošnih načelih za sodelovanje v programih Unije</j.0:dossier_title>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_interinstitutional"/>
+    <j.0:number_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">361</j.0:number_reference>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282022%290253"/>
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2019-10-03_DIS_byCONSIL"/>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2019-10-23_DIS_byCONSIL"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/COM%282019%29361%20final"/>
+    <j.0:procedure_code_interinstitutional_has_type_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.0:dossier_title xml:lang="cs">Návrh ROZHODNUTÍ RADY o uzavření Protokolu k Evropsko-středomořské prozatímní dohodě o přidružení týkající se obchodu a spolupráce mezi Evropským společenstvím na jedné straně a Organizací pro osvobození Palestiny (OOP) ve prospěch palestinské samosprávy na Západním břehu Jordánu a v pásmu Gazy na straně druhé o rámcové dohodě mezi Evropskou unií a palestinskou samosprávou na Západním břehu Jordánu a v Pásmu Gazy o obecných zásadách účasti palestinské samosprávy na programech Unie jménem Evropské unie</j.0:dossier_title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/P9_TA%282022%290392"/>
+    <j.0:title xml:lang="pl">Wniosek DECYZJA RADY w sprawie zawarcia, w imieniu Unii Europejskiej, Protokołu do Eurośródziemnomorskiego przejściowego układu stowarzyszeniowego w sprawie handlu i współpracy między Wspólnotą Europejską, z jednej strony, a Organizacją Wyzwolenia Palestyny (OWP) na rzecz Autonomii Palestyńskiej Zachodniego Brzegu i Strefy Gazy, z drugiej strony, w sprawie umowy ramowej między Unią Europejską a Autonomią Palestyńską Zachodniego Brzegu i Strefy Gazy dotyczącej ogólnych zasad jej uczestnictwa w programach unijnych</j.0:title>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/consil/ST_12668_2019_INIT"/>
+    <j.0:title xml:lang="da">Forslag til RÅDETS AFGØRELSE om indgåelse på Den Europæiske Unions vegne af en protokol til Euro-Middelhavs-interimsassocieringsaftalen om handel og samarbejde mellem Det Europæiske Fællesskab på den ene side og Den Palæstinensiske Befrielsesorganisation (PLO) til fordel for Vestbredden og Gazastribens Palæstinensiske Myndighed på den anden side om en rammeaftale mellem Den Europæiske Union og Vestbredden og Gazastribens Palæstinensiske Myndighed om de generelle principper for dens deltagelse i EU-programmer</j.0:title>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52022AP0392"/>
+    <j.0:title xml:lang="de">Vorschlag für einen BESCHLUSS DES RATES über den Abschluss – im Namen der Europäischen Union – und vorläufige Anwendung eines Protokolls zum Europa-Mittelmeer-Interimsassoziationsabkommen über Handel und Zusammenarbeit zwischen der Europäischen Gemeinschaft einerseits und der Palästinensischen Befreiungsorganisation (PLO) zugunsten der Palästinensischen Behörde für das Westjordanland und den Gaza-Streifen andererseits betreffend ein Rahmenabkommen zwischen der Europäischen Union und der Palästinensischen Behörde für das Westjordanland und den Gaza-Streifen über die allgemeinen Grundsätze für die Teilnahme der Palästinensischen Behörde an Programmen der Union</j.0:title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/ST%2011630%202019%20INIT"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/consil/ST_11630_2019_ADD_1"/>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2022-11-22_DEC_byEP"/>
+    <j.0:title xml:lang="lt">Pasiūlymas TARYBOS SPRENDIMAS dėl Europos ir Viduržemio jūros regiono laikinosios asociacijos susitarimo dėl prekybos ir bendradarbiavimo tarp Europos bendrijos ir Palestinos išsivadavimo organizacijos (PIO), atstovaujančios Vakarų Kranto ir Gazos Ruožo Palestinos valdžios interesams, protokolo dėl Europos Sąjungos ir Vakarų Kranto ir Gazos Ruožo Palestinos Administracijos bendrojo susitarimo, kuriuo nustatomi dalyvavimo Sąjungos programose bendrieji principai, sudarymo Europos Sąjungos vardu</j.0:title>
+    <j.0:year_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2019</j.0:year_procedure>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20191023-3776; environment: PROD; newCERES: 3.26.6; IMMC2CDM: 2.9.1; rules: preleg/rules-consil.xml#51427#2019-10-03; builddate: 2019-10-23T20:37:46.121;</j.2:build_info>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2019-10-22_DIS_byCONSIL"/>
+    <j.0:dossier_identifier>procedure:2019_164</j.0:dossier_identifier>
+    <j.0:dossier_initiated_by_act_preparatory rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:dossier_type_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM</j.0:dossier_type_reference>
+    <j.0:dossier_title xml:lang="sk">Návrh ROZHODNUTIE RADY o uzavretí, v mene Európskej únie, Protokolu k Európsko-stredomorskej dočasnej dohode o pridružení o obchode a spolupráci medzi Európskym spoločenstvom, na jednej strane, a Organizáciou pre oslobodenie Palestíny v prospech palestínskych orgánov Západného brehu a Pásma Gazy, na druhej strane, o rámcovej dohode medzi Európskou úniou a palestínskymi orgánmi Západného brehu a Pásma Gazy o všeobecných zásadách ich účasti na programoch Únie</j.0:dossier_title>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A9">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal_basis_for_resource_legal"/>
+    <j.2:paragraph>7</j.2:paragraph>
+    <j.2:comment_on_legal_basis>P7</j.2:comment_on_legal_basis>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A10">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2022-11-22_DEC_byEP"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_based_on_resource_legal"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/celex/12016E209"/>
+    <j.2:eli_target rdf:resource="http://data.europa.eu/eli/treaty/tfeu_2016/art_209/oj"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_based_on_resource_legal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure-event/2019_164.2019-10-03_DIS_byCONSIL">
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20191022-4525; environment: PROD; newCERES: 3.26.6; IMMC2CDM: 2.9.1; rules: preleg/rules-consil.xml#51427#2019-10-03; builddate: 2019-10-23T00:22:54.139;</j.2:build_info>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/consil/ST_12668_2019_INIT"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2019_164"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/consil/ST_12669_2019_INIT"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST 12669 2019 INIT</j.0:event_legal_document_reference>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_byCONSIL</j.0:event_legal_type>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_procedural"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST 12668 2019 INIT</j.0:event_legal_document_reference>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/immc/ST%2012669%202019%20INIT"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/immc/ST%2012668%202019%20INIT"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/consil/ST_12669_2019_INIT"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/consil/ST_12669_2019_INIT"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/consil/ST_12668_2019_INIT"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/consil/ST_12668_2019_INIT"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/immc/ST%2012669%202019%20INIT"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-03</j.0:event_date>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/DIS_byCONSIL"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20191022-4696; environment: PROD; newCERES: 3.26.6; IMMC2CDM: 2.9.1; rules: preleg/rules-consil.xml#51427#2019-10-03; builddate: 2019-10-22T17:16:30.36;</j.2:build_info>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-03</j.0:date>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/DIS_byCONSIL"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST 12668 2019 INIT</j.0:document_reference>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/DIS_byCONSIL"/>
+    <j.0:event_legal_was_historically_about_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/immc/ST%2012668%202019%20INIT"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2019_164"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-03</j.0:event_legal_date>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_byCONSIL</j.0:type>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/ST%2012668%202019%20INIT"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST 12669 2019 INIT</j.0:document_reference>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/ST%2012669%202019%20INIT"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/procedure/2019_164"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/e8dcfe02-ebbd-11e3-8cd4-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/32014D0319"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/immc/20140514-042%3AST%2016612%202013%20INIT"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/planjo/20140514-042"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/oj/JOL_2014_165_R_0007"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/eli/dec/2014/319/oj"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/procedure/NLE">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/procedure"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_procedure_code_interinstitutional"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/32021D0570">
+    <j.0:cited_by rdf:resource="http://publications.europa.eu/resource/oj/L_202400375"/>
+    <j.0:work_cited_by_work rdf:resource="http://publications.europa.eu/resource/oj/L_202400375"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/ADP_byCOM">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#type_event_interinstitutional"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event/"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2019-08-05_ADP_byCOM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/subject-matter/ASSO">
+    <j.0:subject-matter_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/52019PC0361"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/celex/52019PC0361"/>
+    <j.0:subject-matter_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290253"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290253"/>
+    <j.0:subject-matter_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290392"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290392"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A11">
+    <j.2:comment_on_legal_basis>P7</j.2:comment_on_legal_basis>
+    <j.2:paragraph>7</j.2:paragraph>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal_basis_for_resource_legal"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A12">
+    <j.2:paragraph>7</j.2:paragraph>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2019-08-05_ADP_byCOM"/>
+    <j.2:comment_on_legal_basis>A218P7</j.2:comment_on_legal_basis>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <j.2:article>218</j.2:article>
+    <j.2:build_info>reception-ID: PO-20190805-818; environment: PROD; newCERES: 3.26.6; IMMC2CDM: 2.9.1; rules: preleg/rules-com.xml#49100#2019-06-13; builddate: 2019-08-05T10:35:16.27;</j.2:build_info>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_based_on_resource_legal"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/treaty/TFEU_2010"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_based_on_resource_legal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/32015D2025">
+    <j.0:cited_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:work_cited_by_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/9cc45f10-b75c-11e9-9d01-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/immc/COM%282019%29361%20final"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/52019PC0361"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/52011DC0303">
+    <j.0:cited_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:work_cited_by_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/2850">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290253"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290253"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290392"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290392"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A13">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.2:eli_target rdf:resource="http://publications.europa.eu/resource/eli/treaty/tfeu_2016/art_209/oj"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2019-08-05_ADP_byCOM"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_based_on_resource_legal"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/celex/12016E209"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_based_on_resource_legal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/328d85ca-f582-11e9-8c1f-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/consil/ST_12669_2019_COR_1"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/immc/ST%2012669%202019%20COR%201"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/COM">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/immc/COM%282019%29361%20final"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/immc/COM%282019%29361%20final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/6003166e-b75c-11e9-9d01-01aa75ed71a1.0006">
+    <j.3:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-11-30T12:11:07.172+01:00</j.3:creationDate>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-01-23T11:05:19.636+01:00</j.3:lastModificationDate>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2022-11-22_DEC_byEP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/406fc631-9829-11eb-b85c-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/oj/JOL_2021_121_R_0002"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/22021A0408%2801%29"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/eli/prot/2021/570/oj"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/ep/P9_A%282022%290253">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#report_ep"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resolution_legislative_ep"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#text-adopted"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/ep/P9_TA%282022%290392">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory_ep"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resolution_legislative_ep"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#text-adopted"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure-event/2019_164.2022-11-22_DEC_byEP">
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282022%290253"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/procedure/2019_164"/>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/authority/treaty/TFEU"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_procedural"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/DEC_byEP"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282022%290253"/>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12016E209"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/P9_TA%282022%290392"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/authority/treaty/TFEU"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12016E209"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2019_164"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-22</j.0:date>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20231120-3226; environment: PROD; CERES: 4.21.0; IMMC2CDM: 3.2.3; rules: preleg/rules-ep.xml#56614#2020-05-29T09:45:21; builddate: 2023-11-20T12:37:09.386;</j.2:build_info>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/authority/treaty/TFEU"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52022AP0392"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-22</j.0:event_legal_date>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-22</j.0:event_date>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P9_A(2022)0253</j.0:event_legal_document_reference>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DEC_byEP</j.0:event_legal_type>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P9_TA(2022)0392</j.0:document_reference>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282022%290253"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52022AP0392"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2019_164"/>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P9_A(2022)0253</j.0:document_reference>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/DEC_byEP"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/52022AP0392"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/immc/P9_TA%282022%290392"/>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DEC_byEP</j.0:type>
+    <j.0:event_legal_was_historically_about_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/immc/P9_TA%282022%290392"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P9_TA(2022)0392</j.0:event_legal_document_reference>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/DEC_byEP"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12016E209"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/DIS_byCONSIL">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2019-10-23_DIS_byCONSIL"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2019-08-09_DIS_byCONSIL"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#type_event_interinstitutional"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2019-10-22_DIS_byCONSIL"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2019-10-03_DIS_byCONSIL"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A14">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal_basis_for_resource_legal"/>
+    <j.2:paragraph>6</j.2:paragraph>
+    <j.2:comment_on_legal_basis>P6PTA)</j.2:comment_on_legal_basis>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure-event/2019_164.2019-10-23_DIS_byCONSIL">
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/DIS_byCONSIL"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-23</j.0:date>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/immc/ST%2012669%202019%20COR%202"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST 12669 2019 COR 2</j.0:document_reference>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/consil/ST_12669_2019_COR_2"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2019_164"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/DIS_byCONSIL"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST 12669 2019 COR 2</j.0:event_legal_document_reference>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-23</j.0:event_date>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/procedure/2019_164"/>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2019_164"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_byCONSIL</j.0:event_legal_type>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-23</j.0:event_legal_date>
+    <j.0:event_legal_was_historically_about_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20191023-3776; environment: PROD; newCERES: 3.26.6; IMMC2CDM: 2.9.1; rules: preleg/rules-consil.xml#51427#2019-10-03; builddate: 2019-10-23T20:37:46.121;</j.2:build_info>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_byCONSIL</j.0:type>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_procedural"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/ST%2012669%202019%20COR%202"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/immc/ST%2012669%202019%20COR%202"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/DIS_byCONSIL"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/consil/ST_12669_2019_COR_2"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/consil/ST_12669_2019_COR_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/a400e2db-89dc-11e5-b8b7-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/eli/dec/2015/2025/oj"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/32015D2025"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/immc/20151105-013%3AST%2016160%202014%20INIT"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/oj/JOL_2015_297_R_0001"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/immc/20151105-013%3AST%2016160%202014%20"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/28cec1ee-80d8-48d8-ab3d-fe42d390e1de">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/12016E209"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/eli/treaty/tfeu_2016/art_209/oj"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/00288963-ba99-11e9-9d01-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/consil/ST_11630_2019_ADD_1"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/immc/ST%2011630%202019%20ADD%201"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/32018R1046">
+    <j.0:cited_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:work_cited_by_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A15">
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/oj/L_202400375"/>
+    <j.2:comment_on_legal_basis>P6L2PTA)</j.2:comment_on_legal_basis>
+    <j.2:paragraph>6</j.2:paragraph>
+    <j.2:subparagraph>2</j.2:subparagraph>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal_basis_for_resource_legal"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/consil/ST_12669_2019_COR_1">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory_council"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/5e3c1d89-93bd-11e8-8bc1-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/eli/reg/2018/1046/oj"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/oj/JOL_2018_193_R_0001"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/32018R1046"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/32008D0372">
+    <j.0:cited_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:work_cited_by_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A16">
+    <j.2:comment_on_legal_basis>P6PTA)</j.2:comment_on_legal_basis>
+    <j.2:paragraph>6</j.2:paragraph>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal_basis_for_resource_legal"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/bcafc475-709f-11ed-9887-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/agent/Manu%20PINEDA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/ec3b3ee9-709f-11ed-9887-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290392"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/immc/P9_TA%282022%290392"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/8b8756c8-e97e-44fd-a8fb-27cb7cdd52d1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/com/COM_2011_308"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/52011DC0303"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/comnat/COM_2011_0303_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/6003166e-b75c-11e9-9d01-01aa75ed71a1.0007">
+    <j.3:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-01-22T03:09:18.962+01:00</j.3:creationDate>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-01-23T11:05:19.637+01:00</j.3:lastModificationDate>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2024-01-22_PUB_OJ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure-event/2019_164.2019-10-22_DIS_byCONSIL">
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST 12669 2019 COR 1</j.0:document_reference>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/immc/ST%2012669%202019%20COR%201"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_procedural"/>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20191023-1990; environment: PROD; newCERES: 3.26.6; IMMC2CDM: 2.9.1; rules: preleg/rules-consil.xml#51427#2019-10-03; builddate: 2019-10-23T12:41:52.091;</j.2:build_info>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/procedure/2019_164"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/DIS_byCONSIL"/>
+    <j.0:event_legal_was_historically_about_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-22</j.0:date>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_byCONSIL</j.0:type>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/ST%2012669%202019%20COR%201"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/consil/ST_12669_2019_COR_1"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/consil/ST_12669_2019_COR_1"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/DIS_byCONSIL"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2019_164"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_byCONSIL</j.0:event_legal_type>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2019_164"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST 12669 2019 COR 1</j.0:event_legal_document_reference>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-22</j.0:event_legal_date>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-22</j.0:event_date>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/consil/ST_12669_2019_COR_1"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/immc/ST%2012669%202019%20COR%201"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/DIS_byCONSIL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/32017D0085">
+    <j.0:cited_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:work_cited_by_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/immc/P9_TA%282022%290392">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure-event/2019_164.2024-01-22_PUB_OJ">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_procedural"/>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PUB_OJ</j.0:type>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/oj/L_202400375"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2019_164"/>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20240118-3556; environment: PROD; CERES: 4.22.1; IMMC2CDM: 3.2.3; rules: oj/rules.xml#76449#2023-12-08T07:15:09; builddate: 2024-01-22T03:03:46.041;</j.2:build_info>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PUB_OJ</j.0:event_legal_type>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-22</j.0:event_date>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-22</j.0:event_legal_date>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/oj/L_202400375"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/PUB_OJ"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2019_164"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-22</j.0:date>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/PUB_OJ"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/PUB_OJ"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/procedure/2019_164"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/oj/L_202400375"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A17">
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/oj/L_202400375"/>
+    <j.2:start_of_validity>2024-01-16</j.2:start_of_validity>
+    <j.2:type_of_link_target>MS</j.2:type_of_link_target>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#agreement_international_associated_to_resource_legal"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/celex/22021A0408%2801%29"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/5930">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290253"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290253"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290392"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290392"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/32016D1210">
+    <j.0:cited_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:work_cited_by_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A18">
+    <j.2:role2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">{PSP|http://publications.europa.eu/resource/authority/fd_375/PSP}</j.2:role2>
+    <j.2:type_of_link_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EA</j.2:type_of_link_target>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal_related_to_resource_legal"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282022%290253"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/immc/P9_TA%282022%290392"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/consil/ST_12669_2019_COR_2">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory_council"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/dir-eu-legal-act/11401020">
+    <j.0:concept_directory-code_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/52019PC0361"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/celex/52019PC0361"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/52022AP0392">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/consil/ST_12668_2019_INIT">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory_council"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A19">
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20231120-3226; environment: PROD; CERES: 4.21.0; IMMC2CDM: 3.2.3; rules: preleg/rules-ep.xml#56614#2020-05-29T09:45:21; builddate: 2023-11-20T12:37:09.386;</j.2:build_info>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/treaty/TFEU"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_based_on_resource_legal"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2022-11-22_DEC_byEP"/>
+    <j.2:article rdf:datatype="http://www.w3.org/2001/XMLSchema#string">209</j.2:article>
+    <j.2:comment_on_legal_basis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A209</j.2:comment_on_legal_basis>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_based_on_resource_legal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/35602f57-5300-11e6-89bd-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/oj/JOL_2016_199_R_0001"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/32016D1210"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/eli/dec/2016/1210/oj"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/treaty/TFEU">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/52006DC0724">
+    <j.0:cited_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:work_cited_by_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/12016E209">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+    <j.0:basis_for rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:resource_legal_basis_for_resource_legal rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:basis_for rdf:resource="http://publications.europa.eu/resource/oj/L_202400375"/>
+    <j.0:resource_legal_basis_for_resource_legal rdf:resource="http://publications.europa.eu/resource/oj/L_202400375"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/cc92e81c-ff95-4c16-91b7-871898b73a78">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/eli/dec/2008/372/oj"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/32008D0372"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/6003166e-b75c-11e9-9d01-01aa75ed71a1.0008">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2024-01-16_ADP_FRM_byCONSIL"/>
+    <j.3:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-01-23T10:57:20.953+01:00</j.3:creationDate>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-17T20:29:42.510+01:00</j.3:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/EP_AFET">
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290253"/>
+    <j.0:agent_reports_on_report_ep rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290253"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290253"/>
+    <j.0:reports_on rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290253"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/462b2e67-f4df-11e9-8c1f-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/consil/ST_12669_2019_INIT"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/immc/ST%2012669%202019%20INIT"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282022%290253"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/agent/Manu%20PINEDA"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#agent_reports_on_report_ep"/>
+    <j.2:order rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1</j.2:order>
+    <j.2:in_committee rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP_AFET"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/30bfd38a-f2bf-11e3-831f-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/eli/dec/2014/347/oj"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/32014D0347"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/immc/20140603-030%3AST%2016469%202012%20INIT"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/planjo/20140603-030"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/oj/JOL_2014_174_R_0001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/1379">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290253"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290253"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290392"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290392"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/e0977e33-f51a-11e9-8c1f-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/consil/ST_12668_2019_INIT"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/immc/ST%2012668%202019%20INIT"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A21">
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#dossier_based_on_resource_legal"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional_based_on_resource_legal"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/procedure/2019_164"/>
+    <j.2:eli_target rdf:resource="http://data.europa.eu/eli/treaty/tfeu_2016/art_218/oj"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A22">
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/oj/L_202400375"/>
+    <j.2:comment_on_legal_basis>P7</j.2:comment_on_legal_basis>
+    <j.2:paragraph>7</j.2:paragraph>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal_basis_for_resource_legal"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A23">
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20231120-3226; environment: PROD; CERES: 4.21.0; IMMC2CDM: 3.2.3; rules: preleg/rules-ep.xml#56614#2020-05-29T09:45:21; builddate: 2023-11-20T12:37:09.386;</j.2:build_info>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/treaty/TFEU"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_based_on_resource_legal"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2022-11-22_DEC_byEP"/>
+    <j.2:article rdf:datatype="http://www.w3.org/2001/XMLSchema#string">218</j.2:article>
+    <j.2:comment_on_legal_basis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A218</j.2:comment_on_legal_basis>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_based_on_resource_legal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/7866a763-3773-49b8-8961-71ac7aa861b1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/eli/dec/2011/290/oj"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/oj/JOL_2011_133_R_0001_01"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/32011D0290"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/dir-eu-legal-act/114010">
+    <j.0:concept_directory-code_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290253"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290253"/>
+    <j.0:concept_directory-code_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290392"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290392"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/immc/P9_A%282022%290253">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+    <j.0:related_to rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290392"/>
+    <j.0:resource_legal_related_to_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290392"/>
+    <j.0:work_related_to_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290392"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/7fea40b4-70a0-11ed-9887-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290253"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282022%290253"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/32014D0347">
+    <j.0:cited_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:work_cited_by_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/32011D0290">
+    <j.0:cited_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:work_cited_by_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/6003166e-b75c-11e9-9d01-01aa75ed71a1.0001">
+    <j.3:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-05T10:38:14.147+02:00</j.3:creationDate>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-17T16:05:14.294+01:00</j.3:lastModificationDate>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2019-08-05_ADP_byCOM"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A24">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2022-11-22_DEC_byEP"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_based_on_resource_legal"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+    <j.2:eli_target rdf:resource="http://data.europa.eu/eli/treaty/tfeu_2016/art_218/oj"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_based_on_resource_legal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/consil/ST_12669_2019_INIT">
+    <j.0:is_another_publication_of rdf:resource="http://publications.europa.eu/resource/oj/L_202400375"/>
+    <j.0:work_is_another_publication_of_work rdf:resource="http://publications.europa.eu/resource/oj/L_202400375"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory_council"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/21997A0716%2801%29">
+    <j.0:cited_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:work_cited_by_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/32014D0319">
+    <j.0:cited_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:work_cited_by_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/5407">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290253"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290253"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290392"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290392"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A25">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/immc/P9_TA%282022%290392"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282022%290253"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal_related_to_resource_legal"/>
+    <j.2:type_of_link_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EA</j.2:type_of_link_target>
+    <j.2:role2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">{PSP|http://publications.europa.eu/resource/authority/fd_375/PSP}</j.2:role2>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A26">
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2019-08-05_ADP_byCOM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.2:comment_on_legal_basis>A218P6</j.2:comment_on_legal_basis>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_based_on_resource_legal"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_based_on_resource_legal"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <j.2:paragraph>6</j.2:paragraph>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/treaty/TFEU_2010"/>
+    <j.2:article>218</j.2:article>
+    <j.2:build_info>reception-ID: PO-20190805-818; environment: PROD; newCERES: 3.26.6; IMMC2CDM: 2.9.1; rules: preleg/rules-com.xml#49100#2019-06-13; builddate: 2019-08-05T10:35:16.27;</j.2:build_info>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure-event/2019_164.2024-01-16_ADP_FRM_byCONSIL">
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_FRM_byCONSIL"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2019_164"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_FRM_byCONSIL"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_FRM_byCONSIL"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2019_164"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/procedure/2019_164"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-16</j.0:event_legal_date>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-16</j.0:event_date>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_procedural"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-16</j.0:date>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure-event/2019_164.2019-08-05_ADP_byCOM">
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/COM%282019%29361%20final"/>
+    <j.2:build_info>reception-ID: PO-20190805-818; environment: PROD; newCERES: 3.26.6; IMMC2CDM: 2.9.1; rules: preleg/rules-com.xml#49100#2019-06-13; builddate: 2019-08-05T10:35:16.27;</j.2:build_info>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-08-05</j.0:date>
+    <j.0:responsibility_of rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EEAS"/>
+    <j.0:event_legal_mandatorily-consults_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/NP"/>
+    <j.0:event_legal_was_historically_about_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/authority/treaty/TFEU_2010"/>
+    <j.0:event_formally-addresses_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_responsibility_of_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EEAS"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12016E209"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.0:event_legal_responsibility_of_person rdf:resource="http://publications.europa.eu/resource/agent/Federica%20MOGHERINI"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-08-05</j.0:event_legal_date>
+    <j.0:responsibility_of rdf:resource="http://publications.europa.eu/resource/agent/Federica%20MOGHERINI"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/immc/COM%282019%29361%20final"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/authority/treaty/TFEU_2010"/>
+    <j.0:event_responsibility_of_person rdf:resource="http://publications.europa.eu/resource/agent/Federica%20MOGHERINI"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <j.0:formally-addresses rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADP_byCOM</j.0:event_legal_type>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2019_164"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+    <j.0:initiating rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:initiating>
+    <j.0:event_legal_uses_concept_mode_decision rdf:resource="http://publications.europa.eu/resource/authority/fd_606/1010"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM/2019/361/FINAL</j.0:document_reference>
+    <j.0:uses rdf:resource="http://publications.europa.eu/resource/authority/fd_606/1010"/>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12016E209"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2019_164"/>
+    <j.0:event_legal_mandatorily-consults_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:event_legal_responsibility_of_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EEAS"/>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12016E209"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_procedural"/>
+    <j.0:mandatorily-consults rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/NP"/>
+    <j.0:event_legal_initiating rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:event_legal_initiating>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADP_byCOM</j.0:type>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-08-05</j.0:event_date>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/immc/COM%282019%29361%20final"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/procedure/2019_164"/>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/authority/treaty/TFEU_2010"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:event_legal_formally-addresses_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM/2019/361/FINAL</j.0:event_legal_document_reference>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:mandatorily-consults rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A27">
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/oj/L_202400375"/>
+    <j.2:start_of_validity>2024-01-16</j.2:start_of_validity>
+    <j.2:type_of_link_target>MS</j.2:type_of_link_target>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal_adopted_by_resource_legal"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/celex/52019PC0361"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/immc/ST%2012669%202019%20COR%201">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/CONSIL">
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/consil/ST_12669_2019_COR_2"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/consil/ST_12669_2019_COR_1"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/consil/ST_12669_2019_INIT"/>
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/consil/ST_12668_2019_INIT"/>
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/consil/ST_12669_2019_COR_1"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/consil/ST_12669_2019_COR_2"/>
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/consil/ST_11630_2019_INIT"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/consil/ST_11630_2019_ADD_1"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent-conceptual"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/consil/ST_11630_2019_INIT"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/consil/ST_11630_2019_ADD_1"/>
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/oj/L_202400375"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/oj/L_202400375"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/consil/ST_12668_2019_INIT"/>
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/consil/ST_12669_2019_INIT"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/6003166e-b75c-11e9-9d01-01aa75ed71a1.0002">
+    <j.3:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-09T13:29:18.507+02:00</j.3:creationDate>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-17T19:51:54.500+01:00</j.3:lastModificationDate>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_164.2019-08-09_DIS_byCONSIL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/4048">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290253"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290253"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290392"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290392"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/treaty/TFEU_2012">
+    <j.0:basis_for rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:concept_treaty_basis_for_resource_legal rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/76ffc73f-884a-4041-9d8b-b04b34ef7bf2">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/21997A0716%2801%29"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/eli/agree_internation/1997/430/oj"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/immc/ST%2011630%202019%20INIT">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_606/1010">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_mode_decision"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#atto_fd"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_606"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/3073">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290253"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290253"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290392"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290392"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/agent/Federica%20MOGHERINI">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/32012D0176">
+    <j.0:cited_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:work_cited_by_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A28">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal_basis_for_resource_legal"/>
+    <j.2:paragraph>7</j.2:paragraph>
+    <j.2:comment_on_legal_basis>P7</j.2:comment_on_legal_basis>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/oj/L_202400375"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/5315">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0361_FIN"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290253"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290253"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290392"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290392"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/6003166e-b75c-11e9-9d01-01aa75ed71a1">
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-04T17:50:20.119+01:00</j.3:lastModificationDate>
+    <j.3:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-05T10:38:14.147+02:00</j.3:creationDate>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure/2019_164"/>
+    <j.0:dossier_produces_resource_legal rdf:resource="http://publications.europa.eu/resource/oj/L_202400375"/>
+    <j.0:produces rdf:resource="http://publications.europa.eu/resource/oj/L_202400375"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/b2080244-ba9a-11e9-9d01-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/consil/ST_11630_2019_INIT"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/immc/ST%2011630%202019%20INIT"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/50864a8b-54e9-11e6-89bd-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/oj/JOL_2016_202_R_0002"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/32016D1225"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/eli/dec/2016/1225/oj"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/immc/ST%2012669%202019%20COR%202">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+</rdf:RDF>

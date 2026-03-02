@@ -1,0 +1,1221 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://publications.europa.eu/ontology/cdm#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.1="http://www.w3.org/2004/02/skos/core#"
+    xmlns:j.2="http://publications.europa.eu/ontology/annotation#"
+    xmlns:j.3="http://publications.europa.eu/ontology/cdm/cmr#" > 
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/WDW_byCOM">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/108074.338260"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 19:19:56</j.2:build_info>
+    <j.2:quality_issue>DATMIS</j.2:quality_issue>
+    <j.2:error_message>Data missing</j.2:error_message>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/108074.147561"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/OP_DATPRO"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_initiated_by_institution"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_initiated_by_institution"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#initiated_by"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/EP_BUDG">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/108074.141786">
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/uriserv/COM.1997.0489(04).FIN"/>
+    <j.0:has_remark rdf:resource="http://publications.europa.eu/resource/authority/fd_603/1080"/>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1260"/>
+    <j.0:event_legal_responsibility_of_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/BUDG"/>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/11992E130S"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/51997PC0489%2804%29"/>
+    <j.0:associated_with rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EMPL"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-10-06</j.0:event_date>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JO C/1997/335/16</j.0:event_legal_document_reference>
+    <j.0:associated_with rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/DG15"/>
+    <j.0:event_legal_associated_with_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/DG03"/>
+    <j.0:event_associated_with_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/AUDIT"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:associated_with rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/SG"/>
+    <j.0:event_legal_was_historically_about_concept_type_dossier rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1260"/>
+    <j.0:associated_with rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/DGT"/>
+    <j.0:associated_with rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/HR"/>
+    <j.0:event_legal_mandatorily-consults_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:event_legal_associated_with_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/DG15"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JO C/1997/335/16</j.0:document_reference>
+    <j.0:formally-addresses rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_legal_associated_with_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EMPL"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C4/1997/604</j.0:event_legal_document_reference>
+    <j.0:associated_with rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/AUDIT"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <j.0:event_legal_was_historically_about_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/CNS"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:uses rdf:resource="http://publications.europa.eu/resource/authority/fd_606/1010"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/11992E130S"/>
+    <j.0:event_legal_associated_with_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/DGT"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM/1997/489/FINAL/4</j.0:event_legal_document_reference>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/celex/51997PC0489%2804%29"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:event_associated_with_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EAC"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM/1997/489/FINAL/4</j.0:document_reference>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BULLETIN/1997/10/1.5.11</j.0:document_reference>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:event_legal_initiating rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:event_legal_initiating>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <j.0:associated_with rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ENV"/>
+    <j.0:associated_with rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/AGRI"/>
+    <j.0:event_formally-addresses_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BULLETIN/1997/10/1.5.11</j.0:event_legal_document_reference>
+    <j.0:event_associated_with_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/DG03"/>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/11992E130S"/>
+    <j.0:event_legal_uses_concept_mode_decision rdf:resource="http://publications.europa.eu/resource/authority/fd_606/1010"/>
+    <j.0:event_associated_with_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/AGRI"/>
+    <j.0:mandatorily-consults rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COR"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adoption par Commission</j.0:event_legal_type>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS/1997/11262</j.0:event_legal_document_reference>
+    <j.0:event_legal_associated_with_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/AGRI"/>
+    <j.0:event_legal_has_remark_concept_type_remark rdf:resource="http://publications.europa.eu/resource/authority/fd_603/1080"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_associated_with_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/HR"/>
+    <j.0:associated_with rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EAC"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_formally-addresses_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOC_1997_335_R_0016_01"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/celex/51997PC0489%2804%29"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C4/1997/604</j.0:document_reference>
+    <j.0:event_associated_with_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EMPL"/>
+    <j.0:mandatorily-consults rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EESC"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-10-06</j.0:date>
+    <j.0:event_legal_mandatorily-consults_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EESC"/>
+    <j.0:event_associated_with_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/DGT"/>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 19:19:56</j.2:build_info>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-10-06</j.0:event_legal_date>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adoption par Commission</j.0:type>
+    <j.0:mandatorily-consults rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:event_associated_with_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ENV"/>
+    <j.0:event_associated_with_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/SG"/>
+    <j.0:event_legal_associated_with_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/SG"/>
+    <j.0:initiating rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:initiating>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/procedure/CNS"/>
+    <j.0:responsibility_of rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/BUDG"/>
+    <j.0:event_responsibility_of_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/BUDG"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOC_1997_335_R_0016_01"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS/1997/11262</j.0:document_reference>
+    <j.0:event_associated_with_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/HR"/>
+    <j.0:event_associated_with_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/DG15"/>
+    <j.0:event_legal_associated_with_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EAC"/>
+    <j.0:event_legal_mandatorily-consults_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COR"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/uriserv/COM.1997.0489(04).FIN"/>
+    <j.0:event_legal_associated_with_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ENV"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:associated_with rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/DG03"/>
+    <j.0:event_legal_associated_with_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/AUDIT"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/oj/JOC_1997_335_R_0016_01"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/uriserv/COM.1997.0489(04).FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/CORR_byCOM">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/108074.147901"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/agent/Mar%C3%ADa%20Candelas%20SANCHEZ%20MIGUEL">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/COR">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/462d13ed-d219-11e1-905c-01aa75ed71a1.0010">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/108074.233198"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-07-20T05:16:17.719+02:00</j.3:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_606/1035">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_mode_decision"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_606"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/462d13ed-d219-11e1-905c-01aa75ed71a1.0011">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/108074.233199"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-07-20T05:16:17.719+02:00</j.3:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_603/1080">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_remark"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_600"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/462d13ed-d219-11e1-905c-01aa75ed71a1.0007">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/108074.147561"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-07-20T05:16:17.719+02:00</j.3:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/108074.233198">
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/uriserv/COM.1998.0289(04).FIN"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/celex/51998PC0289%2804%29"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1260"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adoption par Commission proposition modifiée</j.0:event_legal_type>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOC_1998_194_R_0012_01"/>
+    <j.0:event_legal_comment xml:lang="fr">La compétence pour cette proposition a été modifiée suite à la réorganisation des services de la Commission du 18 septembre 1999.</j.0:event_legal_comment>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/uriserv/COM.1998.0289(04).FIN"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM/1998/289/FINAL/4</j.0:event_legal_document_reference>
+    <j.0:event_legal_has_remark_concept_type_remark rdf:resource="http://publications.europa.eu/resource/authority/fd_603/100423"/>
+    <j.0:associated_with rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/SG"/>
+    <j.0:has_remark rdf:resource="http://publications.europa.eu/resource/authority/fd_603/100423"/>
+    <j.0:uses rdf:resource="http://publications.europa.eu/resource/authority/fd_606/1015"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:event_legal_formally-addresses_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JO C/1998/194/12</j.0:document_reference>
+    <j.0:event_legal_associated_with_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/SG"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/51998PC0289%2804%29"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BULLETIN/1998/4/1.5.16</j.0:event_legal_document_reference>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:responsibility_of rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/BUDG"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/celex/51998PC0289%2804%29"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BULLETIN/1998/4/1.5.16</j.0:document_reference>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-04-30</j.0:event_legal_date>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/procedure/CNS"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JO C/1998/194/12</j.0:event_legal_document_reference>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adoption par Commission proposition modifiée</j.0:type>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_PROPAME_byCOM"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-04-30</j.0:date>
+    <j.0:event_legal_has_remark_concept_type_remark rdf:resource="http://publications.europa.eu/resource/authority/fd_603/1080"/>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 19:19:56</j.2:build_info>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_PROPAME_byCOM"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_PROPAME_byCOM"/>
+    <j.0:event_formally-addresses_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_legal_was_historically_about_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/CNS"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM/1998/289/FINAL/4</j.0:document_reference>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-04-30</j.0:event_date>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/uriserv/COM.1998.0289(04).FIN"/>
+    <j.0:event_associated_with_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/SG"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:comment xml:lang="fr">La compétence pour cette proposition a été modifiée suite à la réorganisation des services de la Commission du 18 septembre 1999.</j.0:comment>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOC_1998_194_R_0012_01"/>
+    <j.0:event_legal_uses_concept_mode_decision rdf:resource="http://publications.europa.eu/resource/authority/fd_606/1015"/>
+    <j.0:event_legal_was_historically_about_concept_type_dossier rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1260"/>
+    <j.0:has_remark rdf:resource="http://publications.europa.eu/resource/authority/fd_603/1080"/>
+    <j.0:event_responsibility_of_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/BUDG"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/oj/JOC_1998_194_R_0012_01"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:formally-addresses rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_legal_responsibility_of_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/BUDG"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/oj/JOC_1999_374_R_0010_01">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/oj/JOC_1998_104_R_0049_01">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/11997E175">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/TRS_EP_PROPAME_byCOM">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/108074.233200"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 19:19:56</j.2:build_info>
+    <j.2:quality_issue>DATMIS</j.2:quality_issue>
+    <j.2:error_message>Data missing</j.2:error_message>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/108074.147561"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/OP_DATPRO"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_initiated_by_institution"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_initiated_by_institution"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#initiated_by"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/EP">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/51999AR0350">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_612/1260">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_612"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_dossier"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#atto_fd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/108074.338260">
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-07-17</j.0:event_date>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C/2002/2672/FINAL</j.0:document_reference>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-07-17</j.0:event_legal_date>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retrait par Commission</j.0:type>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/WDW_byCOM"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/WDW_byCOM"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C/2002/2672/FINAL</j.0:event_legal_document_reference>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retrait par Commission</j.0:event_legal_type>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/WDW_byCOM"/>
+    <j.0:comment xml:lang="fr">The amended proposals for Council Regulations (EC) amending the basic regulations of certain Community decentralised agencies presented by the Commission on 6 October 1997 - COM(97)489 final - and amended by the Commission on 4 May 1998 - COM(1998)289 final - are withdrawn</j.0:comment>
+    <j.0:uses rdf:resource="http://publications.europa.eu/resource/authority/fd_606/1005"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_uses_concept_mode_decision rdf:resource="http://publications.europa.eu/resource/authority/fd_606/1005"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:event_legal_comment xml:lang="fr">The amended proposals for Council Regulations (EC) amending the basic regulations of certain Community decentralised agencies presented by the Commission on 6 October 1997 - COM(97)489 final - and amended by the Commission on 4 May 1998 - COM(1998)289 final - are withdrawn</j.0:event_legal_comment>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-07-17</j.0:date>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 19:19:56</j.2:build_info>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/OPI_RSI_byEP">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/108074.146575"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/oj/JOC_1998_095_R_0004_01">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/51997PC0489%2804%29">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/462d13ed-d219-11e1-905c-01aa75ed71a1.0006">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/108074.182061"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-07-20T05:16:17.719+02:00</j.3:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/ADP_PROPAME_byCOM">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/108074.233198"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/108074.233199">
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-05-04</j.0:date>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-05-04</j.0:event_legal_date>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 19:19:56</j.2:build_info>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transmission au Conseil de la proposition modifiée</j.0:event_legal_type>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transmission au Conseil de la proposition modifiée</j.0:type>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_toCONSIL_PROPAME_byCOM"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-05-04</j.0:event_date>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_toCONSIL_PROPAME_byCOM"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_toCONSIL_PROPAME_byCOM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/agent/Edward%20T.%20KELLETT-BOWMAN">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/108074.197588">
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-03-10</j.0:date>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/POS_AME_RSI_byCOM"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-03-10</j.0:event_legal_date>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-03-10</j.0:event_date>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Position de la Commission sur les amendements du PE en lecture unique</j.0:event_legal_type>
+    <j.0:uses rdf:resource="http://publications.europa.eu/resource/authority/fd_602/1025"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 19:19:56</j.2:build_info>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/POS_AME_RSI_byCOM"/>
+    <j.0:event_legal_uses_concept_type_decision rdf:resource="http://publications.europa.eu/resource/authority/fd_602/1025"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/POS_AME_RSI_byCOM"/>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Position de la Commission sur les amendements du PE en lecture unique</j.0:type>
+    <j.0:has_remark rdf:resource="http://publications.europa.eu/resource/authority/fd_603/1235"/>
+    <j.0:event_legal_has_remark_concept_type_remark rdf:resource="http://publications.europa.eu/resource/authority/fd_603/1235"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/108074.146572">
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transmission au Conseil</j.0:type>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-10-06</j.0:date>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_toCONSIL_byCOM"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_toCONSIL_byCOM"/>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 19:19:56</j.2:build_info>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-10-06</j.0:event_date>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-10-06</j.0:event_legal_date>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transmission au Conseil</j.0:event_legal_type>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_toCONSIL_byCOM"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/OPI_byEESC">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/108074.147561"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure/1997_256">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#dossier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/CH_LB_byCOM">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/108074.275024"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/OPI_RSI_byEP_CMT">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/108074.182062"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/108074.147561">
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avis Comité économique et social</j.0:type>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/oj/JOC_1998_095_R_0004_01"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/51998AC0100"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/OPI_byEESC"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/OPI_byEESC"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/OPI_byEESC"/>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 19:19:56</j.2:build_info>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOC_1998_095_R_0004_01"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/celex/51998AC0100"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOC_1998_095_R_0004_01"/>
+    <j.0:event_legal_reported_by_person rdf:resource="http://publications.europa.eu/resource/agent/Mar%C3%ADa%20Candelas%20SANCHEZ%20MIGUEL"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-01-28</j.0:date>
+    <j.0:reported_by rdf:resource="http://publications.europa.eu/resource/agent/Mar%C3%ADa%20Candelas%20SANCHEZ%20MIGUEL"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-01-28</j.0:event_date>
+    <j.0:event_reported_by_person rdf:resource="http://publications.europa.eu/resource/agent/Mar%C3%ADa%20Candelas%20SANCHEZ%20MIGUEL"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/celex/51998AC0100"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BULLETIN/1998/1/-2/1.6.9</j.0:event_legal_document_reference>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BULLETIN/1998/1/-2/1.6.9</j.0:document_reference>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-01-28</j.0:event_legal_date>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JO C/1998/95/4</j.0:document_reference>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/OP_DATPRO"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/OP_DATPRO"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JO C/1998/95/4</j.0:event_legal_document_reference>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avis Comité économique et social</j.0:event_legal_type>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/OP_DATPRO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/ADP_byCOM">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/108074.141786"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/462d13ed-d219-11e1-905c-01aa75ed71a1.0005">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/108074.182062"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-07-20T05:16:17.719+02:00</j.3:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/11992E130S">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/108074">
+    <j.0:year_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1997</j.0:year_reference>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/comnat/SEC_1999_0581_FIN"/>
+    <j.0:comment xml:lang="it">Reg. da modificare: GU L 120/11.5.1990</j.0:comment>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/celex/51997PC0489%2804%29"/>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/celex/51998AC0100"/>
+    <j.0:reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1997/0256/CNS</j.0:reference>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/108074.275024"/>
+    <j.0:dossier_title xml:lang="pt">Proposta de REGULAMENTO (CE) DO CONSELHO que altera o regulamento (CEE) N° 1210/90 do Conselho, de 7 maio de 1990, que institui a Agência europeia do ambiente e a rede europeia de informação e de observação do ambiente</j.0:dossier_title>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/108074.233200"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/108074.283891"/>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/108074.233200"/>
+    <j.0:dossier_comment xml:lang="en">Reg. to be amended: OJ L 120/11.5.90</j.0:dossier_comment>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#dossier"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/108074.197588"/>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/108074.147901"/>
+    <j.0:dossier_comment xml:lang="it">Reg. da modificare: GU L 120/11.5.1990</j.0:dossier_comment>
+    <j.0:dossier_is_about_concept_type_dossier rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1260"/>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/celex/51998AP0035%2803%29"/>
+    <j.0:dossier_title xml:lang="sv">Förslag till RÅDETS FÖRORDNING (EG) om ändring av Rådets förordning 1210/90 av den 7 maj 1990 om inrättandet av europeiska miljöbyrån och europeiska nätverket för miljöinformation och miljöövervakning</j.0:dossier_title>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/108074.182061"/>
+    <j.0:dossier_title xml:lang="fr">Proposition de REGLEMENT (CE) DU CONSEIL modifiant le règlement (CEE) nr. 1210/90 du Conseil, du 7 mai 1990, relatif à la création de l'Agence européenne pour l'environnement et du Réseau européen d'information et d'observation pour l'environnement.</j.0:dossier_title>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/108074.147561"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/51998PC0289%2804%29"/>
+    <j.0:dossier_date_withdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-07-17</j.0:dossier_date_withdrawn>
+    <j.0:dossier_type_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM</j.0:dossier_type_reference>
+    <j.0:dossier_title xml:lang="it">Proposta di REGOLAMENTO (CE) DEL CONSIGLIO che modifica il Regolamento (CEE) N. 1210/90 del Consiglio, del 7 maggio 1990, sull'istituzione dell'Agenzia europea dell'ambiente e della rete europea d'informazione e di osservazione in materia ambientale</j.0:dossier_title>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/11997E175"/>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOC_1998_104_R_0049_01"/>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/108074.233199"/>
+    <j.0:dossier_comment xml:lang="sv">Förordn. som skall ändras: EGT L 120/11.5.1990</j.0:dossier_comment>
+    <j.0:is_about rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1260"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/108074.146574"/>
+    <j.0:withdrawn-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:withdrawn-proposal>
+    <j.0:title xml:lang="da">Forslag til RÅDETS FORORDNING (EF) om ændring af Rådets forordning (EØF) Nr. 1210/90 af 7. maj 1990 om oprettelse af det Europæiske Miljøagentur og det Europæiske Miljøoplysnings- og miljøovervågningsnet</j.0:title>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/108074.141786"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_interinstitutional"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/oj/JOC_1999_374_R_0010_01"/>
+    <j.0:reference_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1997/0256/CNS</j.0:reference_procedure>
+    <j.0:title xml:lang="en">Proposal for a COUNCIL REGULATION(EC) amending Council regulation (EEC) nr. 1210/90 of 7 may 1990 on the establishment of the europan Environment Agency and the european environment information and observation network</j.0:title>
+    <j.0:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pegase:108074</j.0:identifier>
+    <j.0:comment xml:lang="el">Κανον. προς τροποποίηση: ΕΕ L 120/11.5.1990</j.0:comment>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/11992E130S"/>
+    <j.0:comment xml:lang="de">Zu ändernde Verordn.: ABl. L 120/11.5.1990</j.0:comment>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOC_1997_335_R_0016_01"/>
+    <j.0:dossier_title xml:lang="nl">Voorstel voor een VERORDENING (EG) VAN DE RAAD tot wijziging van verordening (EEG) Nr. 1210/90 van de Raad van 7 mei 1990 inzake de oprichting van het Europees Milieuagentschap en het Europees Milieuobservatie- en informatienetwerk</j.0:dossier_title>
+    <j.0:dossier_number_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">489 - 4</j.0:dossier_number_reference>
+    <j.0:title xml:lang="sv">Förslag till RÅDETS FÖRORDNING (EG) om ändring av Rådets förordning 1210/90 av den 7 maj 1990 om inrättandet av europeiska miljöbyrån och europeiska nätverket för miljöinformation och miljöövervakning</j.0:title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/108074.275024"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/108074.233200"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-10-06</j.0:date>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/uriserv/COM.1997.0489(04).FIN"/>
+    <j.0:comment xml:lang="sv">Förordn. som skall ändras: EGT L 120/11.5.1990</j.0:comment>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/108074.141786"/>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/108074.182062"/>
+    <j.0:dossier_title xml:lang="de">Vorschlag für eine VERORDNUNG (EG) DES RATES zur Änderung der Verordnung (EWG) nr. 1210/90 des Rates vom 7. mai 1990 zur Errichtung einer Europäischen Umweltagentur und eines europäischen Umweltinformations - und Umweltbeobachtungsnetzes</j.0:dossier_title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/oj/JOC_1997_335_R_0016_01"/>
+    <j.0:dossier_comment xml:lang="el">Κανον. προς τροποποίηση: ΕΕ L 120/11.5.1990</j.0:dossier_comment>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/108074.146572"/>
+    <j.0:title xml:lang="nl">Voorstel voor een VERORDENING (EG) VAN DE RAAD tot wijziging van verordening (EEG) Nr. 1210/90 van de Raad van 7 mei 1990 inzake de oprichting van het Europees Milieuagentschap en het Europees Milieuobservatie- en informatienetwerk</j.0:title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/51997PC0489%2804%29"/>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOC_1999_374_R_0010_01"/>
+    <j.0:comment xml:lang="da">Fo., der skal ændres: EFT L 120/11.5.1990</j.0:comment>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/108074.147901"/>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/108074.233198"/>
+    <j.0:adopted-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:adopted-proposal>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 19:19:56</j.2:build_info>
+    <j.0:date_creation_legacy rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-10-06</j.0:date_creation_legacy>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/108074.182061"/>
+    <j.0:dossier_comment xml:lang="da">Fo., der skal ændres: EFT L 120/11.5.1990</j.0:dossier_comment>
+    <j.0:comment xml:lang="es">Regl. que se modifica: DO L 120/11.5.1990</j.0:comment>
+    <j.0:dossier_adopted-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:dossier_adopted-proposal>
+    <j.0:comment xml:lang="pt">Reg. a alterar: JO L 120/11.5.1990</j.0:comment>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/108074.338260"/>
+    <j.0:dossier_pending-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:dossier_pending-proposal>
+    <j.0:date_withdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-07-17</j.0:date_withdrawn>
+    <j.0:dossier_title xml:lang="da">Forslag til RÅDETS FORORDNING (EF) om ændring af Rådets forordning (EØF) Nr. 1210/90 af 7. maj 1990 om oprettelse af det Europæiske Miljøagentur og det Europæiske Miljøoplysnings- og miljøovervågningsnet</j.0:dossier_title>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/108074.197588"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/procedure/CNS"/>
+    <j.0:dossier_title xml:lang="en">Proposal for a COUNCIL REGULATION(EC) amending Council regulation (EEC) nr. 1210/90 of 7 may 1990 on the establishment of the europan Environment Agency and the european environment information and observation network</j.0:dossier_title>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/uriserv/COM.1998.0289(04).FIN"/>
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/11992E130S"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/108074.147561"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/51998AC0100"/>
+    <j.0:dossier_title xml:lang="fi">Ehdotus: NEUVOSTON ASETUS (EY) Euroopan ympäristökeskuksen sekä ympäristöä koskevan Euroopan tieto- ja seurantaverkoston perustamisesta 7 päivänä toukokuuta 1990 annetun Neuvoston asetuksen (ETY) N:o 1210/90 muuttamisesta</j.0:dossier_title>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/108074.182062"/>
+    <j.0:dossier_year_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1997</j.0:dossier_year_reference>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/11997E175"/>
+    <j.0:dossier_comment xml:lang="es">Regl. que se modifica: DO L 120/11.5.1990</j.0:dossier_comment>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/108074.141786"/>
+    <j.0:comment xml:lang="nl">Te wijzigen verord.: PB L 120/11.5.1990</j.0:comment>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/uriserv/COM.1998.0289(04).FIN"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/oj/JOC_1998_194_R_0012_01"/>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOC_1998_194_R_0012_01"/>
+    <j.0:title xml:lang="es">Propuesta de REGLAMENTO (CE) DEL CONSEJO por el que se modifica el Reglamento (CE) N° 1210/90 del Consejo, de 7 de mayo de 1990, por el que se crea la Agencia europea de medio ambiente y la red europea de información y de observación sobre el medio ambiente</j.0:title>
+    <j.0:procedure_code_interinstitutional_reference_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1997/0256/CNS</j.0:procedure_code_interinstitutional_reference_procedure>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/108074.146572"/>
+    <j.0:year_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1997</j.0:year_procedure>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/108074.233198"/>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/108074.147561"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/oj/JOC_1998_104_R_0049_01"/>
+    <j.0:comment xml:lang="fi">Muutettava asetus: EYVL L 120/11.5.1990</j.0:comment>
+    <j.0:dossier_comment xml:lang="pt">Reg. a alterar: JO L 120/11.5.1990</j.0:dossier_comment>
+    <j.0:pending-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:pending-proposal>
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/11997E175"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/108074.233198"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/108074.338260"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/51999AR0350"/>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/celex/51998PC0289%2804%29"/>
+    <j.0:dossier_initiated_by_act_preparatory rdf:resource="http://publications.europa.eu/resource/celex/51997PC0489%2804%29"/>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/108074.338260"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/108074.182061"/>
+    <j.0:comment xml:lang="fr">Règl. à modifier: JO L 120/11.5.1990</j.0:comment>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/uriserv/COM.1997.0489(04).FIN"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/oj/JOC_1998_095_R_0004_01"/>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/108074.146572"/>
+    <j.0:title xml:lang="pt">Proposta de REGULAMENTO (CE) DO CONSELHO que altera o regulamento (CEE) N° 1210/90 do Conselho, de 7 maio de 1990, que institui a Agência europeia do ambiente e a rede europeia de informação e de observação do ambiente</j.0:title>
+    <j.0:comment xml:lang="en">Reg. to be amended: OJ L 120/11.5.90</j.0:comment>
+    <j.0:type_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM</j.0:type_reference>
+    <j.0:title xml:lang="fr">Proposition de REGLEMENT (CE) DU CONSEIL modifiant le règlement (CEE) nr. 1210/90 du Conseil, du 7 mai 1990, relatif à la création de l'Agence européenne pour l'environnement et du Réseau européen d'information et d'observation pour l'environnement.</j.0:title>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOC_1998_095_R_0004_01"/>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/108074.197588"/>
+    <j.0:dossier_title xml:lang="es">Propuesta de REGLAMENTO (CE) DEL CONSEJO por el que se modifica el Reglamento (CE) N° 1210/90 del Consejo, de 7 de mayo de 1990, por el que se crea la Agencia europea de medio ambiente y la red europea de información y de observación sobre el medio ambiente</j.0:dossier_title>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/108074.146575"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/108074.147901"/>
+    <j.0:procedure_code_interinstitutional_year_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1997</j.0:procedure_code_interinstitutional_year_procedure>
+    <j.0:dossier_comment xml:lang="fi">Muutettava asetus: EYVL L 120/11.5.1990</j.0:dossier_comment>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/celex/51999AR0350"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/108074.146575"/>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/108074.283891"/>
+    <j.0:dossier_comment xml:lang="de">Zu ändernde Verordn.: ABl. L 120/11.5.1990</j.0:dossier_comment>
+    <j.0:dossier_identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pegase:108074</j.0:dossier_identifier>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/108074.146574"/>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/108074.233199"/>
+    <j.0:dossier_withdrawn-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:dossier_withdrawn-proposal>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/comnat/SEC_1999_0581_FIN"/>
+    <j.0:dossier_comment xml:lang="nl">Te wijzigen verord.: PB L 120/11.5.1990</j.0:dossier_comment>
+    <j.0:title xml:lang="it">Proposta di REGOLAMENTO (CE) DEL CONSIGLIO che modifica il Regolamento (CEE) N. 1210/90 del Consiglio, del 7 maggio 1990, sull'istituzione dell'Agenzia europea dell'ambiente e della rete europea d'informazione e di osservazione in materia ambientale</j.0:title>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/108074.233199"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/51998AP0035%2803%29"/>
+    <j.0:procedure_code_interinstitutional_number_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0256</j.0:procedure_code_interinstitutional_number_procedure>
+    <j.0:procedure_code_interinstitutional_has_type_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/CNS"/>
+    <j.0:title xml:lang="fi">Ehdotus: NEUVOSTON ASETUS (EY) Euroopan ympäristökeskuksen sekä ympäristöä koskevan Euroopan tieto- ja seurantaverkoston perustamisesta 7 päivänä toukokuuta 1990 annetun Neuvoston asetuksen (ETY) N:o 1210/90 muuttamisesta</j.0:title>
+    <j.0:number_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">489 - 4</j.0:number_reference>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/108074.182062"/>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/108074.275024"/>
+    <j.0:dossier_comment xml:lang="fr">Règl. à modifier: JO L 120/11.5.1990</j.0:dossier_comment>
+    <j.0:dossier_date_creation_legacy rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-10-06</j.0:dossier_date_creation_legacy>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/108074.146574"/>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/108074.146575"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/11992E130S"/>
+    <j.0:number_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0256</j.0:number_procedure>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/108074.283891"/>
+    <j.0:title xml:lang="de">Vorschlag für eine VERORDNUNG (EG) DES RATES zur Änderung der Verordnung (EWG) nr. 1210/90 des Rates vom 7. mai 1990 zur Errichtung einer Europäischen Umweltagentur und eines europäischen Umweltinformations - und Umweltbeobachtungsnetzes</j.0:title>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/celex/51997PC0489%2804%29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/oj/JOC_1998_194_R_0012_01">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/108074.147901">
+    <j.0:comment xml:lang="fr">concernant page 7, version FR uniquement</j.0:comment>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/celex/51997PC0489%2804%29"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corrigendum</j.0:event_legal_type>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-10-16</j.0:date>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/CORR_byCOM"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/CORR_byCOM"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/CORR_byCOM"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-10-16</j.0:event_legal_date>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-10-16</j.0:event_date>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corrigendum</j.0:type>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/celex/51997PC0489%2804%29"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 19:19:56</j.2:build_info>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM/1997/489/FINAL/2/4</j.0:event_legal_document_reference>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/51997PC0489%2804%29"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM/1997/489/FINAL/2/4</j.0:document_reference>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_comment xml:lang="fr">concernant page 7, version FR uniquement</j.0:event_legal_comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/COM">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/51998AC0100">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_603/1235">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_remark"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_600"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/agent/Michael%20TAPPIN">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/agent/Erkki%20LIIKANEN">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_603/100423">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_remark"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_600"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/EAC">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_602/1010">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_decision"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_602"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/POS_AME_RSI_byCOM">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/108074.197588"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/comnat/SEC_1999_0581_FIN">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/BUDG">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/462d13ed-d219-11e1-905c-01aa75ed71a1.0004">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/108074.147901"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-07-20T05:16:17.719+02:00</j.3:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/procedure/CNS">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/procedure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_procedure_code_interinstitutional"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/AGRI">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/108074.182062">
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AVIS CPE LECTURE UNIQUE</j.0:type>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-01-20</j.0:event_date>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:event_legal_gets_opinion_of_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP_BUDG"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-01-20</j.0:event_legal_date>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:gets_opinion_of rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP_BUDG"/>
+    <j.0:reported_by rdf:resource="http://publications.europa.eu/resource/agent/Michael%20TAPPIN"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/OPI_RSI_byEP_CMT"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-01-20</j.0:date>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/OPI_RSI_byEP_CMT"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 19:19:56</j.2:build_info>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/OPI_RSI_byEP_CMT"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AVIS CPE LECTURE UNIQUE</j.0:event_legal_type>
+    <j.0:event_legal_reported_by_person rdf:resource="http://publications.europa.eu/resource/agent/Michael%20TAPPIN"/>
+    <j.0:event_reported_by_person rdf:resource="http://publications.europa.eu/resource/agent/Michael%20TAPPIN"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/108074.275024">
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-05-01</j.0:event_legal_date>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/CH_LB_byCOM"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-05-01</j.0:event_date>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Changement de base juridique par la Commission</j.0:event_legal_type>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/comnat/SEC_1999_0581_FIN"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/comnat/SEC_1999_0581_FIN"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/11997E175"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/CH_LB_byCOM"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/CH_LB_byCOM"/>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/11997E175"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/11997E175"/>
+    <j.0:mandatorily-consults rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COR"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SEC/1999/581/FINAL</j.0:event_legal_document_reference>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/comnat/SEC_1999_0581_FIN"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_mandatorily-consults_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COR"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SEC/1999/581/FINAL</j.0:document_reference>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:comment xml:lang="fr">La base juridique de cette proposition a été adaptée suite à l'entrée en vigueur du Traité d'Amsterdam. La consultation du Comité des régions est maintenant obligatoire</j.0:comment>
+    <j.0:event_legal_comment xml:lang="fr">La base juridique de cette proposition a été adaptée suite à l'entrée en vigueur du Traité d'Amsterdam. La consultation du Comité des régions est maintenant obligatoire</j.0:event_legal_comment>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-05-01</j.0:date>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 19:19:56</j.2:build_info>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Changement de base juridique par la Commission</j.0:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/108074.146574">
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_EP_byCOM"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_EP_byCOM"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transmission au Parlement européen</j.0:event_legal_type>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-10-06</j.0:event_date>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 19:19:56</j.2:build_info>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transmission au Parlement européen</j.0:type>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-10-06</j.0:event_legal_date>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_EP_byCOM"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-10-06</j.0:date>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_606/1015">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_mode_decision"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_606"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/DG15">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/DG03">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/462d13ed-d219-11e1-905c-01aa75ed71a1.0003">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/108074.146574"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-07-20T05:16:17.719+02:00</j.3:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/ENV">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/462d13ed-d219-11e1-905c-01aa75ed71a1.0015">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/108074.338260"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-07-20T05:16:17.719+02:00</j.3:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/TRS_EP_byCOM">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/108074.146574"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/SG">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/agent/Martin%20BANGEMANN">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/TRS_toCONSIL_byCOM">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/108074.146572"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/HR">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/51998AP0035%2803%29">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/462d13ed-d219-11e1-905c-01aa75ed71a1.0002">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/108074.146572"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-07-20T05:16:17.719+02:00</j.3:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/462d13ed-d219-11e1-905c-01aa75ed71a1.0014">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/108074.283891"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-07-20T05:16:17.719+02:00</j.3:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/DGT">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/REP_RSI_byEP_CMT">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/108074.182061"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/108074.233200">
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-05-04</j.0:event_legal_date>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-05-04</j.0:date>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_EP_PROPAME_byCOM"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_EP_PROPAME_byCOM"/>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transmission au Parlement européen de la proposition modifiée</j.0:type>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-05-04</j.0:event_date>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_EP_PROPAME_byCOM"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transmission au Parlement européen de la proposition modifiée</j.0:event_legal_type>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 19:19:56</j.2:build_info>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 19:19:56</j.2:build_info>
+    <j.2:quality_issue>DATMIS</j.2:quality_issue>
+    <j.2:error_message>Data missing</j.2:error_message>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/108074.147561"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/OP_DATPRO"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_initiated_by_institution"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_initiated_by_institution"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#initiated_by"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/AUDIT">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_606/1005">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_mode_decision"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_606"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_602/1025">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_decision"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_602"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/agent/Jean%20ASSELBORN">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/462d13ed-d219-11e1-905c-01aa75ed71a1.0013">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/108074.275024"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-02T00:37:13.377+01:00</j.3:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/462d13ed-d219-11e1-905c-01aa75ed71a1.0001">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/108074.141786"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-19T09:22:26.144+02:00</j.3:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/462d13ed-d219-11e1-905c-01aa75ed71a1">
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-05T00:38:19.705+01:00</j.3:lastModificationDate>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure/1997_256"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/51998PC0289%2804%29">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/462d13ed-d219-11e1-905c-01aa75ed71a1.0009">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/108074.146575"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-07-20T05:16:17.719+02:00</j.3:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/CONSIL">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/108074.182061">
+    <j.0:event_legal_reported_by_person rdf:resource="http://publications.europa.eu/resource/agent/Edward%20T.%20KELLETT-BOWMAN"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A4/1998/35</j.0:event_legal_document_reference>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:event_legal_gets_report_of_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP_CONT"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PE/224219</j.0:document_reference>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:gets_report_of rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP_CONT"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-01-21</j.0:date>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-01-21</j.0:event_legal_date>
+    <j.0:reported_by rdf:resource="http://publications.europa.eu/resource/agent/Edward%20T.%20KELLETT-BOWMAN"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A4/1998/35</j.0:document_reference>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rapport Commission PE en lecture unique</j.0:event_legal_type>
+    <j.0:event_reported_by_person rdf:resource="http://publications.europa.eu/resource/agent/Edward%20T.%20KELLETT-BOWMAN"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PE/224219</j.0:event_legal_document_reference>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/REP_RSI_byEP_CMT"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-01-21</j.0:event_date>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/REP_RSI_byEP_CMT"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 19:19:56</j.2:build_info>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rapport Commission PE en lecture unique</j.0:type>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/REP_RSI_byEP_CMT"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/uriserv/COM.1997.0489(04).FIN">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/oj/JOC_1997_335_R_0016_01">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/EMPL">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/OPI_byCOR">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/108074.283891"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/108074.146575">
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/celex/51998AP0035%2803%29"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-03-10</j.0:event_date>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A4/1998/35</j.0:event_legal_document_reference>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOC_1998_104_R_0049_01"/>
+    <j.0:uses rdf:resource="http://publications.europa.eu/resource/authority/fd_602/1010"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/51998AP0035%2803%29"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A4/1998/35</j.0:document_reference>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:comment xml:lang="fr">Les amendements du PE auxquels la Commission réserve une suite favorable sont relatifs à l'octroi de la décharge aux neuf organismes communautaires décentralisés, ainsi qu'à l'exercice de leur contrôle financier par le contrôleur financier de la Commission. En revanche, la Commisison ne peut pas se rallier aux amendements du Parlement relatifs aux ressources propres et les éventuels excédents des agences</j.0:comment>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BULLETIN/1998/3/1.5.11</j.0:event_legal_document_reference>
+    <j.0:event_legal_taken_over_person rdf:resource="http://publications.europa.eu/resource/agent/Martin%20BANGEMANN"/>
+    <j.0:taken_over rdf:resource="http://publications.europa.eu/resource/agent/Martin%20BANGEMANN"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BULLETIN/1998/3/1.5.11</j.0:document_reference>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avis du Parlement européen en  lecture unique</j.0:type>
+    <j.0:responsibility_of rdf:resource="http://publications.europa.eu/resource/agent/Erkki%20LIIKANEN"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:event_legal_comment xml:lang="fr">Les amendements du PE auxquels la Commission réserve une suite favorable sont relatifs à l'octroi de la décharge aux neuf organismes communautaires décentralisés, ainsi qu'à l'exercice de leur contrôle financier par le contrôleur financier de la Commission. En revanche, la Commisison ne peut pas se rallier aux amendements du Parlement relatifs aux ressources propres et les éventuels excédents des agences</j.0:event_legal_comment>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JO C/1998/104/49</j.0:event_legal_document_reference>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/OPI_RSI_byEP"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-03-10</j.0:date>
+    <j.0:event_legal_uses_concept_type_decision rdf:resource="http://publications.europa.eu/resource/authority/fd_602/1010"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/oj/JOC_1998_104_R_0049_01"/>
+    <j.0:event_reported_by_person rdf:resource="http://publications.europa.eu/resource/agent/Edward%20T.%20KELLETT-BOWMAN"/>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 19:19:56</j.2:build_info>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOC_1998_104_R_0049_01"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:event_responsibility_of_person rdf:resource="http://publications.europa.eu/resource/agent/Erkki%20LIIKANEN"/>
+    <j.0:reported_by rdf:resource="http://publications.europa.eu/resource/agent/Edward%20T.%20KELLETT-BOWMAN"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-03-10</j.0:event_legal_date>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/OPI_RSI_byEP"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/OPI_RSI_byEP"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JO C/1998/104/49</j.0:document_reference>
+    <j.0:event_legal_reported_by_person rdf:resource="http://publications.europa.eu/resource/agent/Edward%20T.%20KELLETT-BOWMAN"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avis du Parlement européen en  lecture unique</j.0:event_legal_type>
+    <j.0:event_legal_responsibility_of_person rdf:resource="http://publications.europa.eu/resource/agent/Erkki%20LIIKANEN"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/celex/51998AP0035%2803%29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/EP_CONT">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/EESC">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_606/1010">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_mode_decision"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_606"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/462d13ed-d219-11e1-905c-01aa75ed71a1.0012">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/108074.233200"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-07-20T05:16:17.719+02:00</j.3:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/TRS_toCONSIL_PROPAME_byCOM">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/108074.233199"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 19:19:56</j.2:build_info>
+    <j.2:quality_issue>DATMIS</j.2:quality_issue>
+    <j.2:error_message>Data missing</j.2:error_message>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/108074.147561"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/OP_DATPRO"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_initiated_by_institution"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_initiated_by_institution"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#initiated_by"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/462d13ed-d219-11e1-905c-01aa75ed71a1.0008">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/108074.197588"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-07-20T05:16:17.719+02:00</j.3:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/108074.283891">
+    <j.0:event_legal_comment xml:lang="fr">L'avis n' a été l'objet d'aucun amendement.  Il a donc été adopté en l'état à l'unanimité.</j.0:event_legal_comment>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 19:19:56</j.2:build_info>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-09-15</j.0:event_legal_date>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/celex/51999AR0350"/>
+    <j.0:event_reported_by_person rdf:resource="http://publications.europa.eu/resource/agent/Jean%20ASSELBORN"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avis Comité des Régions</j.0:event_legal_type>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/oj/JOC_1999_374_R_0010_01"/>
+    <j.0:event_legal_reported_by_person rdf:resource="http://publications.europa.eu/resource/agent/Jean%20ASSELBORN"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JO C/1999/374/10</j.0:document_reference>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOC_1999_374_R_0010_01"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BULLETIN/1999/9/1.6.4</j.0:document_reference>
+    <j.0:uses rdf:resource="http://publications.europa.eu/resource/authority/fd_606/1035"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/OPI_byCOR"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/OPI_byCOR"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-09-15</j.0:date>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/celex/51999AR0350"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JO C/1999/374/10</j.0:event_legal_document_reference>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avis Comité des Régions</j.0:type>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/OPI_byCOR"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:comment xml:lang="fr">L'avis n' a été l'objet d'aucun amendement.  Il a donc été adopté en l'état à l'unanimité.</j.0:comment>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COR"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BULLETIN/1999/9/1.6.4</j.0:event_legal_document_reference>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-09-15</j.0:event_date>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COR"/>
+    <j.0:reported_by rdf:resource="http://publications.europa.eu/resource/agent/Jean%20ASSELBORN"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/108074"/>
+    <j.0:event_legal_uses_concept_mode_decision rdf:resource="http://publications.europa.eu/resource/authority/fd_606/1035"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/51999AR0350"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COR"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOC_1999_374_R_0010_01"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/uriserv/COM.1998.0289(04).FIN">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/OP_DATPRO">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+</rdf:RDF>

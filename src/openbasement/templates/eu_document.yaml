@@ -1,0 +1,107 @@
+version: "1"
+
+prefixes:
+  cdm: "http://publications.europa.eu/ontology/cdm#"
+  skos: "http://www.w3.org/2004/02/skos/core#"
+  rdf: "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+  xsd: "http://www.w3.org/2001/XMLSchema#"
+
+languages:
+  preferred: ["en", "fr", "de"]
+  fallback: "any"
+
+entities:
+
+  document:
+    find:
+      type: "cdm:work"
+      include_subclasses: true
+
+    fields:
+      title:
+        predicate: "cdm:work_title"
+        multilingual: true
+
+      celex:
+        predicate: "cdm:resource_legal_id_celex"
+
+      eli:
+        predicate: "cdm:resource_legal_eli"
+
+      date_document:
+        predicate: "cdm:work_date_document"
+        datatype: "xsd:date"
+
+      date_publication:
+        predicate: "cdm:work_date_of_effect"
+        datatype: "xsd:date"
+
+      date_entry_into_force:
+        predicate: "cdm:resource_legal_date_entry-into-force"
+        datatype: "xsd:date"
+
+      resource_type:
+        predicate: "cdm:work_has_resource-type"
+      resource_type_label:
+        predicate: "cdm:work_has_resource-type"
+        follow:
+          predicate: "skos:prefLabel"
+          multilingual: true
+
+      subject_matters:
+        predicate: "cdm:resource_legal_is_about_concept_directory-code"
+        cardinality: "many"
+
+      authors:
+        predicate: "cdm:work_created_by_agent"
+        cardinality: "many"
+        value_type: "uri"
+
+      identifiers:
+        predicate: "cdm:resource_legal_id_*"
+        collect: "dict"
+
+      dates:
+        predicate: "cdm:work_date_*"
+        collect: "dict"
+
+    relations:
+      expressions:
+        predicate: "cdm:work_has_expression"
+        target_template: "expression"
+        cardinality: "many"
+
+
+  expression:
+    find:
+      type: "cdm:expression"
+      include_subclasses: true
+
+    fields:
+      language:
+        predicate: "cdm:expression_uses_language"
+      title:
+        predicate: "cdm:expression_title"
+        multilingual: true
+
+    relations:
+      manifestations:
+        predicate: "cdm:expression_has_manifestation"
+        target_template: "manifestation"
+        cardinality: "many"
+
+
+  manifestation:
+    find:
+      type: "cdm:manifestation"
+      include_subclasses: true
+
+    fields:
+      format:
+        predicate: "cdm:manifestation_has_media-type"
+      byte_size:
+        predicate: "cdm:manifestation_has_byte-size"
+        datatype: "xsd:integer"
+
+    relations: {}

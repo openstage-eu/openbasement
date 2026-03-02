@@ -1,0 +1,634 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://publications.europa.eu/ontology/cdm#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.1="http://www.w3.org/2004/02/skos/core#"
+    xmlns:j.2="http://publications.europa.eu/ontology/annotation#"
+    xmlns:j.3="http://publications.europa.eu/ontology/cdm/cmr#" > 
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/2771">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+    <j.2:paragraph>9</j.2:paragraph>
+    <j.2:comment_on_legal_basis>P9</j.2:comment_on_legal_basis>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal_basis_for_resource_legal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/b7a02a37-9a9b-11ef-a130-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/consil/ST_15154_2024_INIT"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/immc/ST%2015154%202024%20INIT"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/fcc7e7d2-9772-11ef-a130-01aa75ed71a1.0002">
+    <j.3:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-04T11:58:18.821+01:00</j.3:creationDate>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-04T19:30:48.806+01:00</j.3:lastModificationDate>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure-event/2024_282.2024-11-04_DIS_byCONSIL"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <j.2:comment_on_legal_basis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A218P9</j.2:comment_on_legal_basis>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_based_on_resource_legal"/>
+    <j.2:paragraph rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</j.2:paragraph>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <j.2:article rdf:datatype="http://www.w3.org/2001/XMLSchema#string">218</j.2:article>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/treaty/TFEU_2010"/>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241031-4609; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; rules: preleg/rules.xml#76522#2024-03-08T07:01:05; builddate: 2024-10-31T11:24:09.41;</j.2:build_info>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_based_on_resource_legal"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/procedure-event/2024_282.2024-10-31_ADP_byCOM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/consil/ST_15154_2024_ADD_1">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory_council"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#proposal_act"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/immc/ST%2015154%202024%20INIT">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal_basis_for_resource_legal"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+    <j.2:comment_on_legal_basis>P4L1</j.2:comment_on_legal_basis>
+    <j.2:paragraph>4</j.2:paragraph>
+    <j.2:subparagraph>1</j.2:subparagraph>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/celex/12016E207"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/NP">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/31996D0528">
+    <j.0:cited_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+    <j.0:work_cited_by_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/62012CJ0399">
+    <j.0:cited_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+    <j.0:work_cited_by_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/dir-eu-legal-act/11401020">
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+    <j.0:concept_directory-code_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/agent/Paolo%20GENTILONI">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#person"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/7f071a2a-f5d1-4aed-b36a-34aeb32d6e41">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/eli/treaty/tfeu_2016/art_218/oj"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/procedure">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/subject-matter/EXT">
+    <j.0:subject-matter_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_606">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/ce21fe31-2e24-4b82-9da8-288df4a2a740">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/21996A0907%2801%29"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/eli/agree_internation/1996/528/oj"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/5870">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/e9877287-00f7-4597-a0b7-870cb4ed1d80">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/eli/convention/2013/94/oj"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/oj/JOL_2013_054_R_0004_01"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/22013A0226%2801%29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/EP">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal_basis_for_resource_legal"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+    <j.2:comment_on_legal_basis>P9</j.2:comment_on_legal_basis>
+    <j.2:paragraph>9</j.2:paragraph>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/treaty/TFEU_2010">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/2371884d-cecb-11ee-b9d9-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/oj/L_202400390"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/eli/dec/2024/390/oj"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/22024D0390"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/d1c5c779-9a9c-11ef-a130-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/consil/ST_15154_2024_ADD_1"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/immc/ST%2015154%202024%20ADD%201"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/22013A0226%2801%29">
+    <j.0:work_cited_by_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+    <j.0:cited_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory_ec"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#proposal_act"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#proposal_decision_ec"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/d76774c6-4e02-11e4-a0cb-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/ecli/ECLI%3AEU%3AC%3A2014%3A2258"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/62012CJ0399"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/12016E218">
+    <j.0:basis_for rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+    <j.0:resource_legal_basis_for_resource_legal rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/11951K%2FTXT">
+    <j.0:cited_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+    <j.0:work_cited_by_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/subject-matter/PCOM">
+    <j.0:subject-matter_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/celex/12016E207"/>
+    <j.2:subparagraph>1</j.2:subparagraph>
+    <j.2:paragraph>4</j.2:paragraph>
+    <j.2:comment_on_legal_basis>P4L1</j.2:comment_on_legal_basis>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal_basis_for_resource_legal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/immc/COM%282024%29504%20final">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/dir-eu-legal-act/02401013">
+    <j.0:concept_directory-code_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure-event/2024_282.2024-10-31_ADP_byCOM">
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADP_byCOM</j.0:type>
+    <j.0:event_legal_responsibility_of_person rdf:resource="http://publications.europa.eu/resource/agent/Paolo%20GENTILONI"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADP_byCOM</j.0:event_legal_type>
+    <j.0:basis_legal rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TFEU/art 218 par 9</j.0:basis_legal>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2024_282"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/COM%282024%29504%20final"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-31</j.0:event_date>
+    <j.0:event_legal_informs_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/NP"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2024_282"/>
+    <j.0:informs rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:formally-addresses rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM/2024/504/FINAL</j.0:document_reference>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/authority/treaty/TFEU_2010"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_procedural"/>
+    <j.0:uses rdf:resource="http://publications.europa.eu/resource/authority/fd_606/1010"/>
+    <j.0:event_legal_formally-addresses_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_informs_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/NP"/>
+    <j.0:event_legal_initiating rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:event_legal_initiating>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/authority/treaty/TFEU_2010"/>
+    <j.0:event_informs_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:responsibility_of rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/TAXUD"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.0:event_responsibility_of_person rdf:resource="http://publications.europa.eu/resource/agent/Paolo%20GENTILONI"/>
+    <j.0:responsibility_of rdf:resource="http://publications.europa.eu/resource/agent/Paolo%20GENTILONI"/>
+    <j.0:event_legal_responsibility_of_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/TAXUD"/>
+    <j.0:basis_legal rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TFEU/art 207 par 4 al 1</j.0:basis_legal>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/procedure/2024_282"/>
+    <j.0:event_responsibility_of_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/TAXUD"/>
+    <j.0:event_legal_basis_legal rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TFEU/art 218 par 9</j.0:event_legal_basis_legal>
+    <j.0:event_legal_was_historically_about_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.0:initiating rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:initiating>
+    <j.0:event_legal_informs_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/authority/treaty/TFEU_2010"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/immc/COM%282024%29504%20final"/>
+    <j.0:event_formally-addresses_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241031-4609; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; rules: preleg/rules.xml#76522#2024-03-08T07:01:05; builddate: 2024-10-31T11:24:09.41;</j.2:build_info>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_uses_concept_mode_decision rdf:resource="http://publications.europa.eu/resource/authority/fd_606/1010"/>
+    <j.0:event_legal_basis_legal rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TFEU/art 207 par 4 al 1</j.0:event_legal_basis_legal>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM/2024/504/FINAL</j.0:event_legal_document_reference>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/immc/COM%282024%29504%20final"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-31</j.0:date>
+    <j.0:informs rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/NP"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-31</j.0:event_legal_date>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <j.0:event_responsibility_of_agent rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/TAXUD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/5403">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/procedure/NLE">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/procedure"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_procedure_code_interinstitutional"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/ADP_byCOM">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2024_282.2024-10-31_ADP_byCOM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure-event/2024_282.2024-11-04_DIS_byCONSIL">
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2069; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T17:44:12.342;</j.2:build_info>
+    <j.0:sender_transmission rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CONSIL:Workflow</j.0:sender_transmission>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-3084; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T15:27:44.912;</j.2:build_info>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-3190; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T15:46:59.95;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2036; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T17:32:00.67;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-1954; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T13:02:40.576;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2337; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T18:51:55.797;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-1523; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T12:13:18.084;</j.2:build_info>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-04</j.0:event_date>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2234; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T18:31:46.486;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-1941; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T12:31:54.436;</j.2:build_info>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/consil/ST_15154_2024_INIT"/>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2657; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T13:57:23.185;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-1859; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T12:52:01.458;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-1507; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T12:04:05.412;</j.2:build_info>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/DIS_byCONSIL"/>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2658; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T14:06:53.507;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-1290; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T12:01:56.037;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2326; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T19:01:56.972;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-3389; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T15:57:06.687;</j.2:build_info>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-04</j.0:date>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2567; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T13:27:24.651;</j.2:build_info>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/DIS_byCONSIL"/>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-1933; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T13:15:20.291;</j.2:build_info>
+    <j.0:datetime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-04T11:45:01.750</j.0:datetime>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2428; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T19:26:51.703;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-3192; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T15:37:34.239;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-3928; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T17:22:12.478;</j.2:build_info>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-3408; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T16:07:20.13;</j.2:build_info>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST 15154 2024 ADD 1</j.0:document_reference>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/immc/ST%2015154%202024%20INIT"/>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2070; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T18:02:08.718;</j.2:build_info>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2024_282"/>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2163; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T18:21:55.312;</j.2:build_info>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_byCONSIL</j.0:type>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2740; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T14:27:15.172;</j.2:build_info>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-04</j.0:event_legal_date>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/ST%2015154%202024%20INIT"/>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2656; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T13:57:23.536;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-3749; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T16:32:31.435;</j.2:build_info>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/consil/ST_15154_2024_INIT"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-1873; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T12:42:21.572;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-1890; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T13:37:16.078;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2986; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T14:57:31.577;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-3900; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T17:11:47.864;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-3869; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T16:52:28.001;</j.2:build_info>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:event_legal_was_historically_about_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-3870; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T17:01:47.063;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-1813; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T12:22:31.536;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2232; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T18:42:08.521;</j.2:build_info>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2743; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T14:17:46.315;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2018; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T17:51:47.982;</j.2:build_info>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST 15154 2024 ADD 1</j.0:event_legal_document_reference>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2865; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T14:46:57.677;</j.2:build_info>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST 15154 2024 INIT</j.0:document_reference>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_procedural"/>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-3899; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T17:01:46.962;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-3745; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T16:42:09.119;</j.2:build_info>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST 15154 2024 INIT</j.0:event_legal_document_reference>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2987; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T15:07:49.582;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2647; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T13:47:20.805;</j.2:build_info>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/procedure/2024_282"/>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2817; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T14:37:46.595;</j.2:build_info>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/consil/ST_15154_2024_INIT"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/DIS_byCONSIL"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2024_282"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_byCONSIL</j.0:event_legal_type>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/immc/ST%2015154%202024%20INIT"/>
+    <j.0:datetime_transmission rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-04T11:45:01.750</j.0:datetime_transmission>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2424; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T19:14:43.189;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2012; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T16:42:10.49;</j.2:build_info>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-3086; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T15:17:07.681;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2057; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T18:11:51.052;</j.2:build_info>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/cde6f4f6-139a-4352-aa02-d930947af4d2">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/eli/treaty/ceca/sign"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/11951K%2FTXT"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/abfbe2f9-b598-4746-aac5-6f4b2d0a10f0">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/12016E207"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/eli/treaty/tfeu_2016/art_207/oj"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/206">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/2850">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/TAXUD">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/df617584-3643-4490-8d29-4271887d0ce0">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/eli/dec/1996/528/oj"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/31996D0528"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/CONSIL">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/consil/ST_15154_2024_INIT"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/consil/ST_15154_2024_INIT"/>
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/consil/ST_15154_2024_ADD_1"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/consil/ST_15154_2024_ADD_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/4580">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure/2024_282">
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2070; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T18:02:08.718; action: procedure-type;</j.2:build_info>
+    <j.0:procedure_code_interinstitutional_has_type_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2986; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T14:57:31.577; action: procedure-type;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2817; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T14:37:46.595; action: procedure-type;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2234; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T18:31:46.486; action: procedure-type;</j.2:build_info>
+    <j.0:withdrawn-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:withdrawn-proposal>
+    <j.0:title xml:lang="en">Proposal for a COUNCIL DECISION on the position to be taken on behalf of the European Union in the Joint Committee set up by the Agreement between the European Coal and Steel Community and the Republic of Turkey on trade in products covered by the Treaty establishing the European Coal and Steel Community as regards the amendment of that Agreement by replacing Protocol 1 thereto concerning the definition of the concept of ‘originating products’ and methods of administrative cooperation</j.0:title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/ST%2015154%202024%20INIT"/>
+    <j.0:dossier_year_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024</j.0:dossier_year_reference>
+    <j.0:dossier_title xml:lang="lv">Priekšlikums PADOMES LĒMUMS par nostāju, kas Eiropas Savienības vārdā jāieņem Apvienotajā komitejā, kura izveidota ar Nolīgumu starp Eiropas Ogļu un tērauda kopienu un Turcijas Republiku par produktu tirdzniecību, uz kuriem attiecas Eiropas Ogļu un tērauda kopienas dibināšanas līgums, attiecībā uz grozījumu minētajā nolīgumā, kas paredz aizstāt tā 1. protokolu par jēdziena “noteiktas izcelsmes izstrādājumi” definīciju un administratīvās sadarbības metodēm</j.0:dossier_title>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/procedure-event/2024_282.2024-10-31_ADP_byCOM"/>
+    <j.0:title xml:lang="nl">Voorstel voor een BESLUIT VAN DE RAAD over het namens de Europese Unie in te nemen standpunt in het Gemengd Comité dat is opgericht bij de Overeenkomst tussen de Europese Gemeenschap voor Kolen en Staal en de Republiek Turkije betreffende de handel in producten waarop het Verdrag tot oprichting van de Europese Gemeenschap voor Kolen en Staal van toepassing is inzake de wijziging van die overeenkomst door de vervanging van Protocol nr. 1 betreffende de definitie van het begrip “producten van oorsprong” en methoden van administratieve samenwerking</j.0:title>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-3408; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T16:07:20.13; action: procedure-type;</j.2:build_info>
+    <j.0:dossier_title xml:lang="hr">Prijedlog ODLUKE VIJEĆA o stajalištu koje treba zauzeti u ime Europske unije u okviru Zajedničkog odbora osnovanog Sporazumom između Europske zajednice za ugljen i čelik i Republike Turske o trgovini proizvodima obuhvaćenima Ugovorom o osnivanju Europske zajednice za ugljen i čelik u pogledu izmjene tog sporazuma zamjenom njegova Protokola 1. o definiciji pojma „proizvodi s podrijetlom” i načinima administrativne suradnje</j.0:dossier_title>
+    <j.0:dossier_title xml:lang="fi">Ehdotus NEUVOSTON PÄÄTÖS Euroopan hiili- ja teräsyhteisön perustamissopimuksen soveltamisalaan kuuluvien tuotteiden kaupasta tehdyllä Euroopan hiili- ja teräsyhteisön ja Turkin tasavallan välisellä sopimuksella perustetussa sekakomiteassa Euroopan unionin puolesta otettavasta kannasta mainitun sopimuksen muuttamiseen korvaamalla käsitteen ”alkuperätuotteet” määrittelyä ja hallinnollisen yhteistyön menetelmiä koskeva sopimuksen pöytäkirja N:o 1</j.0:dossier_title>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-1290; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T12:01:56.037; action: procedure-type;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-3389; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T15:57:06.687; action: procedure-type;</j.2:build_info>
+    <j.0:dossier_title xml:lang="hu">Javaslat A TANÁCS HATÁROZATA az Európai Unió által az Európai Szén- és Acélközösség és a Török Köztársaság közötti, az Európai Szén- és Acélközösséget létrehozó szerződés hatálya alá tartozó termékek kereskedelméről szóló megállapodással létrehozott vegyes bizottságban az említett megállapodásnak a „származó termék” fogalmának meghatározásáról és az igazgatási együttműködés módszereiről szóló 1. jegyzőkönyve felváltásával történő módosításával kapcsolatban képviselendő álláspontról</j.0:dossier_title>
+    <j.0:pending-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:pending-proposal>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-3749; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T16:32:31.435; action: procedure-type;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-1941; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T12:31:54.436; action: procedure-type;</j.2:build_info>
+    <j.0:title xml:lang="lv">Priekšlikums PADOMES LĒMUMS par nostāju, kas Eiropas Savienības vārdā jāieņem Apvienotajā komitejā, kura izveidota ar Nolīgumu starp Eiropas Ogļu un tērauda kopienu un Turcijas Republiku par produktu tirdzniecību, uz kuriem attiecas Eiropas Ogļu un tērauda kopienas dibināšanas līgums, attiecībā uz grozījumu minētajā nolīgumā, kas paredz aizstāt tā 1. protokolu par jēdziena “noteiktas izcelsmes izstrādājumi” definīciju un administratīvās sadarbības metodēm</j.0:title>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2987; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T15:07:49.582; action: procedure-type;</j.2:build_info>
+    <j.0:title xml:lang="hr">Prijedlog ODLUKE VIJEĆA o stajalištu koje treba zauzeti u ime Europske unije u okviru Zajedničkog odbora osnovanog Sporazumom između Europske zajednice za ugljen i čelik i Republike Turske o trgovini proizvodima obuhvaćenima Ugovorom o osnivanju Europske zajednice za ugljen i čelik u pogledu izmjene tog sporazuma zamjenom njegova Protokola 1. o definiciji pojma „proizvodi s podrijetlom” i načinima administrativne suradnje</j.0:title>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2018; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T17:51:47.982; action: procedure-type;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-1523; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T12:13:18.084; action: procedure-type;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2657; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T13:57:23.185; action: procedure-type;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2232; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T18:42:08.521; action: procedure-type;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-1289; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T11:54:50.141; action: procedure-type;</j.2:build_info>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/COM%282024%29504%20final"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2337; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T18:51:55.797; action: procedure-type;</j.2:build_info>
+    <j.0:title xml:lang="hu">Javaslat A TANÁCS HATÁROZATA az Európai Unió által az Európai Szén- és Acélközösség és a Török Köztársaság közötti, az Európai Szén- és Acélközösséget létrehozó szerződés hatálya alá tartozó termékek kereskedelméről szóló megállapodással létrehozott vegyes bizottságban az említett megállapodásnak a „származó termék” fogalmának meghatározásáról és az igazgatási együttműködés módszereiről szóló 1. jegyzőkönyve felváltásával történő módosításával kapcsolatban képviselendő álláspontról</j.0:title>
+    <j.0:dossier_title xml:lang="de">Vorschlag für einen BESCHLUSS DES RATES über den Standpunkt, der im Namen der Europäischen Union in dem Gemischten Ausschuss, der mit dem Abkommen zwischen der Europäischen Gemeinschaft für Kohle und Stahl und der Republik Türkei über den Handel mit unter den Vertrag über die Gründung der Europäischen Gemeinschaft für Kohle und Stahl fallenden Erzeugnissen eingesetzt wurde, zur Änderung des genannten Abkommens durch die Ersetzung des Protokolls Nr. 1 über die Bestimmung des Begriffs „Erzeugnisse mit Ursprung in“ oder „Ursprungserzeugnisse“ und über die Methoden der Zusammenarbeit der Verwaltungen zu vertreten ist</j.0:dossier_title>
+    <j.0:dossier_title xml:lang="it">Proposta di DECISIONE DEL CONSIGLIO relativa alla posizione da adottare a nome dell'Unione europea nel comitato misto istituito dall'accordo tra la Comunità europea del carbone e dell'acciaio e la Repubblica di Turchia sul commercio dei prodotti contemplati dal trattato che istituisce la Comunità europea del carbone e dell'acciaio per quanto riguarda la modifica di tale accordo mediante la sostituzione del suo protocollo n. 1 relativo alla definizione della nozione di "prodotti originari" e ai metodi di cooperazione amministrativa</j.0:dossier_title>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-1813; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T12:22:31.536; action: procedure-type;</j.2:build_info>
+    <j.0:title xml:lang="da">Forslag til RÅDETS AFGØRELSE om den holdning, der skal indtages på Den Europæiske Unions vegne i Det Blandede Udvalg, der er nedsat ved aftalen mellem Det Europæiske Kul- og Stålfællesskab og Republikken Tyrkiet om handel med produkter, der er omfattet af traktaten om oprettelse af Det Europæiske Kul- og Stålfællesskab, til ændringen af aftalen ved erstatning af protokol 1 dertil vedrørende definition af begrebet "produkter med oprindelsesstatus" og metoder til administrativt samarbejde</j.0:title>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-3870; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T17:01:47.063; action: procedure-type;</j.2:build_info>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2024_282.2024-10-31_ADP_byCOM"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-1873; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T12:42:21.572; action: procedure-type;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-3086; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T15:17:07.681; action: procedure-type;</j.2:build_info>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#dossier"/>
+    <j.0:reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024/0282/NLE</j.0:reference>
+    <j.0:dossier_type_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM</j.0:dossier_type_reference>
+    <j.0:dossier_title xml:lang="sl">Predlog SKLEP SVETA o stališču, ki se v imenu Evropske unije zastopa v Skupnem odboru, ustanovljenem s Sporazumom med Evropsko skupnostjo za premog in jeklo ter Republiko Turčijo o trgovini z izdelki, zajetimi s Pogodbo o ustanovitvi Evropske skupnosti za premog in jeklo, glede spremembe navedenega sporazuma z nadomestitvijo Protokola 1 o opredelitvi pojma „izdelki s poreklom“ in načinih upravnega sodelovanja k navedenemu sporazumu</j.0:dossier_title>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2428; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T19:26:51.703; action: procedure-type;</j.2:build_info>
+    <j.0:dossier_title xml:lang="el">Πρόταση ΑΠΟΦΑΣΗ ΤΟΥ ΣΥΜΒΟΥΛΙΟΥ σχετικά με τη θέση που πρέπει να ληφθεί εξ ονόματος της Ευρωπαϊκής Ένωσης στο πλαίσιο της Μεικτής Επιτροπής που έχει συσταθεί με τη συμφωνία μεταξύ της Ευρωπαϊκής Κοινότητας Άνθρακα και Χάλυβα και της Τουρκικής Δημοκρατίας για τις συναλλαγές στον τομέα των προϊόντων που καλύπτονται από τη Συνθήκη για την ίδρυση της Ευρωπαϊκής Κοινότητας Άνθρακα και Χάλυβα, όσον αφορά την τροποποίηση της εν λόγω συμφωνίας με την αντικατάσταση του πρωτοκόλλου 1 αυτής σχετικά με τον ορισμό της έννοιας «καταγόμενα προϊόντα» ή «προϊόντα καταγωγής» και τις μεθόδους διοικητικής συνεργασίας</j.0:dossier_title>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-1890; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T13:37:16.078; action: procedure-type;</j.2:build_info>
+    <j.0:title xml:lang="de">Vorschlag für einen BESCHLUSS DES RATES über den Standpunkt, der im Namen der Europäischen Union in dem Gemischten Ausschuss, der mit dem Abkommen zwischen der Europäischen Gemeinschaft für Kohle und Stahl und der Republik Türkei über den Handel mit unter den Vertrag über die Gründung der Europäischen Gemeinschaft für Kohle und Stahl fallenden Erzeugnissen eingesetzt wurde, zur Änderung des genannten Abkommens durch die Ersetzung des Protokolls Nr. 1 über die Bestimmung des Begriffs „Erzeugnisse mit Ursprung in“ oder „Ursprungserzeugnisse“ und über die Methoden der Zusammenarbeit der Verwaltungen zu vertreten ist</j.0:title>
+    <j.0:year_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2024</j.0:year_procedure>
+    <j.0:dossier_title xml:lang="fr">Proposition de DÉCISION DU CONSEIL relative à la position à prendre, au nom de l’Union européenne, au sein du comité mixte institué par l’accord entre la Communauté européenne du charbon et de l’acier et la République de Turquie sur le commerce des produits couverts par le traité instituant la Communauté européenne du charbon et de l’acier, en ce qui concerne la modification dudit accord par le remplacement de son protocole n° 1 relatif à la définition de la notion de «produits originaires» et aux méthodes de coopération administrative</j.0:dossier_title>
+    <j.0:title xml:lang="el">Πρόταση ΑΠΟΦΑΣΗ ΤΟΥ ΣΥΜΒΟΥΛΙΟΥ σχετικά με τη θέση που πρέπει να ληφθεί εξ ονόματος της Ευρωπαϊκής Ένωσης στο πλαίσιο της Μεικτής Επιτροπής που έχει συσταθεί με τη συμφωνία μεταξύ της Ευρωπαϊκής Κοινότητας Άνθρακα και Χάλυβα και της Τουρκικής Δημοκρατίας για τις συναλλαγές στον τομέα των προϊόντων που καλύπτονται από τη Συνθήκη για την ίδρυση της Ευρωπαϊκής Κοινότητας Άνθρακα και Χάλυβα, όσον αφορά την τροποποίηση της εν λόγω συμφωνίας με την αντικατάσταση του πρωτοκόλλου 1 αυτής σχετικά με τον ορισμό της έννοιας «καταγόμενα προϊόντα» ή «προϊόντα καταγωγής» και τις μεθόδους διοικητικής συνεργασίας</j.0:title>
+    <j.0:title xml:lang="sk">Návrh ROZHODNUTIE RADY o pozícii, ktorá sa má v mene Európskej únie zaujať v Spoločnom výbore zriadenom Dohodou medzi Európskym spoločenstvom uhlia a ocele a Tureckou republikou o obchode s výrobkami, na ktoré sa vzťahuje Zmluva o založení Európskeho spoločenstva uhlia a ocele, pokiaľ ide o zmenu uvedenej dohody nahradením protokolu 1 k dohode týkajúceho sa vymedzenia pojmu „pôvodné výrobky“ a metód administratívnej spolupráce</j.0:title>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-3869; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T16:52:28.001; action: procedure-type;</j.2:build_info>
+    <j.0:dossier_title xml:lang="pl">Wniosek DECYZJA RADY w sprawie stanowiska, jakie ma być zajęte w imieniu Unii Europejskiej we Wspólnym Komitecie ustanowionym na mocy Umowy między Europejską Wspólnotą Węgla i Stali a Republiką Turcji o handlu produktami objętymi Traktatem ustanawiającym Europejską Wspólnotę Węgla i Stali w odniesieniu do zmiany tej umowy poprzez zastąpienie protokołu 1 do tej umowy dotyczącego definicji pojęcia „produkty pochodzące” i metod współpracy administracyjnej</j.0:dossier_title>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2740; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T14:27:15.172; action: procedure-type;</j.2:build_info>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/procedure-event/2024_282.2024-10-31_ADP_byCOM"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/procedure-event/2024_282.2024-11-04_DIS_byCONSIL"/>
+    <j.0:title xml:lang="sv">Förslag till RÅDETS BESLUT om den ståndpunkt som ska intas på Europeiska unionens vägnar i den gemensamma kommitté som inrättades genom avtalet mellan Europeiska kol- och stålgemenskapen och Republiken Turkiet om handel med produkter som omfattas av Fördraget om upprättandet av Europeiska kol- och stålgemenskapen vad gäller ändring av det avtalet genom ersättande av protokoll 1 till detta om definition av begreppet ”ursprungsprodukter” och om metoder för administrativt samarbete</j.0:title>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-1933; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T13:15:20.291; action: procedure-type;</j.2:build_info>
+    <j.0:dossier_title xml:lang="ga">Togra le haghaidh CINNEADH ÓN gCOMHAIRLE maidir leis an seasamh atá le glacadh thar ceann an Aontais Eorpaigh sa Chomhchoiste arna bhunú leis an gComhaontú idir an Comhphobal Eorpach do Ghual agus Cruach agus Poblacht na Tuirce maidir le trádáil i dtáirgí a chumhdaítear leis an gConradh ag bunú an Chomhphobail Eorpaigh do Ghual agus Cruach, a mhéid a bhaineann le leasú ar an gComhaontú sin trí Phrótacal 1 a ghabhann leis, a bhaineann le sainmhíniú an choincheapa ‘táirgí tionscnaimh’ agus modhanna comhair riaracháin, a ionadú</j.0:dossier_title>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2024_282.2024-11-04_DIS_byCONSIL"/>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/consil/ST_15154_2024_INIT"/>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-1507; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T12:04:05.412; action: procedure-type;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2069; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T17:44:12.342; action: procedure-type;</j.2:build_info>
+    <j.0:adopted-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:adopted-proposal>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/procedure-event/2024_282.2024-11-04_DIS_byCONSIL"/>
+    <j.0:dossier_title xml:lang="nl">Voorstel voor een BESLUIT VAN DE RAAD over het namens de Europese Unie in te nemen standpunt in het Gemengd Comité dat is opgericht bij de Overeenkomst tussen de Europese Gemeenschap voor Kolen en Staal en de Republiek Turkije betreffende de handel in producten waarop het Verdrag tot oprichting van de Europese Gemeenschap voor Kolen en Staal van toepassing is inzake de wijziging van die overeenkomst door de vervanging van Protocol nr. 1 betreffende de definitie van het begrip “producten van oorsprong” en methoden van administratieve samenwerking</j.0:dossier_title>
+    <j.0:title xml:lang="mt">Proposta għal DEĊIŻJONI TAL-KUNSILL dwar il-pożizzjoni li għandha tittieħed f’isem l-Unjoni Ewropea fil-Kumitat Konġunt stabbilit bil-Ftehim bejn il-Komunità Ewropea tal-Faħam u l-Azzar u r-Repubblika tat-Turkija dwar il-kummerċ tal-prodotti koperti bit-Trattat li jistabbilixxi l-Komunità Ewropea tal-Faħam u l-Azzar fir-rigward tal-emenda ta’ dak il-Ftehim billi jiġi sostitwit il-Protokoll 1 tiegħu dwar id-definizzjoni tal-kunċett ta’ “prodotti oriġinarji” u l-metodi ta’ koperazzjoni amministrattiva</j.0:title>
+    <j.0:type_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM</j.0:type_reference>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2647; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T13:47:20.805; action: procedure-type;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241031-4609; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; rules: preleg/rules.xml#76522#2024-03-08T07:01:05; builddate: 2024-10-31T11:24:09.41;</j.2:build_info>
+    <j.0:title xml:lang="et">Ettepanek: NÕUKOGU OTSUS seisukoha kohta, mis võetakse Euroopa Liidu nimel Euroopa Söe- ja Teraseühenduse ning Türgi Vabariigi vahelise lepinguga (mis käsitleb Euroopa Söe- ja Teraseühenduse asutamislepinguga hõlmatud toodetega kauplemist) moodustatud ühiskomitees nimetatud lepingu muutmiseks seoses selle protokolli nr 1 (mis käsitleb mõiste „päritolustaatusega tooted“ määratlust ja halduskoostöö meetodeid) asendamisega</j.0:title>
+    <j.0:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dossier:COM_2024_0504</j.0:identifier>
+    <j.0:year_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024</j.0:year_reference>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/consil/ST_15154_2024_INIT"/>
+    <j.0:dossier_produces_resource_legal rdf:resource="http://publications.europa.eu/resource/consil/ST_15154_2024_ADD_1"/>
+    <j.0:dossier_basis_legal rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TFEU/art 218 par 9</j.0:dossier_basis_legal>
+    <j.0:dossier_title xml:lang="pt">Proposta de DECISÃO DO CONSELHO relativa à posição a adotar, em nome da União Europeia, no âmbito do Comité Misto criado pelo Acordo entre a Comunidade Europeia do Carvão e do Aço e a República da Turquia sobre o comércio de produtos abrangidos pelo Tratado que institui a Comunidade Europeia do Carvão e do Aço no que se refere à alteração desse acordo pela substituição do seu Protocolo n.º 1 relativo à definição da noção de «produtos originários» e aos métodos de cooperação administrativa</j.0:dossier_title>
+    <j.0:dossier_title xml:lang="et">Ettepanek: NÕUKOGU OTSUS seisukoha kohta, mis võetakse Euroopa Liidu nimel Euroopa Söe- ja Teraseühenduse ning Türgi Vabariigi vahelise lepinguga (mis käsitleb Euroopa Söe- ja Teraseühenduse asutamislepinguga hõlmatud toodetega kauplemist) moodustatud ühiskomitees nimetatud lepingu muutmiseks seoses selle protokolli nr 1 (mis käsitleb mõiste „päritolustaatusega tooted“ määratlust ja halduskoostöö meetodeid) asendamisega</j.0:dossier_title>
+    <j.0:title xml:lang="lt">Pasiūlymas TARYBOS SPRENDIMAS dėl pozicijos, kurios Europos Sąjungos vardu turi būti laikomasi Jungtiniame komitete, įsteigtame Europos anglių ir plieno bendrijos ir Turkijos Respublikos susitarimu dėl prekybos produktais, kuriems taikoma Europos anglių ir plieno bendrijos steigimo sutartis, dėl to susitarimo pakeitimo, pakeičiant jo 1 protokolą „Dėl sąvokos „produktų kilmė“ apibrėžties ir administracinio bendradarbiavimo metodų“</j.0:title>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2012; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T16:42:10.49; action: procedure-type;</j.2:build_info>
+    <j.0:dossier_title xml:lang="sv">Förslag till RÅDETS BESLUT om den ståndpunkt som ska intas på Europeiska unionens vägnar i den gemensamma kommitté som inrättades genom avtalet mellan Europeiska kol- och stålgemenskapen och Republiken Turkiet om handel med produkter som omfattas av Fördraget om upprättandet av Europeiska kol- och stålgemenskapen vad gäller ändring av det avtalet genom ersättande av protokoll 1 till detta om definition av begreppet ”ursprungsprodukter” och om metoder för administrativt samarbete</j.0:dossier_title>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-3900; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T17:11:47.864; action: procedure-type;</j.2:build_info>
+    <j.0:dossier_initiated_by_act_preparatory rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+    <j.0:title xml:lang="ga">Togra le haghaidh CINNEADH ÓN gCOMHAIRLE maidir leis an seasamh atá le glacadh thar ceann an Aontais Eorpaigh sa Chomhchoiste arna bhunú leis an gComhaontú idir an Comhphobal Eorpach do Ghual agus Cruach agus Poblacht na Tuirce maidir le trádáil i dtáirgí a chumhdaítear leis an gConradh ag bunú an Chomhphobail Eorpaigh do Ghual agus Cruach, a mhéid a bhaineann le leasú ar an gComhaontú sin trí Phrótacal 1 a ghabhann leis, a bhaineann le sainmhíniú an choincheapa ‘táirgí tionscnaimh’ agus modhanna comhair riaracháin, a ionadú</j.0:title>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-3190; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T15:46:59.95; action: procedure-type;</j.2:build_info>
+    <j.0:dossier_title xml:lang="bg">Предложение за РЕШЕНИЕ НА СЪВЕТА относно позицията, която трябва да се заеме от името на Европейския съюз в рамките на Съвместния комитет, създаден по силата на Споразумението между Европейската общност за въглища и стомана и Република Турция относно търговията с продукти, които попадат в обхвата на Договора за създаване на Европейската общност за въглища и стомана, във връзка с изменението на посоченото споразумение чрез замяна на Протокол 1 към него относно определението на понятието „продукти с произход“ и методите на административно сътрудничество</j.0:dossier_title>
+    <j.0:number_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0282</j.0:number_procedure>
+    <j.0:procedure_code_interinstitutional_basis_legal rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TFEU/art 218 par 9</j.0:procedure_code_interinstitutional_basis_legal>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-31</j.0:date>
+    <j.0:dossier_number_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">504</j.0:dossier_number_reference>
+    <j.0:title xml:lang="bg">Предложение за РЕШЕНИЕ НА СЪВЕТА относно позицията, която трябва да се заеме от името на Европейския съюз в рамките на Съвместния комитет, създаден по силата на Споразумението между Европейската общност за въглища и стомана и Република Турция относно търговията с продукти, които попадат в обхвата на Договора за създаване на Европейската общност за въглища и стомана, във връзка с изменението на посоченото споразумение чрез замяна на Протокол 1 към него относно определението на понятието „продукти с произход“ и методите на административно сътрудничество</j.0:title>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-3745; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T16:42:09.119; action: procedure-type;</j.2:build_info>
+    <j.0:procedure_code_interinstitutional_number_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0282</j.0:procedure_code_interinstitutional_number_procedure>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional"/>
+    <j.0:dossier_adopted-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:dossier_adopted-proposal>
+    <j.0:dossier_title xml:lang="lt">Pasiūlymas TARYBOS SPRENDIMAS dėl pozicijos, kurios Europos Sąjungos vardu turi būti laikomasi Jungtiniame komitete, įsteigtame Europos anglių ir plieno bendrijos ir Turkijos Respublikos susitarimu dėl prekybos produktais, kuriems taikoma Europos anglių ir plieno bendrijos steigimo sutartis, dėl to susitarimo pakeitimo, pakeičiant jo 1 protokolą „Dėl sąvokos „produktų kilmė“ apibrėžties ir administracinio bendradarbiavimo metodų“</j.0:dossier_title>
+    <j.0:dossier_date_creation_legacy rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-31</j.0:dossier_date_creation_legacy>
+    <j.0:dossier_identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dossier:COM_2024_0504</j.0:dossier_identifier>
+    <j.0:dossier_title xml:lang="ro">Propunere de DECIZIE A CONSILIULUI privind poziția care urmează să fie adoptată, în numele Uniunii Europene, în cadrul Comitetul mixt instituit prin Acordul dintre Comunitatea Europeană a Cărbunelui și Oțelului și Republica Turcia privind schimburile comerciale cu produse care intră sub incidența Tratatului de instituire a Comunității Europene a Cărbunelui și Oțelului referitor la modificarea acordului prin înlocuirea Protocolului 1 la acesta privind definirea noțiunii de „produse originare” și metodele de cooperare administrativă</j.0:dossier_title>
+    <j.0:basis_legal rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TFEU/art 218 par 9</j.0:basis_legal>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2658; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T14:06:53.507; action: procedure-type;</j.2:build_info>
+    <j.0:title xml:lang="pl">Wniosek DECYZJA RADY w sprawie stanowiska, jakie ma być zajęte w imieniu Unii Europejskiej we Wspólnym Komitecie ustanowionym na mocy Umowy między Europejską Wspólnotą Węgla i Stali a Republiką Turcji o handlu produktami objętymi Traktatem ustanawiającym Europejską Wspólnotę Węgla i Stali w odniesieniu do zmiany tej umowy poprzez zastąpienie protokołu 1 do tej umowy dotyczącego definicji pojęcia „produkty pochodzące” i metod współpracy administracyjnej</j.0:title>
+    <j.0:dossier_title xml:lang="mt">Proposta għal DEĊIŻJONI TAL-KUNSILL dwar il-pożizzjoni li għandha tittieħed f’isem l-Unjoni Ewropea fil-Kumitat Konġunt stabbilit bil-Ftehim bejn il-Komunità Ewropea tal-Faħam u l-Azzar u r-Repubblika tat-Turkija dwar il-kummerċ tal-prodotti koperti bit-Trattat li jistabbilixxi l-Komunità Ewropea tal-Faħam u l-Azzar fir-rigward tal-emenda ta’ dak il-Ftehim billi jiġi sostitwit il-Protokoll 1 tiegħu dwar id-definizzjoni tal-kunċett ta’ “prodotti oriġinarji” u l-metodi ta’ koperazzjoni amministrattiva</j.0:dossier_title>
+    <j.0:not-adopted-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:not-adopted-proposal>
+    <j.0:number_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">504</j.0:number_reference>
+    <j.0:procedure_code_interinstitutional_basis_legal rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TFEU/art 207 par 4 al 1</j.0:procedure_code_interinstitutional_basis_legal>
+    <j.0:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">procedure:2024_282</j.0:identifier>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/immc/COM%282024%29504%20final"/>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/immc/ST%2015154%202024%20INIT"/>
+    <j.0:dossier_title xml:lang="en">Proposal for a COUNCIL DECISION on the position to be taken on behalf of the European Union in the Joint Committee set up by the Agreement between the European Coal and Steel Community and the Republic of Turkey on trade in products covered by the Treaty establishing the European Coal and Steel Community as regards the amendment of that Agreement by replacing Protocol 1 thereto concerning the definition of the concept of ‘originating products’ and methods of administrative cooperation</j.0:dossier_title>
+    <j.0:produces rdf:resource="http://publications.europa.eu/resource/consil/ST_15154_2024_ADD_1"/>
+    <j.0:dossier_title xml:lang="cs">Návrh ROZHODNUTÍ RADY o postoji, který má být jménem Evropské unie zaujat ve smíšeném výboru zřízeném Dohodou mezi Evropským společenstvím uhlí a oceli a Tureckou republikou o obchodování s výrobky, na něž se vztahuje Smlouva o založení Evropského společenství uhlí a oceli, ke změně uvedené dohody nahrazením protokolu č. 1 k dohodě týkajícího se definice pojmu „původní produkty“ a metod správní spolupráce</j.0:dossier_title>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_interinstitutional"/>
+    <j.0:title xml:lang="fr">Proposition de DÉCISION DU CONSEIL relative à la position à prendre, au nom de l’Union européenne, au sein du comité mixte institué par l’accord entre la Communauté européenne du charbon et de l’acier et la République de Turquie sur le commerce des produits couverts par le traité instituant la Communauté européenne du charbon et de l’acier, en ce qui concerne la modification dudit accord par le remplacement de son protocole n° 1 relatif à la définition de la notion de «produits originaires» et aux méthodes de coopération administrative</j.0:title>
+    <j.0:dossier_identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">procedure:2024_282</j.0:dossier_identifier>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-3899; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T17:01:46.962; action: procedure-type;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-1954; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T13:02:40.576; action: procedure-type;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2036; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T17:32:00.67; action: procedure-type;</j.2:build_info>
+    <j.0:dossier_withdrawn-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:dossier_withdrawn-proposal>
+    <j.0:procedure_code_interinstitutional_reference_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024/0282/NLE</j.0:procedure_code_interinstitutional_reference_procedure>
+    <j.0:reference_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024/0282/NLE</j.0:reference_procedure>
+    <j.0:dossier_basis_legal rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TFEU/art 207 par 4 al 1</j.0:dossier_basis_legal>
+    <j.0:dossier_title xml:lang="es">Propuesta de DECISIÓN DEL CONSEJO relativa a la posición que debe adoptarse en nombre de la Unión Europea en el seno del Comité mixto instituido en virtud del Acuerdo entre la Comunidad Europea del Carbón y del Acero y la República de Turquía sobre el comercio de los productos regulados por el Tratado constitutivo de la Comunidad Europea del Carbón y del Acero con respecto a la modificación de dicho Acuerdo mediante la sustitución de su Protocolo n.º 1 relativo a la definición de la noción de «productos originarios» y a los métodos de cooperación administrativa</j.0:dossier_title>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-3192; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T15:37:34.239; action: procedure-type;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2057; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T18:11:51.052; action: procedure-type;</j.2:build_info>
+    <j.0:title xml:lang="es">Propuesta de DECISIÓN DEL CONSEJO relativa a la posición que debe adoptarse en nombre de la Unión Europea en el seno del Comité mixto instituido en virtud del Acuerdo entre la Comunidad Europea del Carbón y del Acero y la República de Turquía sobre el comercio de los productos regulados por el Tratado constitutivo de la Comunidad Europea del Carbón y del Acero con respecto a la modificación de dicho Acuerdo mediante la sustitución de su Protocolo n.º 1 relativo a la definición de la noción de «productos originarios» y a los métodos de cooperación administrativa</j.0:title>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2743; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T14:17:46.315; action: procedure-type;</j.2:build_info>
+    <j.0:dossier_not-adopted-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:dossier_not-adopted-proposal>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2865; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T14:46:57.677; action: procedure-type;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-3084; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T15:27:44.912; action: procedure-type;</j.2:build_info>
+    <j.0:dossier_pending-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:dossier_pending-proposal>
+    <j.0:dossier_title xml:lang="da">Forslag til RÅDETS AFGØRELSE om den holdning, der skal indtages på Den Europæiske Unions vegne i Det Blandede Udvalg, der er nedsat ved aftalen mellem Det Europæiske Kul- og Stålfællesskab og Republikken Tyrkiet om handel med produkter, der er omfattet af traktaten om oprettelse af Det Europæiske Kul- og Stålfællesskab, til ændringen af aftalen ved erstatning af protokol 1 dertil vedrørende definition af begrebet "produkter med oprindelsesstatus" og metoder til administrativt samarbejde</j.0:dossier_title>
+    <j.0:date_creation_legacy rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-31</j.0:date_creation_legacy>
+    <j.0:procedure_code_interinstitutional_year_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2024</j.0:procedure_code_interinstitutional_year_procedure>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2163; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T18:21:55.312; action: procedure-type;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2424; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T19:14:43.189; action: procedure-type;</j.2:build_info>
+    <j.0:title xml:lang="pt">Proposta de DECISÃO DO CONSELHO relativa à posição a adotar, em nome da União Europeia, no âmbito do Comité Misto criado pelo Acordo entre a Comunidade Europeia do Carvão e do Aço e a República da Turquia sobre o comércio de produtos abrangidos pelo Tratado que institui a Comunidade Europeia do Carvão e do Aço no que se refere à alteração desse acordo pela substituição do seu Protocolo n.º 1 relativo à definição da noção de «produtos originários» e aos métodos de cooperação administrativa</j.0:title>
+    <j.0:basis_legal rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TFEU/art 207 par 4 al 1</j.0:basis_legal>
+    <j.0:title xml:lang="it">Proposta di DECISIONE DEL CONSIGLIO relativa alla posizione da adottare a nome dell'Unione europea nel comitato misto istituito dall'accordo tra la Comunità europea del carbone e dell'acciaio e la Repubblica di Turchia sul commercio dei prodotti contemplati dal trattato che istituisce la Comunità europea del carbone e dell'acciaio per quanto riguarda la modifica di tale accordo mediante la sostituzione del suo protocollo n. 1 relativo alla definizione della nozione di "prodotti originari" e ai metodi di cooperazione amministrativa</j.0:title>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2326; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T19:01:56.972; action: procedure-type;</j.2:build_info>
+    <j.0:title xml:lang="sl">Predlog SKLEP SVETA o stališču, ki se v imenu Evropske unije zastopa v Skupnem odboru, ustanovljenem s Sporazumom med Evropsko skupnostjo za premog in jeklo ter Republiko Turčijo o trgovini z izdelki, zajetimi s Pogodbo o ustanovitvi Evropske skupnosti za premog in jeklo, glede spremembe navedenega sporazuma z nadomestitvijo Protokola 1 o opredelitvi pojma „izdelki s poreklom“ in načinih upravnega sodelovanja k navedenemu sporazumu</j.0:title>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2567; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T13:27:24.651; action: procedure-type;</j.2:build_info>
+    <j.0:title xml:lang="ro">Propunere de DECIZIE A CONSILIULUI privind poziția care urmează să fie adoptată, în numele Uniunii Europene, în cadrul Comitetul mixt instituit prin Acordul dintre Comunitatea Europeană a Cărbunelui și Oțelului și Republica Turcia privind schimburile comerciale cu produse care intră sub incidența Tratatului de instituire a Comunității Europene a Cărbunelui și Oțelului referitor la modificarea acordului prin înlocuirea Protocolului 1 la acesta privind definirea noțiunii de „produse originare” și metodele de cooperare administrativă</j.0:title>
+    <j.0:title xml:lang="cs">Návrh ROZHODNUTÍ RADY o postoji, který má být jménem Evropské unie zaujat ve smíšeném výboru zřízeném Dohodou mezi Evropským společenstvím uhlí a oceli a Tureckou republikou o obchodování s výrobky, na něž se vztahuje Smlouva o založení Evropského společenství uhlí a oceli, ke změně uvedené dohody nahrazením protokolu č. 1 k dohodě týkajícího se definice pojmu „původní produkty“ a metod správní spolupráce</j.0:title>
+    <j.0:dossier_title xml:lang="sk">Návrh ROZHODNUTIE RADY o pozícii, ktorá sa má v mene Európskej únie zaujať v Spoločnom výbore zriadenom Dohodou medzi Európskym spoločenstvom uhlia a ocele a Tureckou republikou o obchode s výrobkami, na ktoré sa vzťahuje Zmluva o založení Európskeho spoločenstva uhlia a ocele, pokiaľ ide o zmenu uvedenej dohody nahradením protokolu 1 k dohode týkajúceho sa vymedzenia pojmu „pôvodné výrobky“ a metód administratívnej spolupráce</j.0:dossier_title>
+    <j.0:title xml:lang="fi">Ehdotus NEUVOSTON PÄÄTÖS Euroopan hiili- ja teräsyhteisön perustamissopimuksen soveltamisalaan kuuluvien tuotteiden kaupasta tehdyllä Euroopan hiili- ja teräsyhteisön ja Turkin tasavallan välisellä sopimuksella perustetussa sekakomiteassa Euroopan unionin puolesta otettavasta kannasta mainitun sopimuksen muuttamiseen korvaamalla käsitteen ”alkuperätuotteet” määrittelyä ja hallinnollisen yhteistyön menetelmiä koskeva sopimuksen pöytäkirja N:o 1</j.0:title>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-1859; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T12:52:01.458; action: procedure-type;</j.2:build_info>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-2656; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T13:57:23.536; action: procedure-type;</j.2:build_info>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241104-3928; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; workflow: PRELEG_CONSIL; rules: preleg/rules.xml#76627#2024-04-27T19:14:23; builddate: 2024-11-04T17:22:12.478; action: procedure-type;</j.2:build_info>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/COM">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A5">
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/treaty/TFEU_2010"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/procedure-event/2024_282.2024-10-31_ADP_byCOM"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_based_on_resource_legal"/>
+    <j.2:comment_on_legal_basis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A207P4L1</j.2:comment_on_legal_basis>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20241031-4609; environment: PROD; CERES: 4.24.0; IMMC2CDM: 3.2.3; rules: preleg/rules.xml#76522#2024-03-08T07:01:05; builddate: 2024-10-31T11:24:09.41;</j.2:build_info>
+    <j.2:article rdf:datatype="http://www.w3.org/2001/XMLSchema#string">207</j.2:article>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_based_on_resource_legal"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <j.2:alinea rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</j.2:alinea>
+    <j.2:paragraph rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</j.2:paragraph>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/12016E207">
+    <j.0:basis_for rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+    <j.0:resource_legal_basis_for_resource_legal rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/treaty/TFEU_2016">
+    <j.0:basis_for rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+    <j.0:concept_treaty_basis_for_resource_legal rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/5c9b8b2b-8007-11e2-9294-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/32013D0093"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/oj/JOL_2013_054_R_0001_01"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/eli/dec/2013/93(1)/oj"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/fcc7e7d2-9772-11ef-a130-01aa75ed71a1.0001">
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-10-31T11:29:19.290+01:00</j.3:lastModificationDate>
+    <j.3:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-10-31T11:29:19.290+01:00</j.3:creationDate>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure-event/2024_282.2024-10-31_ADP_byCOM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_606/1010">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_mode_decision"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_606"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#atto_fd"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/DIS_byCONSIL">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2024_282.2024-11-04_DIS_byCONSIL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/fcc7e7d2-9772-11ef-a130-01aa75ed71a1">
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-04T17:25:19.831+01:00</j.3:lastModificationDate>
+    <j.3:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-10-31T11:29:19.290+01:00</j.3:creationDate>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure/2024_282"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/dossier/COM_2024_0504"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/21996A0907%2801%29">
+    <j.0:cited_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+    <j.0:work_cited_by_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/22024D0390">
+    <j.0:cited_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+    <j.0:work_cited_by_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/32013D0093">
+    <j.0:cited_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+    <j.0:work_cited_by_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/04a4d853-9773-11ef-a130-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/52024PC0504"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/immc/COM%282024%29504%20final"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/consil/ST_15154_2024_INIT">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory_council"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#proposal_act"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/2275">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/5509">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2024_0504_FIN"/>
+  </rdf:Description>
+</rdf:RDF>

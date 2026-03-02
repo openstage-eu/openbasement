@@ -1,0 +1,54 @@
+[project]
+name = "openbasement"
+version = "0.0.0"
+description = "Template-based RDF extraction from EU Cellar data"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    {name = "Maximilian Haag"},
+]
+
+dependencies = [
+    "rdflib>=7.5.0",
+    "pyyaml>=6.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/openbasement"]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "black>=23.7.0",
+    "ruff>=0.0.280",
+    "mypy>=1.5.0",
+    "requests>=2.31.0",
+]
+docs = [
+    "mkdocs>=1.6.0",
+    "mkdocs-openstage-theme @ git+https://github.com/openstage-eu/mkdocs-openstage-theme.git",
+    "mkdocstrings[python]>=0.27.0",
+]
+
+[tool.uv]
+dev-dependencies = []
+
+[tool.black]
+line-length = 88
+target-version = ['py311']
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+warn_unused_configs = true

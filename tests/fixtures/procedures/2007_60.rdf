@@ -1,0 +1,416 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://publications.europa.eu/ontology/cdm#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.1="http://www.w3.org/2004/02/skos/core#"
+    xmlns:j.2="http://publications.europa.eu/ontology/annotation#"
+    xmlns:j.3="http://publications.europa.eu/ontology/cdm/cmr#" > 
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/AGRI">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/procedure/ACC">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/procedure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_procedure_code_interinstitutional"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/42db4208-d28e-11e1-905c-01aa75ed71a1.0002">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/195578.384960"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-14T16:42:52.736+01:00</j.3:lastModificationDate>
+    <j.3:metsStructSuperDiv rdf:resource="http://publications.europa.eu/resource/cellar/42db4208-d28e-11e1-905c-01aa75ed71a1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/32007D0360">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/agent/Mariann%20FISCHER%20BOEL">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#person"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure/2007_60">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#dossier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_600/103229">
+    <j.0:concept_agenda_council_subject_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/195578.385769"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_600"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_agenda_council"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/12006E133">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/oj/JOL_2007_138_R_0010_01">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_612/1095">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_612"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_dossier"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#atto_fd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/ADP_byCOM">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/195578.384959"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_612/1085">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_612"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_dossier"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/CONSIL">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_600/10004">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_600"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_agenda_council"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/COM">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/42db4208-d28e-11e1-905c-01aa75ed71a1.0001">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/195578.384959"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-28T14:07:04.013+02:00</j.3:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/42db4208-d28e-11e1-905c-01aa75ed71a1.0003">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/195578.385769"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-14T16:42:52.736+01:00</j.3:lastModificationDate>
+    <j.3:metsStructSuperDiv rdf:resource="http://publications.europa.eu/resource/cellar/42db4208-d28e-11e1-905c-01aa75ed71a1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/195578.385769">
+    <j.0:session_council rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">2802</j.0:session_council>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:event_legal_was_historically_about_concept_type_dossier rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1085"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRES/2007/114</j.0:event_legal_document_reference>
+    <j.0:event_legal_on_agenda_concept_agenda_council rdf:resource="http://publications.europa.eu/resource/authority/fd_600/10004"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/celex/32007D0360"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_FRM_byCONSIL"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/195578"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS/2007/9741</j.0:document_reference>
+    <j.0:event_legal_is_about_concept_agenda_council rdf:resource="http://publications.europa.eu/resource/authority/fd_600/103229"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS/2007/9741</j.0:event_legal_document_reference>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/celex/32007D0360"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/oj/JOL_2007_138_R_0010_01"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JO L/2007/138/10</j.0:event_legal_document_reference>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1085"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/195578"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS/2007/8488</j.0:event_legal_document_reference>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOL_2007_138_R_0010_01"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/oj/JOL_2007_160_R_0035_01"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BULLETIN/2007/5/1.29.9</j.0:event_legal_document_reference>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRES/2007/114</j.0:document_reference>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/195578"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adoption formelle par Conseil</j.0:event_legal_type>
+    <j.0:event_legal_session_council rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">2802</j.0:event_legal_session_council>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BULLETIN/2007/5/1.29.9</j.0:document_reference>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOL_2007_138_R_0010_01"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:on_agenda rdf:resource="http://publications.europa.eu/resource/authority/fd_600/10004"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_FRM_byCONSIL"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-05-24</j.0:event_date>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adoption formelle par Conseil</j.0:type>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOL_2007_160_R_0035_01"/>
+    <j.0:is_about rdf:resource="http://publications.europa.eu/resource/authority/fd_600/103229"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_FRM_byCONSIL"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/32007D0360"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-05-24</j.0:event_legal_date>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS/2007/8488</j.0:document_reference>
+    <j.2:build_info>cdm:CDM_2.1.7  tdm:1523  xslt:3945 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:1.1.9 builddate:10/02/2014 15:37:14</j.2:build_info>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-05-24</j.0:date>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JO L/2007/160/35</j.0:event_legal_document_reference>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JO L/2007/160/35</j.0:document_reference>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOL_2007_160_R_0035_01"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JO L/2007/138/10</j.0:document_reference>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/TRS_toCONSIL_byCOM">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/195578.384959">
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12006E133"/>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1095"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <j.0:event_formally-addresses_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-04-10</j.0:event_legal_date>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOC_2007_181_R_0008_01"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM/2007/176/FINAL</j.0:event_legal_document_reference>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2007_0176_FIN"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/195578"/>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12006E300"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/195578"/>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adoption par Commission</j.0:type>
+    <j.0:uses rdf:resource="http://publications.europa.eu/resource/authority/fd_606/1010"/>
+    <j.0:event_legal_was_historically_about_concept_type_dossier rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1095"/>
+    <j.0:responsibility_of rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/AGRI"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS/2007/8485</j.0:event_legal_document_reference>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12006E300"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adoption par Commission</j.0:event_legal_type>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <j.0:event_legal_uses_concept_mode_decision rdf:resource="http://publications.europa.eu/resource/authority/fd_606/1010"/>
+    <j.0:event_legal_formally-addresses_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:event_responsibility_of_person rdf:resource="http://publications.europa.eu/resource/agent/Mariann%20FISCHER%20BOEL"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM/2007/176/FINAL</j.0:document_reference>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BULLETIN/2007/4/1.29.2</j.0:document_reference>
+    <j.0:responsibility_of rdf:resource="http://publications.europa.eu/resource/agent/Mariann%20FISCHER%20BOEL"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/oj/JOC_2007_181_R_0008_01"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52007PC0176%2801%29"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JO C/2007/181/8</j.0:document_reference>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12006E133"/>
+    <j.2:build_info>cdm:CDM_2.1.7  tdm:1523  xslt:3945 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:1.1.9 builddate:10/02/2014 15:37:14</j.2:build_info>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2007_0176_FIN"/>
+    <j.0:event_legal_was_historically_about_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/ACC"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-04-10</j.0:date>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BULLETIN/2007/4/1.29.2</j.0:event_legal_document_reference>
+    <j.0:event_responsibility_of_agent rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/AGRI"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-04-10</j.0:event_date>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/procedure/ACC"/>
+    <j.0:event_legal_responsibility_of_person rdf:resource="http://publications.europa.eu/resource/agent/Mariann%20FISCHER%20BOEL"/>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12006E133"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JO C/2007/181/8</j.0:event_legal_document_reference>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/195578"/>
+    <j.0:event_responsibility_of_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/AGRI"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12006E300"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS/2007/8485</j.0:document_reference>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52007PC0176%2801%29"/>
+    <j.0:event_legal_responsibility_of_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/AGRI"/>
+    <j.0:event_legal_initiating rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:event_legal_initiating>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/comnat/COM_2007_0176_FIN"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_procedural"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:formally-addresses rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/52007PC0176%2801%29"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOC_2007_181_R_0008_01"/>
+    <j.0:initiating rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:initiating>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/195578"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#dossier_based_on_resource_legal"/>
+    <j.2:paragraph>2</j.2:paragraph>
+    <j.2:subparagraph>1</j.2:subparagraph>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/celex/12006E300"/>
+    <j.2:comment_on_legal_basis>P2L1FR1</j.2:comment_on_legal_basis>
+    <j.2:sentence>1</j.2:sentence>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional_based_on_resource_legal"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <j.2:build_info>cdm:CDM_2.1.7  tdm:1523  xslt:3945 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:1.1.9 builddate:10/02/2014 15:37:14</j.2:build_info>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_606/1010">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#atto_fd"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_mode_decision"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_606"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/oj/JOC_2007_181_R_0008_01">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/ADP_FRM_byCONSIL">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/comnat/COM_2007_0176_FIN">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/oj/JOL_2007_160_R_0035_01">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/12006E300">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/195578">
+    <j.0:dossier_title xml:lang="it">Proposta di DECISIONE DEL CONSIGLIO relativa alla conclusione di accordi sotto forma di verbale concordato sulla modifica, per quanto riguarda le carni di pollame, delle concessioni tra la Comunità europea e la Repubblica federativa del Brasile e tra la Comunità europea e il Regno di Thailandia nel quadro dell'articolo XXVIII dell'accordo generale sulle tariffe doganali e sul commercio 1994 (GATT 1994)</j.0:dossier_title>
+    <j.0:dossier_title xml:lang="pl">Wniosek dotyczący DECYZJI RADY w sprawie zawarcia porozumień w formie uzgodnionych protokołów w sprawie zmiany koncesji w odniesieniu do mięsa drobiowego między Wspólnotą Europejską a Federacyjną Republiką Brazylii, oraz między Wspólnotą Europejską a Królestwem Tajlandii zgodnie z art. XXVIII Układu Ogólnego w sprawie Taryf Celnych i Handlu z 1994 r. (GATT 1994)</j.0:dossier_title>
+    <j.0:dossier_number_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">176 - 1</j.0:dossier_number_reference>
+    <j.0:dossier_title xml:lang="et">Ettepanek NÕUKOGU OTSUS kooskõlastatud protokollidena esitatud kokkulepete sõlmimise kohta Euroopa Ühenduse ja Brasiilia Liitvabariigi ning Euroopa Ühenduse ja Tai Kuningriigi vahel vastavalt üldise tolli- ja kaubanduskokkuleppe 1994 (GATT 1994) XXVIII artiklile seoses kodulinnuliha käsitlevate soodustuste muutmisega</j.0:dossier_title>
+    <j.0:dossier_title xml:lang="pt">Proposta de DECISÃO DO CONSELHO relativa à conclusão de Acordos sob forma de Acta Aprovada respeitantes à alteração das concessões no que se refere à carne de aves de capoeira entre a Comunidade Europeia e a República Federativa do Brasil e entre a Comunidade Europeia e o Reino da Tailândia nos termos do artigo XXVIII do Acordo Geral sobre Pautas Aduaneiras e Comércio de 1994 (GATT de 1994)</j.0:dossier_title>
+    <j.0:dossier_adopted-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:dossier_adopted-proposal>
+    <j.0:dossier_title xml:lang="en">Proposal for a COUNCIL DECISION on the conclusion of Agreements in the form of agreed minutes on the modification of concessions with respect to poultry meat between the European Community and the Federal Republic of Brazil, and between the European Community and the Kingdom of Thailand pursuant to Article XXVIII of the General Agreement on Tariffs and Trade 1994 (GATT 1994)</j.0:dossier_title>
+    <j.0:reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007/0060/ACC</j.0:reference>
+    <j.0:dossier_title xml:lang="cs">Návrh ROZHODNUTÍ RADY o uzavření dohod ve formě dohodnutých zápisů o změně koncesí u drůbežího masa mezi Evropským společenstvím a Brazilskou federativní republikou a mezi Evropským společenstvím a Thajským královstvím v souladu s článkem XXVIII Všeobecné dohody o clech a obchodu z roku 1994 (GATT 1994)</j.0:dossier_title>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/celex/32007D0360"/>
+    <j.0:dossier_title xml:lang="bg">Предложение за РЕШЕНИЕ НА СЪВЕТА относно сключването на споразумения под формата на съгласуван протокол за промяна в отстъпките за птиче месо между Европейската общност и Федерална република Бразилия и между Европейската общност и Кралство Тайланд съгласно член XXVIII от Общото споразумение за митата и търговията 1994 г.  (ГАТТ 1994 г.)</j.0:dossier_title>
+    <j.0:dossier_initiated_by_act_preparatory rdf:resource="http://publications.europa.eu/resource/celex/52007PC0176%2801%29"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-04-10</j.0:date>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/195578.384959"/>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/195578.384959"/>
+    <j.0:title xml:lang="lv">Priekšlikums PADOMES LĒMUMAM par nolīgumu slēgšanu saskaņotu protokolu veidā starp Eiropas Kopienu un Brazīlijas Federālo Republiku un starp Eiropas Kopienu un Taizemes Karalisti par koncesiju, kas noteiktas saskaņā ar 1994. gada Vispārējās vienošanās par tarifiem un tirdzniecību (VVTT 1994.) XXVIII pantu, grozījumiem attiecībā uz mājputnu gaļu</j.0:title>
+    <j.0:title xml:lang="it">Proposta di DECISIONE DEL CONSIGLIO relativa alla conclusione di accordi sotto forma di verbale concordato sulla modifica, per quanto riguarda le carni di pollame, delle concessioni tra la Comunità europea e la Repubblica federativa del Brasile e tra la Comunità europea e il Regno di Thailandia nel quadro dell'articolo XXVIII dell'accordo generale sulle tariffe doganali e sul commercio 1994 (GATT 1994)</j.0:title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/oj/JOL_2007_138_R_0010_01"/>
+    <j.0:title xml:lang="pt">Proposta de DECISÃO DO CONSELHO relativa à conclusão de Acordos sob forma de Acta Aprovada respeitantes à alteração das concessões no que se refere à carne de aves de capoeira entre a Comunidade Europeia e a República Federativa do Brasil e entre a Comunidade Europeia e o Reino da Tailândia nos termos do artigo XXVIII do Acordo Geral sobre Pautas Aduaneiras e Comércio de 1994 (GATT de 1994)</j.0:title>
+    <j.0:year_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2007</j.0:year_procedure>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOL_2007_160_R_0035_01"/>
+    <j.0:dossier_produces_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/32007D0360"/>
+    <j.0:pending-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:pending-proposal>
+    <j.0:dossier_title xml:lang="sv">Förslag till RÅDETS BESLUT om ingående av avtal i form av godkänt protokoll om ändring av medgivanden avseende fjäderfäkött mellan Europeiska gemenskapen och Förbundsrepubliken Brasilien och mellan Europeiska gemenskapen och Konungariket Thailand i enlighet med artikel XXVIII i Allmänna tull- och handelsavtalet 1994 (GATT 1994)</j.0:dossier_title>
+    <j.2:build_info>cdm:CDM_2.1.7  tdm:1523  xslt:3945 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:1.1.9 builddate:10/02/2014 15:37:14</j.2:build_info>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12006E133"/>
+    <j.0:dossier_title xml:lang="sk">Návrh ROZHODNUTIA RADY o uzatvorení dohôd vo forme schválených zápisníc o úprave koncesií vzhľadom na hydinové mäso medzi Európskym spoločenstvom a Brazílskou federatívnou republikou a medzi Európskym spoločenstvom a Thajským kráľovstvom podľa článku XXVIII Všeobecnej dohody o clách a obchode 1994 (GATT 1994)</j.0:dossier_title>
+    <j.0:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pegase:195578</j.0:identifier>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_interinstitutional"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:dossier_identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pegase:195578</j.0:dossier_identifier>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#dossier"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/32007D0360"/>
+    <j.0:procedure_code_interinstitutional_reference_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007/0060/ACC</j.0:procedure_code_interinstitutional_reference_procedure>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/procedure/ACC"/>
+    <j.0:dossier_withdrawn-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:dossier_withdrawn-proposal>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12006E300"/>
+    <j.0:dossier_date_creation_legacy rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-04-10</j.0:dossier_date_creation_legacy>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/195578.384960"/>
+    <j.0:title xml:lang="hu">Javaslat A TANÁCS HATÁROZATA az Európai Közösség és a Brazil Szövetségi Köztársaság között, valamint az Európai Közösség és a Thaiföldi Királyság között az 1994. évi Általános Vám- és Kereskedelmi Egyezmény (1994. évi GATT) XXVIII. cikkének megfelelően a baromfihús tekintetében megállapított engedmények módosításáról szóló, kölcsönösen elfogadott jegyzőkönyv formájában létrejött megállapodások megkötéséről</j.0:title>
+    <j.0:title xml:lang="fr">Proposition de DÉCISION DU CONSEIL concernant la conclusion d'accords sous forme de procès-verbaux agréés relatifs à la modification des concessions prévues pour les viandes de volaille, entre la Communauté européenne et respectivement la République fédérative du Brésil et le royaume de Thaïlande au titre de l'article XXVIII de l'accord général sur les tarifs douaniers  et le commerce (GATT 1994)</j.0:title>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2007_0176_FIN"/>
+    <j.0:dossier_title xml:lang="es">Propuesta de DECISIÓN DEL CONSEJO sobre la celebración de sendos Acuerdos en forma de actas aprobadas relativos a la modificación de las concesiones con respecto a la carne de aves de corral entre la Comunidad Europea y la República Federativa de Brasil, y entre la Comunidad Europea y el Reino de Tailandia en virtud del artículo XXVIII del Acuerdo General sobre Aranceles Aduaneros y Comercio de 1994 (GATT de 1994)</j.0:dossier_title>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12006E133"/>
+    <j.0:title xml:lang="cs">Návrh ROZHODNUTÍ RADY o uzavření dohod ve formě dohodnutých zápisů o změně koncesí u drůbežího masa mezi Evropským společenstvím a Brazilskou federativní republikou a mezi Evropským společenstvím a Thajským královstvím v souladu s článkem XXVIII Všeobecné dohody o clech a obchodu z roku 1994 (GATT 1994)</j.0:title>
+    <j.0:produces rdf:resource="http://publications.europa.eu/resource/celex/32007D0360"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/celex/52007PC0176%2801%29"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/52007PC0176%2801%29"/>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/195578.385769"/>
+    <j.0:procedure_code_interinstitutional_number_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0060</j.0:procedure_code_interinstitutional_number_procedure>
+    <j.0:dossier_pending-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:dossier_pending-proposal>
+    <j.0:title xml:lang="es">Propuesta de DECISIÓN DEL CONSEJO sobre la celebración de sendos Acuerdos en forma de actas aprobadas relativos a la modificación de las concesiones con respecto a la carne de aves de corral entre la Comunidad Europea y la República Federativa de Brasil, y entre la Comunidad Europea y el Reino de Tailandia en virtud del artículo XXVIII del Acuerdo General sobre Aranceles Aduaneros y Comercio de 1994 (GATT de 1994)</j.0:title>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/195578.384960"/>
+    <j.0:title xml:lang="lt">Pasiūlymas TARYBOS SPRENDIMAS dėl Europos bendrijos ir Brazilijos Federacinės Respublikos bei Europos bendrijos ir Tailando Karalystės susitarimų suderintųjų protokolų forma dėl paukštienai taikomų nuolaidų pakeitimo pagal 1994 m. Bendrojo susitarimo dėl tarifų ir prekybos (1994 m. GATT) XXVIII straipsnį, sudarymo</j.0:title>
+    <j.0:withdrawn-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:withdrawn-proposal>
+    <j.0:adopted-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:adopted-proposal>
+    <j.0:procedure_code_interinstitutional_has_type_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/ACC"/>
+    <j.0:dossier_year_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</j.0:dossier_year_reference>
+    <j.0:is_about rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1095"/>
+    <j.0:date_creation_legacy rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-04-10</j.0:date_creation_legacy>
+    <j.0:dossier_title xml:lang="fr">Proposition de DÉCISION DU CONSEIL concernant la conclusion d'accords sous forme de procès-verbaux agréés relatifs à la modification des concessions prévues pour les viandes de volaille, entre la Communauté européenne et respectivement la République fédérative du Brésil et le royaume de Thaïlande au titre de l'article XXVIII de l'accord général sur les tarifs douaniers  et le commerce (GATT 1994)</j.0:dossier_title>
+    <j.0:title xml:lang="sl">Predlog SKLEP SVETA o sklenitvi sporazumov v obliki dogovorjenih zapisnikov o spremembi koncesij za perutninsko meso med Evropsko skupnostjo in Zvezno republiko Brazilijo ter med Evropsko skupnostjo in Kraljevino Tajsko v skladu s členom XXVIII Splošnega sporazuma o carinah in trgovini 1994 (GATT 1994)</j.0:title>
+    <j.0:dossier_title xml:lang="lt">Pasiūlymas TARYBOS SPRENDIMAS dėl Europos bendrijos ir Brazilijos Federacinės Respublikos bei Europos bendrijos ir Tailando Karalystės susitarimų suderintųjų protokolų forma dėl paukštienai taikomų nuolaidų pakeitimo pagal 1994 m. Bendrojo susitarimo dėl tarifų ir prekybos (1994 m. GATT) XXVIII straipsnį, sudarymo</j.0:dossier_title>
+    <j.0:date_adopted rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-05-24</j.0:date_adopted>
+    <j.0:year_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</j.0:year_reference>
+    <j.0:dossier_title xml:lang="el">Πρόταση ΑΠΟΦΑΣΗ ΤΟΥ ΣΥΜΒΟΥΛΙΟΥ σχετικά με τη σύναψη συμφωνιών υπό μορφή συμφωνηθέντων πρακτικών μεταξύ της Ευρωπαϊκής Κοινότητας και της Ομοσπονδιακής Δημοκρατίας της Βραζιλίας και μεταξύ της Ευρωπαϊκής Κοινότητας και του Βασιλείου της Ταϊλάνδης για την τροποποίηση των παραχωρήσεων όσον αφορά τα κρέατα πουλερικών, δυνάμει του άρθρου XXVIII της Γενικής Συμφωνίας Δασμών και Εμπορίου του 1994  (ΓΣΔΕ του 1994)</j.0:dossier_title>
+    <j.0:number_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0060</j.0:number_procedure>
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12006E133"/>
+    <j.0:procedure_code_interinstitutional_year_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2007</j.0:procedure_code_interinstitutional_year_procedure>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/comnat/COM_2007_0176_FIN"/>
+    <j.0:title xml:lang="sk">Návrh ROZHODNUTIA RADY o uzatvorení dohôd vo forme schválených zápisníc o úprave koncesií vzhľadom na hydinové mäso medzi Európskym spoločenstvom a Brazílskou federatívnou republikou a medzi Európskym spoločenstvom a Thajským kráľovstvom podľa článku XXVIII Všeobecnej dohody o clách a obchode 1994 (GATT 1994)</j.0:title>
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12006E300"/>
+    <j.0:title xml:lang="en">Proposal for a COUNCIL DECISION on the conclusion of Agreements in the form of agreed minutes on the modification of concessions with respect to poultry meat between the European Community and the Federal Republic of Brazil, and between the European Community and the Kingdom of Thailand pursuant to Article XXVIII of the General Agreement on Tariffs and Trade 1994 (GATT 1994)</j.0:title>
+    <j.0:title xml:lang="el">Πρόταση ΑΠΟΦΑΣΗ ΤΟΥ ΣΥΜΒΟΥΛΙΟΥ σχετικά με τη σύναψη συμφωνιών υπό μορφή συμφωνηθέντων πρακτικών μεταξύ της Ευρωπαϊκής Κοινότητας και της Ομοσπονδιακής Δημοκρατίας της Βραζιλίας και μεταξύ της Ευρωπαϊκής Κοινότητας και του Βασιλείου της Ταϊλάνδης για την τροποποίηση των παραχωρήσεων όσον αφορά τα κρέατα πουλερικών, δυνάμει του άρθρου XXVIII της Γενικής Συμφωνίας Δασμών και Εμπορίου του 1994  (ΓΣΔΕ του 1994)</j.0:title>
+    <j.0:dossier_type_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM</j.0:dossier_type_reference>
+    <j.0:dossier_title xml:lang="lv">Priekšlikums PADOMES LĒMUMAM par nolīgumu slēgšanu saskaņotu protokolu veidā starp Eiropas Kopienu un Brazīlijas Federālo Republiku un starp Eiropas Kopienu un Taizemes Karalisti par koncesiju, kas noteiktas saskaņā ar 1994. gada Vispārējās vienošanās par tarifiem un tirdzniecību (VVTT 1994.) XXVIII pantu, grozījumiem attiecībā uz mājputnu gaļu</j.0:dossier_title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/195578.385769"/>
+    <j.0:title xml:lang="mt">Proposta għal DEĊIŻJONI TAL-KUNSILL dwar il-konklużjoni tal-Ftehimiet taħt forma ta’ minuti miftehma dwar it-tibdil fil-konċessjonijiet rigward il-laħam tat-tjur ta’ l-irziezet bejn il-Komunità Ewropea u r-Repubblika Federali tal-Brażil, u bejn il-Komunità Ewropea u r-Renju tat-Tajlandja skond l-Artikolu XXVIII tal-Ftehim Ġenerali dwar it-Tariffi u l-Kummerċ 1994 (GATT 1994)</j.0:title>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/195578.385769"/>
+    <j.0:title xml:lang="sv">Förslag till RÅDETS BESLUT om ingående av avtal i form av godkänt protokoll om ändring av medgivanden avseende fjäderfäkött mellan Europeiska gemenskapen och Förbundsrepubliken Brasilien och mellan Europeiska gemenskapen och Konungariket Thailand i enlighet med artikel XXVIII i Allmänna tull- och handelsavtalet 1994 (GATT 1994)</j.0:title>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/195578.384959"/>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52007PC0176%2801%29"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:dossier_title xml:lang="de">Vorschlag für einen BESCHLUSS DES RATES über den Abschluss von Abkommen in Form Vereinbarter Niederschriften gemäß Artikel XXVIII des Allgemeinen Zoll- und Handelsabkommens 1994 (GATT 1994) zwischen der Europäischen Gemeinschaft und der Föderativen Republik Brasilien sowie zwischen der Europäischen Gemeinschaft und dem Königreich Thailand über die Änderung von Zugeständnissen bei Geflügelfleisch</j.0:dossier_title>
+    <j.0:title xml:lang="bg">Предложение за РЕШЕНИЕ НА СЪВЕТА относно сключването на споразумения под формата на съгласуван протокол за промяна в отстъпките за птиче месо между Европейската общност и Федерална република Бразилия и между Европейската общност и Кралство Тайланд съгласно член XXVIII от Общото споразумение за митата и търговията 1994 г.  (ГАТТ 1994 г.)</j.0:title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/oj/JOC_2007_181_R_0008_01"/>
+    <j.0:reference_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007/0060/ACC</j.0:reference_procedure>
+    <j.0:title xml:lang="et">Ettepanek NÕUKOGU OTSUS kooskõlastatud protokollidena esitatud kokkulepete sõlmimise kohta Euroopa Ühenduse ja Brasiilia Liitvabariigi ning Euroopa Ühenduse ja Tai Kuningriigi vahel vastavalt üldise tolli- ja kaubanduskokkuleppe 1994 (GATT 1994) XXVIII artiklile seoses kodulinnuliha käsitlevate soodustuste muutmisega</j.0:title>
+    <j.0:dossier_title xml:lang="fi">Ehdotus NEUVOSTON PÄÄTÖS yhteisesti hyväksyttyinä pöytäkirjamerkintöinä tehtävistä sopimuksista Euroopan yhteisön ja Brasilian liittotasavallan sekä Euroopan yhteisön ja Thaimaan kuningaskunnan välisten siipikarjanlihaa koskevien myönnytysten muuttamiseksi tullitariffeja ja kauppaa koskevan yleissopimuksen 1994 (GATT 1994 -sopimuksen) XXVIII artiklan nojalla</j.0:dossier_title>
+    <j.0:dossier_title xml:lang="hu">Javaslat A TANÁCS HATÁROZATA az Európai Közösség és a Brazil Szövetségi Köztársaság között, valamint az Európai Közösség és a Thaiföldi Királyság között az 1994. évi Általános Vám- és Kereskedelmi Egyezmény (1994. évi GATT) XXVIII. cikkének megfelelően a baromfihús tekintetében megállapított engedmények módosításáról szóló, kölcsönösen elfogadott jegyzőkönyv formájában létrejött megállapodások megkötéséről</j.0:dossier_title>
+    <j.0:type_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM</j.0:type_reference>
+    <j.0:dossier_title xml:lang="nl">Voorstel voor een BESLUIT VAN DE RAAD inzake de sluiting van overeenkomsten in de vorm van een proces-verbaal van overeenstemming inzake de wijziging van concessies ten aanzien van vlees van pluimvee tussen de Europese Gemeenschap en de Federale Republiek Brazilië en tussen de Europese Gemeenschap en het Koninkrijk Thailand uit hoofde van artikel XXVIII van de Algemene Overeenkomst betreffende Tarieven en Handel 1994 (GATT 1994)</j.0:dossier_title>
+    <j.0:title xml:lang="ro">Propunere de DECIZIE A CONSILIULUI privind încheierea de acorduri sub forma unor procese-verbale agreate între Comunitatea Europeană şi Republica Federativă a Braziliei şi între Comunitatea Europeană şi Regatul Thailandei în temeiul articolului XXVIII din Acordul General pentru Tarife şi Comerţ 1994 (GATT 1994), cu privire la modificarea concesiilor privind carnea de pasăre</j.0:title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/195578.384960"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional"/>
+    <j.0:title xml:lang="pl">Wniosek dotyczący DECYZJI RADY w sprawie zawarcia porozumień w formie uzgodnionych protokołów w sprawie zmiany koncesji w odniesieniu do mięsa drobiowego między Wspólnotą Europejską a Federacyjną Republiką Brazylii, oraz między Wspólnotą Europejską a Królestwem Tajlandii zgodnie z art. XXVIII Układu Ogólnego w sprawie Taryf Celnych i Handlu z 1994 r. (GATT 1994)</j.0:title>
+    <j.0:title xml:lang="da">Forslag til RÅDETS AFGØRELSE om indgåelse af aftaler i form af godkendt protokollat om ændring af indrømmelser for fjerkrækød mellem Det Europæiske Fællesskab og Den Føderative Republik Brasilien  og mellem Det Europæiske Fællesskab og Kongeriget Thailand  i henhold til artikel XXVIII i GATT 1994</j.0:title>
+    <j.0:number_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">176 - 1</j.0:number_reference>
+    <j.0:dossier_title xml:lang="ro">Propunere de DECIZIE A CONSILIULUI privind încheierea de acorduri sub forma unor procese-verbale agreate între Comunitatea Europeană şi Republica Federativă a Braziliei şi între Comunitatea Europeană şi Regatul Thailandei în temeiul articolului XXVIII din Acordul General pentru Tarife şi Comerţ 1994 (GATT 1994), cu privire la modificarea concesiilor privind carnea de pasăre</j.0:dossier_title>
+    <j.0:dossier_title xml:lang="da">Forslag til RÅDETS AFGØRELSE om indgåelse af aftaler i form af godkendt protokollat om ændring af indrømmelser for fjerkrækød mellem Det Europæiske Fællesskab og Den Føderative Republik Brasilien  og mellem Det Europæiske Fællesskab og Kongeriget Thailand  i henhold til artikel XXVIII i GATT 1994</j.0:dossier_title>
+    <j.0:title xml:lang="de">Vorschlag für einen BESCHLUSS DES RATES über den Abschluss von Abkommen in Form Vereinbarter Niederschriften gemäß Artikel XXVIII des Allgemeinen Zoll- und Handelsabkommens 1994 (GATT 1994) zwischen der Europäischen Gemeinschaft und der Föderativen Republik Brasilien sowie zwischen der Europäischen Gemeinschaft und dem Königreich Thailand über die Änderung von Zugeständnissen bei Geflügelfleisch</j.0:title>
+    <j.0:dossier_is_about_concept_type_dossier rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1095"/>
+    <j.0:dossier_title xml:lang="sl">Predlog SKLEP SVETA o sklenitvi sporazumov v obliki dogovorjenih zapisnikov o spremembi koncesij za perutninsko meso med Evropsko skupnostjo in Zvezno republiko Brazilijo ter med Evropsko skupnostjo in Kraljevino Tajsko v skladu s členom XXVIII Splošnega sporazuma o carinah in trgovini 1994 (GATT 1994)</j.0:dossier_title>
+    <j.0:dossier_title xml:lang="mt">Proposta għal DEĊIŻJONI TAL-KUNSILL dwar il-konklużjoni tal-Ftehimiet taħt forma ta’ minuti miftehma dwar it-tibdil fil-konċessjonijiet rigward il-laħam tat-tjur ta’ l-irziezet bejn il-Komunità Ewropea u r-Repubblika Federali tal-Brażil, u bejn il-Komunità Ewropea u r-Renju tat-Tajlandja skond l-Artikolu XXVIII tal-Ftehim Ġenerali dwar it-Tariffi u l-Kummerċ 1994 (GATT 1994)</j.0:dossier_title>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOL_2007_138_R_0010_01"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/oj/JOL_2007_160_R_0035_01"/>
+    <j.0:title xml:lang="nl">Voorstel voor een BESLUIT VAN DE RAAD inzake de sluiting van overeenkomsten in de vorm van een proces-verbaal van overeenstemming inzake de wijziging van concessies ten aanzien van vlees van pluimvee tussen de Europese Gemeenschap en de Federale Republiek Brazilië en tussen de Europese Gemeenschap en het Koninkrijk Thailand uit hoofde van artikel XXVIII van de Algemene Overeenkomst betreffende Tarieven en Handel 1994 (GATT 1994)</j.0:title>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOC_2007_181_R_0008_01"/>
+    <j.0:title xml:lang="fi">Ehdotus NEUVOSTON PÄÄTÖS yhteisesti hyväksyttyinä pöytäkirjamerkintöinä tehtävistä sopimuksista Euroopan yhteisön ja Brasilian liittotasavallan sekä Euroopan yhteisön ja Thaimaan kuningaskunnan välisten siipikarjanlihaa koskevien myönnytysten muuttamiseksi tullitariffeja ja kauppaa koskevan yleissopimuksen 1994 (GATT 1994 -sopimuksen) XXVIII artiklan nojalla</j.0:title>
+    <j.0:dossier_date_adopted rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-05-24</j.0:dossier_date_adopted>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12006E300"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/195578.384960">
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-04-10</j.0:date>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_toCONSIL_byCOM"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_toCONSIL_byCOM"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/195578"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-04-10</j.0:event_date>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/195578"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transmission au Conseil</j.0:type>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transmission au Conseil</j.0:event_legal_type>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/195578"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.2:build_info>cdm:CDM_2.1.7  tdm:1523  xslt:3945 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:1.1.9 builddate:10/02/2014 15:37:14</j.2:build_info>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_toCONSIL_byCOM"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-04-10</j.0:event_legal_date>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/52007PC0176%2801%29">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/42db4208-d28e-11e1-905c-01aa75ed71a1">
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-05T01:24:19.657+01:00</j.3:lastModificationDate>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure/2007_60"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/195578"/>
+  </rdf:Description>
+</rdf:RDF>

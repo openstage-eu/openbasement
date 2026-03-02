@@ -1,0 +1,205 @@
+version: "1"
+
+prefixes:
+  cdm: "http://publications.europa.eu/ontology/cdm#"
+  skos: "http://www.w3.org/2004/02/skos/core#"
+  rdf: "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+  xsd: "http://www.w3.org/2001/XMLSchema#"
+
+languages:
+  preferred: ["en", "fr", "de"]
+  fallback: "any"
+
+entities:
+
+  procedure:
+    find:
+      type: "cdm:procedure_interinstitutional"
+      include_subclasses: true
+
+    fields:
+      title:
+        predicate:
+          - "cdm:title"
+          - "cdm:dossier_title"
+        multilingual: true
+
+      reference:
+        predicate:
+          - "cdm:reference_procedure"
+          - "cdm:reference"
+
+      year_procedure:
+        predicate: "cdm:year_procedure"
+
+      number_procedure:
+        predicate: "cdm:number_procedure"
+
+      date:
+        predicate: "cdm:date"
+        datatype: "xsd:date"
+
+      date_adopted:
+        predicate: "cdm:date_adopted"
+        datatype: "xsd:date"
+
+      dates:
+        predicate: "cdm:date_*"
+        collect: "dict"
+
+      procedure_type:
+        predicate:
+          - "cdm:has_type"
+          - "cdm:procedure_code_interinstitutional_has_type_concept_type_procedure_code_interinstitutional"
+        value_type: "uri"
+
+      basis_legal:
+        predicate: "cdm:basis_legal"
+
+      adopted_proposal:
+        predicate:
+          - "cdm:adopted-proposal"
+          - "cdm:dossier_adopted-proposal"
+
+      pending_proposal:
+        predicate:
+          - "cdm:pending-proposal"
+          - "cdm:dossier_pending-proposal"
+
+      withdrawn_proposal:
+        predicate:
+          - "cdm:withdrawn-proposal"
+          - "cdm:dossier_withdrawn-proposal"
+
+      subject_matters:
+        predicate:
+          - "cdm:is_about"
+          - "cdm:dossier_is_about_concept_type_dossier"
+        cardinality: "many"
+        value_type: "uri"
+
+      initiated_by:
+        predicate:
+          - "cdm:initiated_by"
+          - "cdm:dossier_initiated_by_act_preparatory"
+        value_type: "uri"
+
+      produces:
+        predicate:
+          - "cdm:produces"
+          - "cdm:dossier_produces_resource_legal"
+        value_type: "uri"
+
+    relations:
+      events:
+        predicate:
+          - "cdm:dossier_contains_event_legal"
+          - "cdm:dossier_contains_event"
+        inverse_predicate:
+          - "cdm:event_legal_part_of_dossier"
+          - "cdm:event_part_of_dossier"
+        target_template: "event"
+        cardinality: "many"
+
+      documents:
+        predicate:
+          - "cdm:dossier_contains_work"
+        target_template: "document"
+        cardinality: "many"
+
+
+  event:
+    find:
+      type: "cdm:event_legal"
+      include_subclasses: true
+
+    fields:
+      date:
+        predicate:
+          - "cdm:event_legal_date"
+          - "cdm:event_date"
+          - "cdm:date"
+        datatype: "xsd:date"
+
+      type_code:
+        predicate:
+          - "cdm:event_legal_type"
+          - "cdm:type"
+
+      type_concept:
+        predicate:
+          - "cdm:event_legal_has_type_concept_type_event_legal"
+          - "cdm:event_has_type_concept_type_event"
+          - "cdm:has_type"
+        value_type: "uri"
+
+      initiated_by_institution:
+        predicate:
+          - "cdm:event_legal_initiated_by_institution"
+          - "cdm:event_initiated_by_institution"
+          - "cdm:initiated_by"
+        value_type: "uri"
+
+      formally_addresses_institution:
+        predicate:
+          - "cdm:event_legal_formally-addresses_institution"
+          - "cdm:event_formally-addresses_institution"
+        value_type: "uri"
+
+      document_reference:
+        predicate: "cdm:event_legal_document_reference"
+
+      occurs_in_phase:
+        predicate: "cdm:event_legal_occurs_in_procedure-phase"
+        value_type: "uri"
+
+      initiating:
+        predicate: "cdm:event_legal_initiating"
+
+      other_properties:
+        predicate: "cdm:event_legal_*"
+        collect: "dict"
+        exclude:
+          - "cdm:event_legal_date"
+          - "cdm:event_legal_type"
+          - "cdm:event_legal_has_type_concept_type_event_legal"
+          - "cdm:event_legal_initiated_by_institution"
+          - "cdm:event_legal_formally-addresses_institution"
+          - "cdm:event_legal_document_reference"
+          - "cdm:event_legal_occurs_in_procedure-phase"
+          - "cdm:event_legal_initiating"
+          - "cdm:event_legal_contains_work"
+          - "cdm:event_legal_part_of_dossier"
+
+    relations:
+      works:
+        predicate:
+          - "cdm:event_legal_contains_work"
+          - "cdm:event_contains_work"
+        target_template: "document"
+        cardinality: "many"
+
+
+  document:
+    find:
+      type: "cdm:work"
+      include_subclasses: true
+
+    fields:
+      title:
+        predicate: "cdm:work_title"
+        multilingual: true
+      celex:
+        predicate: "cdm:resource_legal_id_celex"
+      date_document:
+        predicate: "cdm:work_date_document"
+        datatype: "xsd:date"
+      resource_type:
+        predicate: "cdm:work_has_resource-type"
+      resource_type_label:
+        predicate: "cdm:work_has_resource-type"
+        follow:
+          predicate: "skos:prefLabel"
+          multilingual: true
+    relations: {}

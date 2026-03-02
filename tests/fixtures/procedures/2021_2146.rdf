@@ -1,0 +1,394 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://publications.europa.eu/ontology/cdm#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.1="http://www.w3.org/2004/02/skos/core#"
+    xmlns:j.2="http://publications.europa.eu/ontology/annotation#"
+    xmlns:j.3="http://publications.europa.eu/ontology/cdm/cmr#" > 
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/8a3c19c5-dcaf-11e5-8fea-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/agent/Tom%C3%A1%C5%A1%20ZDECHOVSK%C3%9D"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <j.2:order rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1</j.2:order>
+    <j.2:in_committee rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP_LIBE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/agent/Tom%C3%A1%C5%A1%20ZDECHOVSK%C3%9D">
+    <j.0:agent_reports_on_report_ep rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290235"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/092f9f33-56ad-11ed-92ed-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290235"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282022%290235"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <j.2:role2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">{PSP|http://publications.europa.eu/resource/authority/fd_375/PSP}</j.2:role2>
+    <j.2:type_of_link_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EA</j.2:type_of_link_target>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal_related_to_resource_legal"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282022%290235"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/immc/P9_TA%282022%290362"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/8439">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290235"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290235"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29702934"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29702934"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29734409"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29734409"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290362"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290362"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/immc/P9_TA%282022%290362"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282022%290235"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal_related_to_resource_legal"/>
+    <j.2:type_of_link_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EA</j.2:type_of_link_target>
+    <j.2:role2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">{PSP|http://publications.europa.eu/resource/authority/fd_375/PSP}</j.2:role2>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29734409">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#legislation_secondary"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#opinion_ep"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.2:in_committee rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP_LIBE"/>
+    <j.2:order rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1</j.2:order>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/6064">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290235"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290235"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29702934"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29702934"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29734409"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29734409"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290362"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290362"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282022%290235"/>
+    <j.2:role2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">{PSP|http://publications.europa.eu/resource/authority/fd_375/PSP}</j.2:role2>
+    <j.2:type_of_link_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EA</j.2:type_of_link_target>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal_related_to_resource_legal"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/immc/LIBE_AD%282022%29702934"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29702934">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#legislation_secondary"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#opinion_ep"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/immc/P9_TA%282022%290362">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/217c6fac-56ac-11ed-92ed-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290362"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/immc/P9_TA%282022%290362"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/5158">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290235"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290235"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29702934"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29702934"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29734409"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29734409"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290362"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290362"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/immc/LIBE_AD%282022%29702934">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+    <j.0:related_to rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290235"/>
+    <j.0:resource_legal_related_to_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290235"/>
+    <j.0:work_related_to_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290235"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure-event/2021_2146.2022-10-18_DEC_BUDDIS_byEP">
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282022%290235"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282022%290235"/>
+    <j.0:event_legal_was_historically_about_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/DEC"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/DEC_BUDDIS_byEP"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-10-18</j.0:date>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DEC_BUDDIS_byEP</j.0:event_legal_type>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/immc/LIBE_AD%282022%29702934"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBE_AD(2022)734409</j.0:document_reference>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P9_A(2022)0235</j.0:document_reference>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBE_AD(2022)702934</j.0:document_reference>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/DEC_BUDDIS_byEP"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/immc/P9_TA%282022%290362"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2021_2146"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2021_2146"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/LIBE_AD%282022%29702934"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/LIBE_AD%282022%29734409"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20221028-4212; environment: PROD; CERES: 4.17.2; IMMC2CDM: 3.2.2; rules: preleg/rules-ep.xml#56614#2020-05-29T09:45:21; builddate: 2022-10-28T12:09:57.026;</j.2:build_info>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-10-18</j.0:event_legal_date>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/immc/LIBE_AD%282022%29734409"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBE_AD(2022)702934</j.0:event_legal_document_reference>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DEC_BUDDIS_byEP</j.0:type>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/procedure/2021_2146"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/immc/LIBE_AD%282022%29702934"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P9_A(2022)0235</j.0:event_legal_document_reference>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/procedure/DEC"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/immc/P9_TA%282022%290362"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P9_TA(2022)0362</j.0:document_reference>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282022%290235"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-10-18</j.0:event_date>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBE_AD(2022)734409</j.0:event_legal_document_reference>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P9_TA(2022)0362</j.0:event_legal_document_reference>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/P9_TA%282022%290362"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/immc/LIBE_AD%282022%29734409"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/DEC_BUDDIS_byEP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/933">
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290235"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290235"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29702934"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29702934"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29734409"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29734409"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290362"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290362"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/agent/Tom%C3%A1%C5%A1%20ZDECHOVSK%C3%9D"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#agent_reports_on_report_ep"/>
+    <j.2:order rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1</j.2:order>
+    <j.2:in_committee rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP_CONT"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282022%290235"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/DEC_BUDDIS_byEP">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#type_event_interinstitutional"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2021_2146.2022-10-18_DEC_BUDDIS_byEP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/subject-matter/BUDG">
+    <j.0:subject-matter_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290235"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290235"/>
+    <j.0:subject-matter_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29702934"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29702934"/>
+    <j.0:subject-matter_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29734409"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29734409"/>
+    <j.0:subject-matter_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290362"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290362"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/189">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290235"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290235"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29702934"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29702934"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29734409"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29734409"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290362"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290362"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/procedure">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/e1e71f78-56ab-11ed-92ed-01aa75ed71a1">
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-05T05:27:20.846+01:00</j.3:lastModificationDate>
+    <j.3:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-28T12:30:24.931+02:00</j.3:creationDate>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure/2021_2146"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/341">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290235"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290235"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29702934"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29702934"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29734409"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29734409"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290362"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290362"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/b80d6648-56ad-11ed-92ed-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29702934"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/immc/LIBE_AD%282022%29702934"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/procedure/DEC">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/procedure"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_procedure_code_interinstitutional"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A6">
+    <j.2:in_committee rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP_LIBE"/>
+    <j.2:order rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1</j.2:order>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/e1e71f78-56ab-11ed-92ed-01aa75ed71a1.0001">
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-28T12:30:24.931+02:00</j.3:lastModificationDate>
+    <j.3:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-28T12:30:24.931+02:00</j.3:creationDate>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure-event/2021_2146.2022-10-18_DEC_BUDDIS_byEP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/EP_CONT">
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290235"/>
+    <j.0:agent_reports_on_report_ep rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290235"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290235"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/EP">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290362"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29702934"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290362"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290235"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29734409"/>
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29734409"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29702934"/>
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290235"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/ep/P9_A%282022%290235">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#report_ep"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resolution_legislative_ep"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#text-adopted"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/ep/P9_TA%282022%290362">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resolution_legislative_ep"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#text-adopted"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A7">
+    <j.2:type_of_link_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EA</j.2:type_of_link_target>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal_related_to_resource_legal"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282022%290235"/>
+    <j.2:role2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">{PSP|http://publications.europa.eu/resource/authority/fd_375/PSP}</j.2:role2>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/immc/LIBE_AD%282022%29734409"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/immc/LIBE_AD%282022%29734409">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+    <j.0:related_to rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290235"/>
+    <j.0:resource_legal_related_to_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290235"/>
+    <j.0:work_related_to_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290235"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/EP_LIBE">
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29702934"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29702934"/>
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29734409"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29734409"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A8">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.2:order rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1</j.2:order>
+    <j.2:in_committee rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP_LIBE"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A9">
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282022%290235"/>
+    <j.2:in_committee rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP_CONT"/>
+    <j.2:order rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1</j.2:order>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#agent_reports_on_report_ep"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/agent/Tom%C3%A1%C5%A1%20ZDECHOVSK%C3%9D"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/dir-eu-legal-act/016020">
+    <j.0:concept_directory-code_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290235"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290235"/>
+    <j.0:concept_directory-code_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29702934"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29702934"/>
+    <j.0:concept_directory-code_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29734409"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29734409"/>
+    <j.0:concept_directory-code_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290362"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290362"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A10">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/immc/LIBE_AD%282022%29734409"/>
+    <j.2:role2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">{PSP|http://publications.europa.eu/resource/authority/fd_375/PSP}</j.2:role2>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282022%290235"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal_related_to_resource_legal"/>
+    <j.2:type_of_link_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EA</j.2:type_of_link_target>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/immc/P9_A%282022%290235">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+    <j.0:related_to rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290362"/>
+    <j.0:resource_legal_related_to_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290362"/>
+    <j.0:work_related_to_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290362"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/dir-eu-legal-act/016060">
+    <j.0:concept_directory-code_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290235"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282022%290235"/>
+    <j.0:concept_directory-code_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29702934"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29702934"/>
+    <j.0:concept_directory-code_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29734409"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29734409"/>
+    <j.0:concept_directory-code_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290362"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282022%290362"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A11">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/immc/LIBE_AD%282022%29702934"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal_related_to_resource_legal"/>
+    <j.2:type_of_link_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EA</j.2:type_of_link_target>
+    <j.2:role2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">{PSP|http://publications.europa.eu/resource/authority/fd_375/PSP}</j.2:role2>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282022%290235"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/c537a553-56ae-11ed-92ed-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/ep/LIBE_AD%282022%29734409"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/immc/LIBE_AD%282022%29734409"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure/2021_2146">
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282022%290235"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-10-28</j.0:date>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/LIBE_AD%282022%29702934"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/LIBE_AD%282022%29734409"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/procedure/DEC"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional"/>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/immc/LIBE_AD%282022%29734409"/>
+    <j.0:reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021/2146/DEC</j.0:reference>
+    <j.0:dossier_date_creation_legacy rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-10-28</j.0:dossier_date_creation_legacy>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/P9_TA%282022%290362"/>
+    <j.0:type_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OP_DATPRO</j.0:type_reference>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/immc/P9_TA%282022%290362"/>
+    <j.0:procedure_code_interinstitutional_reference_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021/2146/DEC</j.0:procedure_code_interinstitutional_reference_procedure>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:dossier_identifier rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">procedure:2021_2146</j.0:dossier_identifier>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_interinstitutional"/>
+    <j.0:year_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2021</j.0:year_procedure>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/procedure-event/2021_2146.2022-10-18_DEC_BUDDIS_byEP"/>
+    <j.0:title>OP_DATPRO</j.0:title>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/immc/LIBE_AD%282022%29702934"/>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20221028-4212; environment: PROD; CERES: 4.17.2; IMMC2CDM: 3.2.2; rules: preleg/rules-ep.xml#56614#2020-05-29T09:45:21; builddate: 2022-10-28T12:09:57.026;</j.2:build_info>
+    <j.0:identifier rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">procedure:2021_2146</j.0:identifier>
+    <j.0:procedure_code_interinstitutional_number_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2146</j.0:procedure_code_interinstitutional_number_procedure>
+    <j.0:dossier_year_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OP_DATPRO</j.0:dossier_year_reference>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#dossier"/>
+    <j.0:procedure_code_interinstitutional_year_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2021</j.0:procedure_code_interinstitutional_year_procedure>
+    <j.0:number_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OP_DATPRO</j.0:number_reference>
+    <j.0:date_creation_legacy rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-10-28</j.0:date_creation_legacy>
+    <j.0:year_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OP_DATPRO</j.0:year_reference>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2021_2146.2022-10-18_DEC_BUDDIS_byEP"/>
+    <j.0:procedure_code_interinstitutional_has_type_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/DEC"/>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/procedure-event/2021_2146.2022-10-18_DEC_BUDDIS_byEP"/>
+    <j.0:dossier_number_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OP_DATPRO</j.0:dossier_number_reference>
+    <j.0:number_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2146</j.0:number_procedure>
+    <j.0:reference_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021/2146/DEC</j.0:reference_procedure>
+    <j.0:dossier_type_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OP_DATPRO</j.0:dossier_type_reference>
+    <j.0:dossier_title>OP_DATPRO</j.0:dossier_title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282022%290235"/>
+  </rdf:Description>
+</rdf:RDF>

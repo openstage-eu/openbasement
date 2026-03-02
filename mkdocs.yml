@@ -1,0 +1,26 @@
+site_name: openbasement
+site_description: Template-based RDF extraction from EU Cellar data
+repo_url: https://github.com/maxhaag/openbasement
+
+theme:
+  name: openstage
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Templates: templates.md
+  - Template Reference: template-reference.md
+  - Audit Coverage: audit.md
+  - API Reference: api.md
+  - CDM Patterns: cdm-patterns.md
+
+plugins:
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            show_source: false
+            show_root_heading: true
+            heading_level: 3
+            docstring_style: google
+            members_order: source
