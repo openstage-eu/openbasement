@@ -25,7 +25,7 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install .[dev,docs]
+        run: pip install --no-cache-dir .[dev,docs]
 
       - name: Build docs
         run: make docs-build
