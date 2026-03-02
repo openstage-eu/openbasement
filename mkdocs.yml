@@ -1,9 +1,13 @@
 site_name: openbasement
+site_url: https://openstage-eu.github.io/openbasement/
 site_description: Template-based RDF extraction from EU Cellar data
 repo_url: https://github.com/openstage-eu/openbasement
 
 theme:
   name: openstage
+  subsite:
+    text: openstage-eu
+    url: https://github.com/openstage-eu
 
 nav:
   - Home: index.md
