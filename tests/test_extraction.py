@@ -8,6 +8,7 @@ need adjustment as we discover more about the data.
 
 import json
 import logging
+import re
 from pathlib import Path
 
 import pytest
@@ -183,3 +184,233 @@ def test_raw_triples_captured(rdf_path, val_path, proc_ref):
     proc = results[0]
     # _raw_triples should exist (may be empty if template covers everything)
     assert "_raw_triples" in proc
+
+
+def _normalize_uri_key(uri_param: str) -> str:
+    """Normalize a EUR-Lex uri_param into a comparable key.
+
+    EUR-Lex uses colon-separated URI parameters like:
+        COM:1974:2193:FIN, celex:31978L0631, OJ:C:1975:111:TOC
+
+    Extracted work URIs look like:
+        resource/comnat/COM_1974_2193_FIN, resource/celex/31978L0631,
+        resource/oj/JOC_1975_111_R_0017_01
+
+    We normalize to a minimal form for fuzzy matching.
+    """
+    s = uri_param.strip()
+
+    # celex:XXXXX -> just the celex number
+    if s.lower().startswith("celex:"):
+        return f"celex:{s[6:]}"
+
+    # OJ:C:1975:111:TOC -> oj:JOC_1975_111
+    # OJ:L:1978:206:TOC -> oj:JOL_1978_206
+    oj_match = re.match(r"OJ:([CL]):(\d{4}):(\d+)", s)
+    if oj_match:
+        series, year, number = oj_match.groups()
+        return f"oj:JO{series}_{year}_{number}"
+
+    # COM:1974:2193:FIN -> com:COM_1974_2193_FIN
+    # General pattern: replace colons with underscores
+    parts = s.split(":")
+    if len(parts) >= 3:
+        return f"doc:{s.replace(':', '_')}"
+
+    return f"raw:{s}"
+
+
+def _normalize_work_uri(work_uri: str) -> str:
+    """Normalize an extracted work URI into a comparable key.
+
+    Work URIs are like:
+        http://publications.europa.eu/resource/celex/31978L0631
+        http://publications.europa.eu/resource/comnat/COM_1974_2193_FIN
+        http://publications.europa.eu/resource/oj/JOC_1975_040_R_0030_01
+    """
+    # Get the path after resource/
+    m = re.search(r"/resource/(.+)$", work_uri)
+    if not m:
+        return f"raw:{work_uri}"
+
+    path = m.group(1)
+
+    # celex/XXXXX
+    if path.startswith("celex/"):
+        return f"celex:{path[6:]}"
+
+    # oj/JOC_1975_040_R_0030_01 -> oj:JOC_1975_040
+    oj_match = re.match(r"oj/(JO[CL]_\d{4}_\d+)", path)
+    if oj_match:
+        return f"oj:{oj_match.group(1)}"
+
+    # comnat/COM_1974_2193_FIN or pegase/LET_... -> doc:COM_1974_2193_FIN
+    slash_pos = path.find("/")
+    if slash_pos >= 0:
+        return f"doc:{path[slash_pos + 1:]}"
+
+    return f"raw:{path}"
+
+
+def _fixture_pairs_with_documents():
+    """Yield fixture pairs where validation has document data."""
+    pairs = []
+    for rdf_path, val_path, proc_ref in _fixture_pairs():
+        if val_path is None:
+            continue
+        with open(val_path) as f:
+            data = json.load(f)
+        if data.get("document_count", 0) > 0:
+            pairs.append((rdf_path, val_path, proc_ref))
+    return pairs
+
+
+@pytest.mark.parametrize(
+    "rdf_path,val_path,proc_ref",
+    _fixture_pairs_with_documents(),
+    ids=lambda x: x if isinstance(x, str) else "",
+)
+def test_event_document_count(rdf_path, val_path, proc_ref):
+    """Validate that extracted events have at least as many works as EUR-Lex lists.
+
+    Stage 1: structural check. For each EUR-Lex event with documents,
+    matches it to extracted events by date and compares document counts.
+    This catches missing relations or broken traversal without being
+    affected by URI naming differences.
+    """
+    g = Graph()
+    g.parse(str(rdf_path), format="xml")
+
+    results = extract(g, template="eu_procedure")
+    if not results:
+        pytest.skip(f"No procedure entities found in {proc_ref}")
+
+    proc = results[0]
+    extracted_events = proc.get("events", [])
+
+    with open(val_path) as f:
+        validation = json.load(f)
+
+    expected_events = validation.get("events") or []
+
+    # Build a lookup from date -> list of extracted events
+    extracted_by_date = {}
+    for evt in extracted_events:
+        if isinstance(evt, dict) and evt.get("date"):
+            extracted_by_date.setdefault(evt["date"], []).append(evt)
+
+    shortfalls = []
+
+    for eurlex_evt in expected_events:
+        # Only count documents with uri_param (structured references).
+        # External links (empty uri_param) are informational and cannot
+        # be matched to RDF work URIs.
+        docs = [
+            d for d in (eurlex_evt.get("documents") or [])
+            if d.get("uri_param")
+        ]
+        if not docs:
+            continue
+
+        date = eurlex_evt.get("date", "")
+        matched_events = extracted_by_date.get(date, [])
+        if not matched_events:
+            shortfalls.append(
+                f"  {date}: no extracted event found "
+                f"(EUR-Lex has {len(docs)} docs)"
+            )
+            continue
+
+        # Count works across all extracted events on this date
+        extracted_work_count = sum(
+            len(evt.get("works", []))
+            for evt in matched_events
+        )
+
+        if extracted_work_count < len(docs):
+            shortfalls.append(
+                f"  {date}: extracted {extracted_work_count} works, "
+                f"EUR-Lex has {len(docs)} docs"
+            )
+
+    if shortfalls:
+        report = "\n".join(shortfalls)
+        assert False, (
+            f"[{proc_ref}] Extracted events have fewer works than "
+            f"EUR-Lex documents:\n{report}"
+        )
+
+
+@pytest.mark.parametrize(
+    "rdf_path,val_path,proc_ref",
+    _fixture_pairs_with_documents(),
+    ids=lambda x: x if isinstance(x, str) else "",
+)
+def test_event_document_references(rdf_path, val_path, proc_ref):
+    """Validate that EUR-Lex document references match extracted work URIs.
+
+    Stage 2: reference check. For each EUR-Lex event with documents,
+    matches it to extracted events by date, then checks that every
+    document reference appears in the extracted works (matched via
+    normalized URI keys). This catches naming/aliasing mismatches.
+    """
+    g = Graph()
+    g.parse(str(rdf_path), format="xml")
+
+    results = extract(g, template="eu_procedure")
+    if not results:
+        pytest.skip(f"No procedure entities found in {proc_ref}")
+
+    proc = results[0]
+    extracted_events = proc.get("events", [])
+
+    with open(val_path) as f:
+        validation = json.load(f)
+
+    expected_events = validation.get("events") or []
+
+    # Build a lookup from date -> list of extracted events
+    extracted_by_date = {}
+    for evt in extracted_events:
+        if isinstance(evt, dict) and evt.get("date"):
+            extracted_by_date.setdefault(evt["date"], []).append(evt)
+
+    mismatches = []
+
+    for eurlex_evt in expected_events:
+        # Only check documents with uri_param (structured references).
+        # External links (empty uri_param) cannot be matched to RDF work URIs.
+        docs = [
+            d for d in (eurlex_evt.get("documents") or [])
+            if d.get("uri_param")
+        ]
+        if not docs:
+            continue
+
+        date = eurlex_evt.get("date", "")
+        matched_events = extracted_by_date.get(date, [])
+        if not matched_events:
+            continue  # already caught by test_event_document_count
+
+        # Collect all work URIs from all extracted events on this date
+        extracted_keys = set()
+        for evt in matched_events:
+            for work in evt.get("works", []):
+                uri = work.get("_uri", "")
+                if uri:
+                    extracted_keys.add(_normalize_work_uri(uri))
+
+        for doc in docs:
+            eurlex_key = _normalize_uri_key(doc["uri_param"])
+            if eurlex_key not in extracted_keys:
+                mismatches.append(
+                    f"  {date}: {doc['reference']} ({eurlex_key}) "
+                    f"not in extracted works {sorted(extracted_keys)}"
+                )
+
+    if mismatches:
+        report = "\n".join(mismatches)
+        assert False, (
+            f"[{proc_ref}] EUR-Lex document references not matched "
+            f"in extraction:\n{report}"
+        )
