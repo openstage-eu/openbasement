@@ -284,6 +284,7 @@ def _extract_field(
         values = [apply_transform(v, transform_name, transforms) for v in values]
 
     if cardinality == "many":
+        values = list(dict.fromkeys(values))
         return values, consumed
 
     return values[0] if values else None, consumed
