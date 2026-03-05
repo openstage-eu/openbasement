@@ -101,12 +101,12 @@ def test_extract_matches_validation(rdf_path, val_path, proc_ref):
                 f"missing dates ({events_with_dates}/{len(extracted_events)} have dates)"
             )
 
-    # Event counts differ between RDF and EUR-Lex (different granularity
-    # in both directions). Log as warning, not a hard failure.
-    if expected_events and len(extracted_events) != len(expected_events):
-        logger.warning(
-            "Event count for %s: extracted=%d, EUR-Lex=%d",
-            proc_ref, len(extracted_events), len(expected_events),
+    # RDF typically has more events than EUR-Lex (finer granularity).
+    # Extracted events must be at least as many as EUR-Lex shows.
+    if expected_events:
+        assert len(extracted_events) >= len(expected_events), (
+            f"[{proc_ref}] Fewer events than EUR-Lex: "
+            f"extracted={len(extracted_events)}, EUR-Lex={len(expected_events)}"
         )
 
     # All EUR-Lex dates must appear in extracted dates
