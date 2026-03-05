@@ -7,7 +7,12 @@ Standalone script (no openstage dependency). Downloads:
 - Builds index.json mapping procedure references to metadata
 
 Usage:
-    python tests/download_fixtures.py [--limit N] [--delay SECONDS]
+    python tests/download_fixtures.py [--limit N] [--delay SECONDS] [--force-validation]
+    python tests/download_fixtures.py --fetch-method browser --force-validation
+
+EUR-Lex fetch methods:
+    requests  - Plain HTTP (fast, but blocked by AWS WAF bot protection)
+    browser   - Headless Chrome via nodriver (slower, bypasses bot protection)
 
 Uses the RDF tree notice format (application/rdf+xml;notice=tree) which includes
 full event metadata (dates, types, institutions) inline in a single request,
@@ -28,6 +33,9 @@ from pathlib import Path
 
 import requests
 
+# asyncio is only needed when --fetch-method=browser is used (nodriver is async-only).
+# Imported lazily inside _fetch_eurlex_browser().
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s %(levelname)s %(message)s",
@@ -41,6 +49,7 @@ EURLEX_PROCEDURE_URL = "https://eur-lex.europa.eu/procedure/EN/{proc_ref}"
 FIXTURES_DIR = Path(__file__).parent / "fixtures"
 PROCEDURES_DIR = FIXTURES_DIR / "procedures"
 VALIDATION_DIR = FIXTURES_DIR / "validation"
+VALIDATION_HTML_DIR = FIXTURES_DIR / "validation_html"
 INDEX_PATH = FIXTURES_DIR / "index.json"
 
 USER_AGENT = "openbasement-test-fixtures/0.1 (research; +https://github.com/maxhaag)"
@@ -161,6 +170,59 @@ def download_rdf_tree(proc_ref: str, delay: float = 0.5) -> bool:
         return False
 
 
+def _parse_event_documents(description_html: str) -> tuple[list[dict], list[dict]]:
+    """Extract document references from an event description HTML string.
+
+    Description fields contain two kinds of <a> tags:
+    1. Actual documents (COM proposals, OJ references, etc.) in plain <dd> blocks
+    2. CELEX duplicates of those same documents, wrapped in <span lang="...">
+
+    Returns (documents, celex_main) where celex_main contains the CELEX
+    duplicates that should not be counted as separate documents.
+    """
+    docs = []
+    celex_main = []
+    seen_refs = set()
+
+    # First pass: <a> tags with uri= parameter (structured document links).
+    # Track whether they sit inside a <span lang="..."> wrapper, which marks
+    # them as CELEX duplicates of the main documents.
+    for m in re.finditer(
+        r'(<span\s+lang="[^"]*">\s*)?<a\s[^>]*?uri=([^"&\'>\s]+)[^>]*>([^<]+)</a>',
+        description_html,
+    ):
+        in_span = m.group(1) is not None
+        uri_param = m.group(2)
+        reference = m.group(3).strip()
+        if uri_param and reference:
+            entry = {"uri_param": uri_param, "reference": reference}
+            if in_span:
+                celex_main.append(entry)
+            else:
+                docs.append(entry)
+                seen_refs.add(reference)
+
+    # Second pass: external links without uri= (consilium register, press
+    # releases, etc.). Link text may contain inline tags like <i> icons.
+    for m in re.finditer(
+        r'<a\s[^>]*href="(http[^"]+)"[^>]*>(.*?)</a>',
+        description_html,
+        re.DOTALL,
+    ):
+        href = m.group(1)
+        # Skip links that have a uri= parameter (already captured above)
+        if "uri=" in href:
+            continue
+        # Strip HTML tags and zero-width spaces from link text
+        reference = re.sub(r"<[^>]+>", "", m.group(2))
+        reference = reference.replace("\u200b", "").strip()
+        if reference and reference not in seen_refs:
+            docs.append({"uri_param": "", "reference": reference})
+            seen_refs.add(reference)
+
+    return docs, celex_main
+
+
 def _parse_eurlex_timeline(page_html: str) -> dict | None:
     """Extract timeline JSON and procedure metadata from EUR-Lex procedure page.
 
@@ -169,9 +231,9 @@ def _parse_eurlex_timeline(page_html: str) -> dict | None:
 
     The JSON uses JS-style quoting (single quotes, escaped apostrophes,
     HTML with double quotes inside description values). Rather than
-    attempting a full JS-to-JSON conversion, we strip the description
-    fields (not needed for validation) and convert the remaining simple
-    key-value pairs.
+    attempting a full JS-to-JSON conversion, we capture description
+    fields separately (for document extraction), then strip them for
+    clean JSON parsing.
     """
     # Extract the var json = {...}; block.
     # Use ]\s*} as the end anchor because the timeline always ends with
@@ -187,10 +249,18 @@ def _parse_eurlex_timeline(page_html: str) -> dict | None:
 
     raw = match.group(1)
 
+    # Step 0: Capture raw description strings before stripping them.
+    # Indexed by position so we can reattach after JSON parsing.
+    raw_descriptions = [
+        m.group(1)
+        for m in re.finditer(
+            r"'description'\s*:\s*'((?:[^'\\]|\\.)*)'", raw
+        )
+    ]
+
     # Step 1: Remove description fields entirely. They contain HTML with
     # mixed quoting (double quotes in attributes, escaped apostrophes in text)
-    # that makes JS-to-JSON conversion unreliable. We don't need them for
-    # validation anyway.
+    # that makes JS-to-JSON conversion unreliable.
     raw = re.sub(r"'description'\s*:\s*'(?:[^'\\]|\\.)*'", '"description": ""', raw)
 
     # Step 2: Handle escaped apostrophes (\') that appear in JS strings.
@@ -207,6 +277,12 @@ def _parse_eurlex_timeline(page_html: str) -> dict | None:
         timeline = json.loads(raw)
     except json.JSONDecodeError:
         return None
+
+    # Reattach raw descriptions to events for document extraction
+    events = timeline.get("events") or []
+    for i, evt in enumerate(events):
+        if i < len(raw_descriptions):
+            evt["_raw_description"] = raw_descriptions[i]
 
     return timeline
 
@@ -225,20 +301,8 @@ def _extract_procedure_title(page_html: str) -> str:
     return raw.strip()
 
 
-def download_eurlex_validation(
-    proc_ref: str, delay: float = 0.5
-) -> dict | None:
-    """Download and parse EUR-Lex procedure page for validation data.
-
-    Returns a dict with procedure metadata and timeline events, or None on failure.
-    """
-    out_path = VALIDATION_DIR / f"{proc_ref}.json"
-    if out_path.exists() and out_path.stat().st_size > 0:
-        log.debug("Already downloaded validation: %s", proc_ref)
-        with open(out_path) as f:
-            return json.load(f)
-
-    url = EURLEX_PROCEDURE_URL.format(proc_ref=proc_ref)
+def _fetch_eurlex_requests(url: str) -> str | None:
+    """Fetch EUR-Lex page HTML using plain requests."""
     try:
         resp = requests.get(
             url,
@@ -247,12 +311,49 @@ def download_eurlex_validation(
             allow_redirects=True,
         )
         resp.raise_for_status()
+        return resp.text
     except requests.RequestException as e:
-        log.warning("Failed to fetch EUR-Lex page for %s: %s", proc_ref, e)
+        log.warning("requests fetch failed for %s: %s", url, e)
         return None
 
-    page_html = resp.text
 
+def _fetch_eurlex_browser(url: str, delay: float = 3.0) -> str | None:
+    """Fetch EUR-Lex page HTML using headless Chrome (nodriver).
+
+    Bypasses AWS WAF bot protection by executing JavaScript in a real browser.
+    Requires the nodriver package (pip install 'openbasement[dev]').
+
+    nodriver is async-only, so this function uses its event loop internally.
+    """
+    try:
+        import asyncio
+
+        import nodriver as uc
+    except ImportError:
+        log.error(
+            "nodriver is required for --fetch-method=browser. "
+            "Install it with: pip install 'openbasement[dev]'"
+        )
+        return None
+
+    async def _get_page():
+        browser = await uc.start(headless=True)
+        try:
+            page = await browser.get(url)
+            await asyncio.sleep(delay)
+            return await page.get_content()
+        finally:
+            browser.stop()
+
+    try:
+        return uc.loop().run_until_complete(_get_page())
+    except Exception as e:
+        log.warning("browser fetch failed for %s: %s", url, e)
+        return None
+
+
+def _build_validation_data(page_html: str, proc_ref: str) -> dict | None:
+    """Parse EUR-Lex page HTML into structured validation data."""
     timeline = _parse_eurlex_timeline(page_html)
     if timeline is None:
         log.warning("No timeline data found in EUR-Lex page for %s", proc_ref)
@@ -261,13 +362,17 @@ def download_eurlex_validation(
     title = _extract_procedure_title(page_html)
 
     events = timeline.get("events") or []
-    # Normalize events into a clean structure
     normalized_events = []
+    all_doc_uris = set()
     for evt in events:
         year = evt.get("startYear", "")
         month = evt.get("startMonth", "").zfill(2)
         day = evt.get("startDay", "").zfill(2)
         date_str = f"{year}-{month}-{day}" if year else ""
+
+        documents, celex_main = _parse_event_documents(evt.get("_raw_description", ""))
+        for doc in documents:
+            all_doc_uris.add(doc["uri_param"])
 
         normalized_events.append({
             "date": date_str,
@@ -276,26 +381,104 @@ def download_eurlex_validation(
             "actor_id": evt.get("actorId", ""),
             "link": evt.get("link", ""),
             "icon_class": evt.get("iconClass", ""),
+            "documents": documents,
+            "celex_main": celex_main,
         })
 
-    data = {
+    return {
         "source": "eurlex",
         "procedure_reference": proc_ref,
         "title": title,
         "timeline_start": f"{timeline.get('startYear', '')}-{timeline.get('startMonth', '').zfill(2)}-{timeline.get('startDay', '').zfill(2)}",
         "timeline_end": f"{timeline.get('endYear', '')}-{timeline.get('endMonth', '').zfill(2)}-{timeline.get('endDay', '').zfill(2)}",
         "event_count": len(normalized_events),
+        "document_count": len(all_doc_uris),
         "events": normalized_events,
     }
+
+
+def download_eurlex_validation(
+    proc_ref: str,
+    delay: float = 0.5,
+    force: bool = False,
+    fetch_method: str = "requests",
+) -> dict | None:
+    """Download and parse EUR-Lex procedure page for validation data.
+
+    fetch_method: "requests" for plain HTTP, "browser" for headless Chrome.
+    Saves raw HTML to validation_html/ for later re-parsing without network.
+    Returns a dict with procedure metadata and timeline events, or None on failure.
+    """
+    out_path = VALIDATION_DIR / f"{proc_ref}.json"
+    html_path = VALIDATION_HTML_DIR / f"{proc_ref}.html"
+
+    if not force and out_path.exists() and out_path.stat().st_size > 0:
+        log.debug("Already downloaded validation: %s", proc_ref)
+        with open(out_path) as f:
+            return json.load(f)
+
+    # Try cached HTML first (avoids re-fetching when only JSON is missing)
+    if not force and html_path.exists() and html_path.stat().st_size > 0:
+        log.info("Using cached HTML for %s", proc_ref)
+        page_html = html_path.read_text(encoding="utf-8")
+    else:
+        url = EURLEX_PROCEDURE_URL.format(proc_ref=proc_ref)
+        if fetch_method == "browser":
+            page_html = _fetch_eurlex_browser(url, delay=delay)
+        else:
+            page_html = _fetch_eurlex_requests(url)
+
+        if page_html is None:
+            return None
+
+        # Save raw HTML for future re-parsing
+        html_path.write_text(page_html, encoding="utf-8")
+        time.sleep(delay)
+
+    data = _build_validation_data(page_html, proc_ref)
+    if data is None:
+        return None
 
     out_path.write_text(json.dumps(data, indent=2, ensure_ascii=False))
     log.info(
         "Downloaded EUR-Lex validation: %s (%d events)",
         proc_ref,
-        len(normalized_events),
+        data["event_count"],
     )
-    time.sleep(delay)
     return data
+
+
+def reparse_cached_html() -> tuple[int, int]:
+    """Re-parse all cached HTML files into validation JSON without network requests.
+
+    Returns (success_count, fail_count).
+    """
+    if not VALIDATION_HTML_DIR.exists():
+        log.warning("No validation_html directory found")
+        return 0, 0
+
+    html_files = sorted(VALIDATION_HTML_DIR.glob("*.html"))
+    if not html_files:
+        log.warning("No cached HTML files found")
+        return 0, 0
+
+    log.info("Re-parsing %d cached HTML files", len(html_files))
+    success = 0
+    fail = 0
+    for html_path in html_files:
+        proc_ref = html_path.stem
+        page_html = html_path.read_text(encoding="utf-8")
+        data = _build_validation_data(page_html, proc_ref)
+        if data is None:
+            log.warning("Failed to parse cached HTML for %s", proc_ref)
+            fail += 1
+            continue
+        out_path = VALIDATION_DIR / f"{proc_ref}.json"
+        out_path.write_text(json.dumps(data, indent=2, ensure_ascii=False))
+        success += 1
+
+    log.info("Re-parsed: %d success, %d failed", success, fail)
+    return success, fail
 
 
 def build_index(proc_refs: list[str]) -> dict:
@@ -318,6 +501,7 @@ def build_index(proc_refs: list[str]) -> dict:
                     data = json.load(f)
                 entry["title"] = data.get("title", "")
                 entry["event_count"] = data.get("event_count", 0)
+                entry["document_count"] = data.get("document_count", 0)
             except (json.JSONDecodeError, KeyError) as e:
                 log.warning("Error reading validation for %s: %s", proc_ref, e)
 
@@ -346,11 +530,38 @@ def main():
         default=0.5,
         help="Delay between requests in seconds (default: 0.5)",
     )
+    parser.add_argument(
+        "--force-validation",
+        action="store_true",
+        help="Re-download validation JSONs even if they already exist",
+    )
+    parser.add_argument(
+        "--fetch-method",
+        choices=["requests", "browser"],
+        default="requests",
+        help=(
+            "How to fetch EUR-Lex pages: 'requests' for plain HTTP, "
+            "'browser' for headless Chrome via nodriver (default: requests)"
+        ),
+    )
+    parser.add_argument(
+        "--reparse",
+        action="store_true",
+        help="Re-parse all cached HTML files into JSON without any network requests",
+    )
     args = parser.parse_args()
 
     # Ensure directories exist
     PROCEDURES_DIR.mkdir(parents=True, exist_ok=True)
     VALIDATION_DIR.mkdir(parents=True, exist_ok=True)
+    VALIDATION_HTML_DIR.mkdir(parents=True, exist_ok=True)
+
+    # Reparse mode: no network, just re-parse cached HTML
+    if args.reparse:
+        success, fail = reparse_cached_html()
+        log.info("--- Reparse Summary ---")
+        log.info("Success: %d, Failed: %d", success, fail)
+        return
 
     # Step 1: Query SPARQL for procedure references
     refs = query_sparql(limit=args.limit)
@@ -371,6 +582,9 @@ def main():
     log.info("RDF downloads: %d success, %d failed", rdf_success, rdf_fail)
 
     # Step 4: Download EUR-Lex validation
+    if args.fetch_method == "browser":
+        log.info("Using headless Chrome for EUR-Lex downloads")
+
     val_success = 0
     val_fail = 0
     for i, proc_ref in enumerate(selected):
@@ -380,7 +594,12 @@ def main():
             len(selected),
             proc_ref,
         )
-        result = download_eurlex_validation(proc_ref, delay=args.delay)
+        result = download_eurlex_validation(
+            proc_ref,
+            delay=args.delay,
+            force=args.force_validation,
+            fetch_method=args.fetch_method,
+        )
         if result is not None:
             val_success += 1
         else:
