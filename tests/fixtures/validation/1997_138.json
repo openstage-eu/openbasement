@@ -5,6 +5,7 @@
   "timeline_start": "1997-05-16",
   "timeline_end": "1999-12-08",
   "event_count": 5,
+  "document_count": 7,
   "events": [
     {
       "date": "1997-05-16",
@@ -12,7 +13,31 @@
       "actor": "European Commission",
       "actor_id": "com",
       "link": "15217",
-      "icon_class": "PrcdrCOM"
+      "icon_class": "PrcdrCOM",
+      "documents": [
+        {
+          "uri_param": "COM:1997:0218:FIN",
+          "reference": "COM/1997/218/FINAL/3"
+        },
+        {
+          "uri_param": "OJ:C:1997:165:TOC",
+          "reference": "JO C/1997/165/14"
+        },
+        {
+          "uri_param": "",
+          "reference": "CS/1997/8582"
+        },
+        {
+          "uri_param": "",
+          "reference": "BULLETIN/1997/5/1.3.55"
+        }
+      ],
+      "celex_main": [
+        {
+          "uri_param": "celex:51997PC0218(02)",
+          "reference": "51997PC0218(02)"
+        }
+      ]
     },
     {
       "date": "1998-05-15",
@@ -20,7 +45,9 @@
       "actor": "European Commission",
       "actor_id": "com",
       "link": "234456",
-      "icon_class": "PrcdrCOM"
+      "icon_class": "PrcdrCOM",
+      "documents": [],
+      "celex_main": []
     },
     {
       "date": "1999-05-01",
@@ -28,7 +55,14 @@
       "actor": "European Commission",
       "actor_id": "com",
       "link": "275027",
-      "icon_class": "PrcdrCOM"
+      "icon_class": "PrcdrCOM",
+      "documents": [
+        {
+          "uri_param": "CELEX:51999SC0581",
+          "reference": "SEC/1999/581/FINAL"
+        }
+      ],
+      "celex_main": []
     },
     {
       "date": "1998-05-15",
@@ -36,7 +70,27 @@
       "actor": "European Parliament",
       "actor_id": "ep",
       "link": "15221",
-      "icon_class": "PrcdrEP"
+      "icon_class": "PrcdrEP",
+      "documents": [
+        {
+          "uri_param": "OJ:C:1998:167:TOC",
+          "reference": "JO C/1998/167/300"
+        },
+        {
+          "uri_param": "",
+          "reference": "A4/1998/141"
+        },
+        {
+          "uri_param": "",
+          "reference": "BULLETIN/1998/5/1.2.53"
+        }
+      ],
+      "celex_main": [
+        {
+          "uri_param": "celex:51998AP0141(01)",
+          "reference": "51998AP0141(01)"
+        }
+      ]
     },
     {
       "date": "2006-03-17",
@@ -44,7 +98,31 @@
       "actor": "European Commission",
       "actor_id": "com",
       "link": "377286",
-      "icon_class": "PrcdrCOM"
+      "icon_class": "PrcdrCOM",
+      "documents": [
+        {
+          "uri_param": "COM:2005:0462:FIN",
+          "reference": "COM/2005/462/FINAL"
+        },
+        {
+          "uri_param": "OJ:C:2006:064:TOC",
+          "reference": "JO C/2006/64/3"
+        },
+        {
+          "uri_param": "",
+          "reference": "CS/2006/7421"
+        }
+      ],
+      "celex_main": [
+        {
+          "uri_param": "celex:52006XC0317(01)",
+          "reference": "52006XC0317(01)"
+        },
+        {
+          "uri_param": "celex:52005DC0462",
+          "reference": "52005DC0462"
+        }
+      ]
     }
   ]
 }

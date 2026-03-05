@@ -5,6 +5,7 @@
   "timeline_start": "1994-11-18",
   "timeline_end": "1994-12-19",
   "event_count": 6,
+  "document_count": 5,
   "events": [
     {
       "date": "1994-11-18",
@@ -12,7 +13,14 @@
       "actor": "European Parliament",
       "actor_id": "ep",
       "link": "108129",
-      "icon_class": "PrcdrEP"
+      "icon_class": "PrcdrEP",
+      "documents": [
+        {
+          "uri_param": "OJ:C:1994:341:TOC",
+          "reference": "JO C/1994/341/262"
+        }
+      ],
+      "celex_main": []
     },
     {
       "date": "1994-11-18",
@@ -20,7 +28,9 @@
       "actor": "European Commission",
       "actor_id": "com",
       "link": "108345",
-      "icon_class": "PrcdrCOM"
+      "icon_class": "PrcdrCOM",
+      "documents": [],
+      "celex_main": []
     },
     {
       "date": "1994-11-15",
@@ -28,7 +38,9 @@
       "actor": "European Parliament",
       "actor_id": "ep",
       "link": "108874",
-      "icon_class": "PrcdrEP"
+      "icon_class": "PrcdrEP",
+      "documents": [],
+      "celex_main": []
     },
     {
       "date": "1994-11-15",
@@ -36,7 +48,14 @@
       "actor": "European Parliament",
       "actor_id": "ep",
       "link": "109223",
-      "icon_class": "PrcdrEP"
+      "icon_class": "PrcdrEP",
+      "documents": [
+        {
+          "uri_param": "",
+          "reference": "A4/1994/74"
+        }
+      ],
+      "celex_main": []
     },
     {
       "date": "1994-09-26",
@@ -44,7 +63,27 @@
       "actor": "European Commission",
       "actor_id": "com",
       "link": "104917",
-      "icon_class": "PrcdrCOM"
+      "icon_class": "PrcdrCOM",
+      "documents": [
+        {
+          "uri_param": "COM:1994:0393:FIN",
+          "reference": "COM/1994/393/FINAL"
+        },
+        {
+          "uri_param": "OJ:C:1994:287:TOC",
+          "reference": "JO C/1994/287/11"
+        },
+        {
+          "uri_param": "",
+          "reference": "CS/1994/9467/94/PECHE267"
+        }
+      ],
+      "celex_main": [
+        {
+          "uri_param": "celex:51994PC0393",
+          "reference": "51994PC0393"
+        }
+      ]
     },
     {
       "date": "1994-12-19",
@@ -52,7 +91,19 @@
       "actor": "Council of the European Union",
       "actor_id": "council",
       "link": "107355",
-      "icon_class": "PrcdrCONSIL"
+      "icon_class": "PrcdrCONSIL",
+      "documents": [
+        {
+          "uri_param": "OJ:L:1994:351:TOC",
+          "reference": "JO L/1994/351/1"
+        }
+      ],
+      "celex_main": [
+        {
+          "uri_param": "celex:31994R3354",
+          "reference": "31994R3354"
+        }
+      ]
     }
   ]
 }

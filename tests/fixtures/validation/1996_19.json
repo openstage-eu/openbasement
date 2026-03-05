@@ -5,6 +5,7 @@
   "timeline_start": "1996-01-25",
   "timeline_end": "1996-03-25",
   "event_count": 3,
+  "document_count": 3,
   "events": [
     {
       "date": "1996-01-25",
@@ -12,7 +13,9 @@
       "actor": "European Commission",
       "actor_id": "com",
       "link": "23562",
-      "icon_class": "PrcdrCOM"
+      "icon_class": "PrcdrCOM",
+      "documents": [],
+      "celex_main": []
     },
     {
       "date": "1996-01-24",
@@ -20,7 +23,23 @@
       "actor": "European Commission",
       "actor_id": "com",
       "link": "22634",
-      "icon_class": "PrcdrCOM"
+      "icon_class": "PrcdrCOM",
+      "documents": [
+        {
+          "uri_param": "COM:1996:0015:FIN",
+          "reference": "COM/1996/15/FINAL"
+        },
+        {
+          "uri_param": "",
+          "reference": "CS/1996/4793/96/ACP5/PTOM3/FIN42/AGRIORG26"
+        }
+      ],
+      "celex_main": [
+        {
+          "uri_param": "celex:51996PC0015",
+          "reference": "51996PC0015"
+        }
+      ]
     },
     {
       "date": "1996-03-25",
@@ -28,7 +47,19 @@
       "actor": "Council of the European Union",
       "actor_id": "council",
       "link": "24720",
-      "icon_class": "PrcdrCONSIL"
+      "icon_class": "PrcdrCONSIL",
+      "documents": [
+        {
+          "uri_param": "OJ:L:1996:089:TOC",
+          "reference": "JO L/1996/89/1"
+        }
+      ],
+      "celex_main": [
+        {
+          "uri_param": "celex:31996R0619",
+          "reference": "31996R0619"
+        }
+      ]
     }
   ]
 }

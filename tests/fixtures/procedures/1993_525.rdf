@@ -53,12 +53,32 @@
   <rdf:Description rdf:about="http://publications.europa.eu/resource/oj/JOC_1993_232_R_0006_01">
     <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 18:58:42</j.2:build_info>
+    <j.2:quality_issue>DATWRO</j.2:quality_issue>
+    <j.2:error_message>Data wrong</j.2:error_message>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/101005.107577"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/fd_600/OP_DATPRO"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_is_about_concept_agenda_council"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#is_about"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_612/1245">
     <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
     <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
     <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_dossier"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_612"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 18:58:42</j.2:build_info>
+    <j.2:quality_issue>DATWRO</j.2:quality_issue>
+    <j.2:error_message>Data wrong</j.2:error_message>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/101005.107625"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/fd_600/OP_DATPRO"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_is_about_concept_agenda_council"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#is_about"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_606/1035">
     <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
@@ -78,16 +98,6 @@
     <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
     <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_600"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
-    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 18:58:42</j.2:build_info>
-    <j.2:quality_issue>DATWRO</j.2:quality_issue>
-    <j.2:error_message>Data wrong</j.2:error_message>
-    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/101005.107577"/>
-    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/fd_600/OP_DATPRO"/>
-    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_is_about_concept_agenda_council"/>
-    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#is_about"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/TRS_EP_PROPAME_byCOM">
     <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -103,6 +113,16 @@
   <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/eeb4bf37-d21e-11e1-905c-01aa75ed71a1.0011">
     <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/101005.145103"/>
     <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-07-20T05:56:49.283+02:00</j.3:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 18:58:42</j.2:build_info>
+    <j.2:quality_issue>DATWRO</j.2:quality_issue>
+    <j.2:error_message>Data wrong</j.2:error_message>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/101005.107577"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/fd_600/OP_DATPRO"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_is_about_concept_agenda_council"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#is_about"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/51993AC1302">
     <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
@@ -126,16 +146,6 @@
     <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
     <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
     <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/101005.107577"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A1">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
-    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 18:58:42</j.2:build_info>
-    <j.2:quality_issue>DATWRO</j.2:quality_issue>
-    <j.2:error_message>Data wrong</j.2:error_message>
-    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/101005.107625"/>
-    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/fd_600/OP_DATPRO"/>
-    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_is_about_concept_agenda_council"/>
-    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#is_about"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/11957E113">
     <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
@@ -308,6 +318,16 @@
     <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
     <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#dossier"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 18:58:42</j.2:build_info>
+    <j.2:quality_issue>DATWRO</j.2:quality_issue>
+    <j.2:error_message>Data wrong</j.2:error_message>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/101005.107577"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/fd_600/OP_DATPRO"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_is_about_concept_agenda_council"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#is_about"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/ADP_PROPAME_byCOM">
     <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -320,16 +340,35 @@
   <rdf:Description rdf:about="http://publications.europa.eu/resource/comnat/COM_1994_0075_FIN">
     <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A2">
+  <rdf:Description rdf:nodeID="A4">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
     <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 18:58:42</j.2:build_info>
-    <j.2:quality_issue>DATMIS</j.2:quality_issue>
-    <j.2:error_message>Data missing</j.2:error_message>
-    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/101005.108524"/>
-    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/OP_DATPRO"/>
-    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_initiated_by_institution"/>
-    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_initiated_by_institution"/>
-    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#initiated_by"/>
+    <j.2:quality_issue>DATWRO</j.2:quality_issue>
+    <j.2:error_message>Data wrong</j.2:error_message>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/101005.107625"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/fd_600/OP_DATPRO"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_is_about_concept_agenda_council"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#is_about"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 18:58:42</j.2:build_info>
+    <j.2:quality_issue>DATWRO</j.2:quality_issue>
+    <j.2:error_message>Data wrong</j.2:error_message>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/101005.107051"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/fd_600/OP_DATPRO"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_is_about_concept_agenda_council"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#is_about"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 18:58:42</j.2:build_info>
+    <j.2:quality_issue>DATWRO</j.2:quality_issue>
+    <j.2:error_message>Data wrong</j.2:error_message>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/101005.107625"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/fd_600/OP_DATPRO"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_is_about_concept_agenda_council"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#is_about"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/101005.105249">
     <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
@@ -404,16 +443,6 @@
     <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
     <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/101005.108524"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A3">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
-    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 18:58:42</j.2:build_info>
-    <j.2:quality_issue>DATWRO</j.2:quality_issue>
-    <j.2:error_message>Data wrong</j.2:error_message>
-    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/101005.107625"/>
-    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/fd_600/OP_DATPRO"/>
-    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_is_about_concept_agenda_council"/>
-    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#is_about"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/101005.107577">
     <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/procedure/SYN"/>
     <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_FRM_byCONSIL"/>
@@ -459,16 +488,6 @@
     <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-07-20T05:56:49.283+02:00</j.3:lastModificationDate>
     <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/101005.107051"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A4">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
-    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 18:58:42</j.2:build_info>
-    <j.2:quality_issue>DATWRO</j.2:quality_issue>
-    <j.2:error_message>Data wrong</j.2:error_message>
-    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/101005.107577"/>
-    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/fd_600/OP_DATPRO"/>
-    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_is_about_concept_agenda_council"/>
-    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#is_about"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/101005.107051">
     <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/AGR_COMPOS_byCONSIL"/>
     <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
@@ -493,16 +512,6 @@
     <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
     <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
     <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-06-08</j.0:date>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A5">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
-    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 18:58:42</j.2:build_info>
-    <j.2:quality_issue>DATWRO</j.2:quality_issue>
-    <j.2:error_message>Data wrong</j.2:error_message>
-    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/101005.107051"/>
-    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/fd_600/OP_DATPRO"/>
-    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_is_about_concept_agenda_council"/>
-    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#is_about"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/eeb4bf37-d21e-11e1-905c-01aa75ed71a1.0008">
     <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/101005.108255"/>
@@ -538,6 +547,17 @@
     <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
     <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/101005.108653"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 18:58:42</j.2:build_info>
+    <j.2:quality_issue>DATMIS</j.2:quality_issue>
+    <j.2:error_message>Data missing</j.2:error_message>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/101005.108524"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/OP_DATPRO"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_initiated_by_institution"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_initiated_by_institution"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#initiated_by"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_602/1005">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
@@ -558,16 +578,6 @@
     <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
     <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/101005.109101"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A6">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
-    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 18:58:42</j.2:build_info>
-    <j.2:quality_issue>DATWRO</j.2:quality_issue>
-    <j.2:error_message>Data wrong</j.2:error_message>
-    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/101005.107577"/>
-    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/fd_600/OP_DATPRO"/>
-    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_is_about_concept_agenda_council"/>
-    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#is_about"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/ADP_byCOM">
     <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -576,17 +586,6 @@
     <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
     <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
     <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/101005.105249"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A7">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
-    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 18:58:42</j.2:build_info>
-    <j.2:quality_issue>DATMIS</j.2:quality_issue>
-    <j.2:error_message>Data missing</j.2:error_message>
-    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/101005.108524"/>
-    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/OP_DATPRO"/>
-    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_initiated_by_institution"/>
-    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_initiated_by_institution"/>
-    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#initiated_by"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_600/10004">
     <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_agenda_council"/>
@@ -782,17 +781,6 @@
     <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
     <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#person"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A8">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
-    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 18:58:42</j.2:build_info>
-    <j.2:quality_issue>DATMIS</j.2:quality_issue>
-    <j.2:error_message>Data missing</j.2:error_message>
-    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/101005.108524"/>
-    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/OP_DATPRO"/>
-    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_initiated_by_institution"/>
-    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_initiated_by_institution"/>
-    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#initiated_by"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/EP_ENVI">
     <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
     <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
@@ -800,7 +788,7 @@
     <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A9">
+  <rdf:Description rdf:nodeID="A8">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
     <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 18:58:42</j.2:build_info>
     <j.2:quality_issue>DATWRO</j.2:quality_issue>
@@ -819,6 +807,16 @@
     <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
     <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/101005.107050"/>
     <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/101005.107051"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A9">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 18:58:42</j.2:build_info>
+    <j.2:quality_issue>DATWRO</j.2:quality_issue>
+    <j.2:error_message>Data wrong</j.2:error_message>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/101005.107051"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/fd_600/OP_DATPRO"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_is_about_concept_agenda_council"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#is_about"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_606/1015">
     <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
@@ -909,26 +907,6 @@
     <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
     <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/101005.107625"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A10">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
-    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 18:58:42</j.2:build_info>
-    <j.2:quality_issue>DATWRO</j.2:quality_issue>
-    <j.2:error_message>Data wrong</j.2:error_message>
-    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/101005.107051"/>
-    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/fd_600/OP_DATPRO"/>
-    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_is_about_concept_agenda_council"/>
-    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#is_about"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A11">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
-    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 18:58:42</j.2:build_info>
-    <j.2:quality_issue>DATWRO</j.2:quality_issue>
-    <j.2:error_message>Data wrong</j.2:error_message>
-    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/101005.107051"/>
-    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/fd_600/OP_DATPRO"/>
-    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_is_about_concept_agenda_council"/>
-    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#is_about"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/101005.108255">
     <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Position de la Commission sur les amendements du PE en première lecture</j.0:type>
     <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-02-09</j.0:event_legal_date>
@@ -955,6 +933,28 @@
     <j.0:event_legal_has_remark_concept_type_remark rdf:resource="http://publications.europa.eu/resource/authority/fd_603/1235"/>
     <j.0:event_legal_uses_concept_type_decision rdf:resource="http://publications.europa.eu/resource/authority/fd_602/1025"/>
     <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-02-09</j.0:event_date>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A10">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 18:58:42</j.2:build_info>
+    <j.2:quality_issue>DATMIS</j.2:quality_issue>
+    <j.2:error_message>Data missing</j.2:error_message>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/101005.108524"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/OP_DATPRO"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_initiated_by_institution"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_initiated_by_institution"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#initiated_by"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A11">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 18:58:42</j.2:build_info>
+    <j.2:quality_issue>DATMIS</j.2:quality_issue>
+    <j.2:error_message>Data missing</j.2:error_message>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/101005.108524"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/OP_DATPRO"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_initiated_by_institution"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_initiated_by_institution"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#initiated_by"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://publications.europa.eu/resource/agent/Ioannis%20PALEOKRASSAS">
     <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
@@ -1046,16 +1046,6 @@
     <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/101005"/>
     <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_1994_0075_FIN"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A12">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
-    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 18:58:42</j.2:build_info>
-    <j.2:quality_issue>DATWRO</j.2:quality_issue>
-    <j.2:error_message>Data wrong</j.2:error_message>
-    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/101005.107051"/>
-    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/fd_600/OP_DATPRO"/>
-    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_is_about_concept_agenda_council"/>
-    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#is_about"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/101005.107050">
     <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
     <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 18:58:42</j.2:build_info>
@@ -1077,6 +1067,16 @@
     <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
     <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/101005"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A12">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 18:58:42</j.2:build_info>
+    <j.2:quality_issue>DATWRO</j.2:quality_issue>
+    <j.2:error_message>Data wrong</j.2:error_message>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/101005.107051"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/fd_600/OP_DATPRO"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_is_about_concept_agenda_council"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#is_about"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/TRS_EP_DCLCOMPOS_byCOM">
     <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -1096,6 +1096,17 @@
     <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_is_about_concept_agenda_council"/>
     <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#is_about"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A14">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 18:58:42</j.2:build_info>
+    <j.2:quality_issue>DATMIS</j.2:quality_issue>
+    <j.2:error_message>Data missing</j.2:error_message>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/101005.108524"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/OP_DATPRO"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_initiated_by_institution"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_initiated_by_institution"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#initiated_by"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/eeb4bf37-d21e-11e1-905c-01aa75ed71a1.0004">
     <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/101005.108653"/>
     <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-07-20T05:56:49.283+02:00</j.3:lastModificationDate>
@@ -1106,6 +1117,16 @@
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
     <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_606"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A15">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 18:58:42</j.2:build_info>
+    <j.2:quality_issue>DATWRO</j.2:quality_issue>
+    <j.2:error_message>Data wrong</j.2:error_message>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/101005.107051"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/fd_600/OP_DATPRO"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_is_about_concept_agenda_council"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#is_about"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_602/1025">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -1147,16 +1168,6 @@
     <j.0:event_reported_by_person rdf:resource="http://publications.europa.eu/resource/agent/Laura%20GONZALEZ%20ALVAREZ"/>
     <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/101005"/>
     <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rapport Commission PE 2ème lecture</j.0:type>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A14">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
-    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 18:58:42</j.2:build_info>
-    <j.2:quality_issue>DATWRO</j.2:quality_issue>
-    <j.2:error_message>Data wrong</j.2:error_message>
-    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/101005.107625"/>
-    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/fd_600/OP_DATPRO"/>
-    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_is_about_concept_agenda_council"/>
-    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#is_about"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/POS_AME_R1_byCOM">
     <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
@@ -1299,16 +1310,5 @@
     <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
     <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A15">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
-    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 18:58:42</j.2:build_info>
-    <j.2:quality_issue>DATMIS</j.2:quality_issue>
-    <j.2:error_message>Data missing</j.2:error_message>
-    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/101005.108524"/>
-    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/OP_DATPRO"/>
-    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_initiated_by_institution"/>
-    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_initiated_by_institution"/>
-    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#initiated_by"/>
   </rdf:Description>
 </rdf:RDF>

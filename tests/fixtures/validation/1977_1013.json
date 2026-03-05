@@ -5,6 +5,7 @@
   "timeline_start": "1977-06-22",
   "timeline_end": "1978-01-10",
   "event_count": 4,
+  "document_count": 6,
   "events": [
     {
       "date": "1977-06-22",
@@ -12,7 +13,18 @@
       "actor": "European Commission",
       "actor_id": "com",
       "link": "218020",
-      "icon_class": "PrcdrCOM"
+      "icon_class": "PrcdrCOM",
+      "documents": [
+        {
+          "uri_param": "COM:1977:0283:FIN",
+          "reference": "COM/1977/283/FINAL/4"
+        },
+        {
+          "uri_param": "OJ:C:1977:187:TOC",
+          "reference": "JO C/1977/187/7"
+        }
+      ],
+      "celex_main": []
     },
     {
       "date": "1977-11-17",
@@ -20,7 +32,14 @@
       "actor": "European Parliament",
       "actor_id": "ep",
       "link": "221176",
-      "icon_class": "PrcdrEP"
+      "icon_class": "PrcdrEP",
+      "documents": [
+        {
+          "uri_param": "OJ:C:1977:299:TOC",
+          "reference": "JO C/1977/299/41"
+        }
+      ],
+      "celex_main": []
     },
     {
       "date": "1977-12-22",
@@ -28,7 +47,18 @@
       "actor": "European Commission",
       "actor_id": "com",
       "link": "290477",
-      "icon_class": "PrcdrCOM"
+      "icon_class": "PrcdrCOM",
+      "documents": [
+        {
+          "uri_param": "COM:1977:0705:FIN",
+          "reference": "COM/1977/705/FINAL/1"
+        },
+        {
+          "uri_param": "OJ:C:1978:057:TOC",
+          "reference": "JO C/1978/57"
+        }
+      ],
+      "celex_main": []
     },
     {
       "date": "1978-07-25",
@@ -36,7 +66,19 @@
       "actor": "Council of the European Union",
       "actor_id": "council",
       "link": "220434",
-      "icon_class": "PrcdrCONSIL"
+      "icon_class": "PrcdrCONSIL",
+      "documents": [
+        {
+          "uri_param": "OJ:L:1978:225:TOC",
+          "reference": "JO L/1978/225/38"
+        }
+      ],
+      "celex_main": [
+        {
+          "uri_param": "celex:31978D0668",
+          "reference": "31978D0668"
+        }
+      ]
     }
   ]
 }

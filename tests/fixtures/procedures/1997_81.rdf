@@ -318,6 +318,17 @@
     <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#dossier_based_on_resource_legal"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/celex/11992MK03"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional_based_on_resource_legal"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/11725"/>
+    <j.2:paragraph>2</j.2:paragraph>
+    <j.2:comment_on_legal_basis>P2PTB)</j.2:comment_on_legal_basis>
+    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 18:49:26</j.2:build_info>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/DG01">
     <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
     <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
@@ -791,17 +802,6 @@
   <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/e8897654-d21e-11e1-905c-01aa75ed71a1.0007">
     <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/11725.243104"/>
     <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-07-20T05:56:38.875+02:00</j.3:lastModificationDate>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#dossier_based_on_resource_legal"/>
-    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
-    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/celex/11992MK03"/>
-    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional_based_on_resource_legal"/>
-    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/11725"/>
-    <j.2:paragraph>2</j.2:paragraph>
-    <j.2:comment_on_legal_basis>P2PTB)</j.2:comment_on_legal_basis>
-    <j.2:build_info>cdm:3840  tdm:1523  xslt:3886 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:3886 builddate:19/07/2012 18:49:26</j.2:build_info>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/11725.148260">
     <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/POS_AME_RSI_byCOM"/>
