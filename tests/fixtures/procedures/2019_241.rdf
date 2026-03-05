@@ -1,0 +1,589 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://publications.europa.eu/ontology/cdm#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.1="http://www.w3.org/2004/02/skos/core#"
+    xmlns:j.2="http://publications.europa.eu/ontology/annotation#"
+    xmlns:j.3="http://publications.europa.eu/ontology/cdm/cmr#" > 
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/WDW_byCOM">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_241.2020-09-29_WDW_byCOM"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#dossier_based_on_resource_legal"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.2:eli_target rdf:resource="http://publications.europa.eu/resource/eli/treaty/tfeu_2016/art_192/par_1/oj"/>
+    <j.2:comment_on_legal_basis>P1</j.2:comment_on_legal_basis>
+    <j.2:paragraph>1</j.2:paragraph>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/procedure/2019_241"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional_based_on_resource_legal"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/celex/12016E192"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/5760">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/e1d1afa2-f70a-11e9-8c1f-01aa75ed71a1.0001">
+    <j.3:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-25T11:36:10.952+02:00</j.3:creationDate>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-17T12:15:14.844+01:00</j.3:lastModificationDate>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_241.2019-10-25_ADP_byCOM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/3472">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <j.2:comment_on_legal_basis>P1</j.2:comment_on_legal_basis>
+    <j.2:paragraph>1</j.2:paragraph>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/celex/12016E192"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal_basis_for_resource_legal"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/NP">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <j.2:article rdf:datatype="http://www.w3.org/2001/XMLSchema#string">218</j.2:article>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_241.2019-10-25_ADP_byCOM"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_based_on_resource_legal"/>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20191025-2855; environment: PROD; newCERES: 3.26.6; IMMC2CDM: 2.9.1; rules: preleg/rules-com.xml#51427#2019-10-03; builddate: 2019-10-25T11:33:05.826;</j.2:build_info>
+    <j.2:paragraph rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</j.2:paragraph>
+    <j.2:comment_on_legal_basis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A218P9</j.2:comment_on_legal_basis>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/treaty/TFEU_2010"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_based_on_resource_legal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/ENV">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/62012CJ0399">
+    <j.0:cited_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+    <j.0:work_cited_by_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure-event/2019_241.2019-10-25_DIS_byCONSIL">
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20191025-6042; environment: PROD; newCERES: 3.26.6; IMMC2CDM: 2.9.1; rules: preleg/rules-consil.xml#51427#2019-10-03; builddate: 2019-10-26T10:25:51.32;</j.2:build_info>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/DIS_byCONSIL"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/ST%2013470%202019%20INIT"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-25</j.0:event_legal_date>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/procedure/2019_241"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-25</j.0:date>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-25</j.0:event_date>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/consil/ST_13470_2019_INIT"/>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_byCONSIL</j.0:type>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST 13470 2019 INIT</j.0:event_legal_document_reference>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:event_legal_was_historically_about_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_byCONSIL</j.0:event_legal_type>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/immc/ST%2013470%202019%20INIT"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/immc/ST%2013470%202019%20INIT"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/DIS_byCONSIL"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST 13470 2019 INIT</j.0:document_reference>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2019_241"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/consil/ST_13470_2019_INIT"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_procedural"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2019_241"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/consil/ST_13470_2019_INIT"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/DIS_byCONSIL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/7f071a2a-f5d1-4aed-b36a-34aeb32d6e41">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/eli/treaty/tfeu_2016/art_218/oj"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <j.2:comment_on_legal_basis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A192P1</j.2:comment_on_legal_basis>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20191025-2855; environment: PROD; newCERES: 3.26.6; IMMC2CDM: 2.9.1; rules: preleg/rules-com.xml#51427#2019-10-03; builddate: 2019-10-25T11:33:05.826;</j.2:build_info>
+    <j.2:article rdf:datatype="http://www.w3.org/2001/XMLSchema#string">192</j.2:article>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_241.2019-10-25_ADP_byCOM"/>
+    <j.2:paragraph rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</j.2:paragraph>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/authority/treaty/TFEU_2010"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_based_on_resource_legal"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_based_on_resource_legal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/subject-matter/EXT">
+    <j.0:subject-matter_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/52019PC0494"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/celex/52019PC0494"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/1d38d61e-5f8f-4aaf-bcca-9f8184d0956e">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/eli/dec/1982/72/oj"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/oj/JOL_1982_038_R_0001_01"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/31982D0072"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/32009L0147">
+    <j.0:cited_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+    <j.0:work_cited_by_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/5870">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/EP">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/a3b1a793-7b18-49f7-a05c-19d10796cdff">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/eli/dir/2009/147/oj"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/oj/JOL_2010_020_R_0007_01"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/32009L0147"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/treaty/TFEU_2010">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/12016E003">
+    <j.0:cited_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+    <j.0:work_cited_by_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/e1d1afa2-f70a-11e9-8c1f-01aa75ed71a1.0002">
+    <j.3:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-26T10:30:48.707+02:00</j.3:creationDate>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-26T10:30:48.707+02:00</j.3:lastModificationDate>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_241.2019-10-25_DIS_byCONSIL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/a1b7d979-1756-4079-8dc8-414fdb19b9be">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/eli/treaty/tfeu_2016/art_3/oj"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/12016E003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/2827">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal_basis_for_resource_legal"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+    <j.2:paragraph>9</j.2:paragraph>
+    <j.2:comment_on_legal_basis>P9</j.2:comment_on_legal_basis>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/12016E192">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+    <j.0:basis_for rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+    <j.0:resource_legal_basis_for_resource_legal rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/6057">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.2:eli_target rdf:resource="http://publications.europa.eu/resource/eli/treaty/tfeu_2016/art_192/par_1/oj"/>
+    <j.2:comment_on_legal_basis>P1</j.2:comment_on_legal_basis>
+    <j.2:paragraph>1</j.2:paragraph>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_241.2019-10-25_ADP_byCOM"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_based_on_resource_legal"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/celex/12016E192"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_based_on_resource_legal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/48cb13f3-76c0-4197-99b1-64d23b3b6d2e">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/oj/JOL_1982_038_R_0003_01"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/21979A0919%2801%29"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/eli/convention/1982/72/oj"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/f45e3565-f7ca-11e9-8c1f-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/consil/ST_13470_2019_INIT"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/immc/ST%2013470%202019%20INIT"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/dir-eu-legal-act/15103020">
+    <j.0:concept_directory-code_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/52019PC0494"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/celex/52019PC0494"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/agent/Karmenu%20VELLA">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#person"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/52019PC0494">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/e1d1afa2-f70a-11e9-8c1f-01aa75ed71a1">
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-04T23:37:52.111+01:00</j.3:lastModificationDate>
+    <j.3:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-25T11:36:10.952+02:00</j.3:creationDate>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure/2019_241"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A6">
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#dossier_based_on_resource_legal"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.2:eli_target rdf:resource="http://publications.europa.eu/resource/eli/treaty/tfeu_2016/art_218/par_9/oj"/>
+    <j.2:comment_on_legal_basis>P9</j.2:comment_on_legal_basis>
+    <j.2:paragraph>9</j.2:paragraph>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/procedure/2019_241"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional_based_on_resource_legal"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/e1d1afa2-f70a-11e9-8c1f-01aa75ed71a1.0003">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_241.2020-09-29_WDW_byCOM"/>
+    <j.3:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-13T18:06:11.955+02:00</j.3:creationDate>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-17T19:25:51.509+01:00</j.3:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/cdbccbd7-06ae-4c9b-9076-57fc645256c2">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/12016E192"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/eli/treaty/tfeu_2016/art_192/oj"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/d76774c6-4e02-11e4-a0cb-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/ecli/ECLI%3AEU%3AC%3A2014%3A2258"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/62012CJ0399"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/12016E218">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+    <j.0:basis_for rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+    <j.0:resource_legal_basis_for_resource_legal rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/5463">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure-event/2019_241.2020-09-29_WDW_byCOM">
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-09-29</j.0:event_legal_date>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52020XC0929%2802%29"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/WDW_byCOM"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2019_241"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-09-29</j.0:event_date>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/procedure/2019_241"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_procedural"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/52020XC0929%2802%29"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-09-29</j.0:date>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/WDW_byCOM"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2019_241"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52020XC0929%2802%29"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/WDW_byCOM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure/2019_241">
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_241.2020-09-29_WDW_byCOM"/>
+    <j.0:dossier_title xml:lang="lv">Priekšlikums PADOMES LĒMUMS par nostāju, kas attiecībā uz grozījumiem konvencijas II un III pielikumā Eiropas Savienības vārdā jāieņem Konvencijas par Eiropas dzīvās dabas un dabisko dzīvotņu aizsardzību pastāvīgās komitejas trīsdesmit devītajā sanāksmē</j.0:dossier_title>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12016E192"/>
+    <j.0:dossier_title xml:lang="hu">Javaslat A TANÁCS HATÁROZATA az Európai Unió által az európai vadon élő növények, állatok és természetes élőhelyeik védelméről szóló egyezmény Állandó Bizottságának harminckilencedik ülésén az egyezmény II. és III. mellékletét érintő módosításokkal kapcsolatban képviselendő álláspontról</j.0:dossier_title>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_241.2019-10-25_DIS_byCONSIL"/>
+    <j.0:title xml:lang="es">Propuesta de DECISIÓN DEL CONSEJO sobre la posición que deberá adoptarse en nombre de la Unión Europea en la trigésima novena reunión del Comité permanente del Convenio relativo a la conservación de la vida silvestre y del medio natural de Europa, en relación con las enmiendas de sus anexos II y III</j.0:title>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_241.2019-10-25_ADP_byCOM"/>
+    <j.0:dossier_withdrawn-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:dossier_withdrawn-proposal>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/immc/COM%282019%29494%20final"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-25</j.0:date>
+    <j.0:number_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">494</j.0:number_reference>
+    <j.0:title xml:lang="sk">Návrh ROZHODNUTIE RADY o pozícii, ktorá sa má zaujať v mene Európskej únie na tridsiatom deviatom zasadnutí stáleho výboru Dohovoru o ochrane európskych voľne žijúcich organizmov a prírodných stanovíšť v súvislosti so zmenami prílohy II a prílohy III k uvedenému dohovoru</j.0:title>
+    <j.0:dossier_title xml:lang="nl">Voorstel voor een BESLUIT VAN DE RAAD betreffende het standpunt dat tijdens de negenendertigste vergadering van het Permanent Comité van het Verdrag inzake het behoud van wilde dieren en planten en hun natuurlijk leefmilieu in Europa namens de Europese Unie moet worden ingenomen over wijzigingen van de aanhangsels II en III van dat verdrag</j.0:dossier_title>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20191025-6042; environment: PROD; newCERES: 3.26.6; IMMC2CDM: 2.9.1; rules: preleg/rules-consil.xml#51427#2019-10-03; builddate: 2019-10-26T10:25:51.32;</j.2:build_info>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019/0241/NLE</j.0:reference>
+    <j.0:dossier_title xml:lang="lt">Pasiūlymas TARYBOS SPRENDIMAS dėl pozicijos, kurios Europos Sąjungos vardu turi būti laikomasi trisdešimt devintajame Europos laukinės gamtos ir gamtinės aplinkos apsaugos konvencijos nuolatinio komiteto susitikime, dėl tos konvencijos II ir III priedėlių pakeitimų</j.0:dossier_title>
+    <j.0:dossier_title xml:lang="pt">Proposta de DECISÃO DO CONSELHO sobre a posição a tomar, em nome da União Europeia, na trigésima nona reunião da Comissão Permanente da Convenção relativa à Conservação da Vida Selvagem e dos Habitats Naturais da Europa, respeitante a alterações dos anexos II e III</j.0:dossier_title>
+    <j.0:title xml:lang="fi">Ehdotus NEUVOSTON PÄÄTÖS Euroopan luonnonvaraisen kasviston ja eläimistön sekä niiden elinympäristön suojelusta tehdyn yleissopimuksen pysyvän komitean 39. kokouksessa Euroopan unionin puolesta otettavasta kannasta yleissopimuksen liitteen II ja liitteen III muutoksiin</j.0:title>
+    <j.0:title xml:lang="pl">Wniosek DECYZJA RADY w sprawie stanowiska, jakie należy zająć w imieniu Unii Europejskiej na trzydziestym dziewiątym posiedzeniu Stałego Komitetu Konwencji o ochronie gatunków dzikiej flory i fauny europejskiej oraz ich siedlisk, w odniesieniu do poprawek do załączników II i III do tej konwencji</j.0:title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+    <j.0:dossier_title xml:lang="et">Ettepanek: NÕUKOGU OTSUS seisukoha kohta, mis võetakse Euroopa Liidu nimel Euroopa floora ja fauna ning nende kasvu- ja elupaikade kaitse konventsioon alalise komitee 39. koosolekul seoses kõnealuse konventsiooni II ja III liite muudatustega</j.0:dossier_title>
+    <j.0:dossier_title xml:lang="bg">Предложение за РЕШЕНИЕ НА СЪВЕТА относно позицията, която трябва да се заеме от името на Европейския съюз на тридесет и деветото заседание на Постоянния комитет на Конвенцията за опазване на дивата европейска флора и фауна и природните местообитания във връзка с изменения на приложения № II и № III към посочената конвенция</j.0:dossier_title>
+    <j.0:year_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</j.0:year_reference>
+    <j.0:dossier_title xml:lang="fr">Proposition de DÉCISION DU CONSEIL établissant la position à prendre, au nom de l’Union européenne, lors de la trente-neuvième réunion du comité permanent de la convention relative à la conservation de la vie sauvage et du milieu naturel de l’Europe en ce qui concerne des amendements aux annexes II et III de ladite convention</j.0:dossier_title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/52020XC0929%2802%29"/>
+    <j.0:dossier_title xml:lang="mt">Proposta għal DEĊIŻJONI TAL-KUNSILL dwar il-pożizzjoni li trid tittieħed f’isem l-Unjoni Ewropea waqt id-disgħa u tletin laqgħa tal-Kumitat Permanenti tal-Konvenzjoni dwar il-Konservazzjoni tal-Ħajja Ferjali Ewropea u tal-Abitati Naturali, fir-rigward tal-emendi għall-Appendiċijiet II u III ta’ dik il-Konvenzjoni</j.0:dossier_title>
+    <j.0:title xml:lang="ro">Propunere de DECIZIE A CONSILIULUI privind poziția care urmează să fie adoptată, în numele Uniunii Europene, la cea de a treizeci și noua reuniune a Comitetului permanent al Convenției privind conservarea vieții sălbatice și a habitatelor naturale din Europa cu privire la modificarea anexelor II și III la convenție</j.0:title>
+    <j.0:title xml:lang="sl">Predlog SKLEP SVETA o stališču, ki se v imenu Evropske unije zastopa na devetintridesetem sestanku stalnega odbora Konvencije o varstvu prosto živečega evropskega rastlinstva in živalstva ter njunih naravnih življenjskih prostorov, v zvezi s spremembama dodatkov II in III k navedeni Konvenciji</j.0:title>
+    <j.0:dossier_year_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</j.0:dossier_year_reference>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20191025-2855; environment: PROD; newCERES: 3.26.6; IMMC2CDM: 2.9.1; rules: preleg/rules-com.xml#51427#2019-10-03; builddate: 2019-10-25T11:33:05.826;</j.2:build_info>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_241.2019-10-25_DIS_byCONSIL"/>
+    <j.0:dossier_number_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">494</j.0:dossier_number_reference>
+    <j.0:dossier_title xml:lang="el">Πρόταση ΑΠΟΦΑΣΗ ΤΟΥ ΣΥΜΒΟΥΛΙΟΥ σχετικά με τη θέση που πρέπει να ληφθεί, εξ ονόματος της Ευρωπαϊκής Ένωσης, στην τριακοστή ένατη συνεδρίαση της μόνιμης επιτροπής της σύμβασης περί διατηρήσεως της άγριας ζωής και του φυσικού περιβάλλοντος της Ευρώπης όσον αφορά τροποποιήσεις των προσαρτημάτων II και ΙΙΙ της εν λόγω σύμβασης</j.0:dossier_title>
+    <j.0:title xml:lang="nl">Voorstel voor een BESLUIT VAN DE RAAD betreffende het standpunt dat tijdens de negenendertigste vergadering van het Permanent Comité van het Verdrag inzake het behoud van wilde dieren en planten en hun natuurlijk leefmilieu in Europa namens de Europese Unie moet worden ingenomen over wijzigingen van de aanhangsels II en III van dat verdrag</j.0:title>
+    <j.0:dossier_title xml:lang="de">Vorschlag für einen BESCHLUSS DES RATES über den Standpunkt, der im Namen der Union auf der 39. Tagung des Ständigen Ausschusses des Übereinkommens über die Erhaltung der europäischen wildlebenden Pflanzen und Tiere und ihrer natürlichen Lebensräume in Bezug auf Änderungen der Anhänge II und III des Übereinkommens zu vertreten ist</j.0:dossier_title>
+    <j.0:type_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM</j.0:type_reference>
+    <j.0:withdrawn-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:withdrawn-proposal>
+    <j.0:dossier_date_withdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-09-29</j.0:dossier_date_withdrawn>
+    <j.0:dossier_pending-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:dossier_pending-proposal>
+    <j.0:procedure_code_interinstitutional_reference_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019/0241/NLE</j.0:procedure_code_interinstitutional_reference_procedure>
+    <j.0:dossier_initiated_by_act_preparatory rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+    <j.0:title xml:lang="mt">Proposta għal DEĊIŻJONI TAL-KUNSILL dwar il-pożizzjoni li trid tittieħed f’isem l-Unjoni Ewropea waqt id-disgħa u tletin laqgħa tal-Kumitat Permanenti tal-Konvenzjoni dwar il-Konservazzjoni tal-Ħajja Ferjali Ewropea u tal-Abitati Naturali, fir-rigward tal-emendi għall-Appendiċijiet II u III ta’ dik il-Konvenzjoni</j.0:title>
+    <j.0:procedure_code_interinstitutional_number_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0241</j.0:procedure_code_interinstitutional_number_procedure>
+    <j.0:dossier_identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">procedure:2019_241</j.0:dossier_identifier>
+    <j.0:title xml:lang="el">Πρόταση ΑΠΟΦΑΣΗ ΤΟΥ ΣΥΜΒΟΥΛΙΟΥ σχετικά με τη θέση που πρέπει να ληφθεί, εξ ονόματος της Ευρωπαϊκής Ένωσης, στην τριακοστή ένατη συνεδρίαση της μόνιμης επιτροπής της σύμβασης περί διατηρήσεως της άγριας ζωής και του φυσικού περιβάλλοντος της Ευρώπης όσον αφορά τροποποιήσεις των προσαρτημάτων II και ΙΙΙ της εν λόγω σύμβασης</j.0:title>
+    <j.0:dossier_title xml:lang="sv">Förslag till RÅDETS BESLUT om den ståndpunkt som ska intas på Europeiska unionens vägnar vid det trettionionde mötet i ständiga kommittén för konventionen om skydd av europeiska vilda djur och växter samt deras naturliga miljö vad gäller ändringar av bilagorna II och III till konventionen</j.0:dossier_title>
+    <j.0:title xml:lang="lv">Priekšlikums PADOMES LĒMUMS par nostāju, kas attiecībā uz grozījumiem konvencijas II un III pielikumā Eiropas Savienības vārdā jāieņem Konvencijas par Eiropas dzīvās dabas un dabisko dzīvotņu aizsardzību pastāvīgās komitejas trīsdesmit devītajā sanāksmē</j.0:title>
+    <j.0:dossier_title xml:lang="sk">Návrh ROZHODNUTIE RADY o pozícii, ktorá sa má zaujať v mene Európskej únie na tridsiatom deviatom zasadnutí stáleho výboru Dohovoru o ochrane európskych voľne žijúcich organizmov a prírodných stanovíšť v súvislosti so zmenami prílohy II a prílohy III k uvedenému dohovoru</j.0:dossier_title>
+    <j.0:title xml:lang="en">Proposal for a COUNCIL DECISION on the position to be taken on behalf of the European Union in the thirty-ninth meeting of the Standing Committee of the Convention on the Conservation of European Wildlife and Natural Habitats, with regards to amendments to Appendices II and III to that Convention</j.0:title>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+    <j.0:title xml:lang="hu">Javaslat A TANÁCS HATÁROZATA az Európai Unió által az európai vadon élő növények, állatok és természetes élőhelyeik védelméről szóló egyezmény Állandó Bizottságának harminckilencedik ülésén az egyezmény II. és III. mellékletét érintő módosításokkal kapcsolatban képviselendő álláspontról</j.0:title>
+    <j.0:dossier_title xml:lang="es">Propuesta de DECISIÓN DEL CONSEJO sobre la posición que deberá adoptarse en nombre de la Unión Europea en la trigésima novena reunión del Comité permanente del Convenio relativo a la conservación de la vida silvestre y del medio natural de Europa, en relación con las enmiendas de sus anexos II y III</j.0:dossier_title>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/immc/ST%2013470%202019%20INIT"/>
+    <j.0:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">procedure:2019_241</j.0:identifier>
+    <j.0:date_creation_legacy rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-25</j.0:date_creation_legacy>
+    <j.0:title xml:lang="sv">Förslag till RÅDETS BESLUT om den ståndpunkt som ska intas på Europeiska unionens vägnar vid det trettionionde mötet i ständiga kommittén för konventionen om skydd av europeiska vilda djur och växter samt deras naturliga miljö vad gäller ändringar av bilagorna II och III till konventionen</j.0:title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_241.2019-10-25_ADP_byCOM"/>
+    <j.0:number_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0241</j.0:number_procedure>
+    <j.0:adopted-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:adopted-proposal>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12016E192"/>
+    <j.0:title xml:lang="fr">Proposition de DÉCISION DU CONSEIL établissant la position à prendre, au nom de l’Union européenne, lors de la trente-neuvième réunion du comité permanent de la convention relative à la conservation de la vie sauvage et du milieu naturel de l’Europe en ce qui concerne des amendements aux annexes II et III de ladite convention</j.0:title>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_241.2020-09-29_WDW_byCOM"/>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_241.2019-10-25_DIS_byCONSIL"/>
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12016E192"/>
+    <j.0:dossier_title xml:lang="cs">Návrh ROZHODNUTÍ RADY o postoji, který má být zaujat jménem Evropské unie na třicátém devátém zasedání stálého výboru Úmluvy o ochraně evropských planě rostoucích rostlin, volně žijících živočichů a přírodních stanovišť, pokud jde o změny příloh II a III uvedené úmluvy</j.0:dossier_title>
+    <j.0:title xml:lang="lt">Pasiūlymas TARYBOS SPRENDIMAS dėl pozicijos, kurios Europos Sąjungos vardu turi būti laikomasi trisdešimt devintajame Europos laukinės gamtos ir gamtinės aplinkos apsaugos konvencijos nuolatinio komiteto susitikime, dėl tos konvencijos II ir III priedėlių pakeitimų</j.0:title>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#dossier"/>
+    <j.0:dossier_title xml:lang="fi">Ehdotus NEUVOSTON PÄÄTÖS Euroopan luonnonvaraisen kasviston ja eläimistön sekä niiden elinympäristön suojelusta tehdyn yleissopimuksen pysyvän komitean 39. kokouksessa Euroopan unionin puolesta otettavasta kannasta yleissopimuksen liitteen II ja liitteen III muutoksiin</j.0:dossier_title>
+    <j.0:title xml:lang="hr">Prijedlog ODLUKE VIJEĆA o stajalištu koje treba zauzeti u ime Europske unije na 39. sastanku Stalnog odbora Konvencije o zaštiti europskih divljih vrsta i prirodnih staništa u vezi s izmjenom njezinih dodataka II. i III.</j.0:title>
+    <j.0:title xml:lang="bg">Предложение за РЕШЕНИЕ НА СЪВЕТА относно позицията, която трябва да се заеме от името на Европейския съюз на тридесет и деветото заседание на Постоянния комитет на Конвенцията за опазване на дивата европейска флора и фауна и природните местообитания във връзка с изменения на приложения № II и № III към посочената конвенция</j.0:title>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52020XC0929%2802%29"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:title xml:lang="et">Ettepanek: NÕUKOGU OTSUS seisukoha kohta, mis võetakse Euroopa Liidu nimel Euroopa floora ja fauna ning nende kasvu- ja elupaikade kaitse konventsioon alalise komitee 39. koosolekul seoses kõnealuse konventsiooni II ja III liite muudatustega</j.0:title>
+    <j.0:dossier_type_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM</j.0:dossier_type_reference>
+    <j.0:reference_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019/0241/NLE</j.0:reference_procedure>
+    <j.0:title xml:lang="pt">Proposta de DECISÃO DO CONSELHO sobre a posição a tomar, em nome da União Europeia, na trigésima nona reunião da Comissão Permanente da Convenção relativa à Conservação da Vida Selvagem e dos Habitats Naturais da Europa, respeitante a alterações dos anexos II e III</j.0:title>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional"/>
+    <j.0:dossier_adopted-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:dossier_adopted-proposal>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/ST%2013470%202019%20INIT"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_241.2020-09-29_WDW_byCOM"/>
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+    <j.0:year_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2019</j.0:year_procedure>
+    <j.0:dossier_title xml:lang="pl">Wniosek DECYZJA RADY w sprawie stanowiska, jakie należy zająć w imieniu Unii Europejskiej na trzydziestym dziewiątym posiedzeniu Stałego Komitetu Konwencji o ochronie gatunków dzikiej flory i fauny europejskiej oraz ich siedlisk, w odniesieniu do poprawek do załączników II i III do tej konwencji</j.0:dossier_title>
+    <j.0:pending-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:pending-proposal>
+    <j.0:dossier_title xml:lang="da">Forslag til RÅDETS AFGØRELSE om den holdning, der skal indtages på den Europæiske Unions vegne ved det 39. møde i det stående udvalg under konventionen om beskyttelse af Europas vilde dyr og planter samt naturlige levesteder med henblik på ændringer af konventionens bilag II og III</j.0:dossier_title>
+    <j.0:title xml:lang="cs">Návrh ROZHODNUTÍ RADY o postoji, který má být zaujat jménem Evropské unie na třicátém devátém zasedání stálého výboru Úmluvy o ochraně evropských planě rostoucích rostlin, volně žijících živočichů a přírodních stanovišť, pokud jde o změny příloh II a III uvedené úmluvy</j.0:title>
+    <j.0:procedure_code_interinstitutional_year_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2019</j.0:procedure_code_interinstitutional_year_procedure>
+    <j.0:dossier_title xml:lang="it">Proposta di DECISIONE DEL CONSIGLIO relativa alla posizione che dovrà essere assunta a nome dell'Unione europea alla trentanovesima riunione del comitato permanente della convenzione relativa alla conservazione della vita selvatica e dell'ambiente naturale in Europa con riguardo agli emendamenti degli allegati II e III</j.0:dossier_title>
+    <j.0:dossier_title xml:lang="en">Proposal for a COUNCIL DECISION on the position to be taken on behalf of the European Union in the thirty-ninth meeting of the Standing Committee of the Convention on the Conservation of European Wildlife and Natural Habitats, with regards to amendments to Appendices II and III to that Convention</j.0:dossier_title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/consil/ST_13470_2019_INIT"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_interinstitutional"/>
+    <j.0:dossier_date_creation_legacy rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-25</j.0:dossier_date_creation_legacy>
+    <j.0:title xml:lang="da">Forslag til RÅDETS AFGØRELSE om den holdning, der skal indtages på den Europæiske Unions vegne ved det 39. møde i det stående udvalg under konventionen om beskyttelse af Europas vilde dyr og planter samt naturlige levesteder med henblik på ændringer af konventionens bilag II og III</j.0:title>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.0:dossier_title xml:lang="hr">Prijedlog ODLUKE VIJEĆA o stajalištu koje treba zauzeti u ime Europske unije na 39. sastanku Stalnog odbora Konvencije o zaštiti europskih divljih vrsta i prirodnih staništa u vezi s izmjenom njezinih dodataka II. i III.</j.0:dossier_title>
+    <j.0:dossier_title xml:lang="sl">Predlog SKLEP SVETA o stališču, ki se v imenu Evropske unije zastopa na devetintridesetem sestanku stalnega odbora Konvencije o varstvu prosto živečega evropskega rastlinstva in živalstva ter njunih naravnih življenjskih prostorov, v zvezi s spremembama dodatkov II in III k navedeni Konvenciji</j.0:dossier_title>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/consil/ST_13470_2019_INIT"/>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+    <j.0:dossier_title xml:lang="ro">Propunere de DECIZIE A CONSILIULUI privind poziția care urmează să fie adoptată, în numele Uniunii Europene, la cea de a treizeci și noua reuniune a Comitetului permanent al Convenției privind conservarea vieții sălbatice și a habitatelor naturale din Europa cu privire la modificarea anexelor II și III la convenție</j.0:dossier_title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/COM%282019%29494%20final"/>
+    <j.0:title xml:lang="de">Vorschlag für einen BESCHLUSS DES RATES über den Standpunkt, der im Namen der Union auf der 39. Tagung des Ständigen Ausschusses des Übereinkommens über die Erhaltung der europäischen wildlebenden Pflanzen und Tiere und ihrer natürlichen Lebensräume in Bezug auf Änderungen der Anhänge II und III des Übereinkommens zu vertreten ist</j.0:title>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_241.2019-10-25_ADP_byCOM"/>
+    <j.0:date_withdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-09-29</j.0:date_withdrawn>
+    <j.0:title xml:lang="it">Proposta di DECISIONE DEL CONSIGLIO relativa alla posizione che dovrà essere assunta a nome dell'Unione europea alla trentanovesima riunione del comitato permanente della convenzione relativa alla conservazione della vita selvatica e dell'ambiente naturale in Europa con riguardo agli emendamenti degli allegati II e III</j.0:title>
+    <j.0:procedure_code_interinstitutional_has_type_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/21979A0919%2801%29">
+    <j.0:cited_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+    <j.0:work_cited_by_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal_basis_for_resource_legal"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/celex/12016E192"/>
+    <j.2:paragraph>1</j.2:paragraph>
+    <j.2:comment_on_legal_basis>P1</j.2:comment_on_legal_basis>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure-event/2019_241.2019-10-25_ADP_byCOM">
+    <j.0:event_informs_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-25</j.0:event_date>
+    <j.0:event_responsibility_of_person rdf:resource="http://publications.europa.eu/resource/agent/Karmenu%20VELLA"/>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12016E192"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_procedural"/>
+    <j.0:event_legal_uses_concept_mode_decision rdf:resource="http://publications.europa.eu/resource/authority/fd_606/1010"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:event_legal_informs_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/NP"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_was_historically_about_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.0:event_legal_responsibility_of_person rdf:resource="http://publications.europa.eu/resource/agent/Karmenu%20VELLA"/>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20191025-2855; environment: PROD; newCERES: 3.26.6; IMMC2CDM: 2.9.1; rules: preleg/rules-com.xml#51427#2019-10-03; builddate: 2019-10-25T11:33:05.826;</j.2:build_info>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/COM%282019%29494%20final"/>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/authority/treaty/TFEU_2010"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <j.0:informs rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:event_legal_initiating rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:event_legal_initiating>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/procedure/2019_241"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2019_241"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/authority/treaty/TFEU_2010"/>
+    <j.0:informs rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/NP"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADP_byCOM</j.0:event_legal_type>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-25</j.0:event_legal_date>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM/2019/494/FINAL</j.0:document_reference>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/immc/COM%282019%29494%20final"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:event_informs_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/NP"/>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12016E192"/>
+    <j.0:formally-addresses rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:responsibility_of rdf:resource="http://publications.europa.eu/resource/agent/Karmenu%20VELLA"/>
+    <j.0:responsibility_of rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ENV"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+    <j.0:event_responsibility_of_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ENV"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12016E192"/>
+    <j.0:event_formally-addresses_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/authority/treaty/TFEU_2010"/>
+    <j.0:event_responsibility_of_agent rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ENV"/>
+    <j.0:initiating rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:initiating>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/immc/COM%282019%29494%20final"/>
+    <j.0:event_legal_formally-addresses_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM/2019/494/FINAL</j.0:event_legal_document_reference>
+    <j.0:event_legal_responsibility_of_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ENV"/>
+    <j.0:event_legal_informs_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:uses rdf:resource="http://publications.europa.eu/resource/authority/fd_606/1010"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2019_241"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-25</j.0:date>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADP_byCOM</j.0:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/2826">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/procedure/NLE">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/procedure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_procedure_code_interinstitutional"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/ADP_byCOM">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_241.2019-10-25_ADP_byCOM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/subject-matter/ENV">
+    <j.0:subject-matter_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/52019PC0494"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/celex/52019PC0494"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/dir-eu-legal-act/151040">
+    <j.0:concept_directory-code_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/52019PC0494"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/celex/52019PC0494"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/CONSIL">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/consil/ST_13470_2019_INIT"/>
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/consil/ST_13470_2019_INIT"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/210">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/COM">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent-conceptual"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/fa762093-f70a-11e9-8c1f-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/immc/COM%282019%29494%20final"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/celex/52019PC0494"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/treaty/TFEU_2012">
+    <j.0:basis_for rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+    <j.0:concept_treaty_basis_for_resource_legal rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/52020XC0929%2802%29">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_606/1010">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#atto_fd"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_mode_decision"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_606"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/DIS_byCONSIL">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_241.2019-10-25_DIS_byCONSIL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/immc/ST%2013470%202019%20INIT">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A8">
+    <j.2:comment_on_legal_basis>P9</j.2:comment_on_legal_basis>
+    <j.2:paragraph>9</j.2:paragraph>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal_basis_for_resource_legal"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/consil/ST_13470_2019_INIT">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory_council"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A9">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.2:eli_target rdf:resource="http://publications.europa.eu/resource/eli/treaty/tfeu_2016/art_218/par_9/oj"/>
+    <j.2:comment_on_legal_basis>P9</j.2:comment_on_legal_basis>
+    <j.2:paragraph>9</j.2:paragraph>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_241.2019-10-25_ADP_byCOM"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_based_on_resource_legal"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/celex/12016E218"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_based_on_resource_legal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/31982D0072">
+    <j.0:cited_by rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+    <j.0:work_cited_by_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2019_0494_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/immc/COM%282019%29494%20final">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+</rdf:RDF>

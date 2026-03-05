@@ -1,0 +1,451 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://publications.europa.eu/ontology/cdm#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.1="http://www.w3.org/2004/02/skos/core#"
+    xmlns:j.2="http://publications.europa.eu/ontology/annotation#"
+    xmlns:j.3="http://publications.europa.eu/ontology/cdm/cmr#" > 
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/202422.422503">
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_FRM_byCONSIL"/>
+    <j.0:is_about rdf:resource="http://publications.europa.eu/resource/authority/fd_600/102949"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_FRM_byCONSIL"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:on_agenda rdf:resource="http://publications.europa.eu/resource/authority/fd_600/10004"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CSST/2013/8033</j.0:event_legal_document_reference>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_legal_is_about_concept_agenda_council rdf:resource="http://publications.europa.eu/resource/authority/fd_600/102949"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CSST/2013/8445</j.0:document_reference>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1085"/>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adoption formelle par Conseil</j.0:type>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/202422"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CSST/2013/8033</j.0:document_reference>
+    <j.0:event_legal_was_historically_about_concept_type_dossier rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1085"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS-PRES/2013/8472</j.0:event_legal_document_reference>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adoption formelle par Conseil</j.0:event_legal_type>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.2:build_info>cdm:CDM_2.1.7  tdm:1523  xslt:3945 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:1.2.0 builddate:07/04/2014 20:51:53</j.2:build_info>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/202422"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-04-22</j.0:event_date>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS-PRES/2013/8472</j.0:document_reference>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:event_legal_session_council rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">3234</j.0:event_legal_session_council>
+    <j.0:event_legal_on_agenda_concept_agenda_council rdf:resource="http://publications.europa.eu/resource/authority/fd_600/10004"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-04-22</j.0:date>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/202422"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_FRM_byCONSIL"/>
+    <j.0:session_council rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">3234</j.0:session_council>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-04-22</j.0:event_legal_date>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CSST/2013/8445</j.0:event_legal_document_reference>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/celex/12012E191"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_based_on_resource_legal"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/202422.421667"/>
+    <j.2:paragraph>1</j.2:paragraph>
+    <j.2:comment_on_legal_basis>P1</j.2:comment_on_legal_basis>
+    <j.2:eli_target rdf:resource="http://data.europa.eu/eli/treaty/tfeu_2012/art_191/par_1/oj"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_based_on_resource_legal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/842eb118-7f80-11e2-9294-01aa75ed71a1">
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-04T17:40:21.012+01:00</j.3:lastModificationDate>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure/2013_55"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/202422"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/842eb118-7f80-11e2-9294-01aa75ed71a1.0003">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/202422.421668"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-07T20:55:14.743+02:00</j.3:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/comnat/COM_2013_0093_FIN">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/202422.421668">
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-02-22</j.0:event_date>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transmission au Conseil</j.0:event_legal_type>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-02-22</j.0:event_legal_date>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/202422"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/202422"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.2:build_info>cdm:CDM_2.1.7  tdm:1523  xslt:3945 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:1.2.0 builddate:07/04/2014 20:51:53</j.2:build_info>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_toCONSIL_byCOM"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-02-22</j.0:date>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_toCONSIL_byCOM"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transmission au Conseil</j.0:type>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_toCONSIL_byCOM"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/202422"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/842eb118-7f80-11e2-9294-01aa75ed71a1.0001">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/202422.421667"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-08-30T13:03:12.943+02:00</j.3:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_600/102949">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_agenda_council"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_600"/>
+    <j.0:concept_agenda_council_subject_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/202422.422503"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/procedure/NLE">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/procedure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_procedure_code_interinstitutional"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/ENV">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_612/1095">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_612"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_dossier"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#atto_fd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/ADP_byCOM">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/202422.421667"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_612/1085">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_dossier"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_612"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/TRS_EP_byCOM">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/202422.421669"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/52013PC0093">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/202422">
+    <j.0:procedure_code_interinstitutional_has_type_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52013PC0093"/>
+    <j.0:dossier_title xml:lang="en">Proposal for a COUNCIL DECISION on the position to be adopted, on behalf of the European Union, at the Eleventh Conference of the Parties to the Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and Their Disposal, with regard to amendments to the list of waste contained in Annex IX (List B) of this Convention</j.0:dossier_title>
+    <j.0:title xml:lang="lt">Pasiūlymas TARYBOS SPRENDIMAS dėl pozicijos, kurios Europos Sąjungos vardu turi būti laikomasi Bazelio konvencijos dėl pavojingų atliekų tarpvalstybinių pervežimų bei jų tvarkymo kontrolės 11-ajame šalių konferencijos posėdyje dėl šios konvencijos IX priede pateikto atliekų sąrašo (B sąrašas) pakeitimų</j.0:title>
+    <j.0:dossier_title xml:lang="sv">Förslag till RÅDETS BESLUT om den ståndpunkt som ska intas på Europeiska unionens vägnar vid den elfte konferensen mellan parterna till Baselkonventionen om kontroll av gränsöverskridande transporter och om slutligt omhändertagande av farligt avfall när det gäller ändringar av förteckningen över avfall som ingår i bilaga IX (förteckning B) i den konventionen</j.0:dossier_title>
+    <j.0:adopted-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:adopted-proposal>
+    <j.0:title xml:lang="fr">Proposition de DÉCISION DU CONSEIL sur la position à adopter, au nom de l'Union européenne, lors de la onzième conférence des parties à la convention de Bâle sur le contrôle des mouvements transfrontières de déchets dangereux et de leur élimination, concernant la modification de la liste de déchets contenue à l'annexe IX (liste B) de ladite convention</j.0:title>
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12012E218"/>
+    <j.0:dossier_title xml:lang="sk">Návrh ROZHODNUTIE RADY o pozícii, ktorú má Európska únia zaujať na jedenástom zasadnutí Konferencie zmluvných strán Bazilejského dohovoru o riadení pohybov nebezpečných odpadov cez hranice štátov a ich zneškodňovaní, pokiaľ ide o zmeny a doplnenia zoznamu odpadu uvedeného v prílohe IX (zoznam B) k uvedenému dohovoru</j.0:dossier_title>
+    <j.0:dossier_title xml:lang="sl">Predlog SKLEP SVETA o stališču, ki se sprejme v imenu Evropske unije za enajsto konferenco pogodbenic Baselske konvencije o nadzoru prehoda nevarnih odpadkov preko meja in njihovega odstranjevanja, glede sprememb seznama odpadkov iz Priloge IX (seznam B) k tej konvenciji</j.0:dossier_title>
+    <j.0:dossier_identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pegase:202422</j.0:dossier_identifier>
+    <j.0:pending-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:pending-proposal>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12012E191"/>
+    <j.0:title xml:lang="nl">Voorstel voor een BESLUIT VAN DE RAAD betreffende het namens de Europese Unie op de Elfde Conferentie van de partijen bij het Verdrag van Bazel inzake de beheersing van de grensoverschrijdende overbrenging van gevaarlijke afvalstoffen en de verwijdering ervan in te nemen standpunt met betrekking tot wijzigingen van de lijst van afvalstoffen als opgenomen in bijlage IX (lijst B) bij dit Verdrag</j.0:title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/CSST_2013_7134_0000_0000_0000"/>
+    <j.0:title xml:lang="sk">Návrh ROZHODNUTIE RADY o pozícii, ktorú má Európska únia zaujať na jedenástom zasadnutí Konferencie zmluvných strán Bazilejského dohovoru o riadení pohybov nebezpečných odpadov cez hranice štátov a ich zneškodňovaní, pokiaľ ide o zmeny a doplnenia zoznamu odpadu uvedeného v prílohe IX (zoznam B) k uvedenému dohovoru</j.0:title>
+    <j.0:dossier_initiated_by_act_preparatory rdf:resource="http://publications.europa.eu/resource/celex/52013PC0093"/>
+    <j.0:title xml:lang="lv">Priekšlikums PADOMES LĒMUMS par nostāju, kas Eiropas Savienības vārdā jāieņem Bāzeles Konvencijas par kontroli pār kaitīgo atkritumu robežšķērsojošo transportēšanu un to aizvākšanu Līgumslēdzēju pušu vienpadsmitajā konferencē attiecībā uz minētās konvencijas IX pielikumā (B sarakstā) norādītā atkritumu saraksta grozījumiem</j.0:title>
+    <j.0:dossier_date_creation_legacy rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-02-22</j.0:dossier_date_creation_legacy>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional"/>
+    <j.0:title xml:lang="ro">Propunere de DECIZIE A CONSILIULUI privind poziția care urmează să fie adoptată, în numele Uniunii Europene, în cadrul celei de-a unsprezecea Conferințe a Părților la Convenția de la Basel privind controlul transportului peste frontiere al deșeurilor periculoase și al eliminării acestora, în privința modificărilor propuse ale listei deșeurilor din cadrul anexei IX (lista B) la convenție</j.0:title>
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12012E191"/>
+    <j.0:dossier_title xml:lang="hu">Javaslat A TANÁCS HATÁROZATA a veszélyes hulladékok országhatárokat átlépő szállításának ellenőrzéséről és ártalmatlanításáról szóló bázeli egyezmény részes felei konferenciájának tizenegyedik ülésszakán az Egyezmény IX. mellékletében (B. lista) szereplő hulladékjegyzék módosítása tekintetében az Európai Unió nevében elfogadandó álláspontról</j.0:dossier_title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/52013PC0093"/>
+    <j.0:title xml:lang="de">Vorschlag für einen BESCHLUSS DES RATES über den Standpunkt, der im Namen der Europäischen Union auf der elften Tagung der Konferenz der Vertragsparteien des Basler Übereinkommens über die Kontrolle der grenzüberschreitenden Verbringung gefährlicher Abfälle und ihrer Entsorgung im Hinblick auf Änderungen der Liste von Abfällen in Anlage IX (Liste B) des Übereinkommens einzunehmen ist</j.0:title>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/202422.421668"/>
+    <j.0:title xml:lang="en">Proposal for a COUNCIL DECISION on the position to be adopted, on behalf of the European Union, at the Eleventh Conference of the Parties to the Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and Their Disposal, with regard to amendments to the list of waste contained in Annex IX (List B) of this Convention</j.0:title>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/202422.421668"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12012E191"/>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/202422.421669"/>
+    <j.0:dossier_title xml:lang="de">Vorschlag für einen BESCHLUSS DES RATES über den Standpunkt, der im Namen der Europäischen Union auf der elften Tagung der Konferenz der Vertragsparteien des Basler Übereinkommens über die Kontrolle der grenzüberschreitenden Verbringung gefährlicher Abfälle und ihrer Entsorgung im Hinblick auf Änderungen der Liste von Abfällen in Anlage IX (Liste B) des Übereinkommens einzunehmen ist</j.0:dossier_title>
+    <j.0:title xml:lang="fi">Ehdotus NEUVOSTON PÄÄTÖS vaarallisten jätteiden maan rajan ylittävien siirtojen ja käsittelyn valvontaa koskevan Baselin yleissopimuksen liitteessä IX olevaan jätteiden luetteloon (B luettelo) tehtäviä muutoksia koskevasta Euroopan unionin kannasta mainitun yleissopimuksen osapuolten yhdennessätoista konferenssissa</j.0:title>
+    <j.0:dossier_title xml:lang="lt">Pasiūlymas TARYBOS SPRENDIMAS dėl pozicijos, kurios Europos Sąjungos vardu turi būti laikomasi Bazelio konvencijos dėl pavojingų atliekų tarpvalstybinių pervežimų bei jų tvarkymo kontrolės 11-ajame šalių konferencijos posėdyje dėl šios konvencijos IX priede pateikto atliekų sąrašo (B sąrašas) pakeitimų</j.0:dossier_title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/202422.421669"/>
+    <j.0:title xml:lang="sv">Förslag till RÅDETS BESLUT om den ståndpunkt som ska intas på Europeiska unionens vägnar vid den elfte konferensen mellan parterna till Baselkonventionen om kontroll av gränsöverskridande transporter och om slutligt omhändertagande av farligt avfall när det gäller ändringar av förteckningen över avfall som ingår i bilaga IX (förteckning B) i den konventionen</j.0:title>
+    <j.0:dossier_withdrawn-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:dossier_withdrawn-proposal>
+    <j.0:is_about rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1095"/>
+    <j.0:title xml:lang="pt">Proposta de DECISÃO DO CONSELHO relativa à posição a adotar, em nome da União Europeia, na décima primeira Conferência das Partes na Convenção de Basileia sobre o Controlo dos Movimentos Transfronteiriços de Resíduos Perigosos e sua Eliminação, no que respeita a emendas à lista de resíduos constante do anexo IX (Lista B) da mesma Convenção</j.0:title>
+    <j.0:title xml:lang="sl">Predlog SKLEP SVETA o stališču, ki se sprejme v imenu Evropske unije za enajsto konferenco pogodbenic Baselske konvencije o nadzoru prehoda nevarnih odpadkov preko meja in njihovega odstranjevanja, glede sprememb seznama odpadkov iz Priloge IX (seznam B) k tej konvenciji</j.0:title>
+    <j.0:procedure_code_interinstitutional_reference_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013/0055/NLE</j.0:procedure_code_interinstitutional_reference_procedure>
+    <j.0:title xml:lang="es">Propuesta de DECISIÓN DEL CONSEJO sobre la posición que debe adoptarse, en nombre de la Unión Europea, en la undécima reunión de la Conferencia de las Partes en el Convenio de Basilea sobre el control de los movimientos transfronterizos de los desechos peligrosos y su eliminación, respecto a las enmiendas a la lista de desechos del anexo IX (lista B) de dicho Convenio</j.0:title>
+    <j.0:dossier_title xml:lang="et">Ettepanek: NÕUKOGU OTSUS, milles käsitletkase ohtlike jäätmete riikidevahelise veo ja nende kõrvaldamise kontrolli Baseli konventsiooni osaliste 11. konverentsil ELi nimel võetavat seisukohta seoses muudatustega konventsiooni IX lisas (B-nimekirjas) loetletud jäätmete loetellu</j.0:dossier_title>
+    <j.2:build_info>cdm:CDM_2.1.7  tdm:1523  xslt:3945 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:1.2.0 builddate:07/04/2014 20:51:53</j.2:build_info>
+    <j.0:withdrawn-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:withdrawn-proposal>
+    <j.0:dossier_title xml:lang="nl">Voorstel voor een BESLUIT VAN DE RAAD betreffende het namens de Europese Unie op de Elfde Conferentie van de partijen bij het Verdrag van Bazel inzake de beheersing van de grensoverschrijdende overbrenging van gevaarlijke afvalstoffen en de verwijdering ervan in te nemen standpunt met betrekking tot wijzigingen van de lijst van afvalstoffen als opgenomen in bijlage IX (lijst B) bij dit Verdrag</j.0:dossier_title>
+    <j.0:dossier_pending-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:dossier_pending-proposal>
+    <j.0:year_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2013</j.0:year_procedure>
+    <j.0:procedure_code_interinstitutional_number_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0055</j.0:procedure_code_interinstitutional_number_procedure>
+    <j.0:dossier_title xml:lang="ro">Propunere de DECIZIE A CONSILIULUI privind poziția care urmează să fie adoptată, în numele Uniunii Europene, în cadrul celei de-a unsprezecea Conferințe a Părților la Convenția de la Basel privind controlul transportului peste frontiere al deșeurilor periculoase și al eliminării acestora, în privința modificărilor propuse ale listei deșeurilor din cadrul anexei IX (lista B) la convenție</j.0:dossier_title>
+    <j.0:reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013/0055/NLE</j.0:reference>
+    <j.0:dossier_title xml:lang="lv">Priekšlikums PADOMES LĒMUMS par nostāju, kas Eiropas Savienības vārdā jāieņem Bāzeles Konvencijas par kontroli pār kaitīgo atkritumu robežšķērsojošo transportēšanu un to aizvākšanu Līgumslēdzēju pušu vienpadsmitajā konferencē attiecībā uz minētās konvencijas IX pielikumā (B sarakstā) norādītā atkritumu saraksta grozījumiem</j.0:dossier_title>
+    <j.0:dossier_year_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</j.0:dossier_year_reference>
+    <j.0:dossier_title xml:lang="cs">Návrh ROZHODNUTÍ RADY o postoji, který se má zaujmout jménem Evropské unie na jedenáctém zasedání smluvních stran Basilejské úmluvy o kontrole pohybu nebezpečných odpadů přes hranice států a jejich zneškodňování s ohledem na změny seznamu odpadů obsaženého v příloze IX (seznamu B) této úmluvy</j.0:dossier_title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/comnat/COM_2013_0093_FIN"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:dossier_title xml:lang="mt">Proposta għal DEĊIŻJONI TAL-KUNSILL dwar il-pożizzjoni li għandha tiġi adottata, f'isem l-Unjoni Ewropea, fil-Ħdax-il Konferenza tal-Partijiet għall-Konvenzjoni ta' Basilea dwar il-Kontroll tal-Movimenti li Jaqsmu l-Fruntieri tal-Iskart ta' Riskju u d-Disponiment Minnhom, fir-rigward tal-emendi fil-lista ta' skart inkluża fl-Anness IX (il-Lista B) ta' din il-Konvenzjoni</j.0:dossier_title>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2013_0093_FIN"/>
+    <j.0:dossier_type_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM</j.0:dossier_type_reference>
+    <j.0:dossier_title xml:lang="it">Proposta di DECISIONE DEL CONSIGLIO relativa alla posizione da adottare, a nome dell’Unione europea, in occasione dell’undicesima conferenza delle parti della convenzione di Basilea sul controllo dei movimenti transfrontalieri di rifiuti pericolosi e del loro smaltimento, in merito alle modifiche all’elenco dei rifiuti di cui all’allegato IX (elenco B) della convenzione</j.0:dossier_title>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#dossier"/>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/202422.421667"/>
+    <j.0:title xml:lang="it">Proposta di DECISIONE DEL CONSIGLIO relativa alla posizione da adottare, a nome dell’Unione europea, in occasione dell’undicesima conferenza delle parti della convenzione di Basilea sul controllo dei movimenti transfrontalieri di rifiuti pericolosi e del loro smaltimento, in merito alle modifiche all’elenco dei rifiuti di cui all’allegato IX (elenco B) della convenzione</j.0:title>
+    <j.0:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pegase:202422</j.0:identifier>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/202422.421668"/>
+    <j.0:dossier_is_about_concept_type_dossier rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1095"/>
+    <j.0:number_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">93</j.0:number_reference>
+    <j.0:date_creation_legacy rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-02-22</j.0:date_creation_legacy>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/202422.422503"/>
+    <j.0:dossier_title xml:lang="pl">Wniosek DECYZJA RADY w sprawie stanowiska, jakie ma zostać przyjęte w imieniu Unii Europejskiej na jedenastej Konferencji Stron Konwencji bazylejskiej o kontroli transgranicznego przemieszczania i usuwania odpadów niebezpiecznych w odniesieniu do poprawek w wykazie odpadów zawartym w załączniku IX (lista B) do tej konwencji</j.0:dossier_title>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.0:dossier_title xml:lang="bg">Предложение за РЕШЕНИЕ НА СЪВЕТА относно позицията, която да бъде приета от името на Европейския съюз, на единадесетата конференция на страните по Базелската конвенция за контрол на трансграничното движение на опасни отпадъци и тяхното обезвреждане, по отношение на изменения на списъка на отпадъците, съдържащи се в приложение IX (списък Б) към тази конвенция</j.0:dossier_title>
+    <j.0:number_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0055</j.0:number_procedure>
+    <j.0:title xml:lang="mt">Proposta għal DEĊIŻJONI TAL-KUNSILL dwar il-pożizzjoni li għandha tiġi adottata, f'isem l-Unjoni Ewropea, fil-Ħdax-il Konferenza tal-Partijiet għall-Konvenzjoni ta' Basilea dwar il-Kontroll tal-Movimenti li Jaqsmu l-Fruntieri tal-Iskart ta' Riskju u d-Disponiment Minnhom, fir-rigward tal-emendi fil-lista ta' skart inkluża fl-Anness IX (il-Lista B) ta' din il-Konvenzjoni</j.0:title>
+    <j.0:title xml:lang="pl">Wniosek DECYZJA RADY w sprawie stanowiska, jakie ma zostać przyjęte w imieniu Unii Europejskiej na jedenastej Konferencji Stron Konwencji bazylejskiej o kontroli transgranicznego przemieszczania i usuwania odpadów niebezpiecznych w odniesieniu do poprawek w wykazie odpadów zawartym w załączniku IX (lista B) do tej konwencji</j.0:title>
+    <j.0:dossier_title xml:lang="fr">Proposition de DÉCISION DU CONSEIL sur la position à adopter, au nom de l'Union européenne, lors de la onzième conférence des parties à la convention de Bâle sur le contrôle des mouvements transfrontières de déchets dangereux et de leur élimination, concernant la modification de la liste de déchets contenue à l'annexe IX (liste B) de ladite convention</j.0:dossier_title>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/pegase/CSST_2013_7134_0000_0000_0000"/>
+    <j.0:procedure_code_interinstitutional_year_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2013</j.0:procedure_code_interinstitutional_year_procedure>
+    <j.0:dossier_title xml:lang="fi">Ehdotus NEUVOSTON PÄÄTÖS vaarallisten jätteiden maan rajan ylittävien siirtojen ja käsittelyn valvontaa koskevan Baselin yleissopimuksen liitteessä IX olevaan jätteiden luetteloon (B luettelo) tehtäviä muutoksia koskevasta Euroopan unionin kannasta mainitun yleissopimuksen osapuolten yhdennessätoista konferenssissa</j.0:dossier_title>
+    <j.0:title xml:lang="el">Πρόταση ΑΠΟΦΑΣΗ ΤΟΥ ΣΥΜΒΟΥΛΙΟΥ σχετικά με τη θέση που πρέπει να ληφθεί, εξ ονόματος της Ευρωπαϊκής Ένωσης, στην ενδέκατη διάσκεψη των συμβαλλομένων μερών της Σύμβασης της Βασιλείας για τον έλεγχο της διασυνοριακής διακίνησης επικίνδυνων αποβλήτων και της διάθεσής τους, όσον αφορά τροποποιήσεις στον κατάλογο των αποβλήτων που περιλαμβάνεται στο παράρτημα ΙΧ (Κατάλογος Β) της εν λόγω Σύμβασης</j.0:title>
+    <j.0:dossier_title xml:lang="el">Πρόταση ΑΠΟΦΑΣΗ ΤΟΥ ΣΥΜΒΟΥΛΙΟΥ σχετικά με τη θέση που πρέπει να ληφθεί, εξ ονόματος της Ευρωπαϊκής Ένωσης, στην ενδέκατη διάσκεψη των συμβαλλομένων μερών της Σύμβασης της Βασιλείας για τον έλεγχο της διασυνοριακής διακίνησης επικίνδυνων αποβλήτων και της διάθεσής τους, όσον αφορά τροποποιήσεις στον κατάλογο των αποβλήτων που περιλαμβάνεται στο παράρτημα ΙΧ (Κατάλογος Β) της εν λόγω Σύμβασης</j.0:dossier_title>
+    <j.0:title xml:lang="da">Forslag til RÅDETS AFGØRELSE om den holdning, der skal indtages på vegne af Den Europæiske Union ved den ellevte konference mellem parterne i Baselkonventionen om kontrol med grænseoverskridende transport af farligt affald og bortskaffelse heraf med hensyn til ændringer af listen over affald i bilag IX (liste B) i denne konvention</j.0:title>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-02-22</j.0:date>
+    <j.0:dossier_title xml:lang="pt">Proposta de DECISÃO DO CONSELHO relativa à posição a adotar, em nome da União Europeia, na décima primeira Conferência das Partes na Convenção de Basileia sobre o Controlo dos Movimentos Transfronteiriços de Resíduos Perigosos e sua Eliminação, no que respeita a emendas à lista de resíduos constante do anexo IX (Lista B) da mesma Convenção</j.0:dossier_title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/202422.421667"/>
+    <j.0:year_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</j.0:year_reference>
+    <j.0:dossier_title xml:lang="da">Forslag til RÅDETS AFGØRELSE om den holdning, der skal indtages på vegne af Den Europæiske Union ved den ellevte konference mellem parterne i Baselkonventionen om kontrol med grænseoverskridende transport af farligt affald og bortskaffelse heraf med hensyn til ændringer af listen over affald i bilag IX (liste B) i denne konvention</j.0:dossier_title>
+    <j.0:title xml:lang="cs">Návrh ROZHODNUTÍ RADY o postoji, který se má zaujmout jménem Evropské unie na jedenáctém zasedání smluvních stran Basilejské úmluvy o kontrole pohybu nebezpečných odpadů přes hranice států a jejich zneškodňování s ohledem na změny seznamu odpadů obsaženého v příloze IX (seznamu B) této úmluvy</j.0:title>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/202422.422503"/>
+    <j.0:title xml:lang="bg">Предложение за РЕШЕНИЕ НА СЪВЕТА относно позицията, която да бъде приета от името на Европейския съюз, на единадесетата конференция на страните по Базелската конвенция за контрол на трансграничното движение на опасни отпадъци и тяхното обезвреждане, по отношение на изменения на списъка на отпадъците, съдържащи се в приложение IX (списък Б) към тази конвенция</j.0:title>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/celex/52013PC0093"/>
+    <j.0:title xml:lang="hu">Javaslat A TANÁCS HATÁROZATA a veszélyes hulladékok országhatárokat átlépő szállításának ellenőrzéséről és ártalmatlanításáról szóló bázeli egyezmény részes felei konferenciájának tizenegyedik ülésszakán az Egyezmény IX. mellékletében (B. lista) szereplő hulladékjegyzék módosítása tekintetében az Európai Unió nevében elfogadandó álláspontról</j.0:title>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12012E218"/>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/202422.421669"/>
+    <j.0:dossier_adopted-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:dossier_adopted-proposal>
+    <j.0:dossier_title xml:lang="es">Propuesta de DECISIÓN DEL CONSEJO sobre la posición que debe adoptarse, en nombre de la Unión Europea, en la undécima reunión de la Conferencia de las Partes en el Convenio de Basilea sobre el control de los movimientos transfronterizos de los desechos peligrosos y su eliminación, respecto a las enmiendas a la lista de desechos del anexo IX (lista B) de dicho Convenio</j.0:dossier_title>
+    <j.0:type_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM</j.0:type_reference>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/202422.422503"/>
+    <j.0:title xml:lang="et">Ettepanek: NÕUKOGU OTSUS, milles käsitletkase ohtlike jäätmete riikidevahelise veo ja nende kõrvaldamise kontrolli Baseli konventsiooni osaliste 11. konverentsil ELi nimel võetavat seisukohta seoses muudatustega konventsiooni IX lisas (B-nimekirjas) loetletud jäätmete loetellu</j.0:title>
+    <j.0:reference_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013/0055/NLE</j.0:reference_procedure>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_interinstitutional"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12012E218"/>
+    <j.0:dossier_number_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">93</j.0:dossier_number_reference>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/202422.421667"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/CONSIL">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_600/10004">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_agenda_council"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_600"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/COM">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/agent/Janez%20POTO%C4%8CNIK">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/TRS_toCONSIL_byCOM">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/202422.421668"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/EP">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/CSST_2013_7134_0000_0000_0000">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/842eb118-7f80-11e2-9294-01aa75ed71a1.0004">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/202422.422503"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-07T20:55:14.743+02:00</j.3:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#dossier_based_on_resource_legal"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.2:eli_target rdf:resource="http://data.europa.eu/eli/treaty/tfeu_2012/art_218/par_9/oj"/>
+    <j.2:comment_on_legal_basis>P9</j.2:comment_on_legal_basis>
+    <j.2:paragraph>9</j.2:paragraph>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/202422"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional_based_on_resource_legal"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/celex/12012E218"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/202422.421669">
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/202422"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/202422"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_EP_byCOM"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/202422"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transmission au Parlement européen</j.0:event_legal_type>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_EP_byCOM"/>
+    <j.2:build_info>cdm:CDM_2.1.7  tdm:1523  xslt:3945 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:1.2.0 builddate:07/04/2014 20:51:53</j.2:build_info>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_EP_byCOM"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-02-22</j.0:date>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-02-22</j.0:event_date>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transmission au Parlement européen</j.0:type>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-02-22</j.0:event_legal_date>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_606/1010">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_mode_decision"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_606"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/842eb118-7f80-11e2-9294-01aa75ed71a1.0002">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/202422.421669"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-07T20:55:14.743+02:00</j.3:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/ADP_FRM_byCONSIL">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/202422.422503"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/202422.421667">
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/202422"/>
+    <j.0:event_legal_initiating rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:event_legal_initiating>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/pegase/CSST_2013_7134_0000_0000_0000"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/202422"/>
+    <j.0:responsibility_of rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ENV"/>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-02-22</j.0:date>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/202422"/>
+    <j.0:event_legal_uses_concept_mode_decision rdf:resource="http://publications.europa.eu/resource/authority/fd_606/1010"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/pegase/CSST_2013_7134_0000_0000_0000"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52013PC0093"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12012E191"/>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adoption par Commission</j.0:type>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12012E191"/>
+    <j.0:event_legal_formally-addresses_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12012E218"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52013PC0093"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM/2013/93/FINAL</j.0:event_legal_document_reference>
+    <j.0:event_legal_responsibility_of_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ENV"/>
+    <j.0:event_legal_optionally-consults_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:event_legal_was_historically_about_concept_type_dossier rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1095"/>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1095"/>
+    <j.0:event_responsibility_of_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/ENV"/>
+    <j.0:event_legal_was_historically_about_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12012E218"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adoption par Commission</j.0:event_legal_type>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12012E191"/>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12012E218"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/comnat/COM_2013_0093_FIN"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CSST/2013/7134</j.0:event_legal_document_reference>
+    <j.0:event_responsibility_of_person rdf:resource="http://publications.europa.eu/resource/agent/Janez%20POTO%C4%8CNIK"/>
+    <j.2:build_info>cdm:CDM_2.1.7  tdm:1523  xslt:3945 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:1.2.0 builddate:07/04/2014 20:51:53</j.2:build_info>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-02-22</j.0:event_date>
+    <j.0:optionally-consults rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-02-22</j.0:event_legal_date>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <j.0:responsibility_of rdf:resource="http://publications.europa.eu/resource/agent/Janez%20POTO%C4%8CNIK"/>
+    <j.0:initiating rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:initiating>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2013_0093_FIN"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2013_0093_FIN"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CSST/2013/7134</j.0:document_reference>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/52013PC0093"/>
+    <j.0:event_formally-addresses_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:uses rdf:resource="http://publications.europa.eu/resource/authority/fd_606/1010"/>
+    <j.0:event_legal_responsibility_of_person rdf:resource="http://publications.europa.eu/resource/agent/Janez%20POTO%C4%8CNIK"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM/2013/93/FINAL</j.0:document_reference>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/CSST_2013_7134_0000_0000_0000"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:formally-addresses rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure/2013_55">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#dossier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/12012E191">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#dossier_based_on_resource_legal"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.2:eli_target rdf:resource="http://data.europa.eu/eli/treaty/tfeu_2012/art_191/par_1/oj"/>
+    <j.2:comment_on_legal_basis>P1</j.2:comment_on_legal_basis>
+    <j.2:paragraph>1</j.2:paragraph>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/202422"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional_based_on_resource_legal"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/celex/12012E191"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/12012E218">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/celex/12012E218"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal_based_on_resource_legal"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/202422.421667"/>
+    <j.2:paragraph>9</j.2:paragraph>
+    <j.2:comment_on_legal_basis>P9</j.2:comment_on_legal_basis>
+    <j.2:eli_target rdf:resource="http://data.europa.eu/eli/treaty/tfeu_2012/art_218/par_9/oj"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#event_based_on_resource_legal"/>
+  </rdf:Description>
+</rdf:RDF>

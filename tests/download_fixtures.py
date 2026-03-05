@@ -317,13 +317,24 @@ def _fetch_eurlex_requests(url: str) -> str | None:
         return None
 
 
-def _fetch_eurlex_browser(url: str, delay: float = 3.0) -> str | None:
-    """Fetch EUR-Lex page HTML using headless Chrome (nodriver).
+def _fetch_eurlex_browser(url: str, delay: float = 1.5) -> str | None:
+    """Fetch a single EUR-Lex page using headless Chrome.
 
-    Bypasses AWS WAF bot protection by executing JavaScript in a real browser.
-    Requires the nodriver package (pip install 'openbasement[dev]').
+    Prefer _fetch_eurlex_browser_batch() for multiple pages -- it reuses
+    one browser session instead of launching Chrome per page.
+    """
+    results = _fetch_eurlex_browser_batch({url: url}, delay=delay)
+    return results.get(url)
 
-    nodriver is async-only, so this function uses its event loop internally.
+
+def _fetch_eurlex_browser_batch(
+    url_map: dict[str, str],
+    delay: float = 1.5,
+) -> dict[str, str | None]:
+    """Fetch multiple EUR-Lex pages with a single headless Chrome session.
+
+    url_map: {key: url} -- keys are used to index the results dict.
+    Returns {key: page_html_or_None}.
     """
     try:
         import asyncio
@@ -334,22 +345,30 @@ def _fetch_eurlex_browser(url: str, delay: float = 3.0) -> str | None:
             "nodriver is required for --fetch-method=browser. "
             "Install it with: pip install 'openbasement[dev]'"
         )
-        return None
+        return {k: None for k in url_map}
 
-    async def _get_page():
+    async def _get_pages():
         browser = await uc.start(headless=True)
+        results = {}
         try:
-            page = await browser.get(url)
-            await asyncio.sleep(delay)
-            return await page.get_content()
+            for key, url in url_map.items():
+                try:
+                    page = await browser.get(url)
+                    await asyncio.sleep(delay)
+                    content = await page.get_content()
+                    results[key] = content
+                except Exception as e:
+                    log.warning("browser fetch failed for %s: %s", url, e)
+                    results[key] = None
         finally:
             browser.stop()
+        return results
 
     try:
-        return uc.loop().run_until_complete(_get_page())
+        return uc.loop().run_until_complete(_get_pages())
     except Exception as e:
-        log.warning("browser fetch failed for %s: %s", url, e)
-        return None
+        log.error("browser batch fetch failed: %s", e)
+        return {k: None for k in url_map}
 
 
 def _build_validation_data(page_html: str, proc_ref: str) -> dict | None:
@@ -565,62 +584,135 @@ def main():
 
     # Step 1: Query SPARQL for procedure references
     refs = query_sparql(limit=args.limit)
+    all_refs = sorted(set(refs))
+    log.info("Total unique procedure references: %d", len(all_refs))
 
-    # Step 2: Select procedures
-    selected = select_procedures(refs, target_count=args.target)
+    # Step 2: Select procedures with oversampling (20% extra to cover 404s)
+    oversample = int(args.target * 1.2)
+    candidates = select_procedures(all_refs, target_count=oversample)
 
     # Step 3: Download RDF/XML tree notices
-    rdf_success = 0
+    rdf_ok = []
     rdf_fail = 0
-    for i, proc_ref in enumerate(selected):
-        log.info("RDF %d/%d: %s", i + 1, len(selected), proc_ref)
+    for i, proc_ref in enumerate(candidates):
+        log.info("RDF %d/%d: %s", i + 1, len(candidates), proc_ref)
         if download_rdf_tree(proc_ref, delay=args.delay):
-            rdf_success += 1
+            rdf_ok.append(proc_ref)
         else:
             rdf_fail += 1
 
-    log.info("RDF downloads: %d success, %d failed", rdf_success, rdf_fail)
+    log.info("RDF downloads: %d success, %d failed", len(rdf_ok), rdf_fail)
 
-    # Step 4: Download EUR-Lex validation
+    # Step 4: Download EUR-Lex validation (batch browser for speed)
+    # Only attempt EUR-Lex for procedures with successful RDF downloads
+    to_fetch = rdf_ok
     if args.fetch_method == "browser":
-        log.info("Using headless Chrome for EUR-Lex downloads")
+        log.info("Using headless Chrome (batch) for EUR-Lex downloads")
 
-    val_success = 0
+    val_ok = []
     val_fail = 0
-    for i, proc_ref in enumerate(selected):
+
+    if args.fetch_method == "browser":
+        # Batch: build URL map for pages that need fetching
+        need_fetch = {}
+        already_done = []
+        for proc_ref in to_fetch:
+            out_path = VALIDATION_DIR / f"{proc_ref}.json"
+            html_path = VALIDATION_HTML_DIR / f"{proc_ref}.html"
+            if not args.force_validation and out_path.exists() and out_path.stat().st_size > 0:
+                already_done.append(proc_ref)
+            elif not args.force_validation and html_path.exists() and html_path.stat().st_size > 0:
+                # Have cached HTML, just need to parse
+                already_done.append(proc_ref)
+            else:
+                need_fetch[proc_ref] = EURLEX_PROCEDURE_URL.format(proc_ref=proc_ref)
+
         log.info(
-            "EUR-Lex %d/%d: %s",
-            i + 1,
-            len(selected),
-            proc_ref,
+            "EUR-Lex: %d already cached, %d to fetch",
+            len(already_done), len(need_fetch),
         )
-        result = download_eurlex_validation(
-            proc_ref,
-            delay=args.delay,
-            force=args.force_validation,
-            fetch_method=args.fetch_method,
-        )
-        if result is not None:
-            val_success += 1
-        else:
-            val_fail += 1
+
+        # Parse already-cached ones
+        for proc_ref in already_done:
+            result = download_eurlex_validation(
+                proc_ref, delay=0, force=False, fetch_method="requests",
+            )
+            if result is not None:
+                val_ok.append(proc_ref)
+            else:
+                val_fail += 1
+
+        # Batch-fetch the rest with one browser session
+        if need_fetch:
+            html_results = _fetch_eurlex_browser_batch(need_fetch, delay=args.delay)
+            for proc_ref, page_html in html_results.items():
+                if page_html is None:
+                    log.warning("No HTML returned for %s", proc_ref)
+                    val_fail += 1
+                    continue
+
+                html_path = VALIDATION_HTML_DIR / f"{proc_ref}.html"
+                html_path.write_text(page_html, encoding="utf-8")
+
+                data = _build_validation_data(page_html, proc_ref)
+                if data is None:
+                    log.warning("No timeline data for %s (likely 404)", proc_ref)
+                    val_fail += 1
+                    continue
+
+                out_path = VALIDATION_DIR / f"{proc_ref}.json"
+                out_path.write_text(json.dumps(data, indent=2, ensure_ascii=False))
+                log.info("EUR-Lex validation: %s (%d events)", proc_ref, data["event_count"])
+                val_ok.append(proc_ref)
+    else:
+        for i, proc_ref in enumerate(to_fetch):
+            log.info("EUR-Lex %d/%d: %s", i + 1, len(to_fetch), proc_ref)
+            result = download_eurlex_validation(
+                proc_ref,
+                delay=args.delay,
+                force=args.force_validation,
+                fetch_method=args.fetch_method,
+            )
+            if result is not None:
+                val_ok.append(proc_ref)
+            else:
+                val_fail += 1
 
     log.info(
-        "EUR-Lex validation downloads: %d success, %d failed",
-        val_success,
-        val_fail,
+        "EUR-Lex validation: %d success, %d failed",
+        len(val_ok), val_fail,
     )
 
-    # Step 5: Build index
-    index = build_index(selected)
+    # Step 5: Keep only procedures with both RDF and EUR-Lex validation
+    # Trim to target if we have more than enough
+    final = val_ok[:args.target]
+    log.info(
+        "Final fixture set: %d (target was %d)",
+        len(final), args.target,
+    )
+
+    # Clean up RDF/validation files for procedures not in final set
+    final_set = set(final)
+    for rdf_path in PROCEDURES_DIR.glob("*.rdf"):
+        if rdf_path.stem not in final_set:
+            rdf_path.unlink()
+            log.debug("Removed extra RDF: %s", rdf_path.stem)
+    for val_path in VALIDATION_DIR.glob("*.json"):
+        if val_path.stem not in final_set:
+            val_path.unlink()
+            log.debug("Removed extra validation: %s", val_path.stem)
+
+    # Step 6: Build index
+    index = build_index(final)
     INDEX_PATH.write_text(json.dumps(index, indent=2, ensure_ascii=False))
     log.info("Index written to %s (%d entries)", INDEX_PATH, len(index))
 
     # Summary
     log.info("--- Summary ---")
-    log.info("Procedures selected: %d", len(selected))
-    log.info("RDF tree files: %d", rdf_success)
-    log.info("Validation files: %d", val_success)
+    log.info("Procedures with both RDF + EUR-Lex: %d", len(final))
+    log.info("Target: %d", args.target)
+    log.info("RDF downloads: %d success, %d failed", len(rdf_ok), rdf_fail)
+    log.info("EUR-Lex validation: %d success, %d failed", len(val_ok), val_fail)
     log.info("Fixtures directory: %s", FIXTURES_DIR)
 
 

@@ -1,0 +1,442 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://publications.europa.eu/ontology/cdm#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.1="http://www.w3.org/2004/02/skos/core#"
+    xmlns:j.2="http://publications.europa.eu/ontology/annotation#"
+    xmlns:j.3="http://publications.europa.eu/ontology/cdm/cmr#" > 
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/212fce5d-d4ac-11e1-905c-01aa75ed71a1.0003">
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-18T13:04:31.306+02:00</j.3:lastModificationDate>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/199334.405667"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/oj/JOC_2011_121_R_0011_01">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_612/1245">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_612"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_dossier"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/32010R0512">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_600/103029">
+    <j.0:concept_agenda_council_subject_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/199334.405667"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_600"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_agenda_council"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/199334.405314">
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <j.0:responsibility_of rdf:resource="http://publications.europa.eu/resource/agent/Karel%20DE%20GUCHT"/>
+    <j.0:event_legal_formally-addresses_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_procedural"/>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12010E"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/comnat/COM_2010_0244_FIN"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:event_formally-addresses_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/32009R1225"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS/2010/10082</j.0:event_legal_document_reference>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12010E"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JO C/2011/121/11</j.0:document_reference>
+    <j.0:event_legal_initiating rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:event_legal_initiating>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:responsibility_of rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/TRADE"/>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/32009R1225"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:initiating rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:initiating>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/199334"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:event_responsibility_of_agent rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/TRADE"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM/2010/244/FINAL</j.0:event_legal_document_reference>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JO C/2011/121/11</j.0:event_legal_document_reference>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/199334"/>
+    <j.0:event_responsibility_of_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/TRADE"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2010_0244_FIN"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/199334"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_responsibility_of_person rdf:resource="http://publications.europa.eu/resource/agent/Karel%20DE%20GUCHT"/>
+    <j.0:event_legal_responsibility_of_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/TRADE"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/52010PC0244"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM/2010/244/FINAL</j.0:document_reference>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-05-20</j.0:event_legal_date>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/oj/JOC_2011_121_R_0011_01"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52010PC0244"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-05-20</j.0:date>
+    <j.0:formally-addresses rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_legal_responsibility_of_person rdf:resource="http://publications.europa.eu/resource/agent/Karel%20DE%20GUCHT"/>
+    <j.0:event_legal_was_historically_about_concept_type_dossier rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1260"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOC_2011_121_R_0011_01"/>
+    <j.0:uses rdf:resource="http://publications.europa.eu/resource/authority/fd_606/1010"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52010PC0244"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:event_legal_was_historically_about_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOC_2011_121_R_0011_01"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-05-20</j.0:event_date>
+    <j.2:build_info>cdm:CDM_2.1.7  tdm:1523  xslt:3945 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:1.1.9 builddate:12/02/2014 14:43:36</j.2:build_info>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adoption par Commission</j.0:event_legal_type>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS/2010/10082</j.0:document_reference>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12010E"/>
+    <j.0:event_legal_uses_concept_mode_decision rdf:resource="http://publications.europa.eu/resource/authority/fd_606/1010"/>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adoption par Commission</j.0:type>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/32009R1225"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2010_0244_FIN"/>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1260"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/199334.405667">
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/199334"/>
+    <j.0:is_about rdf:resource="http://publications.europa.eu/resource/authority/fd_600/103029"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_FRM_byCONSIL"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adoption formelle par Conseil</j.0:event_legal_type>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-14</j.0:date>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:session_council rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">3023</j.0:session_council>
+    <j.2:build_info>cdm:CDM_2.1.7  tdm:1523  xslt:3945 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:1.1.9 builddate:12/02/2014 14:43:36</j.2:build_info>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_FRM_byCONSIL"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-14</j.0:event_date>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-14</j.0:event_legal_date>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/199334"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS/2010/10944</j.0:event_legal_document_reference>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adoption formelle par Conseil</j.0:type>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS/2010/10084</j.0:event_legal_document_reference>
+    <j.0:event_legal_session_council rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">3023</j.0:event_legal_session_council>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JO L/2010/150/24</j.0:document_reference>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS/2010/10084</j.0:document_reference>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/199334"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS/2010/10944</j.0:document_reference>
+    <j.0:event_legal_on_agenda_concept_agenda_council rdf:resource="http://publications.europa.eu/resource/authority/fd_600/10004"/>
+    <j.0:event_legal_was_historically_about_concept_type_dossier rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1245"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRES/2010/175</j.0:event_legal_document_reference>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRES/2010/175</j.0:document_reference>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1245"/>
+    <j.0:event_legal_is_about_concept_agenda_council rdf:resource="http://publications.europa.eu/resource/authority/fd_600/103029"/>
+    <j.0:on_agenda rdf:resource="http://publications.europa.eu/resource/authority/fd_600/10004"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JO L/2010/150/24</j.0:event_legal_document_reference>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_FRM_byCONSIL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/procedure/NLE">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/procedure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_procedure_code_interinstitutional"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/ADP_byCOM">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event/"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#type_event_interinstitutional"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/199334.405314"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/celex/32009R1225"/>
+    <j.2:article>11</j.2:article>
+    <j.2:comment_on_legal_basis>A11P2</j.2:comment_on_legal_basis>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional_based_on_resource_legal"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/199334"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#dossier_based_on_resource_legal"/>
+    <j.2:paragraph>2</j.2:paragraph>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <j.2:build_info>cdm:CDM_2.1.7  tdm:1523  xslt:3945 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:1.1.9 builddate:12/02/2014 14:43:36</j.2:build_info>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/TRADE">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/212fce5d-d4ac-11e1-905c-01aa75ed71a1.0001">
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-14T14:54:18.738+01:00</j.3:lastModificationDate>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/199334.405315"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/agent/Karel%20DE%20GUCHT">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#person"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/CONSIL">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/199334">
+    <j.0:title xml:lang="lt">Pasiūlymas TARYBOS REGLAMENTAS kuriuo, pagal Tarybos reglamento (EB) Nr. 1225/2009 11 straipsnio 2 dalį atlikus priemonių galiojimo termino peržiūrą, importuojamam Ukrainos kilmės amonio nitratui nustatomas galutinis antidempingo muitas</j.0:title>
+    <j.0:dossier_title xml:lang="es">Propuesta de REGLAMENTO DEL CONSEJO por el que se establece un derecho antidumping definitivo sobre las importaciones de nitrato de amonio originario de Ucrania tras una reconsideración por expiración de conformidad con el artículo 11, apartado 2, del Reglamento (CE) nº 1225/2009 del Consejo</j.0:dossier_title>
+    <j.0:dossier_title xml:lang="en">Proposal for a COUNCIL REGULATION imposing a definitive anti-dumping duty on imports of ammonium nitrate originating in Ukraine following an expiry review pursuant to Article 11(2) of Council Regulation (EC) No 1225/2009 </j.0:dossier_title>
+    <j.0:dossier_initiated_by_act_preparatory rdf:resource="http://publications.europa.eu/resource/celex/52010PC0244"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/199334.405315"/>
+    <j.0:title xml:lang="lv">Priekšlikums PADOMES REGULA, ar ko pēc termiņa beigu pārskatīšanas saskaņā ar Padomes Regulas (EK) Nr. 1225/2009 11. panta 2. punktu nosaka galīgo antidempinga maksājumu Ukrainas izcelsmes amonija nitrāta importam</j.0:title>
+    <j.0:dossier_number_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">244</j.0:dossier_number_reference>
+    <j.0:title xml:lang="fi">Ehdotus: NEUVOSTON ASETUS lopullisen polkumyyntitullin käyttöönotosta Ukrainasta peräisin olevan ammoniumnitraatin tuonnissa neuvoston asetuksen (EY) N:o 1225/2009 11 artiklan 2 kohdan mukaisen toimenpiteiden voimassaolon päättymistä koskevan tarkastelun jälkeen</j.0:title>
+    <j.0:dossier_title xml:lang="fr">Proposition de RÈGLEMENT DU CONSEIL instituant un droit antidumping définitif sur les importations de nitrate d’ammonium originaires d’Ukraine, à la suite d’un réexamen au titre de l’expiration des mesures, conformément à l’article 11, paragraphe 2, du règlement (CE) n° 1225/2009 du Conseil </j.0:dossier_title>
+    <j.0:dossier_title xml:lang="sv">Förslag till RÅDETS FÖRORDNING om införande av en slutgiltig antidumpningstull på import av ammoniumnitrat med ursprung i Ukraina till följd av en översyn vid giltighetstidens utgång i enlighet med artikel 11.2 i rådets förordning (EG) nr 1225/2009</j.0:dossier_title>
+    <j.0:dossier_title xml:lang="bg">Предложение за РЕГЛАМЕНТ НА СЪВЕТА за налагане на окончателно антидъмпингово мито върху вноса на амониев нитрат с произход от Украйна след преразглеждане с оглед изтичане на срока съгласно член 11, параграф 2 от Регламент (ЕО) № 1225/2009 на Съвета</j.0:dossier_title>
+    <j.0:date_adopted rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-14</j.0:date_adopted>
+    <j.0:dossier_title xml:lang="da">Forslag til RÅDETS FORORDNING om indførelse af en endelig antidumpingtold på importen af ammoniumnitrat med oprindelse i Ukraine efter en udløbsundersøgelse i henhold til artikel 11, stk. 2, i Rådets forordning (EF) nr. 1225/2009</j.0:dossier_title>
+    <j.0:title xml:lang="it">Proposta di REGOLAMENTO DEL CONSIGLIO che istituisce un dazio antidumping definitivo sulle importazioni di nitrato di ammonio originario dell'Ucraina in seguito a un riesame in previsione della scadenza a norma dell'articolo 11, paragrafo 2, del regolamento (CE) n. 1225/2009 del Consiglio</j.0:title>
+    <j.0:title xml:lang="pt">Proposta de REGULAMENTO DO CONSELHO que institui um direito anti-dumping definitivo sobre as importações de nitrato de amónio originário da Ucrânia na sequência de um reexame da caducidade em conformidade com o artigo 11.º, n.º 2, do Regulamento (CE) n.º 1225/2009 do Conselho</j.0:title>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/199334.405667"/>
+    <j.0:title xml:lang="en">Proposal for a COUNCIL REGULATION imposing a definitive anti-dumping duty on imports of ammonium nitrate originating in Ukraine following an expiry review pursuant to Article 11(2) of Council Regulation (EC) No 1225/2009 </j.0:title>
+    <j.0:dossier_title xml:lang="sl">Predlog UREDBA SVETA o uvedbi dokončne protidampinške dajatve na uvoz amonijevega nitrata s poreklom iz Ukrajine po pregledu zaradi izteka ukrepov v skladu s členom 11(2) Uredbe (ES) št. 1225/2009</j.0:dossier_title>
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12010E"/>
+    <j.0:title xml:lang="sk">Návrh NARIADENIE RADY, ktorým sa ukladá konečné antidumpingové clo na dovoz dusičnanu amónneho s pôvodom na Ukrajine po preskúmaní pred uplynutím platnosti podľa článku 11 ods. 2 nariadenia Rady (ES) č. 1225/2009</j.0:title>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:dossier_title xml:lang="pt">Proposta de REGULAMENTO DO CONSELHO que institui um direito anti-dumping definitivo sobre as importações de nitrato de amónio originário da Ucrânia na sequência de um reexame da caducidade em conformidade com o artigo 11.º, n.º 2, do Regulamento (CE) n.º 1225/2009 do Conselho</j.0:dossier_title>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/199334.405667"/>
+    <j.0:dossier_title xml:lang="sk">Návrh NARIADENIE RADY, ktorým sa ukladá konečné antidumpingové clo na dovoz dusičnanu amónneho s pôvodom na Ukrajine po preskúmaní pred uplynutím platnosti podľa článku 11 ods. 2 nariadenia Rady (ES) č. 1225/2009</j.0:dossier_title>
+    <j.0:dossier_identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pegase:199334</j.0:dossier_identifier>
+    <j.0:title xml:lang="fr">Proposition de RÈGLEMENT DU CONSEIL instituant un droit antidumping définitif sur les importations de nitrate d’ammonium originaires d’Ukraine, à la suite d’un réexamen au titre de l’expiration des mesures, conformément à l’article 11, paragraphe 2, du règlement (CE) n° 1225/2009 du Conseil </j.0:title>
+    <j.0:date_creation_legacy rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-05-20</j.0:date_creation_legacy>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/celex/32010R0512"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/199334.2010-06-16_PUB_OJ"/>
+    <j.0:dossier_produces_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/32010R0512"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/oj/JOC_2011_121_R_0011_01"/>
+    <j.0:dossier_title xml:lang="pl">Wniosek ROZPORZĄDZENIE RADY nakładające ostateczne cło antydumpingowe na przywóz azotanu amonu pochodzącego z Ukrainy w następstwie przeglądu wygaśnięcia zgodnie z art. 11 ust. 2 rozporządzenia Rady (WE) nr 1225/2009</j.0:dossier_title>
+    <j.0:pending-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:pending-proposal>
+    <j.0:produces rdf:resource="http://publications.europa.eu/resource/celex/32010R0512"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:dossier_title xml:lang="lt">Pasiūlymas TARYBOS REGLAMENTAS kuriuo, pagal Tarybos reglamento (EB) Nr. 1225/2009 11 straipsnio 2 dalį atlikus priemonių galiojimo termino peržiūrą, importuojamam Ukrainos kilmės amonio nitratui nustatomas galutinis antidempingo muitas</j.0:dossier_title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/199334.405314"/>
+    <j.0:dossier_title xml:lang="lv">Priekšlikums PADOMES REGULA, ar ko pēc termiņa beigu pārskatīšanas saskaņā ar Padomes Regulas (EK) Nr. 1225/2009 11. panta 2. punktu nosaka galīgo antidempinga maksājumu Ukrainas izcelsmes amonija nitrāta importam</j.0:dossier_title>
+    <j.0:type_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM</j.0:type_reference>
+    <j.0:title xml:lang="pl">Wniosek ROZPORZĄDZENIE RADY nakładające ostateczne cło antydumpingowe na przywóz azotanu amonu pochodzącego z Ukrainy w następstwie przeglądu wygaśnięcia zgodnie z art. 11 ust. 2 rozporządzenia Rady (WE) nr 1225/2009</j.0:title>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/199334.405315"/>
+    <j.0:dossier_date_creation_legacy rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-05-20</j.0:dossier_date_creation_legacy>
+    <j.0:dossier_year_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</j.0:dossier_year_reference>
+    <j.0:dossier_pending-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:dossier_pending-proposal>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_interinstitutional"/>
+    <j.0:procedure_code_interinstitutional_reference_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010/0130/NLE</j.0:procedure_code_interinstitutional_reference_procedure>
+    <j.0:dossier_is_about_concept_type_dossier rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1260"/>
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/32009R1225"/>
+    <j.0:title xml:lang="de">Vorschlag für eine VERORDNUNG DES RATES zur Einführung eines endgültigen Antidumpingzolls auf die Einfuhren von Ammoniumnitrat mit Ursprung in der Ukraine nach einer Auslaufüberprüfung  nach Artikel 11 Absatz 2 der Verordnung (EG) Nr. 1225/2009 des Rates</j.0:title>
+    <j.0:title xml:lang="sl">Predlog UREDBA SVETA o uvedbi dokončne protidampinške dajatve na uvoz amonijevega nitrata s poreklom iz Ukrajine po pregledu zaradi izteka ukrepov v skladu s členom 11(2) Uredbe (ES) št. 1225/2009</j.0:title>
+    <j.0:dossier_title xml:lang="ro">Propunere de REGULAMENT AL CONSILIULUI de instituire a unei taxe antidumping definitive asupra importurilor de nitrat de amoniu originar din Ucraina ca urmare a unei reexaminări în perspectiva expirării măsurilor antidumping efectuate în temeiul articolului 11 alineatul (2) din Regulamentul (CE) nr. 1225/2009 al Consiliului</j.0:dossier_title>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#dossier"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/oj/JOL_2010_150_R_0024_01"/>
+    <j.0:title xml:lang="sv">Förslag till RÅDETS FÖRORDNING om införande av en slutgiltig antidumpningstull på import av ammoniumnitrat med ursprung i Ukraina till följd av en översyn vid giltighetstidens utgång i enlighet med artikel 11.2 i rådets förordning (EG) nr 1225/2009</j.0:title>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12010E"/>
+    <j.0:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pegase:199334</j.0:identifier>
+    <j.0:dossier_title xml:lang="nl">Voorstel voor een VERORDENING VAN DE RAAD tot instelling van een definitief antidumpingrecht op ammoniumnitraat van oorsprong uit Oekraïne naar aanleiding van een nieuw onderzoek in verband met het vervallen van de maatregelen op grond van artikel 11, lid 2, van Verordening (EG) nr. 1225/2009 van de Raad</j.0:dossier_title>
+    <j.0:dossier_title xml:lang="el">Πρόταση ΚΑΝΟΝΙΣΜΟΣ ΤΟΥ ΣΥΜΒΟΥΛΙΟΥ για την επιβολή οριστικού δασμού αντιντάμπινγκ σε εισαγωγές νιτρικού αμμωνίου καταγωγής Ουκρανίας σε συνέχεια της επανεξέτασης ενόψει της λήξης ισχύος των μέτρων σύμφωνα με το άρθρο 11 παράγραφος 2 του κανονισμού (ΕΚ) αριθ. 1225/2009 του Συμβουλίου</j.0:dossier_title>
+    <j.0:dossier_title xml:lang="it">Proposta di REGOLAMENTO DEL CONSIGLIO che istituisce un dazio antidumping definitivo sulle importazioni di nitrato di ammonio originario dell'Ucraina in seguito a un riesame in previsione della scadenza a norma dell'articolo 11, paragrafo 2, del regolamento (CE) n. 1225/2009 del Consiglio</j.0:dossier_title>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/199334.405314"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/52010PC0244"/>
+    <j.0:procedure_code_interinstitutional_has_type_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.0:dossier_title xml:lang="mt">Proposta għal REGOLAMENT TAL-KUNSILL Regolament tal-Kunsill li jimponi dazju definittiv tal-antidumping fuq importazzjonijiet tan- nitrat tal-ammonju li joriġina fl-Ukraina wara reviżjoni ta' skadenza skont l-Artikolu 11(2) tar-Regolament tal-Kunsill (KE) Nru 1225/2009</j.0:dossier_title>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional"/>
+    <j.0:title xml:lang="cs">Návrh NAŘÍZENÍ RADY o uložení konečného antidumpingového cla na dovoz dusičnanu amonného pocházejícího z Ukrajiny po přezkumu před pozbytím platnosti podle čl. 11 odst. 2 nařízení Rady (ES) č. 1225/2009</j.0:title>
+    <j.0:title xml:lang="el">Πρόταση ΚΑΝΟΝΙΣΜΟΣ ΤΟΥ ΣΥΜΒΟΥΛΙΟΥ για την επιβολή οριστικού δασμού αντιντάμπινγκ σε εισαγωγές νιτρικού αμμωνίου καταγωγής Ουκρανίας σε συνέχεια της επανεξέτασης ενόψει της λήξης ισχύος των μέτρων σύμφωνα με το άρθρο 11 παράγραφος 2 του κανονισμού (ΕΚ) αριθ. 1225/2009 του Συμβουλίου</j.0:title>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/199334.405314"/>
+    <j.0:dossier_title xml:lang="et">Ettepanek: NÕUKOGU MÄÄRUS, millega pärast nõukogu määruse (EÜ) nr 1225/2009 artikli 11 lõike 2 kohast aegumise läbivaatamist kehtestatakse Ukrainast pärit ammooniumnitraadi impordi suhtes lõplik dumpinguvastane tollimaks</j.0:dossier_title>
+    <j.0:year_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2010</j.0:year_procedure>
+    <j.0:procedure_code_interinstitutional_year_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2010</j.0:procedure_code_interinstitutional_year_procedure>
+    <j.0:withdrawn-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:withdrawn-proposal>
+    <j.0:title xml:lang="ro">Propunere de REGULAMENT AL CONSILIULUI de instituire a unei taxe antidumping definitive asupra importurilor de nitrat de amoniu originar din Ucraina ca urmare a unei reexaminări în perspectiva expirării măsurilor antidumping efectuate în temeiul articolului 11 alineatul (2) din Regulamentul (CE) nr. 1225/2009 al Consiliului</j.0:title>
+    <j.0:dossier_adopted-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:dossier_adopted-proposal>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/32010R0512"/>
+    <j.0:title xml:lang="hu">Javaslat: A TANÁCS RENDELETE az Ukrajnából származó ammónium-nitrát behozatalára vonatkozó végleges dömpingellenes vámnak az 1225/2009/EK tanácsi rendelet 11. cikkének (2) bekezdése szerinti hatályvesztési felülvizsgálatot követően történő kivetéséről</j.0:title>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-05-20</j.0:date>
+    <j.0:title xml:lang="bg">Предложение за РЕГЛАМЕНТ НА СЪВЕТА за налагане на окончателно антидъмпингово мито върху вноса на амониев нитрат с произход от Украйна след преразглеждане с оглед изтичане на срока съгласно член 11, параграф 2 от Регламент (ЕО) № 1225/2009 на Съвета</j.0:title>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/199334.405315"/>
+    <j.0:procedure_code_interinstitutional_number_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0130</j.0:procedure_code_interinstitutional_number_procedure>
+    <j.0:title xml:lang="es">Propuesta de REGLAMENTO DEL CONSEJO por el que se establece un derecho antidumping definitivo sobre las importaciones de nitrato de amonio originario de Ucrania tras una reconsideración por expiración de conformidad con el artículo 11, apartado 2, del Reglamento (CE) nº 1225/2009 del Consejo</j.0:title>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOL_2010_150_R_0024_01"/>
+    <j.0:title xml:lang="da">Forslag til RÅDETS FORORDNING om indførelse af en endelig antidumpingtold på importen af ammoniumnitrat med oprindelse i Ukraine efter en udløbsundersøgelse i henhold til artikel 11, stk. 2, i Rådets forordning (EF) nr. 1225/2009</j.0:title>
+    <j.0:reference_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010/0130/NLE</j.0:reference_procedure>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/32009R1225"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/celex/52010PC0244"/>
+    <j.0:adopted-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:adopted-proposal>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2010_0244_FIN"/>
+    <j.0:dossier_withdrawn-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:dossier_withdrawn-proposal>
+    <j.0:dossier_title xml:lang="hu">Javaslat: A TANÁCS RENDELETE az Ukrajnából származó ammónium-nitrát behozatalára vonatkozó végleges dömpingellenes vámnak az 1225/2009/EK tanácsi rendelet 11. cikkének (2) bekezdése szerinti hatályvesztési felülvizsgálatot követően történő kivetéséről</j.0:dossier_title>
+    <j.0:number_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">244</j.0:number_reference>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/199334.405667"/>
+    <j.0:dossier_type_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM</j.0:dossier_type_reference>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/procedure/NLE"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12010E"/>
+    <j.0:dossier_title xml:lang="fi">Ehdotus: NEUVOSTON ASETUS lopullisen polkumyyntitullin käyttöönotosta Ukrainasta peräisin olevan ammoniumnitraatin tuonnissa neuvoston asetuksen (EY) N:o 1225/2009 11 artiklan 2 kohdan mukaisen toimenpiteiden voimassaolon päättymistä koskevan tarkastelun jälkeen</j.0:dossier_title>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/32009R1225"/>
+    <j.0:reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010/0130/NLE</j.0:reference>
+    <j.0:year_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010</j.0:year_reference>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/199334.2010-06-16_PUB_OJ"/>
+    <j.0:title xml:lang="nl">Voorstel voor een VERORDENING VAN DE RAAD tot instelling van een definitief antidumpingrecht op ammoniumnitraat van oorsprong uit Oekraïne naar aanleiding van een nieuw onderzoek in verband met het vervallen van de maatregelen op grond van artikel 11, lid 2, van Verordening (EG) nr. 1225/2009 van de Raad</j.0:title>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52010PC0244"/>
+    <j.2:build_info>cdm:CDM_2.1.7  tdm:1523  xslt:3945 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:1.1.9 builddate:12/02/2014 14:43:36</j.2:build_info>
+    <j.0:dossier_title xml:lang="cs">Návrh NAŘÍZENÍ RADY o uložení konečného antidumpingového cla na dovoz dusičnanu amonného pocházejícího z Ukrajiny po přezkumu před pozbytím platnosti podle čl. 11 odst. 2 nařízení Rady (ES) č. 1225/2009</j.0:dossier_title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/comnat/COM_2010_0244_FIN"/>
+    <j.0:title xml:lang="et">Ettepanek: NÕUKOGU MÄÄRUS, millega pärast nõukogu määruse (EÜ) nr 1225/2009 artikli 11 lõike 2 kohast aegumise läbivaatamist kehtestatakse Ukrainast pärit ammooniumnitraadi impordi suhtes lõplik dumpinguvastane tollimaks</j.0:title>
+    <j.0:title xml:lang="mt">Proposta għal REGOLAMENT TAL-KUNSILL Regolament tal-Kunsill li jimponi dazju definittiv tal-antidumping fuq importazzjonijiet tan- nitrat tal-ammonju li joriġina fl-Ukraina wara reviżjoni ta' skadenza skont l-Artikolu 11(2) tar-Regolament tal-Kunsill (KE) Nru 1225/2009</j.0:title>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOC_2011_121_R_0011_01"/>
+    <j.0:dossier_date_adopted rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-14</j.0:dossier_date_adopted>
+    <j.0:dossier_title xml:lang="de">Vorschlag für eine VERORDNUNG DES RATES zur Einführung eines endgültigen Antidumpingzolls auf die Einfuhren von Ammoniumnitrat mit Ursprung in der Ukraine nach einer Auslaufüberprüfung  nach Artikel 11 Absatz 2 der Verordnung (EG) Nr. 1225/2009 des Rates</j.0:dossier_title>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/199334.2010-06-16_PUB_OJ"/>
+    <j.0:is_about rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1260"/>
+    <j.0:number_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0130</j.0:number_procedure>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_600/10004">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_600"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_agenda_council"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/COM">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/199334.2010-06-16_PUB_OJ">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-16</j.0:event_date>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/199334"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/PUB_OJ"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/199334"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/PUB_OJ"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/celex/32010R0512"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/PUB_OJ"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/celex/32010R0512"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_procedural"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/199334"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/32010R0512"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-16</j.0:date>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-16</j.0:event_legal_date>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/212fce5d-d4ac-11e1-905c-01aa75ed71a1.0004">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/199334.2010-06-16_PUB_OJ"/>
+    <j.3:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-18T12:17:41.728+02:00</j.3:creationDate>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-17T21:57:18.551+01:00</j.3:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/PUB_OJ">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event/"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#type_event_interinstitutional"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/199334.2010-06-16_PUB_OJ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/TRS_toCONSIL_byCOM">
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/199334.405315"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event/"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#type_event_interinstitutional"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/199334.405315">
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transmission au Conseil</j.0:type>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_toCONSIL_byCOM"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-05-20</j.0:date>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-05-20</j.0:event_date>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-05-20</j.0:event_legal_date>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_toCONSIL_byCOM"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_toCONSIL_byCOM"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/199334"/>
+    <j.2:build_info>cdm:CDM_2.1.7  tdm:1523  xslt:3945 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:1.1.9 builddate:12/02/2014 14:43:36</j.2:build_info>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transmission au Conseil</j.0:event_legal_type>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/199334"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/199334"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_606/1010">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#atto_fd"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_mode_decision"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_606"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/ADP_FRM_byCONSIL">
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/199334.405667"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event/"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#type_event_interinstitutional"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/comnat/COM_2010_0244_FIN">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/12010E">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_612/1260">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_612"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_dossier"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#atto_fd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/212fce5d-d4ac-11e1-905c-01aa75ed71a1">
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-04T20:54:19.168+01:00</j.3:lastModificationDate>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure/2010_130"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/199334"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/oj/JOL_2010_150_R_0024_01">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure/2010_130">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#dossier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/52010PC0244">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/32009R1225">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/212fce5d-d4ac-11e1-905c-01aa75ed71a1.0002">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/199334.405314"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-28T10:07:21.676+02:00</j.3:lastModificationDate>
+  </rdf:Description>
+</rdf:RDF>

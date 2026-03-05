@@ -1,0 +1,396 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://publications.europa.eu/ontology/cdm#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.1="http://www.w3.org/2004/02/skos/core#"
+    xmlns:j.2="http://publications.europa.eu/ontology/annotation#"
+    xmlns:j.3="http://publications.europa.eu/ontology/cdm/cmr#" > 
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/52020BP0123">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/EP_BUDG">
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290102"/>
+    <j.0:agent_reports_on_report_ep rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290102"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/immc/P9_A%282020%290102">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+    <j.0:related_to rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290123"/>
+    <j.0:resource_legal_related_to_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290123"/>
+    <j.0:work_related_to_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290123"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/392">
+    <j.1:inScheme rdf:resource="http://eurovoc.europa.eu/100141"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_eurovoc"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/394">
+    <j.1:inScheme rdf:resource="http://eurovoc.europa.eu/100141"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_eurovoc"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/1334563f-058c-11ec-b5d3-01aa75ed71a1.0001">
+    <j.3:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-08-25T12:06:10.636+02:00</j.3:creationDate>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-03-24T18:55:21.984+01:00</j.3:lastModificationDate>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_2214.2020-05-14_POS_BUDACT_byEP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/ea7afc41-1737-11ea-8c1f-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/agent/Olivier%20CHASTEL"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/immc/P9_TA%282020%290123"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282020%290102"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal_related_to_resource_legal"/>
+    <j.2:type_of_link_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EA</j.2:type_of_link_target>
+    <j.2:role2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">{PSP|http://publications.europa.eu/resource/authority/fd_375/PSP}</j.2:role2>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/subject-matter/INST">
+    <j.0:subject-matter_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290123"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290123"/>
+    <j.0:subject-matter_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290102"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/procedure/BUD">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/procedure"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_procedure_code_interinstitutional"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <j.2:role2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">{PSP|http://publications.europa.eu/resource/authority/fd_375/PSP}</j.2:role2>
+    <j.2:type_of_link_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EA</j.2:type_of_link_target>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal_related_to_resource_legal"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282020%290102"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/immc/P9_TA%282020%290123"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/598c9b78-058c-11ec-b5d3-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290102"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282020%290102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/immc/P9_TA%282020%290123">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/dir-eu-legal-act/014020">
+    <j.0:concept_directory-code_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290123"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290123"/>
+    <j.0:concept_directory-code_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290102"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/POS_BUDACT_byEP">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#type_event_interinstitutional"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_2214.2020-05-14_POS_BUDACT_byEP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/2911">
+    <j.1:inScheme rdf:resource="http://eurovoc.europa.eu/100141"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_eurovoc"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/5158">
+    <j.1:inScheme rdf:resource="http://eurovoc.europa.eu/100141"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_eurovoc"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290123"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290123"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290102"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/1334563f-058c-11ec-b5d3-01aa75ed71a1">
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-05T05:24:21.570+01:00</j.3:lastModificationDate>
+    <j.3:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-08-25T12:06:10.636+02:00</j.3:creationDate>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure/2019_2214"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/933">
+    <j.1:inScheme rdf:resource="http://eurovoc.europa.eu/100141"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_eurovoc"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290123"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290123"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290102"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure-event/2019_2214.2020-05-14_POS_BUDACT_byEP">
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P9_TA(2020)0123</j.0:document_reference>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-05-14</j.0:event_date>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52020BP0123"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-05-14</j.0:event_legal_date>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/POS_BUDACT_byEP"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52020BP0123"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/procedure/BUD"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2019_2214"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/POS_BUDACT_byEP"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/immc/P9_TA%282020%290123"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P9_A(2020)0102</j.0:document_reference>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-05-14</j.0:date>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20210825-1636; environment: PROD; CERES: 4.13.4; IMMC2CDM: 3.2.2; rules: preleg/rules-ep.xml#56614#2020-05-29T09:45:21; builddate: 2021-08-25T12:02:08.792;</j.2:build_info>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/52020BP0123"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282020%290102"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282020%290102"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P9_A(2020)0102</j.0:event_legal_document_reference>
+    <j.0:event_legal_was_historically_about_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/BUD"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/P9_TA%282020%290123"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/procedure/2019_2214"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/immc/P9_TA%282020%290123"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/POS_BUDACT_byEP"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POS_BUDACT_byEP</j.0:event_legal_type>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P9_TA(2020)0123</j.0:event_legal_document_reference>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282020%290102"/>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POS_BUDACT_byEP</j.0:type>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/procedure/2019_2214"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/subject-matter/BUDG">
+    <j.0:subject-matter_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290123"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290123"/>
+    <j.0:subject-matter_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290102"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/procedure">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/2243">
+    <j.1:inScheme rdf:resource="http://eurovoc.europa.eu/100141"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_eurovoc"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290123"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290123"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290102"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/ep/P9_A%282020%290102">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#report_ep"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resolution_legislative_ep"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#text-adopted"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure/2019_2214">
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282020%290102"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_interinstitutional"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/procedure/BUD"/>
+    <j.0:procedure_code_interinstitutional_reference_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019/2214/BUD</j.0:procedure_code_interinstitutional_reference_procedure>
+    <j.0:dossier_year_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OP_DATPRO</j.0:dossier_year_reference>
+    <j.0:identifier rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">procedure:2019_2214</j.0:identifier>
+    <j.0:title xml:lang="nl">Resolutie van het Europees Parlement van 14 mei 2020 over de raming van de ontvangsten en uitgaven van het Europees Parlement voor het begrotingsjaar 2021 (2019/2214(BUD))</j.0:title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/52020BP0123"/>
+    <j.0:number_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OP_DATPRO</j.0:number_reference>
+    <j.0:is_about rdf:resource="http://eurovoc.europa.eu/394"/>
+    <j.0:dossier_title xml:lang="sl">Resolucija Evropskega parlamenta z dne 14. maja 2020 o načrtu prihodkov in odhodkov Evropskega parlamenta za proračunsko leto 2021 (2019/2214(BUD))</j.0:dossier_title>
+    <j.0:title xml:lang="hu">Az Európai Parlament 2020. május 14-i állásfoglalása az Európai Parlament 2021. évi pénzügyi évre tervezett bevételeiről és kiadásairól (2019/2214(BUD))</j.0:title>
+    <j.0:dossier_title xml:lang="es">Resolución del Parlamento Europeo, de 14 de mayo de 2020, sobre el estado de previsiones de ingresos y gastos del Parlamento Europeo para el ejercicio 2021 (2019/2214(BUD))</j.0:dossier_title>
+    <j.0:dossier_title xml:lang="mt">Riżoluzzjoni tal-Parlament Ewropew tal-14 ta' Mejju 2020 dwar l-estimi tad-dħul u n-nefqa tal-Parlament għas-sena finanzjarja 2021 (2019/2214(BUD))</j.0:dossier_title>
+    <j.0:withdrawn-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:withdrawn-proposal>
+    <j.0:year_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2019</j.0:year_procedure>
+    <j.0:dossier_title xml:lang="pl">Rezolucja Parlamentu Europejskiego z dnia 14 maja 2020 r. w sprawie preliminarza dochodów i wydatków Parlamentu Europejskiego na rok budżetowy 2021 (2019/2214(BUD))</j.0:dossier_title>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_2214.2020-05-14_POS_BUDACT_byEP"/>
+    <j.0:pending-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:pending-proposal>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-08-25</j.0:date>
+    <j.0:dossier_initiated_by_act_preparatory rdf:resource="http://publications.europa.eu/resource/celex/52020BP0123"/>
+    <j.0:dossier_mandatory_information_provided_by_work rdf:resource="http://publications.europa.eu/resource/celex/52020BP0123"/>
+    <j.0:dossier_title xml:lang="hu">Az Európai Parlament 2020. május 14-i állásfoglalása az Európai Parlament 2021. évi pénzügyi évre tervezett bevételeiről és kiadásairól (2019/2214(BUD))</j.0:dossier_title>
+    <j.0:dossier_adopted-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:dossier_adopted-proposal>
+    <j.0:dossier_title xml:lang="et">Euroopa Parlamendi 14. mai 2020. aasta resolutsioon Euroopa Parlamendi eelarveaasta 2021 tulude ja kulude eelarvestuse kohta (2019/2214(BUD))</j.0:dossier_title>
+    <j.0:title xml:lang="cs">Usnesení Evropského parlamentu ze dne 14. května 2020 o odhadu příjmů a výdajů Evropského parlamentu na rozpočtový rok 2021 (2019/2214(BUD))</j.0:title>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:title xml:lang="da">Europa-Parlamentets beslutning af 14. maj 2020 om overslag over Europa-Parlamentets indtægter og udgifter for regnskabsåret 2021 (2019/2214(BUD))</j.0:title>
+    <j.0:dossier_withdrawn-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:dossier_withdrawn-proposal>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/celex/52020BP0123"/>
+    <j.0:dossier_title xml:lang="el">Ψήφισμα του Ευρωπαϊκού Κοινοβουλίου της 14ης Μαΐου 2020 σχετικά με την κατάσταση προβλέψεων των εσόδων και δαπανών του Ευρωπαϊκού Κοινοβουλίου για το οικονομικό έτος 2021 (2019/2214(BUD))</j.0:dossier_title>
+    <j.0:procedure_code_interinstitutional_has_type_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/BUD"/>
+    <j.0:dossier_is_about_concept_eurovoc rdf:resource="http://eurovoc.europa.eu/394"/>
+    <j.0:title xml:lang="pt">Resolução do Parlamento Europeu, de 14 de maio de 2020, sobre a previsão de receitas e despesas do Parlamento Europeu para o exercício de 2021 (2019/2214(BUD))</j.0:title>
+    <j.0:dossier_identifier rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">procedure:2019_2214</j.0:dossier_identifier>
+    <j.0:title xml:lang="sl">Resolucija Evropskega parlamenta z dne 14. maja 2020 o načrtu prihodkov in odhodkov Evropskega parlamenta za proračunsko leto 2021 (2019/2214(BUD))</j.0:title>
+    <j.0:is_about rdf:resource="http://eurovoc.europa.eu/5158"/>
+    <j.0:dossier_number_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OP_DATPRO</j.0:dossier_number_reference>
+    <j.0:dossier_title xml:lang="lv">Eiropas Parlamenta 2020. gada 14. maija rezolūcija par Eiropas Parlamenta 2021. finanšu gada ieņēmumu un izdevumu tāmi (2019/2214(BUD))</j.0:dossier_title>
+    <j.0:title xml:lang="de">Entschließung des Europäischen Parlaments vom 14. Mai 2020 zu dem Voranschlag der Einnahmen und Ausgaben des Europäischen Parlaments für das Haushaltsjahr 2021 (2019/2214(BUD))</j.0:title>
+    <j.0:dossier_title xml:lang="sk">Uznesenie Európskeho parlamentu zo 14. mája 2020 o odhade príjmov a výdavkov Európskeho parlamentu na rozpočtový rok 2021 (2019/2214(BUD))</j.0:dossier_title>
+    <j.0:title xml:lang="hr">Rezolucija Europskog parlamenta od 14. svibnja 2020. o procjeni prihoda i rashoda Europskog parlamenta za financijsku godinu 2021. (2019/2214(BUD))</j.0:title>
+    <j.0:is_about rdf:resource="http://eurovoc.europa.eu/933"/>
+    <j.0:dossier_is_about_concept_eurovoc rdf:resource="http://eurovoc.europa.eu/933"/>
+    <j.0:title xml:lang="bg">Резолюция на Европейския парламент от 14 май 2020 г. относно бюджетната прогноза за приходите и разходите на Европейския парламент за финансовата 2021 година (2019/2214(BUD))</j.0:title>
+    <j.0:is_about rdf:resource="http://eurovoc.europa.eu/2911"/>
+    <j.0:date_creation_legacy rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-08-25</j.0:date_creation_legacy>
+    <j.0:type_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OP_DATPRO</j.0:type_reference>
+    <j.0:procedure_code_interinstitutional_year_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2019</j.0:procedure_code_interinstitutional_year_procedure>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:dossier_title xml:lang="nl">Resolutie van het Europees Parlement van 14 mei 2020 over de raming van de ontvangsten en uitgaven van het Europees Parlement voor het begrotingsjaar 2021 (2019/2214(BUD))</j.0:dossier_title>
+    <j.0:dossier_is_about_concept_eurovoc rdf:resource="http://eurovoc.europa.eu/2243"/>
+    <j.0:reference_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019/2214/BUD</j.0:reference_procedure>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282020%290102"/>
+    <j.0:dossier_title xml:lang="da">Europa-Parlamentets beslutning af 14. maj 2020 om overslag over Europa-Parlamentets indtægter og udgifter for regnskabsåret 2021 (2019/2214(BUD))</j.0:dossier_title>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20210825-1636; environment: PROD; CERES: 4.13.4; IMMC2CDM: 3.2.2; rules: preleg/rules-ep.xml#56614#2020-05-29T09:45:21; builddate: 2021-08-25T12:02:08.792;</j.2:build_info>
+    <j.0:title xml:lang="fi">Euroopan parlamentin päätöslauselma 14. toukokuuta 2020 Euroopan parlamentin ennakkoarviosta tuloista ja menoista varainhoitovuodeksi 2021 (2019/2214(BUD))</j.0:title>
+    <j.0:dossier_title xml:lang="it">Risoluzione del Parlamento europeo del 14 maggio 2020 sullo stato di previsione delle entrate e delle spese del Parlamento europeo per l'esercizio 2021 (2019/2214(BUD))</j.0:dossier_title>
+    <j.0:title xml:lang="sv">Europaparlamentets resolution av den 14 maj 2020 om beräkning av Europaparlamentets inkomster och utgifter för budgetåret 2021 (2019/2214(BUD))</j.0:title>
+    <j.0:dossier_is_about_concept_eurovoc rdf:resource="http://eurovoc.europa.eu/392"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional"/>
+    <j.0:dossier_title xml:lang="cs">Usnesení Evropského parlamentu ze dne 14. května 2020 o odhadu příjmů a výdajů Evropského parlamentu na rozpočtový rok 2021 (2019/2214(BUD))</j.0:dossier_title>
+    <j.0:title xml:lang="sk">Uznesenie Európskeho parlamentu zo 14. mája 2020 o odhade príjmov a výdavkov Európskeho parlamentu na rozpočtový rok 2021 (2019/2214(BUD))</j.0:title>
+    <j.0:dossier_title xml:lang="sv">Europaparlamentets resolution av den 14 maj 2020 om beräkning av Europaparlamentets inkomster och utgifter för budgetåret 2021 (2019/2214(BUD))</j.0:dossier_title>
+    <j.0:dossier_title xml:lang="lt">2020 m. gegužės 14 d. Europos Parlamento rezoliucija dėl Europos Parlamento 2021 finansinių metų pajamų ir išlaidų sąmatos (2019/2214(BUD))</j.0:dossier_title>
+    <j.0:title xml:lang="et">Euroopa Parlamendi 14. mai 2020. aasta resolutsioon Euroopa Parlamendi eelarveaasta 2021 tulude ja kulude eelarvestuse kohta (2019/2214(BUD))</j.0:title>
+    <j.0:dossier_is_about_concept_eurovoc rdf:resource="http://eurovoc.europa.eu/5158"/>
+    <j.0:dossier_title xml:lang="fr">Résolution du Parlement européen du 14 mai 2020 sur l’état prévisionnel des recettes et des dépenses du Parlement européen pour l’exercice 2021 (2019/2214(BUD))</j.0:dossier_title>
+    <j.0:is_about rdf:resource="http://eurovoc.europa.eu/2243"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_2214.2020-05-14_POS_BUDACT_byEP"/>
+    <j.0:dossier_title xml:lang="ro">Rezoluția Parlamentului European din 14 mai 2020 referitoare la estimarea bugetului de venituri și cheltuieli al Parlamentului European pentru exercițiul financiar 2021 (2019/2214(BUD))</j.0:dossier_title>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/immc/P9_TA%282020%290123"/>
+    <j.0:year_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OP_DATPRO</j.0:year_reference>
+    <j.0:reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019/2214/BUD</j.0:reference>
+    <j.0:dossier_pending-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:dossier_pending-proposal>
+    <j.0:is_about rdf:resource="http://eurovoc.europa.eu/392"/>
+    <j.0:number_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2214</j.0:number_procedure>
+    <j.0:dossier_title xml:lang="hr">Rezolucija Europskog parlamenta od 14. svibnja 2020. o procjeni prihoda i rashoda Europskog parlamenta za financijsku godinu 2021. (2019/2214(BUD))</j.0:dossier_title>
+    <j.0:procedure_code_interinstitutional_number_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2214</j.0:procedure_code_interinstitutional_number_procedure>
+    <j.0:dossier_title xml:lang="pt">Resolução do Parlamento Europeu, de 14 de maio de 2020, sobre a previsão de receitas e despesas do Parlamento Europeu para o exercício de 2021 (2019/2214(BUD))</j.0:dossier_title>
+    <j.0:dossier_title xml:lang="en">European Parliament resolution of 14 May 2020 on Parliament’s estimates of revenue and expenditure for the financial year 2021 (2019/2214(BUD))</j.0:dossier_title>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52020BP0123"/>
+    <j.0:adopted-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:adopted-proposal>
+    <j.0:dossier_is_about_concept_directory-code rdf:resource="http://publications.europa.eu/resource/authority/dir-eu-legal-act/016020"/>
+    <j.0:dossier_title xml:lang="fi">Euroopan parlamentin päätöslauselma 14. toukokuuta 2020 Euroopan parlamentin ennakkoarviosta tuloista ja menoista varainhoitovuodeksi 2021 (2019/2214(BUD))</j.0:dossier_title>
+    <j.0:is_about rdf:resource="http://eurovoc.europa.eu/2615"/>
+    <j.0:title xml:lang="lt">2020 m. gegužės 14 d. Europos Parlamento rezoliucija dėl Europos Parlamento 2021 finansinių metų pajamų ir išlaidų sąmatos (2019/2214(BUD))</j.0:title>
+    <j.0:dossier_is_about_concept_eurovoc rdf:resource="http://eurovoc.europa.eu/5577"/>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/procedure-event/2019_2214.2020-05-14_POS_BUDACT_byEP"/>
+    <j.0:is_about rdf:resource="http://publications.europa.eu/resource/authority/dir-eu-legal-act/016020"/>
+    <j.0:title xml:lang="es">Resolución del Parlamento Europeo, de 14 de mayo de 2020, sobre el estado de previsiones de ingresos y gastos del Parlamento Europeo para el ejercicio 2021 (2019/2214(BUD))</j.0:title>
+    <j.0:title xml:lang="mt">Riżoluzzjoni tal-Parlament Ewropew tal-14 ta' Mejju 2020 dwar l-estimi tad-dħul u n-nefqa tal-Parlament għas-sena finanzjarja 2021 (2019/2214(BUD))</j.0:title>
+    <j.0:title xml:lang="lv">Eiropas Parlamenta 2020. gada 14. maija rezolūcija par Eiropas Parlamenta 2021. finanšu gada ieņēmumu un izdevumu tāmi (2019/2214(BUD))</j.0:title>
+    <j.0:dossier_title xml:lang="bg">Резолюция на Европейския парламент от 14 май 2020 г. относно бюджетната прогноза за приходите и разходите на Европейския парламент за финансовата 2021 година (2019/2214(BUD))</j.0:dossier_title>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#dossier"/>
+    <j.0:title xml:lang="it">Risoluzione del Parlamento europeo del 14 maggio 2020 sullo stato di previsione delle entrate e delle spese del Parlamento europeo per l'esercizio 2021 (2019/2214(BUD))</j.0:title>
+    <j.0:dossier_title xml:lang="de">Entschließung des Europäischen Parlaments vom 14. Mai 2020 zu dem Voranschlag der Einnahmen und Ausgaben des Europäischen Parlaments für das Haushaltsjahr 2021 (2019/2214(BUD))</j.0:dossier_title>
+    <j.0:dossier_date_creation_legacy rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-08-25</j.0:dossier_date_creation_legacy>
+    <j.0:is_about rdf:resource="http://eurovoc.europa.eu/5577"/>
+    <j.0:title xml:lang="fr">Résolution du Parlement européen du 14 mai 2020 sur l’état prévisionnel des recettes et des dépenses du Parlement européen pour l’exercice 2021 (2019/2214(BUD))</j.0:title>
+    <j.0:title xml:lang="ro">Rezoluția Parlamentului European din 14 mai 2020 referitoare la estimarea bugetului de venituri și cheltuieli al Parlamentului European pentru exercițiul financiar 2021 (2019/2214(BUD))</j.0:title>
+    <j.0:title xml:lang="el">Ψήφισμα του Ευρωπαϊκού Κοινοβουλίου της 14ης Μαΐου 2020 σχετικά με την κατάσταση προβλέψεων των εσόδων και δαπανών του Ευρωπαϊκού Κοινοβουλίου για το οικονομικό έτος 2021 (2019/2214(BUD))</j.0:title>
+    <j.0:title xml:lang="en">European Parliament resolution of 14 May 2020 on Parliament’s estimates of revenue and expenditure for the financial year 2021 (2019/2214(BUD))</j.0:title>
+    <j.0:provided_by rdf:resource="http://publications.europa.eu/resource/celex/52020BP0123"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/immc/P9_TA%282020%290123"/>
+    <j.0:title xml:lang="pl">Rezolucja Parlamentu Europejskiego z dnia 14 maja 2020 r. w sprawie preliminarza dochodów i wydatków Parlamentu Europejskiego na rok budżetowy 2021 (2019/2214(BUD))</j.0:title>
+    <j.0:dossier_is_about_concept_eurovoc rdf:resource="http://eurovoc.europa.eu/2911"/>
+    <j.0:dossier_type_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OP_DATPRO</j.0:dossier_type_reference>
+    <j.0:dossier_is_about_concept_eurovoc rdf:resource="http://eurovoc.europa.eu/2615"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/5640">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290123"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290123"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290102"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/2615">
+    <j.1:inScheme rdf:resource="http://eurovoc.europa.eu/100141"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_eurovoc"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290123"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290123"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290102"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/EP">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290123"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290123"/>
+    <j.0:agent_creates_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290102"/>
+    <j.0:creates rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/3253">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290102"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290102"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <j.2:in_committee rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP_BUDG"/>
+    <j.2:order rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1</j.2:order>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#agent_reports_on_report_ep"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/agent/Olivier%20CHASTEL"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282020%290102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/immc/P9_A%282020%290102"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/agent/Olivier%20CHASTEL"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#agent_reports_on_report_ep"/>
+    <j.2:order rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1</j.2:order>
+    <j.2:in_committee rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/EP_BUDG"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/3560">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290123"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290123"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290102"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/1d9866d3-058c-11ec-b5d3-01aa75ed71a1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290123"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/immc/P9_TA%282020%290123"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/dir-eu-legal-act/016020">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/dir-eu-legal-act"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_directory-code"/>
+    <j.0:concept_directory-code_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290123"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290123"/>
+    <j.0:concept_directory-code_subject_of_resource_legal rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290102"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/5620">
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290123"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290123"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290102"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/5577">
+    <j.1:inScheme rdf:resource="http://eurovoc.europa.eu/100141"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_eurovoc"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290123"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_TA%282020%290123"/>
+    <j.0:concept_eurovoc_subject_of_work rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290102"/>
+    <j.0:subject_of rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/ep/P9_TA%282020%290123">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resolution_legislative_ep"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#text-adopted"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/agent/Olivier%20CHASTEL">
+    <j.0:agent_reports_on_report_ep rdf:resource="http://publications.europa.eu/resource/ep/P9_A%282020%290102"/>
+  </rdf:Description>
+</rdf:RDF>

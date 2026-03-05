@@ -1,0 +1,388 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://publications.europa.eu/ontology/cdm#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.1="http://www.w3.org/2004/02/skos/core#"
+    xmlns:j.2="http://publications.europa.eu/ontology/annotation#"
+    xmlns:j.3="http://publications.europa.eu/ontology/cdm/cmr#" > 
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/AGRI">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/procedure/ACC">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/procedure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_procedure_code_interinstitutional"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/52008PC0622">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#act_preparatory"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/eb3c893f-d2b2-11e1-905c-01aa75ed71a1">
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-05T01:22:19.751+01:00</j.3:lastModificationDate>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/procedure/2008_189"/>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/197478"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/197478.396751">
+    <j.0:session_council rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">2909</j.0:session_council>
+    <j.0:event_legal_is_about_concept_agenda_council rdf:resource="http://publications.europa.eu/resource/authority/fd_600/102949"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_FRM_byCONSIL"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_FRM_byCONSIL"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/oj/JOL_2009_198_R_0039_01"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRES/2008/339</j.0:document_reference>
+    <j.0:on_agenda rdf:resource="http://publications.europa.eu/resource/authority/fd_600/10004"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/32009D0574"/>
+    <j.0:event_legal_session_council rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">2909</j.0:event_legal_session_council>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JO L/2009/198/39</j.0:document_reference>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-11-28</j.0:event_date>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1085"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOL_2009_198_R_0039_01"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_FRM_byCONSIL"/>
+    <j.2:build_info>cdm:CDM_2.1.7  tdm:1523  xslt:3945 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:1.1.9 builddate:11/02/2014 17:27:16</j.2:build_info>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-11-28</j.0:event_legal_date>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/197478"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/celex/32009D0574"/>
+    <j.0:event_legal_was_historically_about_concept_type_dossier rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1085"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/197478"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS/2008/16181</j.0:document_reference>
+    <j.0:is_about rdf:resource="http://publications.europa.eu/resource/authority/fd_600/102949"/>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adoption formelle par Conseil</j.0:type>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/197478"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS/2008/16181</j.0:event_legal_document_reference>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adoption formelle par Conseil</j.0:event_legal_type>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/celex/32009D0574"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JO L/2009/198/39</j.0:event_legal_document_reference>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOL_2009_198_R_0039_01"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRES/2008/339</j.0:event_legal_document_reference>
+    <j.0:event_legal_on_agenda_concept_agenda_council rdf:resource="http://publications.europa.eu/resource/authority/fd_600/10004"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-11-28</j.0:date>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/agent/Mariann%20FISCHER%20BOEL">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#person"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/celex/12006E300"/>
+    <j.2:comment_on_legal_basis>P2L1FR1</j.2:comment_on_legal_basis>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#dossier_based_on_resource_legal"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/pegase/197478"/>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional_based_on_resource_legal"/>
+    <j.2:subparagraph>1</j.2:subparagraph>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#based_on"/>
+    <j.2:sentence>1</j.2:sentence>
+    <j.2:paragraph>2</j.2:paragraph>
+    <j.2:build_info>cdm:CDM_2.1.7  tdm:1523  xslt:3945 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:1.1.9 builddate:11/02/2014 17:27:16</j.2:build_info>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/procedure/2008_189">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#dossier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/eb3c893f-d2b2-11e1-905c-01aa75ed71a1.0002">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/197478.395433"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-14T16:02:27.625+01:00</j.3:lastModificationDate>
+    <j.3:metsStructSuperDiv rdf:resource="http://publications.europa.eu/resource/cellar/eb3c893f-d2b2-11e1-905c-01aa75ed71a1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/12006E133">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_600/102949">
+    <j.0:concept_agenda_council_subject_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/197478.396751"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_600"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_agenda_council"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_612/1095">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_612"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_dossier"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#atto_fd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/ADP_byCOM">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <j.0:concept_type_event_legal_is_type_of_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/197478.395432"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/comnat/COM_2008_0622_FIN">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_612/1085">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_612"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_dossier"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/197478.395433">
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_toCONSIL_byCOM"/>
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transmission au Conseil</j.0:type>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-10-09</j.0:date>
+    <j.2:build_info>cdm:CDM_2.1.7  tdm:1523  xslt:3945 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:1.1.9 builddate:11/02/2014 17:27:16</j.2:build_info>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_toCONSIL_byCOM"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transmission au Conseil</j.0:event_legal_type>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-10-09</j.0:event_legal_date>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-10-09</j.0:event_date>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/197478"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/TRS_toCONSIL_byCOM"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/197478"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/197478"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/32009D0574">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/CONSIL">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_600/10004">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_600"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_agenda_council"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/COM">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/TRS_toCONSIL_byCOM">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/fd_606/1010">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#atto_fd"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_mode_decision"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/fd_606"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/event/ADP_FRM_byCONSIL">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/event"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_decoding"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_type_event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/eb3c893f-d2b2-11e1-905c-01aa75ed71a1.0003">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/197478.396751"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-14T16:02:27.625+01:00</j.3:lastModificationDate>
+    <j.3:metsStructSuperDiv rdf:resource="http://publications.europa.eu/resource/cellar/eb3c893f-d2b2-11e1-905c-01aa75ed71a1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/celex/12006E300">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource_legal"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/eb3c893f-d2b2-11e1-905c-01aa75ed71a1.0001">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/pegase/197478.395432"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-28T10:27:28.535+02:00</j.3:lastModificationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/197478.395432">
+    <j.0:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adoption par Commission</j.0:type>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:event_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/197478"/>
+    <j.0:event_legal_uses_concept_mode_decision rdf:resource="http://publications.europa.eu/resource/authority/fd_606/1010"/>
+    <j.0:event_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM/2008/622/FINAL</j.0:document_reference>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event"/>
+    <j.0:event_legal_responsibility_of_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/AGRI"/>
+    <j.0:uses rdf:resource="http://publications.europa.eu/resource/authority/fd_606/1010"/>
+    <j.2:build_info>cdm:CDM_2.1.7  tdm:1523  xslt:3945 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:1.1.9 builddate:11/02/2014 17:27:16</j.2:build_info>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_procedural"/>
+    <j.0:event_legal_initiating rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:event_legal_initiating>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/52008PC0622"/>
+    <j.0:event_legal_was_historically_about_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/ACC"/>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12006E133"/>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/comnat/COM_2008_0622_FIN"/>
+    <j.0:event_legal_was_historically_about_concept_type_dossier rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1095"/>
+    <j.0:event_legal_formally-addresses_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:part_of rdf:resource="http://publications.europa.eu/resource/pegase/197478"/>
+    <j.0:event_legal_document_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM/2008/622/FINAL</j.0:event_legal_document_reference>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12006E133"/>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_responsibility_of_agent rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/AGRI"/>
+    <j.0:responsibility_of rdf:resource="http://publications.europa.eu/resource/agent/Mariann%20FISCHER%20BOEL"/>
+    <j.0:event_formally-addresses_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/procedure/ACC"/>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-10-09</j.0:date>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12006E133"/>
+    <j.0:event_legal_responsibility_of_person rdf:resource="http://publications.europa.eu/resource/agent/Mariann%20FISCHER%20BOEL"/>
+    <j.0:was_historically_about rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1095"/>
+    <j.0:event_legal_has_type_concept_type_event_legal rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <j.0:event_responsibility_of_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/AGRI"/>
+    <j.0:initiating rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:initiating>
+    <j.0:event_responsibility_of_person rdf:resource="http://publications.europa.eu/resource/agent/Mariann%20FISCHER%20BOEL"/>
+    <j.0:event_legal_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adoption par Commission</j.0:event_legal_type>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2008_0622_FIN"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12006E300"/>
+    <j.0:event_legal_part_of_dossier rdf:resource="http://publications.europa.eu/resource/pegase/197478"/>
+    <j.0:formally-addresses rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/CONSIL"/>
+    <j.0:event_legal_initiated_by_institution rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/COM"/>
+    <j.0:event_legal_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52008PC0622"/>
+    <j.0:event_has_type_concept_type_event rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <j.0:responsibility_of rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/AGRI"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/event/ADP_byCOM"/>
+    <j.0:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-10-09</j.0:event_date>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52008PC0622"/>
+    <j.0:event_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12006E300"/>
+    <j.0:event_contains_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2008_0622_FIN"/>
+    <j.0:event_legal_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-10-09</j.0:event_legal_date>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:event_legal_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12006E300"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#event_legal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/pegase/197478">
+    <j.0:title xml:lang="lv">Priekšlikums PADOMES LĒMUMS par nolīguma vēstuļu apmaiņas veidā slēgšanu starp Eiropas Kopienu un Barbadosu, Belizu, Kongo Republiku, Kotdivuāras Republiku, Fidži Republiku, Gajanas Republiku, Jamaiku, Kenijas Republiku, Madagaskaras Republiku, Malāvijas Republiku, Maurīcijas Republiku, Mozambikas Republiku, Sentkitsas un Nevisas Federāciju, Surinamas Republiku, Svazilendas Karalisti, Tanzānijas Savienoto Republiku, Trinidadas un Tobāgo Republiku, Ugandas Republiku, Zambijas Republiku un Zimbabves Republiku par garantētajām niedru cukura cenām 2006.–2007., 2007.– 2008., 2008–2009. un 2009. gada 1. jūlija – 2009. gada 30. septembra piegādes termiņam un nolīguma vēstuļu apmaiņas veidā slēgšanu starp Eiropas Kopienu un Indijas Republiku par garantētajām niedru cukura cenām tādiem pašiem piegādes termiņiem</j.0:title>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/oj/JOL_2009_198_R_0039_01"/>
+    <j.0:procedure_code_interinstitutional_year_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2008</j.0:procedure_code_interinstitutional_year_procedure>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/oj/JOL_2009_198_R_0039_01"/>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/197478.395433"/>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12006E300"/>
+    <j.0:procedure_code_interinstitutional_has_type_concept_type_procedure_code_interinstitutional rdf:resource="http://publications.europa.eu/resource/authority/procedure/ACC"/>
+    <j.0:dossier_title xml:lang="fr">Proposition de DÉCISION DU CONSEIL portant conclusion d'un accord sous forme d'échange de lettres entre la Communauté européenne et la Barbade, le Belize, la République du Congo, la République de Côte d'Ivoire, la République des Îles Fidji, la République coopérative de Guyana, la Jamaïque, la République du Kenya, la République de Madagascar, la République du Malawi, la République de Maurice, la République du Mozambique, la République d’Ouganda, Saint-Christophe-et-Nevis, la République du Suriname, le Royaume du Swaziland, la République unie de Tanzanie, la République de Trinidad-et-Tobago, la République de Zambie et la République du Zimbabwe sur les prix garantis pour le sucre de canne pour les périodes de livraison 2006-2007, 2007-2008 et 2008-2009 et pour la période de livraison allant du 1er juillet 2009 au 30 septembre 2009, ainsi que d'un accord sous forme d'échange de lettres entre la Communauté européenne et la République de l'Inde sur les prix garantis pour le sucre de canne pour les mêmes périodes de livraison</j.0:dossier_title>
+    <j.0:dossier_title xml:lang="lt">Pasiūlymas TARYBOS SPRENDIMAS dėl Europos bendrijos ir Barbadoso, Belizo, Kongo Respublikos, Dramblio Kaulo Kranto Respublikos, Fidžio Salų Respublikos, Gajanos Respublikos, Jamaikos, Kenijos Respublikos, Madagaskaro Respublikos, Malavio Respublikos, Mauricijaus Respublikos, Mozambiko Respublikos, Sent Kitso ir Nevio Federacijos, Surinamo Respublikos, Svazilando Karalystės, Tanzanijos Jungtinės Respublikos, Trinidado ir Tobago Respublikos, Ugandos Respublikos, Zambijos Respublikos ir Zimbabvės Respublikos susitarimo pasikeičiant raštais dėl cukranendrių cukraus garantuotųjų kainų 2006–2007 m., 2007–2008 m., 2008–2009 m. ir 2009 m. liepos 1 d. – 2009 m. rugsėjo 30 d. tiekimo laikotarpiams ir dėl Europos bendrijos ir Indijos Respublikos susitarimo pasikeičiant raštais dėl cukranendrių cukraus garantuotųjų kainų tiems patiems tiekimo laikotarpiams sudarymo</j.0:dossier_title>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/197478.395432"/>
+    <j.0:title xml:lang="et">Ettepanek: NÕUKOGU OTSUS, kirjavahetuse vormis lepingu sõlmimise kohta Euroopa Ühenduse ja Barbadose, Belize’i, Kongo Vabariigi, Côte d’Ivoire’i Vabariigi, Fidži Vabariigi, Guyana Vabariigi, Jamaica, Keenia Vabariigi, Madagaskari Vabariigi, Malawi Vabariigi, Mauritiuse Vabariigi, Mosambiigi Vabariigi, Saint Kitts ja Nevise, Suriname Vabariigi, Svaasimaa Kuningriigi, Tansaania Ühendvabariigi, Trinidadi ja Tobago Vabariigi, Uganda Vabariigi, Sambia Vabariigi ja Zimbabwe Vabariigi vahel roosuhkru tagatud hindade kohta tarneperioodideks 2006/2007, 2007/2008, 2008/2009 ja ajavahemikuks 1. juulist 2009 kuni 30. septembrini 2009 ning kirjavahetuse vormis lepingu sõlmimise kohta Euroopa Ühenduse ja India Vabariigi vahel roosuhkru tagatud hindade kohta samadeks tarneperioodideks</j.0:title>
+    <j.0:title xml:lang="mt">Proposta għal DEĊIŻJONI TAL-KUNSILL dwar il-konklużjoni ta' Ftehim fil-forma ta' Skambju ta' Ittri bejn il-Komunità Ewropea u l-Barbados, il-Beliże, ir-Repubblika tal-Kongo, ir-Repubblika tal-Gżejjer tal-Fiġi, ir-Repubblika ta' Gujana, ir-Repubblika tal-Côte d'Ivoire, il-Ġamajka, ir-Repubblika tal-Kenja, ir-Repubblika tal-Madagaskar, ir-Repubblika tal-Malawi, ir-Repubblika tal-Mawrizju, ir-Repubblika tal-Możambik, ir-Repubblika ta' Surinam, il-Federazzjoni ta' Saint Kitts u Nevis, ir-Renju ta' Sważiland, ir-Repubblika Unita tat-Tanżanija, ir-Repubblika ta' Trinidad u Tobago, ir-Repubblika tal-Uganda, ir-Repubblika taż-Żambja, ir-Repubblika taż-Żimbabwe dwar il-prezzijiet garantiti għaz-zokkor tal-kannamieli għall-perjodi ta' konsenja 2006/2007, 2007/2008, 2008/2009 u bejn l-1 ta’ Lulju 2009 u t-30 ta’ Settembru 2009 u dwar il-konklużjoni ta' Ftehim fil-forma ta' Skambju ta' Ittri bejn il-Komunità Ewropea u r-Repubblika tal-Indja dwar il-prezzijiet garantiti għaz-zokkor tal-kannamieli għall-istess perjodi ta' konsenja</j.0:title>
+    <j.0:reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008/0189/ACC</j.0:reference>
+    <j.0:dossier_number_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">622</j.0:dossier_number_reference>
+    <j.0:dossier_date_adopted rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-11-28</j.0:dossier_date_adopted>
+    <j.0:dossier_title xml:lang="et">Ettepanek: NÕUKOGU OTSUS, kirjavahetuse vormis lepingu sõlmimise kohta Euroopa Ühenduse ja Barbadose, Belize’i, Kongo Vabariigi, Côte d’Ivoire’i Vabariigi, Fidži Vabariigi, Guyana Vabariigi, Jamaica, Keenia Vabariigi, Madagaskari Vabariigi, Malawi Vabariigi, Mauritiuse Vabariigi, Mosambiigi Vabariigi, Saint Kitts ja Nevise, Suriname Vabariigi, Svaasimaa Kuningriigi, Tansaania Ühendvabariigi, Trinidadi ja Tobago Vabariigi, Uganda Vabariigi, Sambia Vabariigi ja Zimbabwe Vabariigi vahel roosuhkru tagatud hindade kohta tarneperioodideks 2006/2007, 2007/2008, 2008/2009 ja ajavahemikuks 1. juulist 2009 kuni 30. septembrini 2009 ning kirjavahetuse vormis lepingu sõlmimise kohta Euroopa Ühenduse ja India Vabariigi vahel roosuhkru tagatud hindade kohta samadeks tarneperioodideks</j.0:dossier_title>
+    <j.0:number_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">622</j.0:number_reference>
+    <j.0:date_creation_legacy rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-10-09</j.0:date_creation_legacy>
+    <j.0:dossier_title xml:lang="es">Propuesta de DECISIÓN DEL CONSEJO relativa a la celebración de un Acuerdo en forma de Canje de Notas entre la Comunidad Europea y Barbados, Belice, la República del Congo, la República de Costa de Marfil, la República de Fiyi, la República Cooperativa de Guyana, Jamaica, la República de Kenia, la República de Madagascar, la República de Malaui, la República de Mauricio, la República de Mozambique, la Federación de San Cristóbal y Nieves, la República de Surinam, el Reino de Suazilandia, la República Unida de Tanzania, la República de Trinidad y Tobago, la República de Uganda, la República de Zambia y la República de Zimbabue sobre los precios garantizados del azúcar de caña para los períodos de entrega de 2006/07, 2007/08, 2008/09 y 1 de julio de 2009 a 30 de septiembre de 2009 y a la celebración de un Acuerdo en forma de Canje de Notas entre la Comunidad Europea y la República de la India sobre los precios garantizados del azúcar de caña para los mismos períodos de entrega</j.0:dossier_title>
+    <j.0:title xml:lang="cs">Návrh ROZHODNUTÍ RADY o uzavření Dohody ve formě výměny dopisů mezi Evropským společenstvím a Barbadosem, Belize, Federací Svatý Kryštof a Nevis, Guyanskou republikou, Jamajkou, Keňskou republikou, Konžskou republikou, Madagaskarskou republikou, Malawskou republikou, Mauricijskou republikou, Mosambickou republikou, Republikou Fidžijské ostrovy, Republikou Pobřeží slonoviny, Surinamskou republikou, Svazijským královstvím, Sjednocenou republikou Tanzanií, Republikou Trinidad a Tobago, Ugandskou republikou, Zambijskou republikou a Zimbabwskou republikou o zaručených cenách třtinového cukru na dodací období 2006/07, 2007/08, 2008/09 a dodací období od 1. července 2009 do 30. září 2009 a o uzavření Dohody ve formě výměny dopisů mezi Evropským společenstvím a Indickou republikou o zaručených cenách třtinového cukru na stejná dodací období</j.0:title>
+    <j.0:title xml:lang="el">Πρόταση ΑΠΟΦΑΣΗ ΤΟΥ ΣΥΜΒΟΥΛΙΟΥ για τη σύναψη συμφωνίας, με τη μορφή ανταλλαγής επιστολών, μεταξύ της Ευρωπαϊκής Κοινότητας και του Μπαρμπάντος, του Μπελίζε, της Δημοκρατίας του Κονγκό, της Δημοκρατίας της Ακτής του Ελεφαντοστού, της Δημοκρατίας των Νήσων Φίτζι, της Δημοκρατίας της Γουιάνας, της Τζαμάικα, της Δημοκρατίας της Κένυας, της Δημοκρατίας της Μαδαγασκάρης, της Δημοκρατίας του Μαλάουι, της Δημοκρατίας του Μαυρίκιου, της Δημοκρατίας της Μοζαμβίκης, της Ομοσπονδίας του Αγίου Χριστόφορου και Νέβις, της Δημοκρατίας του Σουρινάμ, του Βασιλείου της Σουαζιλάνδης, της Ηνωμένης Δημοκρατίας της Τανζανίας, της Δημοκρατίας του Τρινιδάδ και Τομπάγκο, της Δημοκρατίας της Ουγκάντας, της Δημοκρατίας της Ζάμπιας και της Δημοκρατίας της Ζιμπάμπουε σχετικά με τις εγγυημένες τιμές για τη ζάχαρη από ζαχαροκάλαμο για τις περιόδους παράδοσης 2006/2007, 2007/2008, 2008/2009 και 1ης Ιουλίου 2009 έως 30 Σεπτεμβρίου 2009, και για τη σύναψη συμφωνίας, με τη μορφή ανταλλαγής επιστολών, μεταξύ της Ευρωπαϊκής Κοινότητας και της Δημοκρατίας της Ινδίας σχετικά με τις εγγυημένες τιμές για τη ζάχαρη από ζαχαροκάλαμο για τις ίδιες περιόδους παράδοσης</j.0:title>
+    <j.0:title xml:lang="it">Proposta di DECISIONE DEL CONSIGLIO relativa alla conclusione di un accordo in forma di scambio di lettere tra la Comunità europea e l'Isola Barbados, Belize, la Repubblica del Congo, la Repubblica della Costa d'Avorio, la Repubblica delle Isole Figi, la Repubblica cooperativistica della Guyana, Giamaica, la Repubblica del Kenya, la Repubblica del Madagascar, la Repubblica del Malawi, la Repubblica di Mauritius, la Repubblica del Mozambico, la Federazione di Saint Christopher e Nevis, la Repubblica di Suriname, il Regno dello Swaziland, la Repubblica unita di Tanzania, Trinidad e Tobago, la Repubblica dell'Uganda, la Repubblica dello Zambia e la Repubblica dello Zimbabwe sui prezzi garantiti dello zucchero di canna per il periodi di consegna 2006-2007, 2007-2008, 2008/2009 e 1° luglio 2009 - 30 settembre 2009 e di un accordo in forma di scambio di lettere tra la Comunità europea e la Repubblica dell'India sui prezzi garantiti dello zucchero di canna per gli stessi periodi di consegna</j.0:title>
+    <j.0:dossier_adopted-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:dossier_adopted-proposal>
+    <j.0:title xml:lang="ro">Propunere de DECIZIE A CONSILIULUI privind încheierea unui acord sub formă de schimb de scrisori între Comunitatea Europeană și Barbados, Belize, Republica Congo, Republica Côte d’Ivoire, Republica Insulelor Fiji, Republica Cooperatistă Guyana, Jamaica, Republica Kenya, Republica Madagascar, Republica Malawi, Republica Mauritius, Republica Mozambic, Federația Saint Kitts și Nevis, Republica Suriname, Regatul Swaziland, Republica Unită Tanzania, Republica Trinidad-Tobago, Republica Uganda, Republica Zambia și Republica Zimbabwe privind prețurile garantate pentru zahărul din trestie pentru perioadele de livrare 2006/2007, 2007/2008, 2008/2009 și 1 iulie 2009   30 septembrie 2009 și a unui acord sub formă de schimb de scrisori între Comunitatea Europeană și Republica India privind prețurile garantate pentru zahărul din trestie pentru aceleași perioade de livrare</j.0:title>
+    <j.0:procedure_code_interinstitutional_number_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0189</j.0:procedure_code_interinstitutional_number_procedure>
+    <j.0:year_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008</j.0:year_reference>
+    <j.0:dossier_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12006E133"/>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/197478.396751"/>
+    <j.0:dossier_initiated_by_act_preparatory rdf:resource="http://publications.europa.eu/resource/celex/52008PC0622"/>
+    <j.0:dossier_title xml:lang="en">Proposal for a COUNCIL DECISION on the conclusion of an Agreement in the form of Exchange of Letters between the European Community and Barbados, Belize, the Republic of Congo, the Republic of Côte d'Ivoire, the Republic of the Fiji Islands, the Republic of Guyana, Jamaica, the Republic of Kenya, the Republic of Madagascar, the Republic of Malawi, the Republic of Mauritius, the Republic of Mozambique, the Federation of Saint Kitts and Nevis, the Republic of Suriname, the Kingdom of Swaziland, the United Republic of Tanzania, the Republic of Trinidad and Tobago, the Republic of Uganda, the Republic of Zambia and the Republic of Zimbabwe on the guaranteed prices for cane sugar for the 2006/2007, 2007/2008, 2008/2009 and 1 July 2009 to 30 September 2009 delivery periods and on the conclusion of an Agreement in the form of Exchange of Letters between the European Community and the Republic of India on the guaranteed prices for cane sugar for the same delivery periods</j.0:dossier_title>
+    <j.0:dossier_title xml:lang="nl">Voorstel voor een BESLUIT VAN DE RAAD inzake de sluiting van een Overeenkomst in de vorm van een briefwisseling tussen de Europese Gemeenschap en Barbados, Belize, de Republiek Congo, de Republiek Ivoorkust, de Republiek Fiji-eilanden, de Republiek Guyana, Jamaica, de Republiek Kenia, de Republiek Madagaskar, de Republiek Malawi, de Republiek Mauritius, de Republiek Mozambique, de Federatie Saint Kitts en Nevis, de Republiek Suriname, het Koninkrijk Swaziland, de Verenigde Republiek Tanzania, de Republiek Trinidad en Tobago, de Republiek Oeganda, de Republiek Zambia en de Republiek Zimbabwe inzake de gegarandeerde prijzen voor rietsuiker voor de leveringsperioden 2006/2007, 2007/2008, 2008/2009 en 1 juli 2009 tot en met 30 september 2009 en van een Overeenkomst in de vorm van een briefwisseling tussen de Europese Gemeenschap en de Republiek India inzake de gegarandeerde prijzen voor rietsuiker voor dezelfde leveringsperioden</j.0:dossier_title>
+    <j.0:dossier_contains_event rdf:resource="http://publications.europa.eu/resource/pegase/197478.395433"/>
+    <j.0:dossier_title xml:lang="pl">Wniosek DECYZJA RADY w sprawie zawarcia Porozumienia w formie wymiany listów pomiędzy Wspólnotą Europejską a Barbadosem, Belize, Federacją Saint Kitts i Nevis, Jamajką, Królestwem Suazi, Republiką Gujany, Republiką Kenii, Republiką Konga, Republiką Madagaskaru, Republiką Malawi, Republiką Mauritiusa, Republiką Mozambiku, Republiką Surinamu, Republiką Trynidadu i Tobago, Republiką Ugandy, Republiką Wybrzeża Kości Słoniowej, Republiką Wysp Fidżi, Republiką Zambii, Republiką Zimbabwe i Zjednoczoną Republiką Tanzanii w sprawie cen gwarantowanych cukru trzcinowego w okresie dostaw 2006/2007, 2007/2008, 2008/2009 oraz od dnia 1 lipca do dnia 30 września 2009 r. oraz w sprawie zawarcia Porozumienia w formie wymiany listów pomiędzy Wspólnotą Europejską a Republiką Indii w sprawie cen gwarantowanych cukru trzcinowego w tych samych okresach dostaw</j.0:dossier_title>
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12006E133"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12006E300"/>
+    <j.0:dossier_title xml:lang="da">Forslag til RÅDETS AFGØRELSE om indgåelse af en aftale i form af brevveksling mellem Det Europæiske Fællesskab og Barbados, Belize, Republikken Congo, Republikken Côte d'Ivoire, Republikken Fijiøerne, Den Kooperative Republik Guyana, Jamaica, Republikken Kenya, Republikken Madagaskar, Republikken Malawi, Republikken Mauritius, Republikken Mozambique, Føderationen Saint Kitts og Nevis, Republikken Surinam, Kongeriget Swaziland, Den Forenede Republik Tanzania, Republikken Trinidad og Tobago, Republikken Uganda, Republikken Zambia og Republikken Zimbabwe om garanterede priser for rørsukker i leveringsperioderne 2006/2007, 2007/2008, 2008/2009 og 1. juli 2009-30. september 2009 og om indgåelse af en aftale i form af brevveksling mellem Det Europæiske Fællesskab og Republikken Indien om garanterede priser for rørsukker i de samme leveringsperioder</j.0:dossier_title>
+    <j.0:dossier_title xml:lang="bg">Предложение за РЕШЕНИЕ НА СЪВЕТА относно сключването на споразумение под формата на размяна на писма между Европейската общност и Барбадос, Белиз, Демократична република Конго, Република Кот Д’Ивоар, Република острови Фиджи, Република Гвинея, Ямайка, Република Кения, Република Мадагаскар, Република Малави, Република Мавриций, Република Мозамбик, Федерация на острови Сейнт Кийтс и Невис, Република Суринам, Кралство Свазиленд, Обединена република Танзания, Тринидад и Тобаго, Република Уганда, Република Замбия и Република Зимбабве относно гарантираните цени за тръстикова захар за периодите на доставка 2006—2007 г., 2007—2008 г., 2008—2009 г. и от 1 юли 2009 г. до 30 септември 2009 г. и относно сключването на споразумение под формата на размяна на писма между Европейската общност и Република Индия за гарантирани цени за тръстикова захар за същите периоди на доставка</j.0:dossier_title>
+    <j.0:title xml:lang="bg">Предложение за РЕШЕНИЕ НА СЪВЕТА относно сключването на споразумение под формата на размяна на писма между Европейската общност и Барбадос, Белиз, Демократична република Конго, Република Кот Д’Ивоар, Република острови Фиджи, Република Гвинея, Ямайка, Република Кения, Република Мадагаскар, Република Малави, Република Мавриций, Република Мозамбик, Федерация на острови Сейнт Кийтс и Невис, Република Суринам, Кралство Свазиленд, Обединена република Танзания, Тринидад и Тобаго, Република Уганда, Република Замбия и Република Зимбабве относно гарантираните цени за тръстикова захар за периодите на доставка 2006—2007 г., 2007—2008 г., 2008—2009 г. и от 1 юли 2009 г. до 30 септември 2009 г. и относно сключването на споразумение под формата на размяна на писма между Европейската общност и Република Индия за гарантирани цени за тръстикова захар за същите периоди на доставка</j.0:title>
+    <j.0:dossier_title xml:lang="hu">Javaslat: A TANÁCS HATÁROZATA a nádcukornak a 2006/2007-es, a 2007/2008-as, a 2008/2009-es és a 2009. július 1-től 2009. szeptember 30-ig tartó szállítási időszakra vonatkozó garantált áráról szóló, az Európai Közösség és Barbados, Belize, a Kongói Köztársaság, az Elefántcsontparti Köztársaság, a Fidzsi-szigeteki Köztársaság, a Guyanai Köztársaság, Jamaica, a Kenyai Köztársaság, a Madagaszkári Köztársaság, a Malawi Köztársaság, a Mauritiusi Köztársaság, a Mozambiki Köztársaság, a Saint Kitts és Nevis Államszövetség, a Suriname Köztársaság, a Szváziföldi Királyság, a Tanzániai Egyesült Köztársaság, a Trinidad és Tobago Köztársaság, az Ugandai Köztársaság, a Zambiai Köztársaság és a Zimbabwei Köztársaság között levélváltás formájában létrejött megállapodás megkötéséről, valamint a nádcukornak ugyanezen szállítási időszakokra vonatkozó garantált áráról szóló, az Európai Közösség és az Indiai Köztársaság között levélváltás formájában létrejött megállapodás megkötéséről</j.0:dossier_title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/32009D0574"/>
+    <j.0:year_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2008</j.0:year_procedure>
+    <j.0:type_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM</j.0:type_reference>
+    <j.0:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-10-09</j.0:date>
+    <j.0:dossier_year_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008</j.0:dossier_year_reference>
+    <j.0:initiated_by rdf:resource="http://publications.europa.eu/resource/celex/52008PC0622"/>
+    <j.0:date_adopted rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-11-28</j.0:date_adopted>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/celex/52008PC0622"/>
+    <j.0:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pegase:197478</j.0:identifier>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#period"/>
+    <j.0:dossier_title xml:lang="cs">Návrh ROZHODNUTÍ RADY o uzavření Dohody ve formě výměny dopisů mezi Evropským společenstvím a Barbadosem, Belize, Federací Svatý Kryštof a Nevis, Guyanskou republikou, Jamajkou, Keňskou republikou, Konžskou republikou, Madagaskarskou republikou, Malawskou republikou, Mauricijskou republikou, Mosambickou republikou, Republikou Fidžijské ostrovy, Republikou Pobřeží slonoviny, Surinamskou republikou, Svazijským královstvím, Sjednocenou republikou Tanzanií, Republikou Trinidad a Tobago, Ugandskou republikou, Zambijskou republikou a Zimbabwskou republikou o zaručených cenách třtinového cukru na dodací období 2006/07, 2007/08, 2008/09 a dodací období od 1. července 2009 do 30. září 2009 a o uzavření Dohody ve formě výměny dopisů mezi Evropským společenstvím a Indickou republikou o zaručených cenách třtinového cukru na stejná dodací období</j.0:dossier_title>
+    <j.0:dossier_title xml:lang="sv">Förslag till RÅDETS BESLUT om ingående av ett avtal genom skriftväxling mellan Europeiska gemenskapen och Barbados, Belize, Republiken Elfenbenskusten, Republiken Fijiöarna, Republiken Guyana, Jamaica, Republiken Kenya, Republiken Kongo, Republiken Madagaskar, Republiken Malawi, Republiken Mauritius, Republiken Moçambique, Saint Kitts och Nevis, Republiken Surinam, Konungariket Swaziland, Förenade republiken Tanzania, Republiken Trinidad och Tobago, Republiken Uganda, Republiken Zambia samt Republiken Zimbabwe om garantipriser för rörsocker för leveransperioderna 2006/2007, 2007/2008, 2008/2009 och 1 juli 2009 – 30 september 2009 och av ett avtal genom skriftväxling mellan Europeiska gemenskapen och Republiken Indien om garantipriser för rörsocker för samma leveransperioder</j.0:dossier_title>
+    <j.0:produces rdf:resource="http://publications.europa.eu/resource/celex/32009D0574"/>
+    <j.0:dossier_title xml:lang="pt">Proposta de DECISÃO DO CONSELHO relativa à celebração de um Acordo sob forma de Troca de Cartas entre a Comunidade Europeia e Barbados, Belize, a República do Congo, a República da Costa do Marfim, a República das Ilhas Fiji, a República da Guiana, a Jamaica, a República de Madagáscar, a República do Malávi, a República da Maurícia, a República de Moçambique, a República do Quénia, a Federação de São Cristóvão e Nevis, o Reino da Suazilândia, a República do Suriname, a República Unida da Tanzânia, a República de Trindade e Tobago, a República do Uganda, a República da Zâmbia e a República do Zimbabué sobre os preços garantidos para o açúcar de cana relativamente aos períodos de entrega de 2006/2007, 2007/2008, 2008/2009 e 1 de Julho de 2009 a 30 de Setembro de 2009 e à celebração de um Acordo sob forma de Troca de Cartas entre a Comunidade Europeia e a República da Índia sobre os preços garantidos para o açúcar de cana relativamente aos mesmos períodos de entrega</j.0:dossier_title>
+    <j.0:dossier_title xml:lang="it">Proposta di DECISIONE DEL CONSIGLIO relativa alla conclusione di un accordo in forma di scambio di lettere tra la Comunità europea e l'Isola Barbados, Belize, la Repubblica del Congo, la Repubblica della Costa d'Avorio, la Repubblica delle Isole Figi, la Repubblica cooperativistica della Guyana, Giamaica, la Repubblica del Kenya, la Repubblica del Madagascar, la Repubblica del Malawi, la Repubblica di Mauritius, la Repubblica del Mozambico, la Federazione di Saint Christopher e Nevis, la Repubblica di Suriname, il Regno dello Swaziland, la Repubblica unita di Tanzania, Trinidad e Tobago, la Repubblica dell'Uganda, la Repubblica dello Zambia e la Repubblica dello Zimbabwe sui prezzi garantiti dello zucchero di canna per il periodi di consegna 2006-2007, 2007-2008, 2008/2009 e 1° luglio 2009 - 30 settembre 2009 e di un accordo in forma di scambio di lettere tra la Comunità europea e la Repubblica dell'India sui prezzi garantiti dello zucchero di canna per gli stessi periodi di consegna</j.0:dossier_title>
+    <j.0:title xml:lang="fr">Proposition de DÉCISION DU CONSEIL portant conclusion d'un accord sous forme d'échange de lettres entre la Communauté européenne et la Barbade, le Belize, la République du Congo, la République de Côte d'Ivoire, la République des Îles Fidji, la République coopérative de Guyana, la Jamaïque, la République du Kenya, la République de Madagascar, la République du Malawi, la République de Maurice, la République du Mozambique, la République d’Ouganda, Saint-Christophe-et-Nevis, la République du Suriname, le Royaume du Swaziland, la République unie de Tanzanie, la République de Trinidad-et-Tobago, la République de Zambie et la République du Zimbabwe sur les prix garantis pour le sucre de canne pour les périodes de livraison 2006-2007, 2007-2008 et 2008-2009 et pour la période de livraison allant du 1er juillet 2009 au 30 septembre 2009, ainsi que d'un accord sous forme d'échange de lettres entre la Communauté européenne et la République de l'Inde sur les prix garantis pour le sucre de canne pour les mêmes périodes de livraison</j.0:title>
+    <j.0:dossier_withdrawn-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:dossier_withdrawn-proposal>
+    <j.0:is_about rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1095"/>
+    <j.0:withdrawn-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:withdrawn-proposal>
+    <j.0:dossier_is_about_concept_type_dossier rdf:resource="http://publications.europa.eu/resource/authority/fd_612/1095"/>
+    <j.0:dossier_identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pegase:197478</j.0:dossier_identifier>
+    <j.0:title xml:lang="lt">Pasiūlymas TARYBOS SPRENDIMAS dėl Europos bendrijos ir Barbadoso, Belizo, Kongo Respublikos, Dramblio Kaulo Kranto Respublikos, Fidžio Salų Respublikos, Gajanos Respublikos, Jamaikos, Kenijos Respublikos, Madagaskaro Respublikos, Malavio Respublikos, Mauricijaus Respublikos, Mozambiko Respublikos, Sent Kitso ir Nevio Federacijos, Surinamo Respublikos, Svazilando Karalystės, Tanzanijos Jungtinės Respublikos, Trinidado ir Tobago Respublikos, Ugandos Respublikos, Zambijos Respublikos ir Zimbabvės Respublikos susitarimo pasikeičiant raštais dėl cukranendrių cukraus garantuotųjų kainų 2006–2007 m., 2007–2008 m., 2008–2009 m. ir 2009 m. liepos 1 d. – 2009 m. rugsėjo 30 d. tiekimo laikotarpiams ir dėl Europos bendrijos ir Indijos Respublikos susitarimo pasikeičiant raštais dėl cukranendrių cukraus garantuotųjų kainų tiems patiems tiekimo laikotarpiams sudarymo</j.0:title>
+    <j.0:dossier_title xml:lang="sl">Predlog SKLEP SVETA o sklenitvi Sporazuma v obliki izmenjave pisem med Evropsko skupnostjo ter Barbadosom, Belizejem, Republiko Kongo, Republiko Slonokoščeno obalo, Republiko Fidži, Republiko Gvajano, Jamajko, Republiko Kenijo, Republiko Madagaskar, Republiko Malavi, Republiko Mauritius, Republiko Mozambik, Saint Kittsom in Nevisom, Republiko Surinam, Kraljevino Svazi, Združeno republiko Tanzanijo, Republiko Trinidad in Tobago, Republiko Ugando, Republiko Zambijo in Republiko Zimbabve o zajamčenih cenah za trsni sladkor v dobavnih obdobjih 2006/2007, 2007/2008 in 2008/2009 ter dobavnem obdobju od 1. julija 2009 do 30. septembra 2009 ter Sporazuma v obliki izmenjave pisem med Evropsko skupnostjo in Republiko Indijo o zajamčenih cenah za trsni sladkor v istih dobavnih obdobjih</j.0:dossier_title>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/197478.395432"/>
+    <j.0:title xml:lang="nl">Voorstel voor een BESLUIT VAN DE RAAD inzake de sluiting van een Overeenkomst in de vorm van een briefwisseling tussen de Europese Gemeenschap en Barbados, Belize, de Republiek Congo, de Republiek Ivoorkust, de Republiek Fiji-eilanden, de Republiek Guyana, Jamaica, de Republiek Kenia, de Republiek Madagaskar, de Republiek Malawi, de Republiek Mauritius, de Republiek Mozambique, de Federatie Saint Kitts en Nevis, de Republiek Suriname, het Koninkrijk Swaziland, de Verenigde Republiek Tanzania, de Republiek Trinidad en Tobago, de Republiek Oeganda, de Republiek Zambia en de Republiek Zimbabwe inzake de gegarandeerde prijzen voor rietsuiker voor de leveringsperioden 2006/2007, 2007/2008, 2008/2009 en 1 juli 2009 tot en met 30 september 2009 en van een Overeenkomst in de vorm van een briefwisseling tussen de Europese Gemeenschap en de Republiek India inzake de gegarandeerde prijzen voor rietsuiker voor dezelfde leveringsperioden</j.0:title>
+    <j.0:dossier_type_reference rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COM</j.0:dossier_type_reference>
+    <j.0:dossier_produces_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/32009D0574"/>
+    <j.0:dossier_title xml:lang="de">Vorschlag für einen BESCHLUSS DES RATES über den Abschluss eines Abkommens in Form eines Briefwechsels zwischen der Europäischen Gemeinschaft und Barbados, Belize, der Republik Côte d'Ivoire, der Republik Fidschi-Inseln, der Kooperativen Republik Guyana, Jamaika, der Republik Kenia, der Republik Kongo, der Republik Madagaskar, der Republik Malawi, der Republik Mauritius, die Republik Mosambik, der Republik Sambia, der Republik Simbabwe, der Föderation St. Kitts und Nevis, der Republik Suriname, dem Königreich Swasiland, der Vereinigten Republik Tansania, der Republik Trinidad und Tobago und der Republik Uganda über die Garantiepreise für Rohrzucker in den Lieferzeiträumen 2006/07, 2007/08, 2008/09 und vom 1. Juli 2009 bis 30. September 2009 sowie des Abkommens in Form eines Briefwechsels zwischen der Europäischen Gemeinschaft und der Republik Indien über die Garantiepreise für Rohrzucker in denselben Lieferzeiträumen</j.0:dossier_title>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/celex/52008PC0622"/>
+    <j.0:dossier_date_creation_legacy rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-10-09</j.0:dossier_date_creation_legacy>
+    <j.0:dossier_pending-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:dossier_pending-proposal>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/celex/32009D0574"/>
+    <j.0:title xml:lang="sv">Förslag till RÅDETS BESLUT om ingående av ett avtal genom skriftväxling mellan Europeiska gemenskapen och Barbados, Belize, Republiken Elfenbenskusten, Republiken Fijiöarna, Republiken Guyana, Jamaica, Republiken Kenya, Republiken Kongo, Republiken Madagaskar, Republiken Malawi, Republiken Mauritius, Republiken Moçambique, Saint Kitts och Nevis, Republiken Surinam, Konungariket Swaziland, Förenade republiken Tanzania, Republiken Trinidad och Tobago, Republiken Uganda, Republiken Zambia samt Republiken Zimbabwe om garantipriser för rörsocker för leveransperioderna 2006/2007, 2007/2008, 2008/2009 och 1 juli 2009 – 30 september 2009 och av ett avtal genom skriftväxling mellan Europeiska gemenskapen och Republiken Indien om garantipriser för rörsocker för samma leveransperioder</j.0:title>
+    <j.0:title xml:lang="de">Vorschlag für einen BESCHLUSS DES RATES über den Abschluss eines Abkommens in Form eines Briefwechsels zwischen der Europäischen Gemeinschaft und Barbados, Belize, der Republik Côte d'Ivoire, der Republik Fidschi-Inseln, der Kooperativen Republik Guyana, Jamaika, der Republik Kenia, der Republik Kongo, der Republik Madagaskar, der Republik Malawi, der Republik Mauritius, die Republik Mosambik, der Republik Sambia, der Republik Simbabwe, der Föderation St. Kitts und Nevis, der Republik Suriname, dem Königreich Swasiland, der Vereinigten Republik Tansania, der Republik Trinidad und Tobago und der Republik Uganda über die Garantiepreise für Rohrzucker in den Lieferzeiträumen 2006/07, 2007/08, 2008/09 und vom 1. Juli 2009 bis 30. September 2009 sowie des Abkommens in Form eines Briefwechsels zwischen der Europäischen Gemeinschaft und der Republik Indien über die Garantiepreise für Rohrzucker in denselben Lieferzeiträumen</j.0:title>
+    <j.0:dossier_title xml:lang="fi">Ehdotus: NEUVOSTON PÄÄTÖS Euroopan yhteisön ja Barbadosin, Belizen, Kongon tasavallan, Norsunluurannikon tasavallan, Fidžin tasavallan, Guyanan tasavallan, Jamaikan, Kenian tasavallan, Madagaskarin tasavallan, Malawin tasavallan, Mauritiuksen tasavallan, Mosambikin tasavallan, Saint Kitts ja Nevisin, Surinamen tasavallan, Swazimaan kuningaskunnan, Tansanian yhdistyneen tasavallan, Trinidadin ja Tobagon tasavallan, Ugandan tasavallan, Sambian tasavallan ja Zimbabwen tasavallan välisen ruokosokeriin toimitusjaksoilla 2006/2007, 2007/2008 ja 2008/2009 sekä 1 päivän heinäkuuta 2009 ja 30 päivän syyskuuta 2009 välisenä aikana sovellettavia takuuhintoja koskevan sopimuksen tekemisestä kirjeenvaihtona sekä Euroopan yhteisön ja Intian tasavallan välisen ruokosokeriin samoilla toimitusjaksoilla sovellettavia takuuhintoja koskevan sopimuksen tekemisestä kirjeenvaihtona</j.0:dossier_title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/197478.395432"/>
+    <j.0:title xml:lang="hu">Javaslat: A TANÁCS HATÁROZATA a nádcukornak a 2006/2007-es, a 2007/2008-as, a 2008/2009-es és a 2009. július 1-től 2009. szeptember 30-ig tartó szállítási időszakra vonatkozó garantált áráról szóló, az Európai Közösség és Barbados, Belize, a Kongói Köztársaság, az Elefántcsontparti Köztársaság, a Fidzsi-szigeteki Köztársaság, a Guyanai Köztársaság, Jamaica, a Kenyai Köztársaság, a Madagaszkári Köztársaság, a Malawi Köztársaság, a Mauritiusi Köztársaság, a Mozambiki Köztársaság, a Saint Kitts és Nevis Államszövetség, a Suriname Köztársaság, a Szváziföldi Királyság, a Tanzániai Egyesült Köztársaság, a Trinidad és Tobago Köztársaság, az Ugandai Köztársaság, a Zambiai Köztársaság és a Zimbabwei Köztársaság között levélváltás formájában létrejött megállapodás megkötéséről, valamint a nádcukornak ugyanezen szállítási időszakokra vonatkozó garantált áráról szóló, az Európai Közösség és az Indiai Köztársaság között levélváltás formájában létrejött megállapodás megkötéséről</j.0:title>
+    <j.0:title xml:lang="es">Propuesta de DECISIÓN DEL CONSEJO relativa a la celebración de un Acuerdo en forma de Canje de Notas entre la Comunidad Europea y Barbados, Belice, la República del Congo, la República de Costa de Marfil, la República de Fiyi, la República Cooperativa de Guyana, Jamaica, la República de Kenia, la República de Madagascar, la República de Malaui, la República de Mauricio, la República de Mozambique, la Federación de San Cristóbal y Nieves, la República de Surinam, el Reino de Suazilandia, la República Unida de Tanzania, la República de Trinidad y Tobago, la República de Uganda, la República de Zambia y la República de Zimbabue sobre los precios garantizados del azúcar de caña para los períodos de entrega de 2006/07, 2007/08, 2008/09 y 1 de julio de 2009 a 30 de septiembre de 2009 y a la celebración de un Acuerdo en forma de Canje de Notas entre la Comunidad Europea y la República de la India sobre los precios garantizados del azúcar de caña para los mismos períodos de entrega</j.0:title>
+    <j.0:procedure_code_interinstitutional_based_on_resource_legal rdf:resource="http://publications.europa.eu/resource/celex/12006E300"/>
+    <j.0:dossier_title xml:lang="mt">Proposta għal DEĊIŻJONI TAL-KUNSILL dwar il-konklużjoni ta' Ftehim fil-forma ta' Skambju ta' Ittri bejn il-Komunità Ewropea u l-Barbados, il-Beliże, ir-Repubblika tal-Kongo, ir-Repubblika tal-Gżejjer tal-Fiġi, ir-Repubblika ta' Gujana, ir-Repubblika tal-Côte d'Ivoire, il-Ġamajka, ir-Repubblika tal-Kenja, ir-Repubblika tal-Madagaskar, ir-Repubblika tal-Malawi, ir-Repubblika tal-Mawrizju, ir-Repubblika tal-Możambik, ir-Repubblika ta' Surinam, il-Federazzjoni ta' Saint Kitts u Nevis, ir-Renju ta' Sważiland, ir-Repubblika Unita tat-Tanżanija, ir-Repubblika ta' Trinidad u Tobago, ir-Repubblika tal-Uganda, ir-Repubblika taż-Żambja, ir-Repubblika taż-Żimbabwe dwar il-prezzijiet garantiti għaz-zokkor tal-kannamieli għall-perjodi ta' konsenja 2006/2007, 2007/2008, 2008/2009 u bejn l-1 ta’ Lulju 2009 u t-30 ta’ Settembru 2009 u dwar il-konklużjoni ta' Ftehim fil-forma ta' Skambju ta' Ittri bejn il-Komunità Ewropea u r-Repubblika tal-Indja dwar il-prezzijiet garantiti għaz-zokkor tal-kannamieli għall-istess perjodi ta' konsenja</j.0:dossier_title>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#entity_temporal"/>
+    <j.0:has_type rdf:resource="http://publications.europa.eu/resource/authority/procedure/ACC"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_code_interinstitutional"/>
+    <j.0:dossier_title xml:lang="ro">Propunere de DECIZIE A CONSILIULUI privind încheierea unui acord sub formă de schimb de scrisori între Comunitatea Europeană și Barbados, Belize, Republica Congo, Republica Côte d’Ivoire, Republica Insulelor Fiji, Republica Cooperatistă Guyana, Jamaica, Republica Kenya, Republica Madagascar, Republica Malawi, Republica Mauritius, Republica Mozambic, Federația Saint Kitts și Nevis, Republica Suriname, Regatul Swaziland, Republica Unită Tanzania, Republica Trinidad-Tobago, Republica Uganda, Republica Zambia și Republica Zimbabwe privind prețurile garantate pentru zahărul din trestie pentru perioadele de livrare 2006/2007, 2007/2008, 2008/2009 și 1 iulie 2009   30 septembrie 2009 și a unui acord sub formă de schimb de scrisori între Comunitatea Europeană și Republica India privind prețurile garantate pentru zahărul din trestie pentru aceleași perioade de livrare</j.0:dossier_title>
+    <j.0:reference_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008/0189/ACC</j.0:reference_procedure>
+    <j.0:title xml:lang="fi">Ehdotus: NEUVOSTON PÄÄTÖS Euroopan yhteisön ja Barbadosin, Belizen, Kongon tasavallan, Norsunluurannikon tasavallan, Fidžin tasavallan, Guyanan tasavallan, Jamaikan, Kenian tasavallan, Madagaskarin tasavallan, Malawin tasavallan, Mauritiuksen tasavallan, Mosambikin tasavallan, Saint Kitts ja Nevisin, Surinamen tasavallan, Swazimaan kuningaskunnan, Tansanian yhdistyneen tasavallan, Trinidadin ja Tobagon tasavallan, Ugandan tasavallan, Sambian tasavallan ja Zimbabwen tasavallan välisen ruokosokeriin toimitusjaksoilla 2006/2007, 2007/2008 ja 2008/2009 sekä 1 päivän heinäkuuta 2009 ja 30 päivän syyskuuta 2009 välisenä aikana sovellettavia takuuhintoja koskevan sopimuksen tekemisestä kirjeenvaihtona sekä Euroopan yhteisön ja Intian tasavallan välisen ruokosokeriin samoilla toimitusjaksoilla sovellettavia takuuhintoja koskevan sopimuksen tekemisestä kirjeenvaihtona</j.0:title>
+    <j.0:dossier_title xml:lang="sk">Návrh ROZHODNUTIE RADY o uzatvorení dohody vo forme výmeny listov medzi Európskym spoločenstvom a Barbadosom, Belize, Konžskou republikou, Republikou Pobrežie Slonoviny, Republikou fidžijských ostrovov, Guyanskou republikou, Jamajkou, Kenskou republikou, Madagaskarskou republikou, Malawijskou republikou, Maurícijskou republikou, Mozambickou republikou, Federáciou Svätý Krištof a Nevis, Surinamskou republikou, Svazijským kráľovstvom, Tanzánijskou zjednotenou republikou, Republikou Trinidad a Tobago, Ugandskou republikou, Zambijskou republikou a Zimbabwianskou republikou o garantovaných cenách trstinového cukru na dodacie obdobia 2006/2007, 2007/2008, 2008/2009 a dodacie obdobie od 1. júla 2009 do 30. septembra 2009 a o uzatvorení dohody vo forme výmeny listov medzi Európskym spoločenstvom a Indickou republikou o garantovaných cenách trstinového cukru na rovnaké dodacie obdobia</j.0:dossier_title>
+    <j.0:title xml:lang="sk">Návrh ROZHODNUTIE RADY o uzatvorení dohody vo forme výmeny listov medzi Európskym spoločenstvom a Barbadosom, Belize, Konžskou republikou, Republikou Pobrežie Slonoviny, Republikou fidžijských ostrovov, Guyanskou republikou, Jamajkou, Kenskou republikou, Madagaskarskou republikou, Malawijskou republikou, Maurícijskou republikou, Mozambickou republikou, Federáciou Svätý Krištof a Nevis, Surinamskou republikou, Svazijským kráľovstvom, Tanzánijskou zjednotenou republikou, Republikou Trinidad a Tobago, Ugandskou republikou, Zambijskou republikou a Zimbabwianskou republikou o garantovaných cenách trstinového cukru na dodacie obdobia 2006/2007, 2007/2008, 2008/2009 a dodacie obdobie od 1. júla 2009 do 30. septembra 2009 a o uzatvorení dohody vo forme výmeny listov medzi Európskym spoločenstvom a Indickou republikou o garantovaných cenách trstinového cukru na rovnaké dodacie obdobia</j.0:title>
+    <j.0:dossier_title xml:lang="lv">Priekšlikums PADOMES LĒMUMS par nolīguma vēstuļu apmaiņas veidā slēgšanu starp Eiropas Kopienu un Barbadosu, Belizu, Kongo Republiku, Kotdivuāras Republiku, Fidži Republiku, Gajanas Republiku, Jamaiku, Kenijas Republiku, Madagaskaras Republiku, Malāvijas Republiku, Maurīcijas Republiku, Mozambikas Republiku, Sentkitsas un Nevisas Federāciju, Surinamas Republiku, Svazilendas Karalisti, Tanzānijas Savienoto Republiku, Trinidadas un Tobāgo Republiku, Ugandas Republiku, Zambijas Republiku un Zimbabves Republiku par garantētajām niedru cukura cenām 2006.–2007., 2007.– 2008., 2008–2009. un 2009. gada 1. jūlija – 2009. gada 30. septembra piegādes termiņam un nolīguma vēstuļu apmaiņas veidā slēgšanu starp Eiropas Kopienu un Indijas Republiku par garantētajām niedru cukura cenām tādiem pašiem piegādes termiņiem</j.0:dossier_title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/197478.396751"/>
+    <j.0:dossier_contains_event_legal rdf:resource="http://publications.europa.eu/resource/pegase/197478.396751"/>
+    <j.0:dossier_contains_work rdf:resource="http://publications.europa.eu/resource/comnat/COM_2008_0622_FIN"/>
+    <j.0:title xml:lang="da">Forslag til RÅDETS AFGØRELSE om indgåelse af en aftale i form af brevveksling mellem Det Europæiske Fællesskab og Barbados, Belize, Republikken Congo, Republikken Côte d'Ivoire, Republikken Fijiøerne, Den Kooperative Republik Guyana, Jamaica, Republikken Kenya, Republikken Madagaskar, Republikken Malawi, Republikken Mauritius, Republikken Mozambique, Føderationen Saint Kitts og Nevis, Republikken Surinam, Kongeriget Swaziland, Den Forenede Republik Tanzania, Republikken Trinidad og Tobago, Republikken Uganda, Republikken Zambia og Republikken Zimbabwe om garanterede priser for rørsukker i leveringsperioderne 2006/2007, 2007/2008, 2008/2009 og 1. juli 2009-30. september 2009 og om indgåelse af en aftale i form af brevveksling mellem Det Europæiske Fællesskab og Republikken Indien om garanterede priser for rørsukker i de samme leveringsperioder</j.0:title>
+    <j.2:build_info>cdm:CDM_2.1.7  tdm:1523  xslt:3945 saxon:9.0.0.1J JVM:1.6.0_29 metaconvJar:1.1.9 builddate:11/02/2014 17:27:16</j.2:build_info>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#dossier"/>
+    <j.0:title xml:lang="pt">Proposta de DECISÃO DO CONSELHO relativa à celebração de um Acordo sob forma de Troca de Cartas entre a Comunidade Europeia e Barbados, Belize, a República do Congo, a República da Costa do Marfim, a República das Ilhas Fiji, a República da Guiana, a Jamaica, a República de Madagáscar, a República do Malávi, a República da Maurícia, a República de Moçambique, a República do Quénia, a Federação de São Cristóvão e Nevis, o Reino da Suazilândia, a República do Suriname, a República Unida da Tanzânia, a República de Trindade e Tobago, a República do Uganda, a República da Zâmbia e a República do Zimbabué sobre os preços garantidos para o açúcar de cana relativamente aos períodos de entrega de 2006/2007, 2007/2008, 2008/2009 e 1 de Julho de 2009 a 30 de Setembro de 2009 e à celebração de um Acordo sob forma de Troca de Cartas entre a Comunidade Europeia e a República da Índia sobre os preços garantidos para o açúcar de cana relativamente aos mesmos períodos de entrega</j.0:title>
+    <j.0:title xml:lang="en">Proposal for a COUNCIL DECISION on the conclusion of an Agreement in the form of Exchange of Letters between the European Community and Barbados, Belize, the Republic of Congo, the Republic of Côte d'Ivoire, the Republic of the Fiji Islands, the Republic of Guyana, Jamaica, the Republic of Kenya, the Republic of Madagascar, the Republic of Malawi, the Republic of Mauritius, the Republic of Mozambique, the Federation of Saint Kitts and Nevis, the Republic of Suriname, the Kingdom of Swaziland, the United Republic of Tanzania, the Republic of Trinidad and Tobago, the Republic of Uganda, the Republic of Zambia and the Republic of Zimbabwe on the guaranteed prices for cane sugar for the 2006/2007, 2007/2008, 2008/2009 and 1 July 2009 to 30 September 2009 delivery periods and on the conclusion of an Agreement in the form of Exchange of Letters between the European Community and the Republic of India on the guaranteed prices for cane sugar for the same delivery periods</j.0:title>
+    <j.0:title xml:lang="sl">Predlog SKLEP SVETA o sklenitvi Sporazuma v obliki izmenjave pisem med Evropsko skupnostjo ter Barbadosom, Belizejem, Republiko Kongo, Republiko Slonokoščeno obalo, Republiko Fidži, Republiko Gvajano, Jamajko, Republiko Kenijo, Republiko Madagaskar, Republiko Malavi, Republiko Mauritius, Republiko Mozambik, Saint Kittsom in Nevisom, Republiko Surinam, Kraljevino Svazi, Združeno republiko Tanzanijo, Republiko Trinidad in Tobago, Republiko Ugando, Republiko Zambijo in Republiko Zimbabve o zajamčenih cenah za trsni sladkor v dobavnih obdobjih 2006/2007, 2007/2008 in 2008/2009 ter dobavnem obdobju od 1. julija 2009 do 30. septembra 2009 ter Sporazuma v obliki izmenjave pisem med Evropsko skupnostjo in Republiko Indijo o zajamčenih cenah za trsni sladkor v istih dobavnih obdobjih</j.0:title>
+    <j.0:procedure_code_interinstitutional_reference_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008/0189/ACC</j.0:procedure_code_interinstitutional_reference_procedure>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#procedure_interinstitutional"/>
+    <j.0:based_on rdf:resource="http://publications.europa.eu/resource/celex/12006E133"/>
+    <j.0:dossier_title xml:lang="el">Πρόταση ΑΠΟΦΑΣΗ ΤΟΥ ΣΥΜΒΟΥΛΙΟΥ για τη σύναψη συμφωνίας, με τη μορφή ανταλλαγής επιστολών, μεταξύ της Ευρωπαϊκής Κοινότητας και του Μπαρμπάντος, του Μπελίζε, της Δημοκρατίας του Κονγκό, της Δημοκρατίας της Ακτής του Ελεφαντοστού, της Δημοκρατίας των Νήσων Φίτζι, της Δημοκρατίας της Γουιάνας, της Τζαμάικα, της Δημοκρατίας της Κένυας, της Δημοκρατίας της Μαδαγασκάρης, της Δημοκρατίας του Μαλάουι, της Δημοκρατίας του Μαυρίκιου, της Δημοκρατίας της Μοζαμβίκης, της Ομοσπονδίας του Αγίου Χριστόφορου και Νέβις, της Δημοκρατίας του Σουρινάμ, του Βασιλείου της Σουαζιλάνδης, της Ηνωμένης Δημοκρατίας της Τανζανίας, της Δημοκρατίας του Τρινιδάδ και Τομπάγκο, της Δημοκρατίας της Ουγκάντας, της Δημοκρατίας της Ζάμπιας και της Δημοκρατίας της Ζιμπάμπουε σχετικά με τις εγγυημένες τιμές για τη ζάχαρη από ζαχαροκάλαμο για τις περιόδους παράδοσης 2006/2007, 2007/2008, 2008/2009 και 1ης Ιουλίου 2009 έως 30 Σεπτεμβρίου 2009, και για τη σύναψη συμφωνίας, με τη μορφή ανταλλαγής επιστολών, μεταξύ της Ευρωπαϊκής Κοινότητας και της Δημοκρατίας της Ινδίας σχετικά με τις εγγυημένες τιμές για τη ζάχαρη από ζαχαροκάλαμο για τις ίδιες περιόδους παράδοσης</j.0:dossier_title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/pegase/197478.395433"/>
+    <j.0:number_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0189</j.0:number_procedure>
+    <j.0:adopted-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</j.0:adopted-proposal>
+    <j.0:pending-proposal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</j.0:pending-proposal>
+    <j.0:title xml:lang="pl">Wniosek DECYZJA RADY w sprawie zawarcia Porozumienia w formie wymiany listów pomiędzy Wspólnotą Europejską a Barbadosem, Belize, Federacją Saint Kitts i Nevis, Jamajką, Królestwem Suazi, Republiką Gujany, Republiką Kenii, Republiką Konga, Republiką Madagaskaru, Republiką Malawi, Republiką Mauritiusa, Republiką Mozambiku, Republiką Surinamu, Republiką Trynidadu i Tobago, Republiką Ugandy, Republiką Wybrzeża Kości Słoniowej, Republiką Wysp Fidżi, Republiką Zambii, Republiką Zimbabwe i Zjednoczoną Republiką Tanzanii w sprawie cen gwarantowanych cukru trzcinowego w okresie dostaw 2006/2007, 2007/2008, 2008/2009 oraz od dnia 1 lipca do dnia 30 września 2009 r. oraz w sprawie zawarcia Porozumienia w formie wymiany listów pomiędzy Wspólnotą Europejską a Republiką Indii w sprawie cen gwarantowanych cukru trzcinowego w tych samych okresach dostaw</j.0:title>
+    <j.0:contains rdf:resource="http://publications.europa.eu/resource/comnat/COM_2008_0622_FIN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/oj/JOL_2009_198_R_0039_01">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+  </rdf:Description>
+</rdf:RDF>
