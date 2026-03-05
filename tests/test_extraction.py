@@ -83,6 +83,19 @@ def test_extract_matches_validation(rdf_path, val_path, proc_ref):
 
     # -- Hard assertions ------------------------------------------------
 
+    # Procedure reference must match the proc_ref we queried for.
+    # The reference field is like "1971/1006/CNS" (year/number/type).
+    # The proc_ref filename is "1971_1006" (year_number only).
+    extracted_ref = proc.get("reference", "")
+    if extracted_ref:
+        parts = extracted_ref.split("/")
+        if len(parts) >= 2:
+            normalized = f"{parts[0]}_{parts[1].lstrip('0') or '0'}"
+            assert normalized == proc_ref, (
+                f"[{proc_ref}] Procedure reference mismatch: "
+                f"extracted={extracted_ref!r}, expected year/number={proc_ref!r}"
+            )
+
     # Every extracted event must have a date.
     # Known exception: 2020_330 includes a cross-procedure event from
     # 2020_1998 via owl:sameAs leakage (no date on that foreign event).
@@ -102,11 +115,16 @@ def test_extract_matches_validation(rdf_path, val_path, proc_ref):
             )
 
     # RDF typically has more events than EUR-Lex (finer granularity).
-    # Extracted events must be at least as many as EUR-Lex shows.
+    # Extracted events must be at least as many as unique EUR-Lex events.
+    # EUR-Lex duplicates the same event per actor/institution (e.g.
+    # "Signature" listed once for EP and once for Council with the same
+    # link ID). Deduplicate by link before comparing.
     if expected_events:
-        assert len(extracted_events) >= len(expected_events), (
+        unique_eurlex = {e.get("link", i): e for i, e in enumerate(expected_events)}
+        assert len(extracted_events) >= len(unique_eurlex), (
             f"[{proc_ref}] Fewer events than EUR-Lex: "
-            f"extracted={len(extracted_events)}, EUR-Lex={len(expected_events)}"
+            f"extracted={len(extracted_events)}, "
+            f"EUR-Lex={len(unique_eurlex)} unique ({len(expected_events)} raw)"
         )
 
     # All EUR-Lex dates must appear in extracted dates
