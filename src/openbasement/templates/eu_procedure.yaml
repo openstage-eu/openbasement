@@ -148,7 +148,11 @@ entities:
         value_type: "uri"
 
       document_reference:
-        predicate: "cdm:event_legal_document_reference"
+        predicate:
+          - "cdm:event_legal_document_reference"
+          - "cdm:event_document_reference"
+          - "cdm:document_reference"
+        cardinality: "many"
 
       occurs_in_phase:
         predicate: "cdm:event_legal_occurs_in_procedure-phase"
@@ -167,6 +171,8 @@ entities:
           - "cdm:event_legal_initiated_by_institution"
           - "cdm:event_legal_formally-addresses_institution"
           - "cdm:event_legal_document_reference"
+          - "cdm:event_document_reference"
+          - "cdm:document_reference"
           - "cdm:event_legal_occurs_in_procedure-phase"
           - "cdm:event_legal_initiating"
           - "cdm:event_legal_contains_work"
