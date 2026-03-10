@@ -53,6 +53,7 @@ entities:
           - "cdm:has_type"
           - "cdm:procedure_code_interinstitutional_has_type_concept_type_procedure_code_interinstitutional"
         value_type: "uri"
+        transform: "uri_local_name"
 
       basis_legal:
         predicate: "cdm:basis_legal"
@@ -140,6 +141,7 @@ entities:
           - "cdm:event_initiated_by_institution"
           - "cdm:initiated_by"
         value_type: "uri"
+        transform: "uri_local_name"
 
       formally_addresses_institution:
         predicate:
@@ -157,6 +159,7 @@ entities:
       occurs_in_phase:
         predicate: "cdm:event_legal_occurs_in_procedure-phase"
         value_type: "uri"
+        transform: "uri_local_name"
 
       initiating:
         predicate: "cdm:event_legal_initiating"
